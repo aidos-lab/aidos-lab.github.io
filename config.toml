@@ -1,7 +1,8 @@
-baseURL      = "http://aidos.ml/"
-languageCode = "en-gb"
-title        = "aidos lab"
-theme        = "solum"
+baseURL       = "http://aidos.ml/"
+languageCode  = "en-gb"
+title         = "aidos lab"
+theme         = "solum"
+enableGitInfo = true
 
 [markup]
   [markup.tableOfContents]

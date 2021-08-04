@@ -7,6 +7,8 @@ body
   color:        #444;
   background:   #f2f2f2;
   padding:      0 10px;
+
+  font-family: 'Gentium Book Basic', serif;
 }
 
 h1, h2, h3
@@ -17,11 +19,12 @@ h1, h2, h3
 #TableOfContents ul
 {
   list-style-type:  none;
-  padding:          10px 10px;
+  padding-left:     0px;
+  padding-bottom:   0.5em;
   margin:           0;
-  background-color: #444;
   overflow:         hidden;
   width:            100%;
+  border-bottom:    1px solid black;
 }
 
 #TableOfContents li
@@ -31,8 +34,15 @@ h1, h2, h3
 
 #TableOfContents a
 {
-  color:           #f2f2f2;
-  padding:         20px;
+  padding-top:     20px;
+  padding-right:   20px;
   text-decoration: none;
-  text-transform:  uppercase;
+  font-variant:    small-caps;
+  font-size:       1.5rem;
+}
+
+footer
+{
+   border-top:  1px solid black;
+   padding-top: 0.5em;
 }

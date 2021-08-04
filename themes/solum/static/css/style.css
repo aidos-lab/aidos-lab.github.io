@@ -11,6 +11,11 @@ body
   font-family: 'Gentium Book Basic', serif;
 }
 
+figure.center
+{
+  text-align: center;
+}
+
 h1, h2, h3
 {
   line-height: 1.2

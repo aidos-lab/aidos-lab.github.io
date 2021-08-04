@@ -1,0 +1,38 @@
+body
+{
+  margin:       5% auto;
+  max-width:    50%;
+  line-height:  1.6;
+  font-size:    18px;
+  color:        #444;
+  background:   #f2f2f2;
+  padding:      0 10px;
+}
+
+h1, h2, h3
+{
+  line-height: 1.2
+}
+
+#TableOfContents ul
+{
+  list-style-type:  none;
+  padding:          10px 10px;
+  margin:           0;
+  background-color: #444;
+  overflow:         hidden;
+  width:            100%;
+}
+
+#TableOfContents li
+{
+  display: inline;
+}
+
+#TableOfContents a
+{
+  color:           #f2f2f2;
+  padding:         20px;
+  text-decoration: none;
+  text-transform:  uppercase;
+}

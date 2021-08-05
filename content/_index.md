@@ -10,6 +10,11 @@ Welcome to the website of the aidos lab at [Helmholtz.AI](https://www.helmholtz.
 in discovering hidden structures in complex data sets, with a special
 focus on tackling challenges arising in healthcare applications.
 
+# People
+
+Coming soon! Learn more about [joining us]({{< relref "#join-us" >}})
+below.
+
 # About
 
 'aidos' has two meanings that complement each other well. The first
@@ -21,3 +26,15 @@ statement, viz. to develop **a**rtificial **i**ntelligence for
 **d**iscovering **o**ccult **s**tructures.
 
 # Join us
+
+Thanks for your interest in our group! Why not consider joining the
+team?
+
+We are not interested in 'leader-board science' or 'chasing the
+state-of-the-art' in a table. That is *not* to say that we are not
+interested in producing relevant methods! Our overarching goal is to
+produce excellent science using methods whose performance we can
+*explain* and *understand*. This necessitates comprehensive comparisons
+with other methods, ablation studies, and many additional tricks to
+figure out what is going on. If this sounds enticing to you, we would
+love to hear from you! 

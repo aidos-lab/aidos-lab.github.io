@@ -41,7 +41,10 @@ statement, viz. to develop **a**rtificial **i**ntelligence for
 # Join us
 
 Thanks for your interest in our group! Why not consider joining the
-team?
+team? We are seeking students&nbsp;(at all levels) with strong
+quantitative backgrounds&nbsp;(computer science, mathematics, physics,
+...). You should be interested in working at the intersection of
+different fields and feel comfortable about writing code.
 
 We are not interested in 'leader-board science' or 'chasing the
 state-of-the-art' in a table. That is *not* to say that we are not
@@ -50,4 +53,4 @@ produce excellent science using methods whose performance we can
 *explain* and *understand*. This necessitates comprehensive comparisons
 with other methods, ablation studies, and many additional tricks to
 figure out what is going on. If this sounds enticing to you, we would
-love to hear from you! 
+love to hear from you!

@@ -61,3 +61,16 @@ footer
    border-top:  1px solid black;
    padding-top: 0.5em;
 }
+
+#footer-logos
+{
+  max-width:  95%;
+  margin:     1% auto;
+  text-align: center;
+}
+
+#footer-text
+{
+  max-width: 95%;
+  margin: 1% auto;
+}

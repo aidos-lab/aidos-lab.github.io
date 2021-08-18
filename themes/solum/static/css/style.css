@@ -52,6 +52,7 @@ h1, h2, h3
 {
   padding-top:     20px;
   padding-right:   20px;
+  text-transform:  uppercase;
   text-decoration: none;
   font-size:       1.5rem;
 }
@@ -64,13 +65,13 @@ footer
 
 #footer-logos
 {
-  max-width:  95%;
+  max-width:  50%;
   margin:     1% auto;
   text-align: center;
 }
 
 #footer-text
 {
-  max-width: 95%;
+  max-width: 50%;
   margin: 1% auto;
 }

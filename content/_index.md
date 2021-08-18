@@ -18,10 +18,10 @@ in their respective tasks, leading to better and more robust outcomes.
 
 Nevertheless, 'theory without practice is empty,' which is why we also
 develop methods to address challenges in biomedicine or healthcare
-applications. Of particular interest are the analysis of MRI data sets
+applications. Of particular interest are the analysis of [MRI data sets
 to improve our understanding of human cognition and neurodegenerative
-disorders, as well as the analysis of multivariate clinical time series
-to detect and prevent the onset of sepsis or myocardial ischemia.
+disorders](https://papers.nips.cc/paper/2020/hash/4d771504ddcd28037b4199740df767e6-Abstract.html),
+as well as the analysis of multivariate clinical time series to detect and prevent the [onset of sepsis](https://arxiv.org/abs/2107.05230) or myocardial ischemia.
 
 # People
 

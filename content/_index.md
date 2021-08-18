@@ -30,13 +30,14 @@ below.
 
 # About
 
-'aidos' has two meanings that complement each other well. The first
-meaning originates from the Greek word 'αἰδώς,' which means 'awe' or
-'reverence.' This is indicative of the awe that we feel when we work
-on challenging problems in healthcare research, aiming to improve this
-world using machine learning. The second meaning refers to our mission
-statement, viz. to develop **a**rtificial **i**ntelligence for
-**d**iscovering **o**ccult **s**tructures.
+'AIDOS' has two meanings that complement each other well.  The first
+meaning refers to our mission statement, viz. to develop **A**rtificial
+**I**ntelligence for **D**iscovering **O**ccult **S**tructures.  The
+second meaning originates from the Greek word 'αἰδώς,' which means
+'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
+one of our guiding principles when we work on challenging problems in
+healthcare research, aiming to improve our world using machine
+learning. 
 
 # Join us
 

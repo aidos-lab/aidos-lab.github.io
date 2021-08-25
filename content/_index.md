@@ -2,11 +2,11 @@
 title: "aidos lab"
 ---
 
-{{< figure src="logo_no_text.svg" width="128" class="center" >}}
+{{< figure src="logo_text_round.svg" width="256" class="center" >}}
 
 # Welcome
 
-Welcome to the website of the aidos lab at [Helmholtz.AI](https://www.helmholtz.ai). We are interested
+Welcome to the website of the AIDOS LAB at [Helmholtz.AI](https://www.helmholtz.ai). We are interested
 in discovering hidden structures in complex data sets, specifically
 those arising in healthcare applications.
 
@@ -25,6 +25,11 @@ as well as the analysis of multivariate clinical time series to detect and preve
 
 # People
 
+|  {{< figure src="br.jpg" width="128" class="person" >}}  |
+|:-------------:|:-------------:| -----:|
+| [Bastian Rieck](https://bastian.rieck.me) |
+|  PI |
+
 Coming soon! Learn more about [joining us]({{< relref "#join-us" >}})
 below.
 
@@ -32,7 +37,7 @@ below.
 
 'AIDOS' has two meanings that complement each other well.  The first
 meaning refers to our mission statement, viz. to develop **A**rtificial
-**I**ntelligence for **D**iscovering **O**ccult **S**tructures.  The
+**I**ntelligence for **D**iscovering **O**bscured **S**tructures.  The
 second meaning originates from the Greek word 'αἰδώς,' which means
 'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
 one of our guiding principles when we work on challenging problems in

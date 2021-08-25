@@ -29,6 +29,11 @@ figure.center
   text-align: center;
 }
 
+figure.person img
+{
+  border-radius: 50%;
+}
+
 h1, h2, h3
 {
   line-height: 1.2

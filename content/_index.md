@@ -31,7 +31,7 @@ as well as the analysis of multivariate clinical time series to detect and preve
 | [Bastian Rieck](https://bastian.rieck.me) |
 |  PI |
 
-Coming soon! Learn more about [joining us]({{< relref "#join-us" >}})
+Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.
 
 # About

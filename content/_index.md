@@ -6,17 +6,18 @@ title: "aidos lab"
 
 # Welcome
 
-Welcome to the website of the AIDOS LAB at [Helmholtz.AI](https://www.helmholtz.ai). We are interested
-in discovering hidden structures in complex data sets, specifically
-those arising in healthcare applications.
+Welcome to the website of the AIDOS LAB at [Helmholtz.AI](https://www.helmholtz.ai)!
+We are fascinated by discovering hidden structures in complex data sets,
+in particular those arising in healthcare applications.
 
 Our primary research interests are situated at the intersection of
 **geometrical deep learning**, **topological machine learning**, and
 **representation learning**. We want to make use of geometrical and
-topological information to imbue neural networks with more information
-in their respective tasks, leading to better and more robust outcomes.
+topological information---also known as **manifold learning**---to imbue
+neural networks with more information in their respective tasks, leading
+to better and more robust outcomes.
 
-Nevertheless, 'theory without practice is empty,' which is why we also
+Following the dictum 'theory without practice is empty,' we also
 develop methods to address challenges in biomedicine or healthcare
 applications. Of particular interest are the analysis of [MRI data sets
 to improve our understanding of human cognition and neurodegenerative

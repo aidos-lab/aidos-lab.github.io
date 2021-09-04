@@ -19,7 +19,7 @@ header
 
 main
 {
-  max-width: 50%;
+  max-width: 40em;
   margin:    5% auto;
   padding:   0 10px;
 }

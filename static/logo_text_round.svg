@@ -19,7 +19,7 @@
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"><metadata
    id="metadata906"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs904">
 	
 	
@@ -138,19 +138,32 @@
    id="path849"
    cx="167.20329"
    cy="167.20329"
-   r="156.06841" /><text
-   xml:space="preserve"
-   style="font-size:133.333px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans'"
-   x="344.82809"
-   y="150.50821"
-   id="text852"><tspan
-     sodipodi:role="line"
-     x="344.82809"
-     y="150.50821"
+   r="156.06841" /><g
+   aria-label="AIDOS
+LAB"
+   id="text852"
+   style="font-size:133.333px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans'"><path
+     d="m 409.4946,150.50821 h 8.39997 L 387.49465,59.175109 h -9.99997 l -30.53326,91.333101 h 8.13331 l 7.99998,-24.93327 h 38.39991 z M 365.22804,118.77496 382.428,65.708426 399.36129,118.77496 Z"
      style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light'"
-     id="tspan858">AIDOS</tspan><tspan
-     sodipodi:role="line"
-     x="344.82809"
-     y="270.5079"
+     id="path870" /><path
+     d="m 442.88826,59.175109 h -7.99998 v 91.333101 h 7.99998 z"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light'"
+     id="path872" /><path
+     d="m 490.52148,59.175109 h -18.13329 v 91.333101 h 19.59995 c 18.79995,0 41.06656,-8.53331 41.06656,-46.39988 0,-37.599906 -21.33328,-44.933221 -42.53322,-44.933221 z m 1.06666,6.66665 c 15.99996,0 33.06658,4.799988 33.06658,38.266571 0,32.79991 -16.39996,39.73323 -32.13325,39.73323 h -12.1333 V 65.841759 Z"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light'"
+     id="path874" /><path
+     d="m 587.9629,57.708446 c -21.86662,0 -37.19991,17.199956 -37.19991,47.333214 0,30.39992 15.19996,46.93321 37.19991,46.93321 22.6666,0 37.33323,-17.06662 37.33323,-47.06654 0,-30.799926 -15.06663,-47.199884 -37.33323,-47.199884 z m 0,6.799983 c 17.59995,0 28.93325,12.666634 28.93325,40.399901 0,27.46659 -11.06663,40.26656 -28.93325,40.26656 -16.93329,0 -28.79993,-12.79997 -28.79993,-40.13323 0,-27.733264 11.59997,-40.533231 28.79993,-40.533231 z"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light'"
+     id="path876" /><path
+     d="m 668.96893,57.708446 c -15.99996,0 -26.79993,9.466643 -26.79993,22.399943 0,13.199966 7.86664,19.466617 25.99993,25.066601 16.26662,5.06666 21.73328,9.59998 21.73328,20.66662 0,12.26663 -9.46665,19.33328 -22.26661,19.33328 -10.66664,0 -17.73329,-3.86666 -24.39994,-9.73331 l -4.66665,5.06665 c 7.46664,7.06665 16.66662,11.46664 29.19992,11.46664 18.39995,0 30.26659,-10.79997 30.26659,-26.39993 0,-16.13329 -9.99997,-21.99994 -26.39993,-27.066598 -16.39996,-4.933321 -21.33328,-9.199976 -21.33328,-18.533286 0,-9.599975 7.73331,-15.466627 18.93328,-15.466627 8.39998,0 14.5333,2.533327 21.33328,8.399979 l 4.66666,-5.066654 C 688.03555,61.44177 680.83556,57.708446 668.96893,57.708446 Z"
+     style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light'"
+     id="path878" /><path
+     d="m 365.36138,179.5748 h -4.66666 v 90.9331 h 42.26656 l 0.8,-4.39999 h -38.3999 z"
      style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Ultra-Light'"
-     id="tspan862">LAB</tspan></text></svg>
+     id="path880" /><path
+     d="m 472.94652,270.5079 h 4.93332 l -31.19992,-90.9331 h -5.73332 l -31.19992,90.9331 h 4.66665 l 8.79998,-26.2666 h 40.93323 z m -48.26654,-30.53326 19.06661,-56.66652 18.93329,56.66652 z"
+     style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Ultra-Light'"
+     id="path882" /><path
+     d="m 530.8922,222.24136 c 9.99998,-1.73333 16.39996,-8.13332 16.39996,-20.13329 0,-15.19996 -11.46663,-22.53327 -31.06658,-22.53327 h -19.33329 v 90.9331 h 24.53327 c 19.19995,0 30.39992,-8.79998 30.39992,-24.79994 0,-15.86662 -9.59997,-22.79994 -20.93328,-23.4666 z m -14.13329,-38.39991 c 16.53329,0 25.73326,5.59999 25.73326,18.39996 0,11.3333 -7.73331,18.26662 -19.33328,18.26662 h -21.59994 v -36.66658 z m 4.79999,82.39979 h -19.99995 v -41.73322 h 22.26661 c 13.46663,0 23.19994,6.66665 23.19994,21.19994 0,13.86663 -9.59998,20.53328 -25.4666,20.53328 z"
+     style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:133.333px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Ultra-Light'"
+     id="path884" /></g></svg>

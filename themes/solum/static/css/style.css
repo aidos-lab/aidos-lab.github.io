@@ -1,7 +1,11 @@
+html
+{
+  font-size: large;
+}
+
 body
 {
   line-height:  1.6;
-  font-size:    18px;
   color:        #444;
   background:   #f2f2f2;
 
@@ -15,6 +19,11 @@ header
 {
   padding:        10px;
   border-bottom:  1px solid black;
+}
+
+table
+{
+  line-height: 1.0;
 }
 
 main

@@ -144,7 +144,7 @@ Conference on Knowledge Discovery & Data Mining&nbsp;(KDD), pp. 1267--1275, 2021
 
 'AIDOS' has two meanings that complement each other well.  The first
 meaning refers to our mission statement, viz. to develop **A**rtificial
-**I**ntelligence for **D**iscovering **O**bscured **S**tructures.  The
+**I**ntelligence for **D**iscovering **O**bscured **S**hapes.  The
 second meaning originates from the Greek word 'αἰδώς,' which means
 'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
 one of our guiding principles when we work on challenging problems in

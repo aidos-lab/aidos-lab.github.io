@@ -76,10 +76,10 @@ h2
   display: inline;
 }
 
+/* Improve spacing between normal list items */
 li
 {
-  line-height: 1.8;
-  margin:      1.0em 0 0 0;
+  margin: 0.50em 0 0 0;
 }
 
 #TableOfContents a
@@ -113,4 +113,10 @@ footer
 {
   max-width: 50%;
   margin: 1% auto;
+}
+
+/* Stops any superscripts from ruining our lines */
+sup
+{
+    line-height: 0;
 }

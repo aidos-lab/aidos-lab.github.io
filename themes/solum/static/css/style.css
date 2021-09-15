@@ -13,7 +13,7 @@
     src:
       local('Fira Sans Italic'),
       local('FiraSans-Italic'),
-      url('/fonts/FiraSans-Italic`.woff2') format('woff2');
+      url('/fonts/FiraSans-Italic.woff2') format('woff2');
     font-weight: 400;
     font-style:  italic;
 }

@@ -1,3 +1,33 @@
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans'),
+      local('FiraSans-Regular'),
+      url('fonts/FiraSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style:  normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans Italic'),
+      local('FiraSans-Italic'),
+      url('fonts/FiraSans-Italic`.woff2') format('woff2');
+    font-weight: 400;
+    font-style:  italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans Bold'),
+      local('FiraSans-Bold'),
+      url('fonts/FiraSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style:  normal;
+}
+
 html
 {
   font-size: large;

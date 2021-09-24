@@ -26,6 +26,17 @@ to improve our understanding of human cognition and neurodegenerative
 disorders](https://papers.nips.cc/paper/2020/hash/4d771504ddcd28037b4199740df767e6-Abstract.html),
 as well as the analysis of multivariate clinical time series to detect and prevent the [onset of sepsis](https://arxiv.org/abs/2107.05230) or myocardial ischemia.
 
+# About
+
+'AIDOS' has two meanings that complement each other well.  The first
+meaning refers to our mission statement, viz. to develop **A**rtificial
+**I**ntelligence for **D**iscovering **O**bscured **S**hapes.  The
+second meaning originates from the Greek word 'αἰδώς,' which means
+'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
+one of our guiding principles when we work on challenging problems in
+healthcare research, aiming to improve our world using machine
+learning. 
+
 # People
 
 |  {{< figure src="br.jpg" width="128" class="person" >}}  |
@@ -142,17 +153,6 @@ Conference on Knowledge Discovery & Data Mining&nbsp;(KDD), pp. 1267--1275, 2021
 
 - B. Rieck: [*Smoothness Analysis of Subdivision Algorithms*](https://dx.doi.org/10.11588/heidok.00013011), M.Sc. thesis, Heidelberg University, 2011
 
-# About
-
-'AIDOS' has two meanings that complement each other well.  The first
-meaning refers to our mission statement, viz. to develop **A**rtificial
-**I**ntelligence for **D**iscovering **O**bscured **S**hapes.  The
-second meaning originates from the Greek word 'αἰδώς,' which means
-'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
-one of our guiding principles when we work on challenging problems in
-healthcare research, aiming to improve our world using machine
-learning. 
-
 # Join us
 
 Thanks for your interest in our group! Why not consider joining the
@@ -169,3 +169,7 @@ produce excellent science using methods whose performance we can
 with other methods, ablation studies, and many additional tricks to
 figure out what is going on. If this sounds enticing to you, we would
 love to hear from you!
+
+## Open positions
+
+- [Ph.D. candidates (f/m/x) in Geometrical and Topological Machine Learning](https://jobs.helmholtz-muenchen.de/jobposting/ce3f12af95ab3f6c3d7f551b5333e138c7cc4cad0?ref=aidos.ml)

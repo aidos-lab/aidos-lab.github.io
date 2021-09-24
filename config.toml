@@ -1,6 +1,6 @@
 baseURL       = "http://aidos.ml/"
 languageCode  = "en-gb"
-title         = "aidos lab"
+title         = "AIDOS LAB"
 theme         = "solum"
 enableGitInfo = true
 

@@ -161,6 +161,9 @@ quantitative backgrounds&nbsp;(computer science, mathematics, physics,
 ...). You should be interested in working at the intersection of
 different fields and feel comfortable about writing code.
 
+Since the group is still starting to establish itself, you have the
+unique opportunity to truly shape and influence things here.
+
 We are not interested in 'leader-board science' or 'chasing the
 state-of-the-art' in a table. That is *not* to say that we are not
 interested in producing relevant methods! Our overarching goal is to

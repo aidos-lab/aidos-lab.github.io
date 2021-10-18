@@ -1,5 +1,5 @@
 ---
-title: "aidos lab"
+title: "AIDOS Lab"
 ---
 
 {{< figure src="logo_text_round.svg" width="256" class="center" >}}

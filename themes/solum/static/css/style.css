@@ -92,7 +92,7 @@ h2
   margin-bottom: 0.5em;
 }
 
-#TableOfContents ul
+#TableOfContents ul, #logos ul
 {
   list-style-type:  none;
   padding-left:     0px;
@@ -101,7 +101,7 @@ h2
   width:            100%;
 }
 
-#TableOfContents li
+#TableOfContents li, #logos li
 {
   display: inline;
 }
@@ -149,4 +149,17 @@ footer
 sup
 {
     line-height: 0;
+}
+
+#logos ul
+{
+  display: inline;
+}
+
+@media (max-width: 960px)
+{
+  #TableOfContents li, #logos li
+  {
+    display: block;
+  }
 }

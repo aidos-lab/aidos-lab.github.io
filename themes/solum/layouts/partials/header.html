@@ -1,14 +1,13 @@
 <header>
-  <div style="display:flex; flex-direction: row; width: 100%">
-
-    <div style="flex-grow: 1; max-width:512px">
-      <a href="https://www.helmholtz-muenchen.de/aih"><img src="logo_aih.svg" height="32px" /></a>
-      <a href="https://www.helmholtz.ai"><img src="logo_helmholtz_ai.svg" height="32px" style="padding-left:16px" /></a>
+  <div style="display:flex">
+    <div>
+      {{ .TableOfContents }}
     </div>
-
-    <div style="text-align:right; flex-grow: 1;">
-    {{ .TableOfContents }}
+    <div style="text-align:right; flex-grow: 1" id="logos">
+      <ul>
+        <li><a href="https://www.helmholtz-muenchen.de/aih"><img src="logo_aih.svg" height="32" alt="Institute of AI for Health"/></a></li>
+        <li><a href="https://www.helmholtz.ai"><img src="logo_helmholtz_ai.svg" height="32" style="padding-left:16px" alt="Helmholtz.AI" /></a></li>
+      </ul>
     </div>
   </div>
-
 </header>

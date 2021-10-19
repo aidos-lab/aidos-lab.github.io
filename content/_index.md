@@ -39,7 +39,7 @@ learning.
 
 # People
 
-|  {{< figure src="br.jpg" width="128" class="person" >}}  |
+|  {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}}  |
 |:-------------:|:-------------:| -----:|
 | [Bastian Rieck](https://bastian.rieck.me) |
 |  PI |

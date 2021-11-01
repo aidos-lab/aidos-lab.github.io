@@ -175,4 +175,4 @@ love to hear from you!
 
 ## Open positions
 
-- [Ph.D. candidates (f/m/x) in Geometrical and Topological Machine Learning](https://jobs.helmholtz-muenchen.de/jobposting/ce3f12af95ab3f6c3d7f551b5333e138c7cc4cad0?ref=aidos.ml)
+There are no open positions at the moment.

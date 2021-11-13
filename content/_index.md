@@ -173,6 +173,12 @@ with other methods, ablation studies, and many additional tricks to
 figure out what is going on. If this sounds enticing to you, we would
 love to hear from you!
 
+## Bachelor's and master's theses
+
+If you are interested in writing your thesis with us, please send
+your CV, your transcript of records, and a brief cover letter stating
+your research interests to bastian.rieck@helmholtz-muenchen.de.
+
 ## Open positions
 
 There are no open positions at the moment.

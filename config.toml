@@ -4,6 +4,8 @@ title         = "AIDOS Lab"
 theme         = "solum"
 enableGitInfo = true
 
+ignoreFiles = ['publications.md$']
+
 [markup]
   [markup.tableOfContents]
     endLevel   = 1

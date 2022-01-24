@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Update publications by starting the proper `virtualenv`, converting
+# papers from BibTeX to Markdown, and finally, copying the respective
+# `.bib` files.
+
+source ~/.virtualenvs/playground/bin/activate
+python ~/Projects/bastian.rieck.me/scripts/bibtex_to_markdown.py ~/Documents/Papers.bib -v >  ../content/publications.md
+cp /tmp/*.bib ../static/

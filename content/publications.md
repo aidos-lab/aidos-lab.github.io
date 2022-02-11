@@ -1,5 +1,7 @@
 ## Preprints
 
+- S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis*](https://arxiv.org/abs/2102.00485), Preprint, 2022<br />
+        <small>[\[BibTeX\]](Horoi22a.bib)</small>
 - C. Morris, Y. Lipman, H. Maron, B. Rieck, N.&thinsp;M. Kriege, M. Grohe, M. Fey, and K. Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Preprint, 2021<br />
         <small>[\[BibTeX\]](Morris21a.bib)</small>
 - M.&thinsp;F. Adamer, L. O'Bray, E. De Brouwer, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
@@ -20,7 +22,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2022
 
-- C. Weis, A. Cuénod, B. Rieck, O. Dubuis, S. Graf, C. Lang, M. Oberle, M. Brackmann, K.&thinsp;K. Søgaard, M. Osthoff, K. Borgwardt, and A. Egli: [*Direct Antimicrobial Resistance Prediction From Clinical MALDI-TOF Mass Spectra Using Machine Learning*](https://dx.doi.org/10.1038/s41591-021-01619-9), Nature Medicine, 2022<br />
+- C. Weis, A. Cuénod, B. Rieck, O. Dubuis, S. Graf, C. Lang, M. Oberle, M. Brackmann, K.&thinsp;K. Søgaard, M. Osthoff, K. Borgwardt<sup>&Dagger;</sup>, and A. Egli<sup>&Dagger;</sup>: [*Direct Antimicrobial Resistance Prediction From Clinical MALDI-TOF Mass Spectra Using Machine Learning*](https://dx.doi.org/10.1038/s41591-021-01619-9), Nature Medicine, Volume 28, Number 1, pp. 164--174, 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/maldi_amr) &bull; [\[BibTeX\]](Weis22a.bib)</small>
 - L. O'Bray<sup>&dagger;</sup>, M. Horn<sup>&dagger;</sup>, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions*](https://arxiv.org/abs/2106.01098), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
         <small>[\[BibTeX\]](OBray22a.bib)</small>
@@ -36,6 +38,8 @@ COVID-19*, Nature Biotechnology, 2021 (in press)<br />
         <small>[\[BibTeX\]](Kuijs21a.bib)</small>
 - R. Liu<sup>&dagger;</sup>, S. Cantürk<sup>&dagger;</sup>, F. Wenkel, D. Sandfelder, D. Kreuzer, A. Little, S. McGuire, M. Perlmutter, L. O'Bray, B. Rieck, M. Hirn, G. Wolf, and L. Rampášek: [*Towards a Taxonomy of Graph Learning Datasets*](https://arxiv.org/abs/2110.14809), 'Data-Centric AI' Workshop at NeurIPS, 2021<br />
         <small>[\[BibTeX\]](Liu21a.bib)</small>
+- S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: *Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis*, Montreal AI Symposium, 2021<br />
+        <small>[\[BibTeX\]](Horoi21a.bib)</small>
 - M.&thinsp;D. Lücken<sup>&dagger;</sup>, D.&thinsp;B. Burkhardt<sup>&dagger;</sup>, R. Cannoodt<sup>&dagger;</sup>, C. Lance<sup>&dagger;</sup>, A. Agrawal, H. Aliee, A.&thinsp;T. Chen, L. Deconinck, A.&thinsp;M. Detweiler, A.&thinsp;A. Granados, S. Huynh, L. Isacco, Y.&thinsp;J. Kim, B. De Kumar, S. Kuppasani, H. Lickert, A. McGeever, J.&thinsp;C. Melgarejo, H. Mekonen, M. Morri, M. Müller, N. Neff, S. Paul, B. Rieck, K. Schneider, S. Steelman, M. Sterr, D.&thinsp;J. Treacy, A. Tong, A. Villani, G. Wang, J. Yan, C. Zhang, A.&thinsp;O. Pisco<sup>&Dagger;</sup>, S. Krishnaswamy<sup>&Dagger;</sup>, F.&thinsp;J. Theis<sup>&Dagger;</sup>, and J.&thinsp;M. Bloom<sup>&Dagger;</sup>: [*A Sandbox for Prediction and Integration of DNA, RNA, and Proteins in Single Cells*](https://openreview.net/forum?id=gN35BGa1Rt), Advances in Neural Information Processing
 Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
         <small>[\[BibTeX\]](Luecken21a.bib)</small>

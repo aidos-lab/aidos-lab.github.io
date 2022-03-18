@@ -42,7 +42,7 @@ learning.
 | {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   |
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
 | [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://www.linkedin.com/in/julius-von-rohrscheidt-5b62aa192) |
-|  Principal Investigator                                                    | Ph.D. student (incoming)                                                               |
+|  Principal Investigator                                                    | Ph.D. student                                                                          |
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

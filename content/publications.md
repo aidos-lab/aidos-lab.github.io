@@ -1,5 +1,7 @@
 ## Preprints
 
+- D.&thinsp;J. Waibel, S. Atwell, M. Meier, C. Marr, and B. Rieck: [*Capturing Shape Information With Multi-Scale Topological Loss Terms for 3D Reconstruction*](https://arxiv.org/abs/2203.01703), Preprint, 2022<br />
+        <small>[\[GitHub\]](https://github.com/marrlab/SHAPR_torch) &bull; [\[BibTeX\]](Waibel22a.bib)</small>
 - S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis*](https://arxiv.org/abs/2102.00485), Preprint, 2022<br />
         <small>[\[BibTeX\]](Horoi22a.bib)</small>
 - C. Morris, Y. Lipman, H. Maron, B. Rieck, N.&thinsp;M. Kriege, M. Grohe, M. Fey, and K. Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Preprint, 2021<br />
@@ -22,18 +24,18 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2022
 
+- L. O'Bray<sup>&dagger;</sup>, M. Horn<sup>&dagger;</sup>, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions*](https://arxiv.org/abs/2106.01098), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
+        <small>[\[GitHub\]](https://github.com/BorgwardtLab/ggme) &bull; [\[BibTeX\]](OBray22a.bib)</small>
+- M. Horn<sup>&dagger;</sup>, E. De Brouwer<sup>&dagger;</sup>, M. Moor, Y. Moreau, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Topological Graph Neural Networks*](https://arxiv.org/abs/2102.07835), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
+        <small>[\[GitHub\]](https://github.com/BorgwardtLab/TOGL) &bull; [\[BibTeX\]](Horn22a.bib)</small>
 - C. Weis, A. Cuénod, B. Rieck, O. Dubuis, S. Graf, C. Lang, M. Oberle, M. Brackmann, K.&thinsp;K. Søgaard, M. Osthoff, K. Borgwardt<sup>&Dagger;</sup>, and A. Egli<sup>&Dagger;</sup>: [*Direct Antimicrobial Resistance Prediction From Clinical MALDI-TOF Mass Spectra Using Machine Learning*](https://dx.doi.org/10.1038/s41591-021-01619-9), Nature Medicine, Volume 28, Number 1, pp. 164--174, 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/maldi_amr) &bull; [\[BibTeX\]](Weis22a.bib)</small>
-- L. O'Bray<sup>&dagger;</sup>, M. Horn<sup>&dagger;</sup>, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions*](https://arxiv.org/abs/2106.01098), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
-        <small>[\[BibTeX\]](OBray22a.bib)</small>
-- M. Horn<sup>&dagger;</sup>, E. De Brouwer<sup>&dagger;</sup>, M. Moor, Y. Moreau, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Topological Graph Neural Networks*](https://arxiv.org/abs/2102.07835), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
-        <small>[\[BibTeX\]](Horn22a.bib)</small>
+- M. Kuchroo<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, P. Wong<sup>&dagger;</sup>, J. Grenier, D. Shung, A. Tong, C. Lucas, J. Klein, D.&thinsp;B. Burkhardt, S. Gigante, A. Godavarthi, B. Rieck, B. Israelow, M. Simonov, T. Mao, J.&thinsp;E. Oh, J. Silva, T. Takahashi, C.&thinsp;D. Odio, A. Casanovas-Massana, J. Fournier, Y.&thinsp;I. Team, S. Farhadian, C.&thinsp;S. Dela Cruz, A.&thinsp;I. Ko, M.&thinsp;J. Hirn, F.&thinsp;P. Wilson<sup>&Dagger;</sup>, J.&thinsp;G. Hussin<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, A. Iwasaki<sup>&Dagger;</sup>, and S. Krishnaswamy: [*Multiscale PHATE Identifies Multimodal Signatures Of
+COVID-19*](https://dx.doi.org/10.1038/s41587-021-01186-x), Nature Biotechnology, 2022<br />
+        <small>[\[BibTeX\]](Kuchroo21a.bib)</small>
 
 ## 2021
 
-- M. Kuchroo<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, P. Wong<sup>&dagger;</sup>, J. Grenier, D. Shung, A. Tong, C. Lucas, J. Klein, D.&thinsp;B. Burkhardt, S. Gigante, A. Godavarthi, B. Rieck, B. Israelow, T. Mao, J.&thinsp;E. Oh, J. Silva, T. Takahashi, C.&thinsp;D. Odio, A. Casanovas-Massana, J. Fournier, Y.&thinsp;I. Team, S. Farhadian, C.&thinsp;S. Dela Cruz, A.&thinsp;I. Ko, M.&thinsp;J. Hirn, F.&thinsp;P. Wilson, J.&thinsp;G. Hussin<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, A. Iwasaki<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: *Multiscale PHATE Identifies Multimodal Signatures Of
-COVID-19*, Nature Biotechnology, 2021 (in press)<br />
-        <small>[\[BibTeX\]](Kuchroo21a.bib)</small>
 - M. Kuijs, C.&thinsp;R. Jutzeler, B. Rieck, and S.&thinsp;C. Brüningk: [*Interpretability Aware Model Training to Improve Robustness Against Out-of-Distribution Magnetic Resonance Images in Alzheimer's Disease Classification*](https://arxiv.org/abs/2111.08701), 'Machine Learning for Health&nbsp;(ML4H)' Symposium, 2021<br />
         <small>[\[BibTeX\]](Kuijs21a.bib)</small>
 - R. Liu<sup>&dagger;</sup>, S. Cantürk<sup>&dagger;</sup>, F. Wenkel, D. Sandfelder, D. Kreuzer, A. Little, S. McGuire, M. Perlmutter, L. O'Bray, B. Rieck, M. Hirn, G. Wolf, and L. Rampášek: [*Towards a Taxonomy of Graph Learning Datasets*](https://arxiv.org/abs/2110.14809), 'Data-Centric AI' Workshop at NeurIPS, 2021<br />

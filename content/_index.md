@@ -41,7 +41,7 @@ learning.
 
 | {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   |
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
-| [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://www.linkedin.com/in/julius-von-rohrscheidt-5b62aa192) |
+| [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     |
 |  Principal Investigator                                                    | Ph.D. student                                                                          |
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
@@ -80,6 +80,6 @@ If you are interested in writing your thesis with us, please send
 your CV, your transcript of records, and a brief cover letter stating
 your research interests to bastian.rieck@helmholtz-muenchen.de.
 
-## Open positions
+## Open Ph.D. positions
 
-There are no open positions at the moment.
+There are no open Ph.D. positions at the moment.

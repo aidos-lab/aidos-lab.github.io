@@ -80,6 +80,10 @@ If you are interested in writing your thesis with us, please send
 your CV, your transcript of records, and a brief cover letter stating
 your research interests to bastian.rieck@helmholtz-muenchen.de.
 
-## Open Ph.D. positions
+## Ph.D. positions
 
-There are no open Ph.D. positions at the moment.
+If you are interested in working with us and have a background in
+mathematics, computer science, physics, or a general penchant for
+computational methods, please send your CV to
+bastian.rieck@helmholtz-muenchen.de for general inquiries on Ph.D.
+positions.

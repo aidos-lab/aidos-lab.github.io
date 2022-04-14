@@ -1,9 +1,9 @@
 ## Preprints
 
+- G. Huguet<sup>&dagger;</sup>, A. Tong<sup>&dagger;</sup>, B. Rieck<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, M. Kuchroo, M. Hirn<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://dx.doi.org/10.48550/ARXIV.2203.14860), Preprint, 2022<br />
+        <small>[\[BibTeX\]](Huguet22a.bib)</small>
 - D.&thinsp;J. Waibel, S. Atwell, M. Meier, C. Marr, and B. Rieck: [*Capturing Shape Information With Multi-Scale Topological Loss Terms for 3D Reconstruction*](https://arxiv.org/abs/2203.01703), Preprint, 2022<br />
         <small>[\[GitHub\]](https://github.com/marrlab/SHAPR_torch) &bull; [\[BibTeX\]](Waibel22a.bib)</small>
-- S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis*](https://arxiv.org/abs/2102.00485), Preprint, 2022<br />
-        <small>[\[BibTeX\]](Horoi22a.bib)</small>
 - C. Morris, Y. Lipman, H. Maron, B. Rieck, N.&thinsp;M. Kriege, M. Grohe, M. Fey, and K. Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Preprint, 2021<br />
         <small>[\[BibTeX\]](Morris21a.bib)</small>
 - M.&thinsp;F. Adamer, L. O'Bray, E. De Brouwer, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
@@ -24,10 +24,15 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2022
 
+- K. MacDonald, J. Paige, D. Thomas, S. Zhao, K. You, I.&thinsp;M. Adelstein, Y. Aizenbud, B. Rieck, D. Bhaskar, and S. Krishnaswamy: [*Diffusion-Based Methods for Estimating Curvature in Data*](https://openreview.net/forum?id=HtLfgBbyagq), 'Geometrical and Topological Representation Learning' Workshop at ICLR, 2022<br />
+        <small>[\[BibTeX\]](MacDonald22a.bib)</small>
 - L. O'Bray<sup>&dagger;</sup>, M. Horn<sup>&dagger;</sup>, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions*](https://arxiv.org/abs/2106.01098), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
-        <small>[\[GitHub\]](https://github.com/BorgwardtLab/ggme) &bull; [\[BibTeX\]](OBray22a.bib)</small>
+        <small>[\[GitHub\]](https://github.com/BorgwardtLab/ggme) &bull; [\[BibTeX\]](OBray22a.bib)</small><br />
+        <small>Accepted as a spotlight presentation&nbsp;(top 5% of all submissions)</small>
 - M. Horn<sup>&dagger;</sup>, E. De Brouwer<sup>&dagger;</sup>, M. Moor, Y. Moreau, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Topological Graph Neural Networks*](https://arxiv.org/abs/2102.07835), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/TOGL) &bull; [\[BibTeX\]](Horn22a.bib)</small>
+- S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis*](https://arxiv.org/abs/2102.00485), Advances in Intelligent Data Analysis XX, pp. 171--184, 2022<br />
+        <small>[\[BibTeX\]](Horoi22a.bib)</small>
 - C. Weis, A. Cuénod, B. Rieck, O. Dubuis, S. Graf, C. Lang, M. Oberle, M. Brackmann, K.&thinsp;K. Søgaard, M. Osthoff, K. Borgwardt<sup>&Dagger;</sup>, and A. Egli<sup>&Dagger;</sup>: [*Direct Antimicrobial Resistance Prediction From Clinical MALDI-TOF Mass Spectra Using Machine Learning*](https://dx.doi.org/10.1038/s41591-021-01619-9), Nature Medicine, Volume 28, Number 1, pp. 164--174, 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/maldi_amr) &bull; [\[BibTeX\]](Weis22a.bib)</small>
 - M. Kuchroo<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, P. Wong<sup>&dagger;</sup>, J. Grenier, D. Shung, A. Tong, C. Lucas, J. Klein, D.&thinsp;B. Burkhardt, S. Gigante, A. Godavarthi, B. Rieck, B. Israelow, M. Simonov, T. Mao, J.&thinsp;E. Oh, J. Silva, T. Takahashi, C.&thinsp;D. Odio, A. Casanovas-Massana, J. Fournier, Y.&thinsp;I. Team, S. Farhadian, C.&thinsp;S. Dela Cruz, A.&thinsp;I. Ko, M.&thinsp;J. Hirn, F.&thinsp;P. Wilson<sup>&Dagger;</sup>, J.&thinsp;G. Hussin<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, A. Iwasaki<sup>&Dagger;</sup>, and S. Krishnaswamy: [*Multiscale PHATE Identifies Multimodal Signatures Of

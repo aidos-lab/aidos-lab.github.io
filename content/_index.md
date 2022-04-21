@@ -39,10 +39,11 @@ learning.
 
 # People
 
-| {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   |
-|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
-| [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     |
-|  Principal Investigator                                                    | Ph.D. student                                                                          |
+| {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   | {{< figure src="jw.jpg" width="128" class="person" alt="Jeremy Wayland" >}}   |
+|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
+| [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     | Jeremy Wayland                                                                              |
+|  Principal Investigator                                                    | Ph.D. student                                                                          | Ph.D. student (incoming)                                                                    |
+
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

@@ -43,6 +43,9 @@ learning.
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
 | [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     | Jeremy Wayland                                                                              |
 |  Principal Investigator                                                    | Ph.D. student                                                                          | Ph.D. student (incoming)                                                                    |
+| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" >}}  |
+| Adrien Aumon                                                               | 
+| Visiting Researcher                                                        |
 
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})

@@ -77,6 +77,9 @@ with other methods, ablation studies, and many additional tricks to
 figure out what is going on. If this sounds enticing to you, we would
 love to hear from you!
 
+To learn more about our working style, see [this note for potential
+student collaborators](https://bastian.rieck.me/collaborations).
+
 ## Bachelor's and master's theses
 
 If you are interested in writing your thesis with us, please send
@@ -90,3 +93,15 @@ mathematics, computer science, physics, or a general penchant for
 computational methods, please send your CV to
 bastian.rieck@helmholtz-muenchen.de for general inquiries on Ph.D.
 positions.
+
+## Research visits
+
+If you are interested in a short-term research opportunity, such as
+a research visit over the summer, please reach out
+bastian.rieck@helmholtz-muenchen.de. We are particularly interested in
+stays that may result in long-term collaborations.
+
+**If you are looking for an internship, note that our institution
+does not permit paid internships.** There are funding opportunities for
+such internships available; check out [RISE](https://www.daad.de/rise/en/rise-germany/find-an-internship/)
+or [DAAD Scholarships](https://www.daad.de/en/study-and-research-in-germany/scholarships/) in general.

@@ -43,9 +43,10 @@ learning.
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
 | [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     | Jeremy Wayland                                                                              |
 |  Principal Investigator                                                    | Ph.D. Student                                                                          | Ph.D. Student (incoming)                                                                    |
-| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" >}}  | {{< figure src="kvn.png" width="128" class="person" alt="Kalyan Varma Nadimpalli" >}}  |
-| Adrien Aumon                                                               | Kalyan Varma Nadimpalli                                                                |
-| Visiting Researcher                                                        | M.Sc. Student                                                                          |
+| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" >}}  | {{< figure src="kvn.png" width="128" class="person" alt="Kalyan Varma Nadimpalli" >}}  | {{< figure src="fh.jpg" width="128" class="person" alt="Ferdinand Hölzl" >}}                 |
+| Adrien Aumon                                                               | Kalyan Varma Nadimpalli                                                                | Ferdinand Hölzl                                                                             |
+| Visiting Researcher                                                        | M.Sc. Student                                                                          | Intern                                                                                      |
+
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

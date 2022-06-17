@@ -2,7 +2,7 @@
 
 - C. Coupette, J. Vreeken, and B. Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />
         <small>[\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette22a.bib)</small>
-- C. Hacker and B. Rieck: [*On the Surprising Behaviour of \Textttnode2vec*](https://arxiv.org/abs/2206.08252), Preprint, 2022<br />
+- C. Hacker and B. Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Preprint, 2022<br />
         <small>[\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
 - D. Bhaskar<sup>&dagger;</sup>, K. MacDonald<sup>&dagger;</sup>, O. Fasina, D. Thomas, B. Rieck, I. Adelstein<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Preprint, 2022<br />
         <small>[\[BibTeX\]](Bhaskar22a.bib)</small>

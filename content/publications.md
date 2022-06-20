@@ -1,5 +1,7 @@
 ## Preprints
 
+- R. Liu<sup>&dagger;</sup>, S. Cantürk<sup>&dagger;</sup>, F. Wenkel, D. Sandfelder, D. Kreuzer, A. Little, S. McGuire, L. O'Bray, M. Perlmutter, B. Rieck, M. Hirn, G. Wolf, and L. Rampášek: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Preprint, 2022<br />
+        <small>[\[BibTeX\]](Liu22a.bib)</small>
 - C. Coupette, J. Vreeken, and B. Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />
         <small>[\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette22a.bib)</small>
 - C. Hacker and B. Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Preprint, 2022<br />

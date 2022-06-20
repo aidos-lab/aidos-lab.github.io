@@ -33,10 +33,8 @@ ignoreFiles = ['publications.md$']
 # Ditto (see above), but for the footer.
 [params.footer.logos]
   text = """
-<div id="footer-logos">
   <a href="https://www.helmholtz-muenchen.de/en"><img src="logo_helmholtz_munich.svg" height="32" alt="Helmholtz Zentrum München" /></a>
   <a href="https://www.pioneercampus.org"><img src="logo_hpc.svg" height="32" style="padding-left:16px" alt="Helmholtz Pioneer Campus" /></a>
   <a href="https://www.helmholtz.de/en"><img src="logo_helmholtz_research.svg" height="32" alt="Helmholtz Research" style="padding-left:16px" />
   </a>
-</div>
   """

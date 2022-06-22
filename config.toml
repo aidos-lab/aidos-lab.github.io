@@ -28,7 +28,7 @@ ignoreFiles = ['publications.md$']
     <li><a href="https://www.helmholtz.ai"><img src="logo_helmholtz_ai.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Helmholtz.AI" /></a></li>
   </ul>
 </div>
-  """
+"""
 
 # Ditto (see above), but for the footer.
 [params.footer.logos]
@@ -37,4 +37,12 @@ ignoreFiles = ['publications.md$']
   <a href="https://www.pioneercampus.org"><img src="logo_hpc.svg" height="32" style="padding-left:16px" alt="Helmholtz Pioneer Campus" /></a>
   <a href="https://www.helmholtz.de/en"><img src="logo_helmholtz_research.svg" height="32" alt="Helmholtz Research" style="padding-left:16px" />
   </a>
-  """
+"""
+
+[params.footer.license]
+  text = """
+All Helmholtz logos are copyrighted and may not be used without
+express permission. The remainder of the content, if not specified otherwise,
+has been created by <a href="https://bastian.rieck.me">Bastian Rieck</a>
+and is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+"""

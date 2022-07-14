@@ -37,17 +37,18 @@ one of our guiding principles when we work on challenging problems in
 healthcare research, aiming to improve our world using machine
 learning. 
 
-# People
+# Members and Collaborators
 
-| {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   | {{< figure src="jw.jpg" width="128" class="person" alt="Jeremy Wayland" >}}   |
-|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
+| {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   | {{< figure src="jw.jpg" width="128" class="person" alt="Jeremy Wayland" >}}                 |
+|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
 | [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     | Jeremy Wayland                                                                              |
 |  Principal Investigator                                                    | Ph.D. Student                                                                          | Ph.D. Student (incoming)                                                                    |
-| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" >}}  | {{< figure src="kvn.png" width="128" class="person" alt="Kalyan Varma Nadimpalli" >}}  | {{< figure src="fh.jpg" width="128" class="person" alt="Ferdinand Hölzl" >}}                 |
+| {{< figure src="er.jpg" width="128" class="person" alt="Ernst Roell" >}}   |                                                                                        |                                                                                             |
+| [Ernst Roell](https://ernstroell.github.io)                                |                                                                                        |                                                                                             |
+| Ph.D. Student (incoming)                                                   |                                                                                        |                                                                                             |
+| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" >}}  | {{< figure src="kvn.png" width="128" class="person" alt="Kalyan Varma Nadimpalli" >}}  | {{< figure src="fh.jpg" width="128" class="person" alt="Ferdinand Hölzl" >}}                |
 | Adrien Aumon                                                               | Kalyan Varma Nadimpalli                                                                | Ferdinand Hölzl                                                                             |
 | Visiting Researcher                                                        | M.Sc. Student                                                                          | Intern                                                                                      |
-
-
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

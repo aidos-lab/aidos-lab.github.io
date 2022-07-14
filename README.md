@@ -1,6 +1,6 @@
 # AIDOS LAB
 
-This is the repository of the [AIDOS LAB](https://aidos.ml). I collect
+This is the repository of the [AIDOS LAB](https://aidos.group). I collect
 some generic usage notes in this file.
 
 ## Fonts

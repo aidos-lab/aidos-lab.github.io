@@ -5,7 +5,7 @@
    viewBox="0 0 135.65319 14.548533"
    version="1.1"
    id="svg8"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="logo_aih_new.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="297.23739"
-     inkscape:cy="-98.99495"
+     inkscape:cx="221.22341"
+     inkscape:cy="-98.994949"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -35,12 +35,14 @@
      fit-margin-right="10"
      fit-margin-bottom="10"
      units="pt"
-     inkscape:window-width="2126"
-     inkscape:window-height="1435"
-     inkscape:window-x="1428"
-     inkscape:window-y="346"
-     inkscape:window-maximized="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1119"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -57,18 +59,110 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(8.5575206,-43.413375)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-5.2943254"
-       y="54.307129"
-       id="text8396"><tspan
-         sodipodi:role="line"
-         id="tspan8394"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift';stroke-width:0.264583"
-         x="-5.2943254"
-         y="54.307129"><tspan
-   style="fill:#ff506e;fill-opacity:1"
-   id="tspan48835">AIH</tspan> Institute of AI for Health</tspan></text>
+    <g
+       aria-label="AIH Institute of AI for Health"
+       id="text8396"
+       style="font-size:10.5833px;line-height:1.25;stroke-width:0.264583">
+      <path
+         d="m -2.7966666,47.364484 h 1.1429963 l 2.23307625,6.783895 v 0.15875 H -0.40484092 L -0.9128393,52.687884 h -2.6246583 l -0.5079984,1.619245 h -0.9842469 v -0.15875 z m 0.5714981,1.142997 -1.02658,3.280823 h 2.0531601 z"
+         style="fill:#ff506e"
+         id="path393" />
+      <path
+         d="M 2.6325595,54.307129 H 1.6483126 v -6.942645 h 0.9842469 z"
+         style="fill:#ff506e"
+         id="path395" />
+      <path
+         d="M 5.1725465,54.307129 H 4.1777163 v -6.942645 h 0.9948302 v 3.026824 H 8.0088708 V 47.364484 H 9.003701 v 6.942645 H 8.0088708 v -3.01624 H 5.1725465 Z"
+         style="fill:#ff506e"
+         id="path397" />
+      <path
+         d="m 14.485864,54.307129 h -0.984247 v -6.942645 h 0.984247 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path399" />
+      <path
+         d="m 18.369929,48.930813 q 0.888998,0 1.407579,0.550331 0.518582,0.550332 0.518582,1.492246 v 3.333739 h -0.96308 v -3.259656 q 0,-0.560915 -0.317499,-0.888998 -0.306916,-0.328082 -0.825498,-0.328082 -0.412748,0 -0.740831,0.1905 -0.328082,0.179916 -0.507998,0.497415 v 3.788821 h -0.952497 v -5.249317 h 0.857247 l 0.04233,0.476249 q 0.571498,-0.603248 1.481661,-0.603248 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path401" />
+      <path
+         d="m 23.640411,54.434129 q -0.99483,0 -1.576912,-0.444499 -0.582081,-0.455082 -0.582081,-1.227663 v -0.116416 h 0.952497 v 0.116416 q 0,0.804331 1.227663,0.804331 0.550331,0 0.857247,-0.179916 0.317499,-0.179916 0.317499,-0.486832 v -0.08467 q 0,-0.264583 -0.211666,-0.433916 -0.201083,-0.169332 -0.645581,-0.253999 l -0.783165,-0.137583 q -0.783164,-0.148166 -1.185329,-0.507998 -0.402166,-0.370416 -0.402166,-0.93133 v -0.105833 q 0,-0.687915 0.560915,-1.100664 0.571499,-0.412748 1.513412,-0.412748 0.952497,0 1.513412,0.455082 0.560915,0.444498 0.560915,1.206496 v 0.116416 h -0.941914 v -0.116416 q 0,-0.391582 -0.296332,-0.592665 -0.296333,-0.201083 -0.878414,-0.201083 -0.518582,0 -0.814914,0.169333 -0.285749,0.15875 -0.285749,0.455082 v 0.08467 q 0,0.486832 0.83608,0.656165 l 0.783165,0.148166 q 0.793747,0.148166 1.206496,0.529165 0.412748,0.370416 0.412748,0.93133 v 0.116417 q 0,0.698498 -0.592664,1.12183 -0.582082,0.423332 -1.545162,0.423332 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path403" />
+      <path
+         d="m 30.23379,49.925643 h -1.725078 v 2.846907 q 0,0.666748 0.624415,0.666748 h 0.846664 v 0.867831 h -0.878414 q -0.751415,0 -1.15358,-0.380999 -0.391582,-0.391582 -0.391582,-1.12183 v -2.878657 h -1.386412 v -0.867831 h 1.121829 q 0.15875,0 0.22225,-0.0635 0.0635,-0.07408 0.0635,-0.222249 v -1.12183 h 0.93133 v 1.407579 h 1.725078 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path405" />
+      <path
+         d="m 32.064699,54.307129 h -0.952497 v -5.249317 h 0.952497 z m -0.476248,-6.053647 q -0.285749,0 -0.476249,-0.179917 -0.179916,-0.190499 -0.179916,-0.465665 0,-0.285749 0.179916,-0.465665 0.1905,-0.190499 0.476249,-0.190499 0.285749,0 0.465665,0.179916 0.190499,0.179916 0.190499,0.476248 0,0.275166 -0.190499,0.465665 -0.179916,0.179917 -0.465665,0.179917 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path407" />
+      <path
+         d="m 36.933012,49.925643 h -1.725077 v 2.846907 q 0,0.666748 0.624414,0.666748 h 0.846664 v 0.867831 h -0.878414 q -0.751414,0 -1.153579,-0.380999 -0.391582,-0.391582 -0.391582,-1.12183 v -2.878657 h -1.386413 v -0.867831 h 1.12183 q 0.15875,0 0.222249,-0.0635 0.0635,-0.07408 0.0635,-0.222249 v -1.12183 h 0.931331 v 1.407579 h 1.725077 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path409" />
+      <path
+         d="m 41.071077,49.057812 h 0.952497 v 5.249317 h -0.857247 l -0.04233,-0.476249 q -0.571499,0.603249 -1.481662,0.603249 -0.888997,0 -1.407579,-0.550332 -0.518582,-0.550332 -0.518582,-1.502829 v -3.323156 h 0.96308 v 3.249073 q 0,0.560915 0.306916,0.899581 0.306916,0.328082 0.836081,0.328082 0.412749,0 0.740831,-0.179916 0.328082,-0.190499 0.507998,-0.507998 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path411" />
+      <path
+         d="m 46.82839,49.925643 h -1.725077 v 2.846907 q 0,0.666748 0.624414,0.666748 h 0.846664 v 0.867831 h -0.878414 q -0.751414,0 -1.153579,-0.380999 -0.391582,-0.391582 -0.391582,-1.12183 v -2.878657 h -1.386413 v -0.867831 h 1.12183 q 0.15875,0 0.222249,-0.0635 0.0635,-0.07408 0.0635,-0.222249 v -1.12183 h 0.931331 v 1.407579 h 1.725077 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path413" />
+      <path
+         d="m 51.707281,52.031719 h -3.450156 v 0.254 q 0,0.592664 0.338666,0.93133 0.349249,0.328082 0.952497,0.328082 0.507998,0 0.846664,-0.253999 0.349249,-0.253999 0.359832,-0.624415 h 0.952497 q -0.04233,0.783165 -0.634998,1.28058 -0.592665,0.486832 -1.523995,0.486832 -1.015997,0 -1.629828,-0.571499 -0.613832,-0.582081 -0.613832,-1.545161 v -1.259413 q 0,-0.634998 0.275166,-1.111247 0.275166,-0.486831 0.783164,-0.751414 0.507999,-0.264582 1.164163,-0.264582 0.99483,0 1.587495,0.582081 0.592665,0.582082 0.592665,1.534579 z m -2.18016,-2.211909 q -0.582081,0 -0.93133,0.349249 -0.338666,0.338665 -0.338666,0.920747 v 0.148166 h 2.497659 v -0.148166 q 0,-0.582082 -0.338666,-0.920747 -0.328082,-0.349249 -0.888997,-0.349249 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path415" />
+      <path
+         d="m 57.919686,54.434129 q -1.005413,0 -1.608661,-0.582082 -0.603248,-0.582081 -0.603248,-1.545162 v -1.238246 q 0,-0.973663 0.603248,-1.555745 0.603248,-0.582081 1.608661,-0.582081 1.015997,0 1.619245,0.582081 0.613832,0.582082 0.613832,1.555745 v 1.238246 q 0,0.963081 -0.613832,1.545162 -0.603248,0.582082 -1.619245,0.582082 z m 0.01058,-0.899581 q 0.582081,0 0.920747,-0.338666 0.349249,-0.338665 0.349249,-0.910163 v -1.18533 q 0,-0.592665 -0.338666,-0.93133 -0.338665,-0.338666 -0.93133,-0.338666 -0.582082,0 -0.931331,0.338666 -0.338665,0.338665 -0.338665,0.93133 v 1.18533 q 0,0.582081 0.338665,0.920747 0.349249,0.328082 0.931331,0.328082 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path417" />
+      <path
+         d="m 64.565987,49.057812 v 0.867831 H 62.84091 v 4.381486 h -0.952497 v -4.381486 h -1.344079 v -0.867831 h 1.344079 v -0.634998 q 0,-0.719664 0.391582,-1.100663 0.391582,-0.380999 1.121829,-0.380999 h 0.793748 v 0.867831 h -0.730248 q -0.624414,0 -0.624414,0.666748 v 0.582081 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path419" />
+      <path
+         d="m 69.60364,47.364484 h 1.142996 l 2.233077,6.783895 v 0.15875 h -0.984247 l -0.507999,-1.619245 h -2.624658 l -0.507998,1.619245 h -0.984247 v -0.15875 z m 0.571498,1.142997 -1.02658,3.280823 h 2.05316 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path421" />
+      <path
+         d="m 75.032871,54.307129 h -0.984247 v -6.942645 h 0.984247 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path423" />
+      <path
+         d="m 82.86451,49.057812 v 0.867831 h -1.725077 v 4.381486 h -0.952497 v -4.381486 h -1.34408 v -0.867831 h 1.34408 v -0.634998 q 0,-0.719664 0.391582,-1.100663 0.391582,-0.380999 1.121829,-0.380999 h 0.793748 v 0.867831 h -0.730248 q -0.624414,0 -0.624414,0.666748 v 0.582081 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path425" />
+      <path
+         d="m 85.584413,54.434129 q -1.005414,0 -1.608662,-0.582082 -0.603248,-0.582081 -0.603248,-1.545162 v -1.238246 q 0,-0.973663 0.603248,-1.555745 0.603248,-0.582081 1.608662,-0.582081 1.015996,0 1.619245,0.582081 0.613831,0.582082 0.613831,1.555745 v 1.238246 q 0,0.963081 -0.613831,1.545162 -0.603249,0.582082 -1.619245,0.582082 z m 0.01058,-0.899581 q 0.582081,0 0.920747,-0.338666 0.349249,-0.338665 0.349249,-0.910163 v -1.18533 q 0,-0.592665 -0.338666,-0.93133 -0.338665,-0.338666 -0.93133,-0.338666 -0.582081,0 -0.93133,0.338666 Q 84.325,50.507724 84.325,51.100389 v 1.18533 q 0,0.582081 0.338666,0.920747 0.349249,0.328082 0.93133,0.328082 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path427" />
+      <path
+         d="m 91.987307,49.057812 v 0.867831 h -0.761998 q -0.391582,0 -0.698497,0.179916 -0.306916,0.169333 -0.486832,0.497415 v 3.704155 h -0.952497 v -5.249317 h 0.857247 l 0.03175,0.444499 q 0.518582,-0.444499 1.291163,-0.444499 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path429" />
+      <path
+         d="m 96.411139,54.307129 h -0.994831 v -6.942645 h 0.994831 v 3.026824 h 2.836324 v -3.026824 h 0.994827 v 6.942645 h -0.994827 v -3.01624 h -2.836324 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path431" />
+      <path
+         d="m 105.90436,52.031719 h -3.45016 v 0.254 q 0,0.592664 0.33867,0.93133 0.34925,0.328082 0.9525,0.328082 0.50799,0 0.84666,-0.253999 0.34925,-0.253999 0.35983,-0.624415 h 0.9525 q -0.0423,0.783165 -0.635,1.28058 -0.59266,0.486832 -1.52399,0.486832 -1.016,0 -1.62983,-0.571499 -0.61383,-0.582081 -0.61383,-1.545161 v -1.259413 q 0,-0.634998 0.27516,-1.111247 0.27517,-0.486831 0.78317,-0.751414 0.508,-0.264582 1.16416,-0.264582 0.99483,0 1.58749,0.582081 0.59267,0.582082 0.59267,1.534579 z M 103.7242,49.81981 q -0.58208,0 -0.93133,0.349249 -0.33867,0.338665 -0.33867,0.920747 v 0.148166 h 2.49766 v -0.148166 q 0,-0.582082 -0.33866,-0.920747 -0.32809,-0.349249 -0.889,-0.349249 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path433" />
+      <path
+         d="m 109.12169,48.930813 q 0.99483,0 1.53457,0.507998 0.55034,0.507998 0.55034,1.449912 v 3.418406 h -0.85725 l -0.0318,-0.412749 q -0.5715,0.539749 -1.54516,0.539749 -0.86783,0 -1.36525,-0.402166 -0.48683,-0.402165 -0.48683,-1.111246 0,-0.645582 0.42333,-1.015997 0.42333,-0.370416 1.30175,-0.486832 l 1.59808,-0.211666 V 50.87814 q 0,-0.507999 -0.29634,-0.772581 -0.28575,-0.275166 -0.84666,-0.275166 -0.56092,0 -0.86783,0.264583 -0.30692,0.253999 -0.30692,0.719664 v 0.07408 h -0.96308 v -0.07408 q 0,-0.857247 0.58208,-1.365246 0.58209,-0.518581 1.57692,-0.518581 z m -0.28575,4.677818 q 0.46566,0 0.83608,-0.201083 0.37041,-0.201082 0.5715,-0.550331 v -0.899581 l -1.43933,0.211666 q -0.93133,0.127 -0.93133,0.740831 0,0.328083 0.254,0.518582 0.26458,0.179916 0.70908,0.179916 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path435" />
+      <path
+         d="m 113.56667,54.307129 h -0.9525 v -7.365977 h 0.9525 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path437" />
+      <path
+         d="m 118.43499,49.925643 h -1.72508 v 2.846907 q 0,0.666748 0.62442,0.666748 h 0.84666 v 0.867831 h -0.87841 q -0.75142,0 -1.15358,-0.380999 -0.39159,-0.391582 -0.39159,-1.12183 V 49.925643 H 114.371 v -0.867831 h 1.12183 q 0.15875,0 0.22225,-0.0635 0.0635,-0.07408 0.0635,-0.222249 v -1.12183 h 0.93133 v 1.407579 h 1.72508 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path439" />
+      <path
+         d="m 121.64172,48.930813 q 0.889,0 1.40758,0.550331 0.51858,0.539749 0.51858,1.492246 v 3.333739 h -0.96308 v -3.259656 q 0,-0.560915 -0.3175,-0.888998 -0.30691,-0.328082 -0.82549,-0.328082 -0.41275,0 -0.74083,0.1905 -0.32809,0.179916 -0.508,0.497415 v 3.788821 h -0.9525 v -7.365977 h 0.9525 v 2.539992 q 0.27516,-0.264582 0.635,-0.402165 0.37041,-0.148166 0.79374,-0.148166 z"
+         style="font-family:'Helmholtz Halvar Mittelschrift';-inkscape-font-specification:'Helmholtz Halvar Mittelschrift'"
+         id="path441" />
+    </g>
   </g>
 </svg>

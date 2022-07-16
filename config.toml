@@ -1,4 +1,4 @@
-baseURL       = "http://aidos.ml/"
+baseURL       = "http://aidos.group/"
 languageCode  = "en-gb"
 title         = "AIDOS Lab"
 theme         = "solum"

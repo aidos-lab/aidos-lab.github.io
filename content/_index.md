@@ -39,16 +39,11 @@ learning.
 
 # Members and Collaborators
 
-| {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" >}}   | {{< figure src="jw.jpg" width="128" class="person" alt="Jeremy Wayland" >}}                 |
+| | |
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
-| [Bastian Rieck](https://bastian.rieck.me)                                  | [Julius von Rohrscheidt](https://rohrscheidt.com/)                                     | Jeremy Wayland                                                                              |
-|  Principal Investigator                                                    | Ph.D. Student                                                                          | Ph.D. Student (incoming)                                                                    |
-| {{< figure src="er.jpg" width="128" class="person" alt="Ernst Roell" >}}   |                                                                                        |                                                                                             |
-| [Ernst Roell](https://ernstroell.github.io)                                |                                                                                        |                                                                                             |
-| Ph.D. Student (incoming)                                                   |                                                                                        |                                                                                             |
-| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" >}}  | {{< figure src="kvn.png" width="128" class="person" alt="Kalyan Varma Nadimpalli" >}}  | {{< figure src="fh.jpg" width="128" class="person" alt="Ferdinand Hölzl" >}}                |
-| Adrien Aumon                                                               | Kalyan Varma Nadimpalli                                                                | Ferdinand Hölzl                                                                             |
-| Visiting Researcher                                                        | M.Sc. Student                                                                          | Intern                                                                                      |
+| {{< figure src="br.jpg" width="128" class="person" alt="Bastian Rieck" caption="[Bastian Rieck](https://bastian.rieck.me)</a><br />Principal Investigator" >}} | {{< figure src="jvr.jpg" width="128" class="person" alt="Julius von Rohrscheidt" caption="[Julius von Rohrscheidt](https://rohrscheidt.com/)<br />Ph.D. Student" >}}   | {{< figure src="jw.jpg" width="128" class="person" alt="Jeremy Wayland" caption="Jeremy Wayland<br />Ph.D. Student" >}}                 |
+| {{< figure src="er.jpg" width="128" class="person" alt="Ernst Roell" caption="[Ernst Roell](https://ernstroell.github.io)<br />Ph.D. Student" >}}  | {{< figure src="kl.jpg" width="128" class="person" alt="Katharina Limbeck" caption="[Katharina Limbeck](https://www.linkedin.com/in/katharina-limbeck)<br />Ph.D. Student" >}} | |
+| {{< figure src="aa.jpg" width="128" class="person" alt="Adrien Aumon" caption="Adrien Aumon<br />Visiting Researcher" >}}  | {{< figure src="kvn.png" width="128" class="person" alt="Kalyan Varma Nadimpalli" caption="Kalyan Varma Nadimpalli<br />M.Sc. Student" >}}  | {{< figure src="fh.jpg" width="128" class="person" alt="Ferdinand Hölzl" caption="Ferdinand Hölzl<br />Intern" >}}                |
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

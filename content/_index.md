@@ -103,3 +103,9 @@ stays that may result in long-term collaborations.
 does not permit paid internships.** There are funding opportunities for
 such internships available; check out [RISE](https://www.daad.de/rise/en/rise-germany/find-an-internship/)
 or [DAAD Scholarships](https://www.daad.de/en/study-and-research-in-germany/scholarships/) in general.
+
+# How to find us
+
+We are located at the Neuherberg Campus of [Helmholtz Munich](https://www.helmholtz-munich.de/). Here is a map of the campus&nbsp;(click for larger version):
+
+{{< figure src="how_to_find_us.png" link="how_to_find_us.png" width="100%" alt="Map of how to find the lab" caption="A map of the campus. We are located in the highlighted building, i.e. building 58a. The campus is best reached by taking [metro U2](https://wikiroutes.info/en/munchen?routes=63883) from Munich main station until *Am Hart*, then switching to [bus 294](https://www.mvv-muenchen.de/fileadmin/mediapool/03-Plaene_Bahnhoefe/Minifahrplaene/Regionalbus_294.pdf) until *Helmholtz-Zentrum*." >}}

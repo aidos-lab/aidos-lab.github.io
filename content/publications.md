@@ -1,16 +1,16 @@
 ## Preprints
 
+- F. Graf, S. Zeng, B. Rieck, M. Niethammer, and R. Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Preprint, 2022<br />
+        <small>[\[BibTeX\]](Graf22a.bib)</small>
 - R. Liu<sup>&dagger;</sup>, S. Cantürk<sup>&dagger;</sup>, F. Wenkel, D. Sandfelder, D. Kreuzer, A. Little, S. McGuire, L. O'Bray, M. Perlmutter, B. Rieck, M. Hirn, G. Wolf, and L. Rampášek: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Preprint, 2022<br />
         <small>[\[BibTeX\]](Liu22a.bib)</small>
 - C. Coupette, J. Vreeken, and B. Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />
         <small>[\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette22a.bib)</small>
-- C. Hacker and B. Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Preprint, 2022<br />
-        <small>[\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
 - D. Bhaskar<sup>&dagger;</sup>, K. MacDonald<sup>&dagger;</sup>, O. Fasina, D. Thomas, B. Rieck, I. Adelstein<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Preprint, 2022<br />
         <small>[\[BibTeX\]](Bhaskar22a.bib)</small>
 - C. Weis<sup>&dagger;</sup>, B. Rieck<sup>&dagger;</sup>, S. Balzer<sup>&dagger;</sup>, A. Cuénod, A. Egli, and K. Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[BibTeX\]](Weis22b.bib)</small>
-- G. Huguet<sup>&dagger;</sup>, A. Tong<sup>&dagger;</sup>, B. Rieck<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, M. Kuchroo, M. Hirn<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://dx.doi.org/10.48550/ARXIV.2203.14860), Preprint, 2022<br />
+- G. Huguet<sup>&dagger;</sup>, A. Tong<sup>&dagger;</sup>, B. Rieck<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, M. Kuchroo, M. Hirn<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://arxiv.org/abs/2203.14860), Preprint, 2022<br />
         <small>[\[BibTeX\]](Huguet22a.bib)</small>
 - C. Morris, Y. Lipman, H. Maron, B. Rieck, N.&thinsp;M. Kriege, M. Grohe, M. Fey, and K. Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Preprint, 2021<br />
         <small>[\[BibTeX\]](Morris21a.bib)</small>
@@ -32,6 +32,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2022
 
+- C. Hacker and B. Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), 'Topology, Algebra, and Geometry in Machine Learning' Workshop at ICLR, 2022<br />
+        <small>[\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
 - K. MacDonald, J. Paige, D. Thomas, S. Zhao, K. You, I.&thinsp;M. Adelstein, Y. Aizenbud, B. Rieck, D. Bhaskar, and S. Krishnaswamy: [*Diffusion-Based Methods for Estimating Curvature in Data*](https://openreview.net/forum?id=HtLfgBbyagq), 'Geometrical and Topological Representation Learning' Workshop at ICLR, 2022<br />
         <small>[\[BibTeX\]](MacDonald22a.bib)</small>
 - D.&thinsp;J. Waibel, S. Atwell, M. Meier, C. Marr, and B. Rieck: [*Capturing Shape Information With Multi-Scale Topological Loss Terms for 3D Reconstruction*](https://arxiv.org/abs/2203.01703), Medical Image Computing and Computer Assisted Intervention&nbsp;(MICCAI), 2022<br />

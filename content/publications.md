@@ -1,5 +1,7 @@
 ## Preprints
 
+- D.&thinsp;J. Waibel, E. Röell, B. Rieck, R. Giryes<sup>&Dagger;</sup>, and C. Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), Preprint, 2022<br />
+        <small>[\[BibTeX\]](Waibel22b.bib)</small>
 - F. Graf, S. Zeng, B. Rieck, M. Niethammer, and R. Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Preprint, 2022<br />
         <small>[\[BibTeX\]](Graf22a.bib)</small>
 - R. Liu<sup>&dagger;</sup>, S. Cantürk<sup>&dagger;</sup>, F. Wenkel, D. Sandfelder, D. Kreuzer, A. Little, S. McGuire, L. O'Bray, M. Perlmutter, B. Rieck, M. Hirn, G. Wolf, and L. Rampášek: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Preprint, 2022<br />

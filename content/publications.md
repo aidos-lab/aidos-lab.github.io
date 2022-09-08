@@ -1,6 +1,6 @@
 ## Preprints
 
-- D.&thinsp;J. Waibel, E. Röell, B. Rieck, R. Giryes<sup>&Dagger;</sup>, and C. Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), Preprint, 2022<br />
+- D.&thinsp;J. Waibel, E. Röell, B. Rieck<sup>&Dagger;</sup>, R. Giryes<sup>&Dagger;</sup>, and C. Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), Preprint, 2022<br />
         <small>[\[BibTeX\]](Waibel22b.bib)</small>
 - F. Graf, S. Zeng, B. Rieck, M. Niethammer, and R. Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Preprint, 2022<br />
         <small>[\[BibTeX\]](Graf22a.bib)</small>

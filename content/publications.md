@@ -1,15 +1,13 @@
 ## Preprints
 
+- J. von Rohrscheidt and B. Rieck: [*TOAST: Topological Algorithm for Singularity Tracking*](https://arxiv.org/abs/2210.00069), Preprint, 2022<br />
+        <small>[\[GitHub\]](https://github.com/aidos-lab/TOAST) &bull; [\[BibTeX\]](vonRohrscheidt22a.bib)</small>
 - D.&thinsp;J. Waibel, E. Röell, B. Rieck<sup>&Dagger;</sup>, R. Giryes<sup>&Dagger;</sup>, and C. Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), Preprint, 2022<br />
         <small>[\[BibTeX\]](Waibel22b.bib)</small>
-- F. Graf, S. Zeng, B. Rieck, M. Niethammer, and R. Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Preprint, 2022<br />
-        <small>[\[BibTeX\]](Graf22a.bib)</small>
 - R. Liu<sup>&dagger;</sup>, S. Cantürk<sup>&dagger;</sup>, F. Wenkel, D. Sandfelder, D. Kreuzer, A. Little, S. McGuire, L. O'Bray, M. Perlmutter, B. Rieck, M. Hirn, G. Wolf, and L. Rampášek: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Preprint, 2022<br />
         <small>[\[BibTeX\]](Liu22a.bib)</small>
 - C. Coupette, J. Vreeken, and B. Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />
         <small>[\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette22a.bib)</small>
-- D. Bhaskar<sup>&dagger;</sup>, K. MacDonald<sup>&dagger;</sup>, O. Fasina, D. Thomas, B. Rieck, I. Adelstein<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Preprint, 2022<br />
-        <small>[\[BibTeX\]](Bhaskar22a.bib)</small>
 - C. Weis<sup>&dagger;</sup>, B. Rieck<sup>&dagger;</sup>, S. Balzer<sup>&dagger;</sup>, A. Cuénod, A. Egli, and K. Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[BibTeX\]](Weis22b.bib)</small>
 - G. Huguet<sup>&dagger;</sup>, A. Tong<sup>&dagger;</sup>, B. Rieck<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, M. Kuchroo, M. Hirn<sup>&Dagger;</sup>, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://arxiv.org/abs/2203.14860), Preprint, 2022<br />
@@ -34,18 +32,22 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2022
 
+- F. Graf, S. Zeng, B. Rieck, M. Niethammer, and R. Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Advances in Neural Information Processing Systems, Volume 35, 2022 (in press)<br />
+        <small>[\[BibTeX\]](Graf22a.bib)</small>
 - C. Hacker and B. Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), 'Topology, Algebra, and Geometry in Machine Learning' Workshop at ICLR, 2022<br />
         <small>[\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
+- D. Bhaskar<sup>&dagger;</sup>, K. MacDonald<sup>&dagger;</sup>, O. Fasina, D. Thomas, B. Rieck, I. Adelstein<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Advances in Neural Information Processing System&nbsp;(NeurIPS), Volume 35, 2022 (in press)<br />
+        <small>[\[BibTeX\]](Bhaskar22a.bib)</small>
 - K. MacDonald, J. Paige, D. Thomas, S. Zhao, K. You, I.&thinsp;M. Adelstein, Y. Aizenbud, B. Rieck, D. Bhaskar, and S. Krishnaswamy: [*Diffusion-Based Methods for Estimating Curvature in Data*](https://openreview.net/forum?id=HtLfgBbyagq), 'Geometrical and Topological Representation Learning' Workshop at ICLR, 2022<br />
         <small>[\[BibTeX\]](MacDonald22a.bib)</small>
-- D.&thinsp;J. Waibel, S. Atwell, M. Meier, C. Marr, and B. Rieck: [*Capturing Shape Information With Multi-Scale Topological Loss Terms for 3D Reconstruction*](https://arxiv.org/abs/2203.01703), Medical Image Computing and Computer Assisted Intervention&nbsp;(MICCAI), 2022<br />
+- D.&thinsp;J. Waibel, S. Atwell, M. Meier, C. Marr, and B. Rieck: [*Capturing Shape Information With Multi-Scale Topological Loss Terms for 3D Reconstruction*](https://dx.doi.org/10.1007/978-3-031-16440-8_15), Medical Image Computing and Computer Assisted Intervention&nbsp;(MICCAI), pp. 150--159, 2022<br />
         <small>[\[GitHub\]](https://github.com/marrlab/SHAPR_torch) &bull; [\[BibTeX\]](Waibel22a.bib)</small>
 - L. O'Bray<sup>&dagger;</sup>, M. Horn<sup>&dagger;</sup>, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions*](https://arxiv.org/abs/2106.01098), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/ggme) &bull; [\[BibTeX\]](OBray22a.bib)</small><br />
         <small>Accepted as a spotlight presentation&nbsp;(top 5% of all submissions)</small>
 - M. Horn<sup>&dagger;</sup>, E. De Brouwer<sup>&dagger;</sup>, M. Moor, Y. Moreau, B. Rieck<sup>&Dagger;</sup>, and K. Borgwardt<sup>&Dagger;</sup>: [*Topological Graph Neural Networks*](https://arxiv.org/abs/2102.07835), International Conference on Learning Representations&nbsp;(ICLR), 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/TOGL) &bull; [\[BibTeX\]](Horn22a.bib)</small>
-- S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis*](https://arxiv.org/abs/2102.00485), Advances in Intelligent Data Analysis XX, pp. 171--184, 2022<br />
+- S. Horoi<sup>&dagger;</sup>, J. Huang<sup>&dagger;</sup>, B. Rieck, G. Lajoie, G. Wolf<sup>&Dagger;</sup>, and S. Krishnaswamy<sup>&Dagger;</sup>: [*Exploring the Geometry and Topology of Neural Network Loss Landscapes*](https://arxiv.org/abs/2102.00485), Advances in Intelligent Data Analysis XX, pp. 171--184, 2022<br />
         <small>[\[BibTeX\]](Horoi22a.bib)</small>
 - C. Weis, A. Cuénod, B. Rieck, O. Dubuis, S. Graf, C. Lang, M. Oberle, M. Brackmann, K.&thinsp;K. Søgaard, M. Osthoff, K. Borgwardt<sup>&Dagger;</sup>, and A. Egli<sup>&Dagger;</sup>: [*Direct Antimicrobial Resistance Prediction From Clinical MALDI-TOF Mass Spectra Using Machine Learning*](https://dx.doi.org/10.1038/s41591-021-01619-9), Nature Medicine, Volume 28, Number 1, pp. 164--174, 2022<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/maldi_amr) &bull; [\[BibTeX\]](Weis22a.bib)</small>

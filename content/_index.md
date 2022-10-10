@@ -52,6 +52,10 @@ learning.
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.
 
+## Alumni & Alumnae
+
+- Ferdinand Hölzl (now a master's student at University of Hamburg)
+
 # Publications
 
 Here are all publications of lab members, sorted by year. Publications

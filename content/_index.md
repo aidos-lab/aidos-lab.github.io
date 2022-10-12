@@ -90,7 +90,18 @@ student collaborators](https://bastian.rieck.me/collaborations).
 
 If you are interested in writing your thesis with us, please send
 your CV, your transcript of records, and a brief cover letter stating
-your research interests to bastian.rieck@helmholtz-muenchen.de.
+your research interests to bastian.rieck@helmholtz-muenchen.de. Your
+cover letter should provide answers to the following questions:
+
+1. Are there any research papers of the group that pique your interest
+   specifically? (You do not have to be an expert in the topic yet, of
+   course!)
+
+2. Are you more comfortable working *empirically*, i.e. lots of
+   implementations, experiments, and so on, or working *theoretically*,
+   i.e. lots of proofs, derivations, and more?
+
+3. When would you be available for working on the thesis?
 
 ## Ph.D. positions
 

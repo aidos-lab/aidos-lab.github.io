@@ -1,5 +1,7 @@
 ## Preprints
 
+- C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://arxiv.org/abs/2210.12048), Preprint, 2022<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette22b.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*TOAST: Topological Algorithm for Singularity Tracking*](https://arxiv.org/abs/2210.00069), Preprint, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TOAST) &bull; [\[BibTeX\]](vonRohrscheidt22a.bib)</small>
 - D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), Preprint, 2022<br />
@@ -32,6 +34,10 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2022
 
+- D.&nbsp;Thomas, S.&nbsp;Demers, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: *Topological Jet Tagging*, 'Machine Learning and the Physical Sciences' Workshop at NeurIPS, 2022<br />
+        <small>[\[BibTeX\]](Thomas22a.bib)</small>
+- J.&nbsp;Dyer, J.&nbsp;Fitzgerald, B.&nbsp;Rieck, and S.&thinsp;M.&nbsp;Schmon: [*Approximate Bayesian Computation for Panel Data With Signature Maximum Mean Discrepancies*](https://openreview.net/pdf?id=Bol45H5FAc), 'Temporal Graph Learning' Workshop at NeurIPS, 2022<br />
+        <small>[\[BibTeX\]](Dyer22a.bib)</small>
 - F.&nbsp;Graf, S.&nbsp;Zeng, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Advances in Neural Information Processing Systems, Volume 35, 2022 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2202.08070) &bull; [\[BibTeX\]](Graf22a.bib)</small>
 - C.&nbsp;Hacker and B.&nbsp;Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), 'Topology, Algebra, and Geometry in Machine Learning' Workshop at ICLR, 2022<br />

@@ -40,7 +40,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[BibTeX\]](Dyer22a.bib)</small>
 - F.&nbsp;Graf, S.&nbsp;Zeng, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Advances in Neural Information Processing Systems, Volume 35, 2022 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2202.08070) &bull; [\[BibTeX\]](Graf22a.bib)</small>
-- C.&nbsp;Hacker and B.&nbsp;Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), 'Topology, Algebra, and Geometry in Machine Learning' Workshop at ICLR, 2022<br />
+- C.&nbsp;Hacker and B.&nbsp;Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Proceedings of Topological, Algebraic, and Geometric Learning Workshops 2022, Number 196, pp. 142--151, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08252) &bull; [\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
 - D.&nbsp;Bhaskar<sup>&dagger;</sup>, K.&nbsp;MacDonald<sup>&dagger;</sup>, O.&nbsp;Fasina, D.&nbsp;Thomas, B.&nbsp;Rieck, I.&nbsp;Adelstein<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Advances in Neural Information Processing System&nbsp;(NeurIPS), Volume 35, 2022 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.03977) &bull; [\[BibTeX\]](Bhaskar22a.bib)</small>

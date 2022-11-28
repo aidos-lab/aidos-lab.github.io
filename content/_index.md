@@ -47,7 +47,7 @@ learning.
 
 | | |
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
-| {{< figure src="aa.jpg" width="180" class="person" alt="Adrien Aumon" caption="Adrien Aumon<br />Visiting Researcher" >}} | {{< figure src="db.jpg" width="180" class="person" alt="Davide Buffelli" caption="[Davide Buffelli](https://davidebuffelli.github.io/)<br />Visiting Researcher" >}} | {{< figure src="ch.jpg" width="180" class="person" alt="Celia Hacker" caption="[Celia Hacker](https://www.epfl.ch/labs/hessbellwald-lab/members/celia-hacker)<br />Collaborator" >}}  |  |
+| {{< figure src="aa.jpg" width="180" class="person" alt="Adrien Aumon" caption="Adrien Aumon<br />Visiting Researcher" >}} | {{< figure src="db.jpg" width="180" class="person" alt="Davide Buffelli" caption="[Davide Buffelli](https://davidebuffelli.github.io/)<br />Visiting Researcher" >}} | {{< figure src="fc.jpg" width="180" class="person" alt="Francesco Conti" caption="Francesco Conti<br />Visiting Researcher" >}} | 
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

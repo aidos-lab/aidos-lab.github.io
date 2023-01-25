@@ -54,6 +54,7 @@ below.
 
 ## Alumni & Alumnae
 
+- [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
 
 # Publications

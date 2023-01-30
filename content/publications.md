@@ -1,19 +1,11 @@
 ## Preprints
 
-- C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://arxiv.org/abs/2210.12048), Preprint, 2022<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette22b.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*TOAST: Topological Algorithm for Singularity Tracking*](https://arxiv.org/abs/2210.00069), Preprint, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TOAST) &bull; [\[BibTeX\]](vonRohrscheidt22a.bib)</small>
-- D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), Preprint, 2022<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel22b.bib)</small>
-- R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cantürk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter, B.&nbsp;Rieck, M.&nbsp;Hirn, G.&nbsp;Wolf, and L.&nbsp;Rampášek: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Preprint, 2022<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2206.07729) &bull; [\[BibTeX\]](Liu22a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette22a.bib)</small>
 - C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2022.04.13.488198v1) &bull; [\[BibTeX\]](Weis22b.bib)</small>
-- G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://arxiv.org/abs/2203.14860), Preprint, 2022<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2203.14860) &bull; [\[BibTeX\]](Huguet22a.bib)</small>
 - C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&thinsp;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2112.09992) &bull; [\[BibTeX\]](Morris21a.bib)</small>
 - M.&thinsp;F.&nbsp;Adamer, L.&nbsp;O'Bray, E.&nbsp;De Brouwer, B.&nbsp;Rieck<sup>&Dagger;</sup>, and K.&nbsp;Borgwardt<sup>&Dagger;</sup>: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
@@ -32,14 +24,25 @@
 presentation at the ICML Workshop on the Art of
 Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
+## 2023
+
+- C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://arxiv.org/abs/2210.12048), International Conference on Learning Representations&nbsp;(ICLR), 2023 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
+- D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel23a.bib)</small>
+- G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://arxiv.org/abs/2203.14860), SIAM Journal on Mathematics of Data Science, 2023 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2203.14860) &bull; [\[BibTeX\]](Huguet23a.bib)</small>
+
 ## 2022
 
-- D.&nbsp;Thomas, S.&nbsp;Demers, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: *Topological Jet Tagging*, 'Machine Learning and the Physical Sciences' Workshop at NeurIPS, 2022<br />
+- D.&nbsp;Thomas, S.&nbsp;Demers, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topological Jet Tagging*](https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_176.pdf), 'Machine Learning and the Physical Sciences' Workshop at NeurIPS, 2022<br />
         <small>[\[BibTeX\]](Thomas22a.bib)</small>
 - J.&nbsp;Dyer, J.&nbsp;Fitzgerald, B.&nbsp;Rieck, and S.&thinsp;M.&nbsp;Schmon: [*Approximate Bayesian Computation for Panel Data With Signature Maximum Mean Discrepancies*](https://openreview.net/pdf?id=Bol45H5FAc), 'Temporal Graph Learning' Workshop at NeurIPS, 2022<br />
         <small>[\[BibTeX\]](Dyer22a.bib)</small>
 - F.&nbsp;Graf, S.&nbsp;Zeng, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Advances in Neural Information Processing Systems, Volume 35, 2022 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2202.08070) &bull; [\[BibTeX\]](Graf22a.bib)</small>
+- R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cantürk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Rampášek<sup>&dagger;</sup><sup>&Dagger;</sup>: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Proceedings of the First Learning on Graphs Conference, Number 198, 2022 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2206.07729) &bull; [\[BibTeX\]](Liu22a.bib)</small>
 - C.&nbsp;Hacker and B.&nbsp;Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Proceedings of Topological, Algebraic, and Geometric Learning Workshops 2022, Number 196, pp. 142--151, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08252) &bull; [\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
 - D.&nbsp;Bhaskar<sup>&dagger;</sup>, K.&nbsp;MacDonald<sup>&dagger;</sup>, O.&nbsp;Fasina, D.&nbsp;Thomas, B.&nbsp;Rieck, I.&nbsp;Adelstein<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Advances in Neural Information Processing System&nbsp;(NeurIPS), Volume 35, 2022 (in press)<br />

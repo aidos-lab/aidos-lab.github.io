@@ -1,5 +1,7 @@
 ## Preprints
 
+- J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern22a.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*TOAST: Topological Algorithm for Singularity Tracking*](https://arxiv.org/abs/2210.00069), Preprint, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TOAST) &bull; [\[BibTeX\]](vonRohrscheidt22a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />

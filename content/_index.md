@@ -49,7 +49,7 @@ learning.
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
 | {{< figure src="aa.jpg" width="180" class="person" alt="Adrien Aumon" caption="Adrien Aumon<br />Visiting Researcher" >}} | {{< figure src="db.jpg" width="180" class="person" alt="Davide Buffelli" caption="[Davide Buffelli](https://davidebuffelli.github.io/)<br />Visiting Researcher" >}} | {{< figure src="fc.jpg" width="180" class="person" alt="Francesco Conti" caption="Francesco Conti<br />Visiting Researcher" >}} | 
 | | |
-| {{< figure src="cc.jpg" width="180" class="person" alt="Corinna Coupette" caption="[Corinna Coupette](https://people.mpi-inf.mpg.de/~coupette)<br />Collaborator" >}} | {{< figure src="sd.jpg" width="180" class="person" alt="Sebastian Dalleiger" caption="[Sebastian Dalleiger](https://www.linkedin.com/in/sebastian-dalleiger-3962b024a/)<br />Collaborator" >}} | | 
+| {{< figure src="cc.jpg" width="180" class="person" alt="Corinna Coupette" caption="[Corinna Coupette](https://people.mpi-inf.mpg.de/~coupette)<br />Collaborator" >}} | {{< figure src="sd.jpg" width="180" class="person" alt="Sebastian Dalleiger" caption="[Sebastian Dalleiger](https://sdall.github.io/)<br />Collaborator" >}} | | 
 
 Your name is missing here! Learn more about [joining us]({{< relref "#join-us" >}})
 below.

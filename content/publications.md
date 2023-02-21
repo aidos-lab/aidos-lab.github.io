@@ -1,7 +1,9 @@
 ## Preprints
 
+- B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Rieck23a.bib)</small>
 - J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern22a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern23a.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*TOAST: Topological Algorithm for Singularity Tracking*](https://arxiv.org/abs/2210.00069), Preprint, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TOAST) &bull; [\[BibTeX\]](vonRohrscheidt22a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://hyperbard.net), Preprint, 2022<br />
@@ -41,13 +43,13 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[BibTeX\]](Thomas22a.bib)</small>
 - J.&nbsp;Dyer, J.&nbsp;Fitzgerald, B.&nbsp;Rieck, and S.&thinsp;M.&nbsp;Schmon: [*Approximate Bayesian Computation for Panel Data With Signature Maximum Mean Discrepancies*](https://openreview.net/pdf?id=Bol45H5FAc), 'Temporal Graph Learning' Workshop at NeurIPS, 2022<br />
         <small>[\[BibTeX\]](Dyer22a.bib)</small>
-- F.&nbsp;Graf, S.&nbsp;Zeng, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://arxiv.org/abs/2202.08070), Advances in Neural Information Processing Systems, Volume 35, 2022 (in press)<br />
+- F.&nbsp;Graf, S.&nbsp;Zeng, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://openreview.net/forum?id=l2CVt1ySC2Q), Advances in Neural Information Processing Systems&nbsp;(NeurIPS), 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2202.08070) &bull; [\[BibTeX\]](Graf22a.bib)</small>
-- R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cantürk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Rampášek<sup>&dagger;</sup><sup>&Dagger;</sup>: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://arxiv.org/abs/2206.07729), Proceedings of the First Learning on Graphs Conference, Number 198, 2022 (in press)<br />
+- R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cantürk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Rampášek<sup>&dagger;</sup><sup>&Dagger;</sup>: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://proceedings.mlr.press/v198/liu22a.html), Proceedings of the First Learning on Graphs Conference, Number 198, pp. 6:1--6:25, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.07729) &bull; [\[BibTeX\]](Liu22a.bib)</small>
 - C.&nbsp;Hacker and B.&nbsp;Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Proceedings of Topological, Algebraic, and Geometric Learning Workshops 2022, Number 196, pp. 142--151, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08252) &bull; [\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
-- D.&nbsp;Bhaskar<sup>&dagger;</sup>, K.&nbsp;MacDonald<sup>&dagger;</sup>, O.&nbsp;Fasina, D.&nbsp;Thomas, B.&nbsp;Rieck, I.&nbsp;Adelstein<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://arxiv.org/abs/2206.03977), Advances in Neural Information Processing System&nbsp;(NeurIPS), Volume 35, 2022 (in press)<br />
+- D.&nbsp;Bhaskar<sup>&dagger;</sup>, K.&nbsp;MacDonald<sup>&dagger;</sup>, O.&nbsp;Fasina, D.&nbsp;Thomas, B.&nbsp;Rieck, I.&nbsp;Adelstein<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://openreview.net/forum?id=AYII8AkvD1e), Advances in Neural Information Processing System&nbsp;(NeurIPS), 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.03977) &bull; [\[BibTeX\]](Bhaskar22a.bib)</small>
 - K.&nbsp;MacDonald, J.&nbsp;Paige, D.&nbsp;Thomas, S.&nbsp;Zhao, K.&nbsp;You, I.&thinsp;M.&nbsp;Adelstein, Y.&nbsp;Aizenbud, B.&nbsp;Rieck, D.&nbsp;Bhaskar, and S.&nbsp;Krishnaswamy: [*Diffusion-Based Methods for Estimating Curvature in Data*](https://openreview.net/forum?id=HtLfgBbyagq), 'Geometrical and Topological Representation Learning' Workshop at ICLR, 2022<br />
         <small>[\[BibTeX\]](MacDonald22a.bib)</small>

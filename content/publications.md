@@ -1,5 +1,7 @@
 ## Preprints
 
+- K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
 - B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Rieck23a.bib)</small>
 - J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Preprint, 2023<br />

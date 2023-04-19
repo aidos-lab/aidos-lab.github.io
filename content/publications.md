@@ -32,6 +32,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
+- D.&nbsp;Yoneoka and B.&nbsp;Rieck: [*A Note on Cherry-Picking in Meta-Analysis*](https://dx.doi.org/10.3390/e25040691), Entropy, Volume 25, Number 4, 2023<br />
+        <small>[\[BibTeX\]](Yoneoka23a.bib)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://arxiv.org/abs/2210.12048), International Conference on Learning Representations&nbsp;(ICLR), 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
 - D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023 (in press)<br />

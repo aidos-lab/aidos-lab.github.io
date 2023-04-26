@@ -1,5 +1,7 @@
 ## Preprints
 
+- B.&nbsp;Giunti, J.&nbsp;Lazovskis, and B.&nbsp;Rieck: [*DONUT -- Creation, Development, and Opportunities of a Database*](https://arxiv.org/abs/2304.12417), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
 - K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
 - B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
@@ -50,7 +52,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 - F.&nbsp;Graf, S.&nbsp;Zeng, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt: [*On Measuring Excess Capacity in Neural Networks*](https://openreview.net/forum?id=l2CVt1ySC2Q), Advances in Neural Information Processing Systems&nbsp;(NeurIPS), 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2202.08070) &bull; [\[BibTeX\]](Graf22a.bib)</small>
 - R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cantürk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Rampášek<sup>&dagger;</sup><sup>&Dagger;</sup>: [*Taxonomy of Benchmarks in Graph Representation Learning*](https://proceedings.mlr.press/v198/liu22a.html), Proceedings of the First Learning on Graphs Conference, Number 198, pp. 6:1--6:25, 2022<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2206.07729) &bull; [\[BibTeX\]](Liu22a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2206.07729) &bull; [\[BibTeX\]](Liu22a.bib)</small><br />
+        <small>Accepted as an oral presentation at LoG&nbsp;(top 5% of all submissions)</small>
 - C.&nbsp;Hacker and B.&nbsp;Rieck: [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252), Proceedings of Topological, Algebraic, and Geometric Learning Workshops 2022, Number 196, pp. 142--151, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08252) &bull; [\[GitHub\]](https://github.com/aidos-lab/node2vec-surprises) &bull; [\[BibTeX\]](Hacker22a.bib)</small>
 - D.&nbsp;Bhaskar<sup>&dagger;</sup>, K.&nbsp;MacDonald<sup>&dagger;</sup>, O.&nbsp;Fasina, D.&nbsp;Thomas, B.&nbsp;Rieck, I.&nbsp;Adelstein<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Diffusion Curvature for Estimating Local Curvature in High Dimensional Data*](https://openreview.net/forum?id=AYII8AkvD1e), Advances in Neural Information Processing System&nbsp;(NeurIPS), 2022<br />

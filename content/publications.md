@@ -34,7 +34,9 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
-- D.&nbsp;Yoneoka and B.&nbsp;Rieck: [*A Note on Cherry-Picking in Meta-Analysis*](https://dx.doi.org/10.3390/e25040691), Entropy, Volume 25, Number 4, 2023<br />
+- J.&thinsp;L.&nbsp;Moore<sup>&dagger;</sup>, D.&nbsp;Bhaskar<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, R.&nbsp;Norris, N.&thinsp;C.&nbsp;Sanz, K.&nbsp;Annusver, M.&nbsp;Kasper, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>: [*Cell Cycle Controls Long-Range Calcium Signaling in the Regenerating Epidermis*](https://dx.doi.org/10.1083/jcb.202302095), Journal of Cell Biology, Volume 222, Number 7, pp. e202302095, 2023<br />
+        <small>[\[BibTeX\]](Moore23a.bib)</small>
+- D.&nbsp;Yoneoka and B.&nbsp;Rieck: [*A Note on Cherry-Picking in Meta-Analyses*](https://dx.doi.org/10.3390/e25040691), Entropy, Volume 25, Number 4, 2023<br />
         <small>[\[BibTeX\]](Yoneoka23a.bib)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://arxiv.org/abs/2210.12048), International Conference on Learning Representations&nbsp;(ICLR), 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>

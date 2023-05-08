@@ -34,6 +34,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
+- M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Song, E.&nbsp;Calapkulu, L.&nbsp;Zhang, M.&nbsp;Ige, A.&thinsp;H.&nbsp;Sheth, A.&nbsp;Majdoubi, M.&nbsp;Menon, A.&nbsp;Tong, A.&nbsp;Godavarthi, Y.&nbsp;Xing, S.&nbsp;Gigante, H.&nbsp;Steach, J.&nbsp;Huang, G.&nbsp;Huguet, J.&nbsp;Narain, K.&nbsp;You, G.&nbsp;Mourgkos, R.&thinsp;M.&nbsp;Dhodapkar, M.&thinsp;J.&nbsp;Hirn, B.&nbsp;Rieck, G.&nbsp;Wolf, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&thinsp;P.&nbsp;Hafler<sup>&Dagger;</sup>: [*Single-Cell Analysis Reveals Inflammatory Interactions Driving Macular Degeneration*](https://dx.doi.org/10.1038/s41467-023-37025-7), Nature Communications, Volume 14, Number 1, pp. 2589, 2023<br />
+        <small>[\[BibTeX\]](Kuchroo23a.bib)</small>
 - J.&thinsp;L.&nbsp;Moore<sup>&dagger;</sup>, D.&nbsp;Bhaskar<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, R.&nbsp;Norris, N.&thinsp;C.&nbsp;Sanz, K.&nbsp;Annusver, M.&nbsp;Kasper, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>: [*Cell Cycle Controls Long-Range Calcium Signaling in the Regenerating Epidermis*](https://dx.doi.org/10.1083/jcb.202302095), Journal of Cell Biology, Volume 222, Number 7, pp. e202302095, 2023<br />
         <small>[\[BibTeX\]](Moore23a.bib)</small>
 - D.&nbsp;Yoneoka and B.&nbsp;Rieck: [*A Note on Cherry-Picking in Meta-Analyses*](https://dx.doi.org/10.3390/e25040691), Entropy, Volume 25, Number 4, 2023<br />

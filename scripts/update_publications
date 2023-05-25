@@ -6,4 +6,4 @@
 
 source ~/.virtualenvs/playground/bin/activate
 python ~/Projects/bastian.rieck.me/scripts/bibtex_to_markdown.py ~/Documents/Papers.bib -v >  ../content/publications.md
-cp /tmp/*.bib ../static/
+cp /tmp/*.bib ../static/research/

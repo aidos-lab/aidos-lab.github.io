@@ -1,5 +1,7 @@
 ## Preprints
 
+- R.&nbsp;Andreeva, K.&nbsp;Limbeck, B.&nbsp;Rieck<sup>&Dagger;</sup>, and R.&nbsp;Sarkar<sup>&Dagger;</sup>: [*Metric Space Magnitude and Generalisation in Neural Networks*](https://arxiv.org/abs/2305.05611), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2305.05611) &bull; [\[BibTeX\]](Andreeva23a.bib)</small>
 - B.&nbsp;Giunti, J.&nbsp;Lazovskis, and B.&nbsp;Rieck: [*DONUT -- Creation, Development, and Opportunities of a Database*](https://arxiv.org/abs/2304.12417), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
 - K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Preprint, 2023<br />
@@ -44,7 +46,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
 - D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel23a.bib)</small>
-- G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://arxiv.org/abs/2203.14860), SIAM Journal on Mathematics of Data Science, 2023 (in press)<br />
+- G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://dx.doi.org/10.1137/21M1462945), SIAM Journal on Mathematics of Data Science, Volume 5, Number 2, pp. 346--372, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2203.14860) &bull; [\[BibTeX\]](Huguet23a.bib)</small>
 
 ## 2022

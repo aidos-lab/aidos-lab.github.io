@@ -43,30 +43,16 @@ ignoreFiles = ['publications.md$']
   pageRef = "/join"
   weight = -70
 
-# A simple, if somewhat brutal solution, to providing additional logos
-# in the header of the theme.
-[params.header.logos]
-  text = """
-<div style="text-align:right; flex-grow: 1" id="logos">
-  <ul>
-    <li><a href="https://www.helmholtz-muenchen.de/aih"><img src="/logo_aih_new.svg" height="32" alt="Institute of AI for Health"/></a></li>
-    <li><a href="https://www.helmholtz.ai"><img src="/logo_helmholtz_ai.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Helmholtz.AI" /></a></li>
-  </ul>
-</div>
-"""
-
 # Ditto (see above), but for the footer.
 [params.footer.logos]
   text = """
-  <a href="https://www.helmholtz-muenchen.de/en"><img src="/logo_helmholtz_munich.svg" height="32" alt="Helmholtz Zentrum München" /></a>
-  <a href="https://www.pioneercampus.org"><img src="/logo_hpc.svg" height="32" style="padding-left:16px" alt="Helmholtz Pioneer Campus" /></a>
-  <a href="https://www.helmholtz.de/en"><img src="/logo_helmholtz_research.svg" height="32" alt="Helmholtz Research" style="padding-left:16px" />
-  </a>
+  <a href="https://www.helmholtz-muenchen.de/en"><img src="/logo_helmholtz_munich.svg" height="32" alt="Helmholtz Munich" /></a>
+  <a href="https://www.tum.de"><img src="/logo_tum.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Technical University of Munich" /></a>
 """
 
 [params.footer.license]
   text = """
-All Helmholtz logos are copyrighted and may not be used without
+All external logos are copyrighted and may not be used without
 express permission. The remainder of the content, if not specified otherwise,
 has been created by <a href="https://bastian.rieck.me">Bastian Rieck</a>
 and is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

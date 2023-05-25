@@ -1,0 +1,209 @@
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans Light'),
+      local('FiraSans-Light'),
+      url('/fonts/FiraSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style:  normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans'),
+      local('FiraSans-Regular'),
+      url('/fonts/FiraSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style:  normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans Italic'),
+      local('FiraSans-Italic'),
+      url('/fonts/FiraSans-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style:  italic;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src:
+      local('Fira Sans Bold'),
+      local('FiraSans-Bold'),
+      url('/fonts/FiraSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style:  normal;
+}
+
+html
+{
+  font-size: large;
+  /* Not sure how to solve this more elegantly; but it ensures that the
+   * navigation bar does not cut off any anchors */
+  scroll-padding-top: 5em;
+}
+
+body
+{
+  line-height:  1.6;
+  color:        #444;
+  background:   #f2f2f2;
+
+  text-align:   justify;
+
+  margin:       0;
+  padding:      0;
+
+  font-family: 'Fira Sans', sans-serif;
+}
+
+header
+{
+  padding:        10px;
+  border-bottom:  1px solid black;
+
+  position:       fixed;
+  top:            0;
+  width:          100%;
+  background:     #f2f2f2;
+}
+
+table
+{
+  line-height:  1.0;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+main
+{
+  max-width: 40em;
+  margin:    5% auto;
+  padding:   0 10px;
+}
+
+figure
+{
+  margin: 5% auto;
+}
+
+figure.center
+{
+  text-align: center;
+}
+
+figure.person img
+{
+  border-radius: 50%;
+}
+
+figcaption
+{
+  font-weight: 300;
+}
+
+h1, h2, h3
+{
+  line-height: 1.2
+}
+
+h1
+{
+  font-size:     2.0em;
+  margin-top:    1.0em;
+  margin-bottom: 1.0em;
+}
+
+h2
+{
+  font-size:     1.5em;
+  margin-top:    0.5em;
+  margin-bottom: 0.5em;
+}
+
+#TableOfContents ul, #logos ul
+{
+  list-style-type:  none;
+  padding-left:     0px;
+  margin:           0;
+  overflow:         hidden;
+  width:            100%;
+}
+
+#TableOfContents li, #logos li
+{
+  display: inline;
+}
+
+/* Improve spacing between normal list items */
+li
+{
+  margin: 0.50em 0 0 0;
+}
+
+nav a
+{
+  padding-top:     20px;
+  padding-right:   20px;
+  text-transform:  uppercase;
+  text-decoration: none;
+  font-size:       1.5rem;
+}
+
+nav a:hover
+{
+  text-decoration: underline;
+}
+
+footer
+{
+   border-top:  1px solid black;
+   padding-top: 0.5em;
+}
+
+#footer-logos
+{
+  max-width:  50%;
+  margin:     1% auto;
+  text-align: left;
+}
+
+#footer-text
+{
+  max-width: 50%;
+  margin: 1% auto;
+}
+
+/* Stops any superscripts from ruining our lines */
+sup
+{
+    line-height: 0;
+}
+
+#logos ul
+{
+  display: inline;
+}
+
+@media (max-width: 960px)
+{
+  #TableOfContents li, #logos li
+  {
+    display: block;
+  }
+
+  /* Ensures that the header does not overlap with the content */
+  header
+  {
+    position: relative;
+  }
+
+  th, td
+  {
+    display: block;
+    width:   100%;
+  }
+}

@@ -1,5 +1,9 @@
 ## Preprints
 
+- B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the ''Learning on Graphs'' Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2306.00586) &bull; [\[BibTeX\]](Rieck23b.bib)</small>
+- L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel23a.bib)</small>
 - R.&nbsp;Andreeva, K.&nbsp;Limbeck, B.&nbsp;Rieck<sup>&Dagger;</sup>, and R.&nbsp;Sarkar<sup>&Dagger;</sup>: [*Metric Space Magnitude and Generalisation in Neural Networks*](https://arxiv.org/abs/2305.05611), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.05611) &bull; [\[BibTeX\]](Andreeva23a.bib)</small>
 - B.&nbsp;Giunti, J.&nbsp;Lazovskis, and B.&nbsp;Rieck: [*DONUT -- Creation, Development, and Opportunities of a Database*](https://arxiv.org/abs/2304.12417), Preprint, 2023<br />

@@ -144,6 +144,19 @@ li
   margin: 0.50em 0 0 0;
 }
 
+/* no extra spacing for lists in the navigation bar */
+nav ul
+{
+  padding: 0;
+  margin: 0;
+}
+
+/* no blocks for list items */
+nav li
+{
+  display: inline;
+}
+
 nav a
 {
   padding-top:     20px;
@@ -190,7 +203,7 @@ sup
 
 @media (max-width: 960px)
 {
-  #TableOfContents li, #logos li
+  nav li, #TableOfContents li, #logos li
   {
     display: block;
   }

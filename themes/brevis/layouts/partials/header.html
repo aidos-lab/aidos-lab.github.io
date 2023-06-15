@@ -1,9 +1,11 @@
 <header>
-  <div style="display:flex">
+  <div>
     <nav>
+      <ul>
       {{- range site.Menus.main }}
-        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
+      </ul>
     </nav>
   </div>
 </header>

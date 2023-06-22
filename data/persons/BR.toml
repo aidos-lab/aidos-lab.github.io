@@ -1,0 +1,12 @@
+name    = "Bastian Rieck"
+job     = "Principal Investigator"
+image   = "br.jpg"
+bio     = """\
+          When it comes to machine learning, Bastian is interested in
+          all things geometrical and topological, with a particularly
+          strong focus on biomedical applications.
+          """
+github  = "Pseudomanifold"
+orcid   = "0000-0003-4335-0302"
+web     = "https://bastian.rieck.me"
+twitter = "Pseudomanifold"

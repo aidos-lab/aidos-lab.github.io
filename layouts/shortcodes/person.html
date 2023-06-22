@@ -1,0 +1,22 @@
+<div class="card">
+  {{ $person := .Get 0 }}
+  {{ $person :=  index .Site.Data.persons $person }}
+
+  <div class="card-left">
+    <figure class="person">
+      <img src="{{ $person.image }}" width="180" alt="{{ $person.name }}" />
+    </figure>
+  </div>
+
+  <div class="card-right">
+    <span class="card-name">{{ $person.name }}</span><br />
+    <span class="card-job">{{ $person.job }}</span>
+
+    <div class="card-bio">
+      <details>
+        <summary>Biography</summary>
+        {{ $person.bio | markdownify }}
+      </details>
+    </div>
+  </div>
+</div>

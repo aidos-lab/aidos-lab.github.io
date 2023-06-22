@@ -12,11 +12,30 @@
     <span class="card-name">{{ $person.name }}</span><br />
     <span class="card-job">{{ $person.job }}</span>
 
+    <dl class="card-profiles">
+      {{ with $person.github }}
+        {{ $link := printf "https://github.com/%s" $person.github }}
+        {{ partial "profile.html" (dict "name" "GITHUB" "link" $link "text" $person.github) }}
+      {{end }}
+
+      {{ with $person.orcid }}
+        {{ $link := printf "https://orcid.org/%s" $person.orcid }}
+        {{ partial "profile.html" (dict "name" "ORCID" "link" $link "text" $person.orcid) }}
+      {{end }}
+
+      {{ with $person.web }}
+        {{ partial "profile.html" (dict "name" "WEB" "link" $person.web "text" $person.web) }}
+      {{ end }}
+
+      {{ with $person.twitter }}
+        {{ $link := printf "https://twitter.com/%s" $person.twitter }}
+        {{ $name := printf "@%s" $person.twitter }}
+        {{ partial "profile.html" (dict "name" "TWITTER" "link" $link "text" $name) }}
+      {{ end }}
+    </dl>
+
     <div class="card-bio">
-      <details>
-        <summary>Biography</summary>
-        {{ $person.bio | markdownify }}
-      </details>
+      {{ $person.bio | markdownify }}
     </div>
   </div>
 </div>

@@ -190,6 +190,56 @@ footer
   margin: 1% auto;
 }
 
+.card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width : 100%;
+  margin    : auto;
+  display   : flex;
+  padding   : 1em;
+}
+
+.card-left
+{
+  flex: 1;
+}
+
+.card-right
+{
+  flex:         2;
+  padding-left: 2em;
+  line-height:  1.2;
+}
+
+.card-name
+{
+  font-size  : 1.50rem;
+  font-weight: bold; 
+}
+
+.card-job
+{
+  font-style: italic;
+}
+
+.card-bio
+{
+  clear:       both;
+  padding-top: 1em;
+}
+
+.card-profiles dt, .card-profiles dd
+{
+  display: inline-block;
+  float  : left;
+}
+
+.card-profiles dt
+{
+  clear: left;
+  width: 25%;
+}
+
 /* Stops any superscripts from ruining our lines */
 sup
 {

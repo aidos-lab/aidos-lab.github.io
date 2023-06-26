@@ -28,14 +28,14 @@
         {{ partial "profile.html" (dict "name" "ORCID" "link" $link "text" $person.orcid) }}
       {{end }}
 
-      {{ with $person.web }}
-        {{ partial "profile.html" (dict "name" "Web" "link" $person.web "text" $person.web) }}
-      {{ end }}
-
       {{ with $person.twitter }}
         {{ $link := printf "https://twitter.com/%s" $person.twitter }}
         {{ $name := printf "@%s" $person.twitter }}
         {{ partial "profile.html" (dict "name" "Twitter" "link" $link "text" $name) }}
+      {{ end }}
+
+      {{ with $person.web }}
+        {{ partial "profile.html" (dict "name" "Web" "link" $person.web "text" $person.web) }}
       {{ end }}
     </dl>
 

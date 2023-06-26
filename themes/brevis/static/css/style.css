@@ -192,11 +192,12 @@ footer
 
 .card
 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width : 100%;
-  margin    : auto;
-  display   : flex;
-  padding   : 1em;
+  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width  : 100%;
+  margin     : auto;
+  display    : flex;
+  padding    : 1em;
+  margin-top : 1em;
 }
 
 .card-left

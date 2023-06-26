@@ -1,0 +1,6 @@
+name     = "Ernst Röell"
+job      = "Ph.D. Student"
+image    = "er.jpg"
+bio      = """\
+           """
+web      = "https://ernstroell.github.io"

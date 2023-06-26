@@ -15,7 +15,7 @@
     <dl class="card-profiles">
       {{ with $person.github }}
         {{ $link := printf "https://github.com/%s" $person.github }}
-        {{ partial "profile.html" (dict "name" "GITHUB" "link" $link "text" $person.github) }}
+        {{ partial "profile.html" (dict "name" "GitHub" "link" $link "text" $person.github) }}
       {{end }}
 
       {{ with $person.orcid }}
@@ -24,13 +24,13 @@
       {{end }}
 
       {{ with $person.web }}
-        {{ partial "profile.html" (dict "name" "WEB" "link" $person.web "text" $person.web) }}
+        {{ partial "profile.html" (dict "name" "Web" "link" $person.web "text" $person.web) }}
       {{ end }}
 
       {{ with $person.twitter }}
         {{ $link := printf "https://twitter.com/%s" $person.twitter }}
         {{ $name := printf "@%s" $person.twitter }}
-        {{ partial "profile.html" (dict "name" "TWITTER" "link" $link "text" $name) }}
+        {{ partial "profile.html" (dict "name" "Twitter" "link" $link "text" $name) }}
       {{ end }}
     </dl>
 

@@ -217,6 +217,13 @@ footer
   font-weight: bold; 
 }
 
+/* Categories on the profile card (Twitter etc.) */
+.card-category
+{
+  font-weight:    bold; 
+  text-transform: uppercase;
+}
+
 .card-job
 {
   font-style: italic;

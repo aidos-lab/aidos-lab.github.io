@@ -22,6 +22,8 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "KVN" >}}
 
+{{< person "TS" >}}
+
 {{< person "RA" >}}
 
 # Collaborators
@@ -37,7 +39,6 @@ Your name is missing here! Learn more about [joining us]({{< relref "/join" >}})
 # Research Assistants
 
 - [Franz Srambical](https://www.linkedin.com/in/franz-srambical-418630178/)
-- [Tejas Srinivasan](https://www.linkedin.com/in/tejas-srinivasan)
 
 # Alumni & Alumnae
 

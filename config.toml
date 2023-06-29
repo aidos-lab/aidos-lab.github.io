@@ -4,6 +4,9 @@ title         = "AIDOS Lab"
 theme         = "brevis"
 enableGitInfo = true
 
+[params]
+  description = "Website of the AIDOS Lab, an international lab of researchers interested in geometry, topology, and machine learning."
+
 ignoreFiles = ['publications.md$']
 
 [markup]

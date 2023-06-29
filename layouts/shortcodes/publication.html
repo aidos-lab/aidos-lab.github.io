@@ -1,0 +1,34 @@
+<div class="card">
+  {{ $publication := .Get 0 }}
+  {{ $publication :=  index .Site.Data.publications $publication }}
+
+  <div class="card-left">
+    <figure class="publication">
+      <img src="{{ $publication.image }}" width="180" alt="{{ $publication.title }}" />
+    </figure>
+  </div>
+
+  <div class="card-right">
+    <span class="card-title">{{ $publication.title }}</span><br />
+    <span class="card-venue">{{ $publication.venue }}</span>
+
+    <div class="card-summary">
+      {{ $publication.summary | markdownify }}
+    </div>
+
+    <div class="card-references">
+      {{ with $publication.code }}
+      <a href="{{ . }}">[Code]</a>
+      {{ end }}
+
+      {{ with $publication.url }}
+      <a href="{{ . }}">[Paper]</a>
+      {{ end }}
+
+      {{ with $publication.arXiv }}
+      <a href="https://arxiv.org/abs/{{ . }}">[Preprint]</a>
+      {{ end }}
+
+    </div>
+  </div>
+</div>

@@ -100,6 +100,12 @@ figure.person img
   border-radius: 50%;
 }
 
+figure.publication
+{
+  margin-left : auto;
+  margin-right: auto;
+}
+
 figcaption
 {
   font-weight: 300;
@@ -210,14 +216,25 @@ footer
 .card-right
 {
   flex:         2;
-  padding-left: 2em;
+  padding-left: 1em;
   line-height:  1.2;
 }
 
-.card-name
+.card-name,
 {
   font-size  : 1.50rem;
   font-weight: bold; 
+}
+
+.card-title
+{
+  font-size  : 1.10rem;
+  font-weight: bold; 
+}
+
+.card-venue
+{
+  font-size: 1.0rem;
 }
 
 /* Categories on the profile card (Twitter etc.) */
@@ -232,10 +249,15 @@ footer
   font-style: italic;
 }
 
-.card-bio
+.card-bio, .card-summary
 {
   clear:       both;
   padding-top: 1em;
+}
+
+.card-summary
+{
+  font-size: 0.90rem;
 }
 
 .card-profiles dt, .card-profiles dd
@@ -243,6 +265,13 @@ footer
   display: inline-block;
   float  : left;
 }
+
+.card-references
+{
+  font-size  : small;
+  padding-top: 0.5em;
+}
+
 
 .card-profiles dt
 {

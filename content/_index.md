@@ -2,7 +2,7 @@
 title: "AIDOS Lab"
 ---
 
-{{< figure src="logo_hexagon.svg" width="128" class="center" >}}
+{{< figure src="logo_hexagon.svg" width="128" class="center" alt="AIDOS Lab Logo" >}}
 
 # Welcome
 
@@ -27,3 +27,6 @@ applications.
 
 Check out [our research to learn more]({{< relref "/research" >}}).
 
+## Featured Publications
+
+{{< publication "vonRohrscheidt23a" >}}

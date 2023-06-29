@@ -1,0 +1,13 @@
+name    = "Franz Srambical"
+job     = "Research Assistant"
+image   = "fs.jpg"
+bio     = """\
+          Franz is interested in leveraging known
+          topological/physical constraints to solve problems in the natural
+          sciences, including -- but not limited to -- the realm of drug
+          discovery. He is also interested in representation learning for EEG data.
+          """
+github  = "emergenz"
+web     = "https://srambical.fr"
+twitter = "lemergenz"
+linkedin = "franz-srambical"

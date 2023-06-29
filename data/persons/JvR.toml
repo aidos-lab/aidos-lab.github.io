@@ -2,5 +2,10 @@ name    = "Julius von Rohrscheidt"
 job     = "Ph.D. Student"
 image   = "jvr.jpg"
 bio     = """\
+          Julius is particularly interested in the development and investigation of
+          robust topological representation learning procedures.
+          This includes the construction of new feature extraction algorithms,
+          as well as the investigation of limitations and performance of these techniques.
           """
 web     = "https://rohrscheidt.com"
+twitter = "JRohrscheidt"

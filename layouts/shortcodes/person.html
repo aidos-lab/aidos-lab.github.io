@@ -18,11 +18,6 @@
         {{ partial "profile.html" (dict "name" "GitHub" "link" $link "text" $person.github) }}
       {{end }}
 
-      {{ with $person.linkedin }}
-        {{ $link := printf "https://www.linkedin.com/in/%s" $person.linkedin }}
-        {{ partial "profile.html" (dict "name" "LinkedIn" "link" $link "text" $person.linkedin) }}
-      {{end }}
-
       {{ with $person.orcid }}
         {{ $link := printf "https://orcid.org/%s" $person.orcid }}
         {{ partial "profile.html" (dict "name" "ORCID" "link" $link "text" $person.orcid) }}

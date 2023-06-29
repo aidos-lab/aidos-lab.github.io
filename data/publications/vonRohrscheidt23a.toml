@@ -1,0 +1,13 @@
+title   = "Topological Singularity Detection at Multiple Scales"
+image   = "/research/vonRohrscheidt23a.png"
+venue   = "ICML 2023"
+summary = """\
+The manifold hypothesis is often assumed in data analysis. But what
+happens if it does not hold? In this publication, we are analysing to
+what extent a data set deviates from being a manifold. We develop
+**Euclidicity**, a new multi-scale score based on persistent local
+homology, to assess this deviation.
+"""
+arXiv   = "2210.00069"
+url     = "https://openreview.net/forum?id=c6Wg91Xpbe"
+code    = "https://github.com/aidos-lab/TARDIS"

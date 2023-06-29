@@ -38,10 +38,6 @@ Members are listed in chronological order of joining the lab.
 
 Your name is missing here! Learn more about [joining us]({{< relref "/join" >}}).
 
-# Research Assistants
-
-- [Franz Srambical](https://www.linkedin.com/in/franz-srambical-418630178/)
-
 # Alumni & Alumnae
 
 - [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)

@@ -253,6 +253,7 @@ footer
 {
   clear:       both;
   padding-top: 1em;
+  font-size:   smaller;
 }
 
 .card-summary

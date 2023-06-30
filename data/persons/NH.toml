@@ -1,0 +1,10 @@
+name    = "Niklas Hellmer"
+job     = "Visiting Ph.D. Student"
+image   = "nh.jpg"
+bio     = """\
+Niklas is a third year PhD student visiting from the Dioscuri Centre in
+TDA (Warsaw). He is interested in applied topology with a focus on
+interactions with statistics and signal processing.
+"""
+github  = "https://github.com/nihell"
+web     = "https://dioscuri-tda.org/members/niklas.html"

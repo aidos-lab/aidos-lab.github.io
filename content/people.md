@@ -28,6 +28,8 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "FS" >}}
 
+{{< person "NH" >}}
+
 # Collaborators
 
 | | |

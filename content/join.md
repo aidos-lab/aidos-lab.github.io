@@ -42,6 +42,11 @@ cover letter should provide answers to the following questions:
 
 3. When would you be available for working on the thesis?
 
+If you want to write your thesis jointly with us *and* another group
+from Helmholtz Munich, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLScCYGsRATz41mSJsw-Pp8nZ1mQvpZ1riouNI9x8rf4Aq-CG0Q/viewform).
+The answer will be collected and distributed to all relevant research
+groups in the centre.
+
 ## Ph.D. positions
 
 If you are interested in working with us and have a background in

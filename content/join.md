@@ -58,11 +58,14 @@ positions.
 ## Research visits
 
 If you are interested in a short-term research opportunity, such as
-a research visit over the summer, please reach out
+a research visit over the summer, please reach out to
 bastian.rieck@helmholtz-muenchen.de. We are particularly interested in
 stays that may result in long-term collaborations.
 
-**If you are looking for an internship, note that our institution
-does not permit paid internships.** There are funding opportunities for
+**If you are looking for an internship, note that, unfortunately, our
+institution does not offer paid internships.** However, there are funding
+opportunities for
 such internships available; check out [RISE](https://www.daad.de/rise/en/rise-germany/find-an-internship/)
 or [DAAD Scholarships](https://www.daad.de/en/study-and-research-in-germany/scholarships/) in general.
+We are also happy to host visiting researchers on the Ph.D. and postdoc
+level via the [HIDA Visiting Researcher Grants](https://www.helmholtz-hida.de/en/new-horizons/hida-visiting-program/).

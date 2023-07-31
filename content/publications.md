@@ -1,5 +1,7 @@
 ## Preprints
 
+- S.&nbsp;Kazeminia, A.&nbsp;Sadafi, A.&nbsp;Makhro, A.&nbsp;Bogdanova, C.&nbsp;Marr<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topologically-Regularized Multiple Instance Learning for Red Blood Cell Disease Classification*](https://arxiv.org/abs/2307.14025), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia23a.bib)</small>
 - B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the ''Learning on Graphs'' Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2306.00586) &bull; [\[BibTeX\]](Rieck23b.bib)</small>
 - L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), Preprint, 2023<br />
@@ -8,8 +10,6 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.05611) &bull; [\[BibTeX\]](Andreeva23a.bib)</small>
 - B.&nbsp;Giunti, J.&nbsp;Lazovskis, and B.&nbsp;Rieck: [*DONUT -- Creation, Development, and Opportunities of a Database*](https://arxiv.org/abs/2304.12417), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
-- K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
 - B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Rieck23a.bib)</small>
 - J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Preprint, 2023<br />
@@ -38,20 +38,22 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
+- J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Topological Singularity Detection at Multiple Scales*](https://arxiv.org/abs/2210.00069), Proceedings of the 40th International Conference on Machine Learning&nbsp;(ICML), Number 202, pp. 35175--35197, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TARDIS) &bull; [\[BibTeX\]](vonRohrscheidt23a.bib)</small>
+- G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://dx.doi.org/10.1137/21M1462945), SIAM Journal on Mathematics of Data Science, Volume 5, Number 2, pp. 346--372, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2203.14860) &bull; [\[BibTeX\]](Huguet23a.bib)</small>
 - M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Song, E.&nbsp;Calapkulu, L.&nbsp;Zhang, M.&nbsp;Ige, A.&thinsp;H.&nbsp;Sheth, A.&nbsp;Majdoubi, M.&nbsp;Menon, A.&nbsp;Tong, A.&nbsp;Godavarthi, Y.&nbsp;Xing, S.&nbsp;Gigante, H.&nbsp;Steach, J.&nbsp;Huang, G.&nbsp;Huguet, J.&nbsp;Narain, K.&nbsp;You, G.&nbsp;Mourgkos, R.&thinsp;M.&nbsp;Dhodapkar, M.&thinsp;J.&nbsp;Hirn, B.&nbsp;Rieck, G.&nbsp;Wolf, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&thinsp;P.&nbsp;Hafler<sup>&Dagger;</sup>: [*Single-Cell Analysis Reveals Inflammatory Interactions Driving Macular Degeneration*](https://dx.doi.org/10.1038/s41467-023-37025-7), Nature Communications, Volume 14, Number 1, pp. 2589, 2023<br />
         <small>[\[BibTeX\]](Kuchroo23a.bib)</small>
 - J.&thinsp;L.&nbsp;Moore<sup>&dagger;</sup>, D.&nbsp;Bhaskar<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, R.&nbsp;Norris, N.&thinsp;C.&nbsp;Sanz, K.&nbsp;Annusver, M.&nbsp;Kasper, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>: [*Cell Cycle Controls Long-Range Calcium Signaling in the Regenerating Epidermis*](https://dx.doi.org/10.1083/jcb.202302095), Journal of Cell Biology, Volume 222, Number 7, pp. e202302095, 2023<br />
         <small>[\[BibTeX\]](Moore23a.bib)</small>
 - D.&nbsp;Yoneoka and B.&nbsp;Rieck: [*A Note on Cherry-Picking in Meta-Analyses*](https://dx.doi.org/10.3390/e25040691), Entropy, Volume 25, Number 4, 2023<br />
         <small>[\[BibTeX\]](Yoneoka23a.bib)</small>
+- K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pp. 571--579, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://openreview.net/forum?id=sPCKNl5qDps), International Conference on Learning Representations&nbsp;(ICLR), 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
-- J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Topological Singularity Detection at Multiple Scales*](https://arxiv.org/abs/2210.00069), Proceedings of the 40th International Conference on Machine Learning&nbsp;(ICML), 2023 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TARDIS) &bull; [\[BibTeX\]](vonRohrscheidt23a.bib)</small>
 - D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel23a.bib)</small>
-- G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://dx.doi.org/10.1137/21M1462945), SIAM Journal on Mathematics of Data Science, Volume 5, Number 2, pp. 346--372, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2203.14860) &bull; [\[BibTeX\]](Huguet23a.bib)</small>
 
 ## 2022
 

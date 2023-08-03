@@ -2,4 +2,8 @@ name     = "Salome Kazeminia"
 job      = "Ph.D. Student"
 image    = "sk.jpg"
 bio      = """\
-           """
+Salome is interested in unsupervised, self-supervised, and weakly supervised deep models, 
+focusing on trustworthy representation and manifold learning to advance AI in health applications.
+"""
+linkedin = "salome-kazeminia"
+twitter  = "KazeminiaSalome"

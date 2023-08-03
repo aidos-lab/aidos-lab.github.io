@@ -1,0 +1,9 @@
+name    = "Pragya Singh"
+job     = "MSc student"
+image   = "ps.jpg"
+bio     = """\
+          Pragya is an incoming MSc student at Imperial College London. She
+          is interested in geometrical and topological machine learnng, especially
+          its application in natural sciences.
+          """
+github  = "pragyasingh7"

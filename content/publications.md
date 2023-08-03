@@ -8,6 +8,8 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel23a.bib)</small>
 - R.&nbsp;Andreeva, K.&nbsp;Limbeck, B.&nbsp;Rieck<sup>&Dagger;</sup>, and R.&nbsp;Sarkar<sup>&Dagger;</sup>: [*Metric Space Magnitude and Generalisation in Neural Networks*](https://arxiv.org/abs/2305.05611), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.05611) &bull; [\[BibTeX\]](Andreeva23a.bib)</small>
+- D.&nbsp;Bhaskar<sup>&dagger;</sup>, J.&nbsp;Moore<sup>&dagger;</sup>, F.&nbsp;Gao, B.&nbsp;Rieck, F.&nbsp;Khasawneh, E.&nbsp;Munch, V.&nbsp;Greco<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Capturing Spatiotemporal Signaling Patterns in Cellular Data With Geometric Scattering Trajectory Homology*](https://dx.doi.org/10.1101/2023.03.22.533807), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807) &bull; [\[BibTeX\]](Bhaskar23a.bib)</small>
 - B.&nbsp;Giunti, J.&nbsp;Lazovskis, and B.&nbsp;Rieck: [*DONUT -- Creation, Development, and Opportunities of a Database*](https://arxiv.org/abs/2304.12417), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
 - B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />

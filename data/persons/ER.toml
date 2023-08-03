@@ -2,5 +2,10 @@ name     = "Ernst Röell"
 job      = "Ph.D. Student"
 image    = "er.jpg"
 bio      = """\
-           """
+Ernst is interested in building scalable topological 
+descriptors that can be used as machine learning layers.
+Furthermore, he is interested in the application of abstract algebra and 
+sheaves to understand data structures and machine learning 
+algorithms.
+"""
 web      = "https://ernstroell.github.io"

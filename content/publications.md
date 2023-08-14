@@ -26,8 +26,6 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer21a.bib)</small>
 - J.&thinsp;L.&nbsp;Moore<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, D.&nbsp;Bhaskar, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>: [*Tissue-Wide Coordination of Calcium Signaling Regulates the Epithelial Stem Cell Pool During Homeostasis*](https://dx.doi.org/10.1101/2021.10.12.464066), Preprint, 2021<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2021.10.12.464066) &bull; [\[BibTeX\]](Moore21a.bib)</small>
-- M.&nbsp;Moor<sup>&dagger;</sup>, N.&nbsp;Bennet<sup>&dagger;</sup>, D.&nbsp;Plecko<sup>&dagger;</sup>, M.&nbsp;Horn<sup>&dagger;</sup>, B.&nbsp;Rieck, N.&nbsp;Meinshausen, P.&nbsp;Bühlmann, and K.&nbsp;Borgwardt: [*Predicting Sepsis in Multi-Site, Multi-National Intensive Care Cohorts Using Deep Learning*](https://arxiv.org/abs/2107.05230), Preprint, 2021<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2107.05230) &bull; [\[BibTeX\]](Moor21b.bib)</small>
 - B.&nbsp;Rieck: [*Basic Analysis of Bin-Packing Heuristics*](https://arxiv.org/abs/2104.12235), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2104.12235) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/bin-packing) &bull; [\[BibTeX\]](Rieck21.bib)</small>
 - M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Calapkulu, M.&nbsp;Ige, L.&nbsp;Zhang, A.&thinsp;H.&nbsp;Sheth, M.&nbsp;Menon, Y.&nbsp;Xing, S.&nbsp;Gigante, J.&nbsp;Huang, R.&thinsp;M.&nbsp;Dhodapkar, B.&nbsp;Rieck, G.&nbsp;Wolf<sup>&Dagger;</sup>, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&thinsp;P.&nbsp;Hafler: [*Topological Analysis of Single-Cell Data Reveals Shared Glial Landscape of Macular Degeneration and Neurodegenerative Diseases*](https://dx.doi.org/10.1101/2021.01.19.427286), Preprint, 2021<br />
@@ -40,6 +38,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
+- M.&nbsp;Moor<sup>&dagger;</sup>, N.&nbsp;Bennet<sup>&dagger;</sup>, D.&nbsp;Plecko<sup>&dagger;</sup>, M.&nbsp;Horn<sup>&dagger;</sup>, B.&nbsp;Rieck, N.&nbsp;Meinshausen, P.&nbsp;Bühlmann, and K.&nbsp;Borgwardt: [*Predicting Sepsis Using Deep Learning Across International Sites: A Retrospective Development and Validation Study*](https://dx.doi.org/10.1016/j.eclinm.2023.102124), eClinicalMedicine, Volume 62, pp. 102124, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2107.05230) &bull; [\[BibTeX\]](Moor23a.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Topological Singularity Detection at Multiple Scales*](https://arxiv.org/abs/2210.00069), Proceedings of the 40th International Conference on Machine Learning&nbsp;(ICML), Number 202, pp. 35175--35197, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.00069) &bull; [\[GitHub\]](https://github.com/aidos-lab/TARDIS) &bull; [\[BibTeX\]](vonRohrscheidt23a.bib)</small>
 - G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Time-Inhomogeneous Diffusion Geometry and Topology*](https://dx.doi.org/10.1137/21M1462945), SIAM Journal on Mathematics of Data Science, Volume 5, Number 2, pp. 346--372, 2023<br />

@@ -30,6 +30,8 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "NH" >}}
 
+{{< person "PS" >}}
+
 # Collaborators
 
 | | |

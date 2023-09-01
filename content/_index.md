@@ -30,3 +30,5 @@ Check out [our research to learn more]({{< relref "/research" >}}).
 ## Featured Publications
 
 {{< publication "vonRohrscheidt23a" >}}
+
+{{< publication "Coupette23a" >}}

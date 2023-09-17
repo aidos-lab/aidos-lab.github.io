@@ -1,5 +1,7 @@
 ## Preprints
 
+- F.&nbsp;Srambical and B.&nbsp;Rieck: [*Filtration Surfaces for Dynamic Graph Classification*](https://arxiv.org/abs/2309.03616), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2309.03616) &bull; [\[BibTeX\]](Srambical23a.bib)</small>
 - S.&nbsp;Kazeminia, A.&nbsp;Sadafi, A.&nbsp;Makhro, A.&nbsp;Bogdanova, C.&nbsp;Marr<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topologically-Regularized Multiple Instance Learning for Red Blood Cell Disease Classification*](https://arxiv.org/abs/2307.14025), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia23a.bib)</small>
 - B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the ''Learning on Graphs'' Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
@@ -38,6 +40,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
+- D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://dx.doi.org/10.1109/ISBI53787.2023.10230752), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel23a.bib)</small>
 - M.&nbsp;Moor<sup>&dagger;</sup>, N.&nbsp;Bennet<sup>&dagger;</sup>, D.&nbsp;Plecko<sup>&dagger;</sup>, M.&nbsp;Horn<sup>&dagger;</sup>, B.&nbsp;Rieck, N.&nbsp;Meinshausen, P.&nbsp;Bühlmann, and K.&nbsp;Borgwardt: [*Predicting Sepsis Using Deep Learning Across International Sites: A Retrospective Development and Validation Study*](https://dx.doi.org/10.1016/j.eclinm.2023.102124), eClinicalMedicine, Volume 62, pp. 102124, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2107.05230) &bull; [\[BibTeX\]](Moor23a.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Topological Singularity Detection at Multiple Scales*](https://arxiv.org/abs/2210.00069), Proceedings of the 40th International Conference on Machine Learning&nbsp;(ICML), Number 202, pp. 35175--35197, 2023<br />
@@ -54,8 +58,6 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://openreview.net/forum?id=sPCKNl5qDps), International Conference on Learning Representations&nbsp;(ICLR), 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
-- D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://arxiv.org/abs/2208.14125), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel23a.bib)</small>
 
 ## 2022
 

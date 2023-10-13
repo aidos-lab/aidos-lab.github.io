@@ -20,8 +20,6 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "SB" >}}
 
-{{< person "TS" >}}
-
 {{< person "RA" >}}
 
 {{< person "FS" >}}
@@ -44,4 +42,5 @@ Your name is missing here! Learn more about [joining us]({{< relref "/join" >}})
 
 - [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
+- Tejas Srinivasan
 - Kalyan Varma Nadimpalli (now a research assistant at IIT Madras)

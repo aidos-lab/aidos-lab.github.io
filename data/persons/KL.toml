@@ -2,4 +2,9 @@ name     = "Katharina Limbeck"
 job      = "Ph.D. Student"
 image    = "kl.jpg"
 bio      = """\
+           Katharina is interested in using and developing topological machine learning methods 
+           to analyse complex structures in biomedical data, in particular single cell data. 
            """
+web     = "https://limbeckkat.github.io/"
+github  = "LimbeckKat"
+twitter = "LimbeckKat"

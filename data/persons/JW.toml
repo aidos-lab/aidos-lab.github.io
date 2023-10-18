@@ -1,6 +1,11 @@
-name    = "Jeremy Wayland"
-job     = "Ph.D. Student"
-image   = "jw.jpg"
-bio     = """\
-          """
-web     = "https://jeremy-wayland.me"
+name = "Jeremy Wayland"
+job = "Ph.D. Student"
+image = "jw.jpg"
+bio = """\
+        Jeremy is interested developing practical and usable topology-based methods for improving our
+        understanding of various generative models. Additionally, 
+        he enjoys applying topological methods in collaborative projects that focus on predictive medicine and/or climate change."""
+web = "https://jeremy-wayland.me"
+github = "jeremy-wayland"
+orcid = "0000-0002-8766-8737"
+twitter = "jeremy_wayland"

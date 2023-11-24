@@ -44,5 +44,6 @@ Your name is missing here! Learn more about [joining us]({{< relref "/join" >}})
 
 - [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
+- [Barış Onarıcı](https://www.linkedin.com/in/barisonarici-a271828182845904523/)
 - Tejas Srinivasan
 - Kalyan Varma Nadimpalli (now a research assistant at IIT Madras)

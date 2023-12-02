@@ -1,0 +1,10 @@
+name     = "Katharina Hagedorn"
+job      = "B.Sc. Student"
+image    = "kh.jpg"
+bio      = """\
+           Katharina is doing her bachelor's thesis in computer science
+           at TUM. She is interested in machine learning approaches in
+           biomedicine and healthcare, especially in the field of
+           antimicrobial resistance prediction.
+           """
+github  = "KatharinaHagedorn"

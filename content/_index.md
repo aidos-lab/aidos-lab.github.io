@@ -28,6 +28,7 @@ applications.
 Check out [our research to learn more]({{< relref "/research" >}}).
 
 ## Featured Publications
+{{< publication "Southern23a" >}}
 
 {{< publication "vonRohrscheidt23a" >}}
 

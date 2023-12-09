@@ -1,0 +1,14 @@
+title = "Curvature Filtrations for Graph Generative Model Evaluation"
+image = "/research/Southern23a.png"
+venue = "NeurIPS 2023"
+summary = """\ 
+In response to rising interest for generative model use in drug development,
+we introduce a new topological and geometric descriptor
+for graph distributions based on curvature filtrations. As well as favorable 
+stability and expressivity properties, our method affords
+scalable statistical comparisons and hypothesis testing for sets of graphs, providing
+an exciting and well-principled method for evaluating Graph Generative Models.
+"""
+arXiv = "2301.12906"
+url = "https://openreview.net/forum?id=Dt71xKyabn&referrer=%5Bthe%20profile%20of%20Michael%20M.%20Bronstein%5D(%2Fprofile%3Fid%3D~Michael_M._Bronstein1)"
+code = "https://github.com/aidos-lab/CFGGME"

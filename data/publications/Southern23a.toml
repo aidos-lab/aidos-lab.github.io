@@ -10,5 +10,5 @@ scalable statistical comparisons and hypothesis testing for sets of graphs, prov
 an exciting and well-principled method for evaluating Graph Generative Models.
 """
 arXiv = "2301.12906"
-url = "https://openreview.net/forum?id=Dt71xKyabn&referrer=%5Bthe%20profile%20of%20Michael%20M.%20Bronstein%5D(%2Fprofile%3Fid%3D~Michael_M._Bronstein1)"
+url = "https://openreview.net/forum?id=Dt71xKyabn"
 code = "https://github.com/aidos-lab/CFGGME"

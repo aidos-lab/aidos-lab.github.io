@@ -1,5 +1,7 @@
 ## Preprints
 
+- K.&nbsp;Maggs, C.&nbsp;Hacker, and B.&nbsp;Rieck: [*Simplicial Representation Learning With Neural $K$-Forms*](https://arxiv.org/abs/2312.08515), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2312.08515) &bull; [\[BibTeX\]](Maggs23a.bib)</small>
 - K.&nbsp;Limbeck<sup>&dagger;</sup>, R.&nbsp;Andreeva<sup>&dagger;</sup>, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating Unsupervised Representation Learning*](https://arxiv.org/abs/2311.16054), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck23a.bib)</small>
 - E.&nbsp;Roell and B.&nbsp;Rieck: [*Differentiable Euler Characteristic Transforms for Shape Classification*](https://arxiv.org/abs/2310.07630), Preprint, 2023<br />
@@ -36,10 +38,12 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
-- H.&nbsp;Alhoori, E.&thinsp;A.&nbsp;Fox, I.&nbsp;Frommholz, H.&nbsp;Liu, C.&nbsp;Coupette, B.&nbsp;Rieck, &nbsp;Ghosal, and J.&nbsp;Wu: [*Who Can Submit an Excellent Review for This Manuscript in the Next 30 Days? --- Peer Reviewing in the Age of Overload*](https://dx.doi.org/10.1109/JCDL57899.2023.00077), ACM/IEEE Joint Conference on Digital Libraries&nbsp;(JCDL), pp. 319--320, 2023<br />
-        <small>[\[BibTeX\]](Alhoori23a.bib)</small>
+- J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Advances in Neural Information Processing Systems&nbsp;(NeurIPS), Volume 36, 2023 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern23a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://dx.doi.org/10.1093/llc/fqad071), Digital Scholarship in the Humanities, 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[Author's copy\]](https://hyperbard.net) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette23b.bib)</small>
+- H.&nbsp;Alhoori, E.&thinsp;A.&nbsp;Fox, I.&nbsp;Frommholz, H.&nbsp;Liu, C.&nbsp;Coupette, B.&nbsp;Rieck, &nbsp;Ghosal, and J.&nbsp;Wu: [*Who Can Submit an Excellent Review for This Manuscript in the Next 30 Days? --- Peer Reviewing in the Age of Overload*](https://dx.doi.org/10.1109/JCDL57899.2023.00077), ACM/IEEE Joint Conference on Digital Libraries&nbsp;(JCDL), pp. 319--320, 2023<br />
+        <small>[\[BibTeX\]](Alhoori23a.bib)</small>
 - D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://dx.doi.org/10.1109/ISBI53787.2023.10230752), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2208.14125) &bull; [\[BibTeX\]](Waibel23a.bib)</small>
 - M.&nbsp;Moor<sup>&dagger;</sup>, N.&nbsp;Bennet<sup>&dagger;</sup>, D.&nbsp;Plecko<sup>&dagger;</sup>, M.&nbsp;Horn<sup>&dagger;</sup>, B.&nbsp;Rieck, N.&nbsp;Meinshausen, P.&nbsp;Bühlmann, and K.&nbsp;Borgwardt: [*Predicting Sepsis Using Deep Learning Across International Sites: A Retrospective Development and Validation Study*](https://dx.doi.org/10.1016/j.eclinm.2023.102124), eClinicalMedicine, Volume 62, pp. 102124, 2023<br />
@@ -60,8 +64,6 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[BibTeX\]](Yoneoka23a.bib)</small>
 - K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pp. 571--579, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
-- J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Advances in Neural Information Processing Systems&nbsp;(NeurIPS), Volume 36, 2023 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern23a.bib)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://openreview.net/forum?id=sPCKNl5qDps), International Conference on Learning Representations&nbsp;(ICLR), 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
 

@@ -20,16 +20,10 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Rieck23a.bib)</small>
 - C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2022.04.13.488198v1) &bull; [\[BibTeX\]](Weis22b.bib)</small>
-- C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&thinsp;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Preprint, 2021<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2112.09992) &bull; [\[BibTeX\]](Morris21a.bib)</small>
 - M.&thinsp;F.&nbsp;Adamer, L.&nbsp;O'Bray, E.&nbsp;De Brouwer, B.&nbsp;Rieck<sup>&Dagger;</sup>, and K.&nbsp;Borgwardt<sup>&Dagger;</sup>: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer21a.bib)</small>
-- J.&thinsp;L.&nbsp;Moore<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, D.&nbsp;Bhaskar, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>: [*Tissue-Wide Coordination of Calcium Signaling Regulates the Epithelial Stem Cell Pool During Homeostasis*](https://dx.doi.org/10.1101/2021.10.12.464066), Preprint, 2021<br />
-        <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2021.10.12.464066) &bull; [\[BibTeX\]](Moore21a.bib)</small>
 - B.&nbsp;Rieck: [*Basic Analysis of Bin-Packing Heuristics*](https://arxiv.org/abs/2104.12235), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2104.12235) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/bin-packing) &bull; [\[BibTeX\]](Rieck21.bib)</small>
-- M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Calapkulu, M.&nbsp;Ige, L.&nbsp;Zhang, A.&thinsp;H.&nbsp;Sheth, M.&nbsp;Menon, Y.&nbsp;Xing, S.&nbsp;Gigante, J.&nbsp;Huang, R.&thinsp;M.&nbsp;Dhodapkar, B.&nbsp;Rieck, G.&nbsp;Wolf<sup>&Dagger;</sup>, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&thinsp;P.&nbsp;Hafler: [*Topological Analysis of Single-Cell Data Reveals Shared Glial Landscape of Macular Degeneration and Neurodegenerative Diseases*](https://dx.doi.org/10.1101/2021.01.19.427286), Preprint, 2021<br />
-        <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2021.01.19.427286v1) &bull; [\[BibTeX\]](Kuchroo21.bib)</small>
 - M.&nbsp;Moor, M.&nbsp;Horn, C.&nbsp;Bock, K.&nbsp;Borgwardt, and B.&nbsp;Rieck: [*Path Imputation Strategies for Signature Models of Irregular Time Series*](https://arxiv.org/abs/2005.12359), Preprint, 2020<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2005.12359) &bull; [\[BibTeX\]](Moor20e.bib)</small><br />
         <small>A preliminary version of this work was accepted for
@@ -38,6 +32,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2023
 
+- C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&thinsp;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Journal of Machine Learning Research, Volume 24, Number 333, pp. 1--59, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2112.09992) &bull; [\[BibTeX\]](Morris23a.bib)</small>
 - J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Advances in Neural Information Processing Systems&nbsp;(NeurIPS), Volume 36, 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern23a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://dx.doi.org/10.1093/llc/fqad071), Digital Scholarship in the Humanities, 2023 (in press)<br />
@@ -62,7 +58,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
 - D.&nbsp;Yoneoka and B.&nbsp;Rieck: [*A Note on Cherry-Picking in Meta-Analyses*](https://dx.doi.org/10.3390/e25040691), Entropy, Volume 25, Number 4, 2023<br />
         <small>[\[BibTeX\]](Yoneoka23a.bib)</small>
-- K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pp. 571--579, 2023<br />
+- K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices*](https://arxiv.org/abs/2303.05286), Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition&nbsp;(CVPR) Workshops, pp. 571--579, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2303.05286) &bull; [\[BibTeX\]](Nadimpalli23a.bib)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://openreview.net/forum?id=sPCKNl5qDps), International Conference on Learning Representations&nbsp;(ICLR), 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>

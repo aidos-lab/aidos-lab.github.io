@@ -1,13 +1,17 @@
 ## Preprints
 
+- S.&nbsp;Kazeminia, C.&nbsp;Marr<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topologically Regularized Multiple Instance Learning to Harness Data Scarcity*](https://arxiv.org/abs/2307.14025), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia24a.bib)</small>
+- B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&thinsp;T.&nbsp;Fasy, and B.&nbsp;Rieck: [*The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning*](https://arxiv.org/abs/2402.09529), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2402.09529) &bull; [\[BibTeX\]](Holmgren24a.bib)</small>
+- T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Liò, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veličković, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi: [*Position Paper: Challenges and Opportunities in Topological Deep Learning*](https://arxiv.org/abs/2402.08871), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2402.08871) &bull; [\[BibTeX\]](Papamarkou24a.bib)</small>
 - J.&nbsp;Wayland, C.&nbsp;Coupette<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Mapping the Multiverse of Latent Representations*](https://arxiv.org/abs/2402.01514), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2402.01514) &bull; [\[BibTeX\]](Wayland24a.bib)</small>
 - K.&nbsp;Limbeck<sup>&dagger;</sup>, R.&nbsp;Andreeva<sup>&dagger;</sup>, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://arxiv.org/abs/2311.16054), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck23a.bib)</small>
 - F.&nbsp;Srambical and B.&nbsp;Rieck: [*Filtration Surfaces for Dynamic Graph Classification*](https://arxiv.org/abs/2309.03616), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2309.03616) &bull; [\[BibTeX\]](Srambical23a.bib)</small>
-- S.&nbsp;Kazeminia, A.&nbsp;Sadafi, A.&nbsp;Makhro, A.&nbsp;Bogdanova, C.&nbsp;Marr<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topologically-Regularized Multiple Instance Learning for Red Blood Cell Disease Classification*](https://arxiv.org/abs/2307.14025), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia23a.bib)</small>
 - B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the ''Learning on Graphs'' Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2306.00586) &bull; [\[BibTeX\]](Rieck23b.bib)</small>
 - L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), Preprint, 2023<br />
@@ -18,7 +22,7 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Rieck23a.bib)</small>
 - C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2022.04.13.488198v1) &bull; [\[BibTeX\]](Weis22b.bib)</small>
-- M.&thinsp;F.&nbsp;Adamer, L.&nbsp;O'Bray, E.&nbsp;De Brouwer, B.&nbsp;Rieck<sup>&Dagger;</sup>, and K.&nbsp;Borgwardt<sup>&Dagger;</sup>: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
+- M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer21a.bib)</small>
 - B.&nbsp;Rieck: [*Basic Analysis of Bin-Packing Heuristics*](https://arxiv.org/abs/2104.12235), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2104.12235) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/bin-packing) &bull; [\[BibTeX\]](Rieck21.bib)</small>
@@ -30,16 +34,16 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2024
 
-- K.&nbsp;Maggs, C.&nbsp;Hacker, and B.&nbsp;Rieck: [*Simplicial Representation Learning With Neural $K$-Forms*](https://arxiv.org/abs/2312.08515), International Conference on Learning Representations, 2024 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2312.08515) &bull; [\[BibTeX\]](Maggs24a.bib)</small>
-- E.&nbsp;Roell and B.&nbsp;Rieck: [*Differentiable Euler Characteristic Transforms for Shape Classification*](https://arxiv.org/abs/2310.07630), International Conference on Learning Representations, 2024 (in press)<br />
+- K.&nbsp;Maggs, C.&nbsp;Hacker, and B.&nbsp;Rieck: [*Simplicial Representation Learning With Neural $k$-Forms*](https://openreview.net/forum?id=Djw0XhjHZb), International Conference on Learning Representations, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2312.08515) &bull; [\[GitHub\]](https://github.com/aidos-lab/neural-k-forms) &bull; [\[BibTeX\]](Maggs24a.bib)</small>
+- E.&nbsp;Röell and B.&nbsp;Rieck: [*Differentiable Euler Characteristic Transforms for Shape Classification*](https://openreview.net/forum?id=MO632iPq3I), International Conference on Learning Representations, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2310.07630) &bull; [\[GitHub\]](https://github.com/aidos-lab/DECT) &bull; [\[BibTeX\]](Roell24a.bib)</small>
 
 ## 2023
 
 - C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&thinsp;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Journal of Machine Learning Research, Volume 24, Number 333, pp. 1--59, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2112.09992) &bull; [\[BibTeX\]](Morris23a.bib)</small>
-- J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Advances in Neural Information Processing Systems, Volume 36, 2023 (in press)<br />
+- J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Advances in Neural Information Processing Systems, Volume 36, pp. 63036--63061, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern23a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://dx.doi.org/10.1093/llc/fqad071), Digital Scholarship in the Humanities, 2023 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[Author's copy\]](https://hyperbard.net) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette23b.bib)</small>

@@ -34,6 +34,8 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2024
 
+- C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://dx.doi.org/10.1093/llc/fqad071), Digital Scholarship in the Humanities, Volume 39, Number 1, pp. 74--96, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[Author's copy\]](https://hyperbard.net) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette24a.bib)</small>
 - K.&nbsp;Maggs, C.&nbsp;Hacker, and B.&nbsp;Rieck: [*Simplicial Representation Learning With Neural $k$-Forms*](https://openreview.net/forum?id=Djw0XhjHZb), International Conference on Learning Representations, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2312.08515) &bull; [\[GitHub\]](https://github.com/aidos-lab/neural-k-forms) &bull; [\[BibTeX\]](Maggs24a.bib)</small>
 - E.&nbsp;Röell and B.&nbsp;Rieck: [*Differentiable Euler Characteristic Transforms for Shape Classification*](https://openreview.net/forum?id=MO632iPq3I), International Conference on Learning Representations, 2024<br />
@@ -45,8 +47,6 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
         <small>[\[Preprint\]](https://arxiv.org/abs/2112.09992) &bull; [\[BibTeX\]](Morris23a.bib)</small>
 - J.&nbsp;Southern<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, M.&nbsp;Bronstein, and B.&nbsp;Rieck: [*Curvature Filtrations for Graph Generative Model Evaluation*](https://arxiv.org/abs/2301.12906), Advances in Neural Information Processing Systems, Volume 36, pp. 63036--63061, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2301.12906) &bull; [\[BibTeX\]](Southern23a.bib)</small>
-- C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://dx.doi.org/10.1093/llc/fqad071), Digital Scholarship in the Humanities, 2023 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[Author's copy\]](https://hyperbard.net) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette23b.bib)</small>
 - H.&nbsp;Alhoori, E.&thinsp;A.&nbsp;Fox, I.&nbsp;Frommholz, H.&nbsp;Liu, C.&nbsp;Coupette, B.&nbsp;Rieck, &nbsp;Ghosal, and J.&nbsp;Wu: [*Who Can Submit an Excellent Review for This Manuscript in the Next 30 Days? --- Peer Reviewing in the Age of Overload*](https://dx.doi.org/10.1109/JCDL57899.2023.00077), ACM/IEEE Joint Conference on Digital Libraries&nbsp;(JCDL), pp. 319--320, 2023<br />
         <small>[\[BibTeX\]](Alhoori23a.bib)</small>
 - D.&thinsp;J.&nbsp;Waibel, E.&nbsp;Röell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>: [*A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images*](https://dx.doi.org/10.1109/ISBI53787.2023.10230752), IEEE International Symposium on Biomedical Imaging&nbsp;(ISBI), 2023<br />

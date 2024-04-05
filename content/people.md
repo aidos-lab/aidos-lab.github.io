@@ -20,8 +20,6 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "SB" >}}
 
-{{< person "RA" >}}
-
 {{< person "FS" >}}
 
 {{< person "NH" >}}
@@ -31,6 +29,8 @@ Members are listed in chronological order of joining the lab.
 {{< person "PB" >}}
 
 {{< person "KH" >}}
+
+{{< person "IC" >}}
 
 # Collaborators
 

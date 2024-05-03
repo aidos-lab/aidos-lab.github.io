@@ -42,6 +42,11 @@ ignoreFiles = ['publications.md$']
   weight = -80
 
 [[menu.main]]
+  name   = "Theses"
+  pageRef = "/theses"
+  weight = -80
+
+[[menu.main]]
   name   = "Join Us"
   pageRef = "/join"
   weight = -70

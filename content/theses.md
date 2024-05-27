@@ -11,6 +11,9 @@ interested in. Read on if you are interested in [joining us]({{< ref
 
 # 2024
 
+- Katharina Hagedorn: [*Machine Learning for Direct Antimicrobial
+  Resistance Prediction from Clinical MALDI-TOF
+  Spectra*](Thesis_Katharina_Hagedorn.pdf), B.Sc. thesis
 - Rishendra Chauhan, [*Distributed Persistence Based Dimensionality
   Reduction Method: DIPOLE*](Thesis_Rishendra_Chauhan.pdf), M.Sc. thesis 
 

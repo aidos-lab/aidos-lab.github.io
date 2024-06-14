@@ -16,10 +16,10 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2306.00586) &bull; [\[BibTeX\]](Rieck23b.bib)</small>
 - L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel23a.bib)</small>
+- R.&nbsp;Ballester and B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Ballester23a.bib)</small>
 - D.&nbsp;Bhaskar<sup>&dagger;</sup>, J.&nbsp;Moore<sup>&dagger;</sup>, F.&nbsp;Gao, B.&nbsp;Rieck, F.&nbsp;Khasawneh, E.&nbsp;Munch, V.&nbsp;Greco<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Capturing Spatiotemporal Signaling Patterns in Cellular Data With Geometric Scattering Trajectory Homology*](https://dx.doi.org/10.1101/2023.03.22.533807), Preprint, 2023<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807) &bull; [\[BibTeX\]](Bhaskar23a.bib)</small>
-- B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Rieck23a.bib)</small>
 - C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2022.04.13.488198v1) &bull; [\[BibTeX\]](Weis22b.bib)</small>
 - M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
@@ -34,6 +34,12 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2024
 
+- Y.&nbsp;Zhang<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, X.&nbsp;Sun, C.&nbsp;Xu, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: *Adaptative Local PCA for Curvature Estimation on Data Manifolds*, Helmholtz AI Conference: AI for Science, 2024<br />
+        <small>[\[BibTeX\]](Zhang24a.bib)</small>
+- C.&nbsp;Bock<sup>&dagger;</sup>, J.&thinsp;E.&nbsp;Walter<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, I.&nbsp;Strebel, K.&nbsp;Rumora, I.&nbsp;Schaefer, M.&thinsp;J.&nbsp;Zellweger, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and C.&nbsp;Müller<sup>&Dagger;</sup>: [*Enhancing the Diagnosis of Functionally Relevant Coronary Artery Disease With Machine Learning*](https://dx.doi.org/10.1038/s41467-024-49390-y), Nature Communications, Volume 15, Number 1, 2024<br />
+        <small>[\[BibTeX\]](Bock24a.bib)</small>
+- R.&thinsp;M.&nbsp;Levenson, Y.&nbsp;Singh, B.&nbsp;Rieck, Q.&thinsp;A.&nbsp;Hathaway, C.&nbsp;Farrelly, J.&nbsp;Rozenblit, P.&nbsp;Prasanna, B.&nbsp;Erickson, A.&nbsp;Choudhary, G.&nbsp;Carlsson, and D.&nbsp;Deepa: [*Advancing Precision Medicine: Algebraic Topology and Differential Geometry in Radiology and Computational Pathology*](https://dx.doi.org/10.1016/j.labinv.2024.102060), Laboratory Investigation, Volume 104, Number 6, 2024<br />
+        <small>[\[BibTeX\]](Levenson24a.bib)</small>
 - C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck: [*All the World's a (Hyper)Graph: A Data Drama*](https://dx.doi.org/10.1093/llc/fqad071), Digital Scholarship in the Humanities, Volume 39, Number 1, pp. 74--96, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[Author's copy\]](https://hyperbard.net) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette24a.bib)</small>
 - K.&nbsp;Maggs, C.&nbsp;Hacker, and B.&nbsp;Rieck: [*Simplicial Representation Learning With Neural $k$-Forms*](https://openreview.net/forum?id=Djw0XhjHZb), International Conference on Learning Representations, 2024<br />

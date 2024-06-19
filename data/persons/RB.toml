@@ -1,0 +1,18 @@
+name    = "Rubén Ballester"
+job     = "Ph.D. Student"
+image   = "rb.jpg"
+bio     = """\
+          Rubén is interested in developing the foundations of 
+          topological and categorical deep learning models. On the 
+          topological side, Rubén enjoys working with models that
+          leverage the topological and combinatorial structures 
+          of the input. On the categorical side, Rubén is especially
+          interested in studying the fundamental blocks
+          of deep learning by means of category theory and in
+          developing logic and symbolic neural networks backed by
+          categorical methods. 
+          """
+github  = "rballeba"
+orcid   = "0000-0001-8172-6652"
+web     = "https://rubenbb.com"
+twitter = "rballeba"

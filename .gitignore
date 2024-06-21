@@ -2,7 +2,5 @@
 
 *.lock
 
-content/guide
-
 designs/
 public/

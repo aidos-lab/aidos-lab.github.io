@@ -4,15 +4,11 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia24a.bib)</small>
 - B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&thinsp;T.&nbsp;Fasy, and B.&nbsp;Rieck: [*The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning*](https://arxiv.org/abs/2402.09529), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2402.09529) &bull; [\[BibTeX\]](Holmgren24a.bib)</small>
-- T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Liò, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veličković, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi: [*Position Paper: Challenges and Opportunities in Topological Deep Learning*](https://arxiv.org/abs/2402.08871), Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2402.08871) &bull; [\[BibTeX\]](Papamarkou24a.bib)</small>
-- J.&nbsp;Wayland, C.&nbsp;Coupette<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Mapping the Multiverse of Latent Representations*](https://arxiv.org/abs/2402.01514), Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2402.01514) &bull; [\[BibTeX\]](Wayland24a.bib)</small>
 - K.&nbsp;Limbeck<sup>&dagger;</sup>, R.&nbsp;Andreeva<sup>&dagger;</sup>, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://arxiv.org/abs/2311.16054), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck23a.bib)</small>
 - F.&nbsp;Srambical and B.&nbsp;Rieck: [*Filtration Surfaces for Dynamic Graph Classification*](https://arxiv.org/abs/2309.03616), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2309.03616) &bull; [\[BibTeX\]](Srambical23a.bib)</small>
-- B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the ''Learning on Graphs'' Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
+- B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the &ldquo;Learning on Graphs&rdquo; Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2306.00586) &bull; [\[BibTeX\]](Rieck23b.bib)</small>
 - L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel23a.bib)</small>
@@ -22,8 +18,6 @@
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807) &bull; [\[BibTeX\]](Bhaskar23a.bib)</small>
 - C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2022.04.13.488198v1) &bull; [\[BibTeX\]](Weis22b.bib)</small>
-- M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck: [*The Magnitude Vector of Images*](https://arxiv.org/abs/2110.15188), Preprint, 2021<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer21a.bib)</small>
 - B.&nbsp;Rieck: [*Basic Analysis of Bin-Packing Heuristics*](https://arxiv.org/abs/2104.12235), Preprint, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2104.12235) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/bin-packing) &bull; [\[BibTeX\]](Rieck21.bib)</small>
 - M.&nbsp;Moor, M.&nbsp;Horn, C.&nbsp;Bock, K.&nbsp;Borgwardt, and B.&nbsp;Rieck: [*Path Imputation Strategies for Signature Models of Irregular Time Series*](https://arxiv.org/abs/2005.12359), Preprint, 2020<br />
@@ -34,6 +28,12 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2024
 
+- T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Liò, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veličković, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi: [*Position: Topological Deep Learning Is the New Frontier for Relational Learning*](https://arxiv.org/abs/2402.08871), Proceedings of the 41st International Conference on Machine Learning, 2024 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2402.08871) &bull; [\[BibTeX\]](Papamarkou24a.bib)</small>
+- J.&nbsp;Wayland, C.&nbsp;Coupette<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Mapping the Multiverse of Latent Representations*](https://arxiv.org/abs/2402.01514), Proceedings of the 41st International Conference on Machine Learning, 2024 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2402.01514) &bull; [\[BibTeX\]](Wayland24a.bib)</small>
+- M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck: [*The Magnitude Vector of Images*](https://dx.doi.org/10.1007/s41468-024-00182-9), Journal of Applied and Computational Topology, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer24a.bib)</small>
 - Y.&nbsp;Zhang<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, X.&nbsp;Sun, C.&nbsp;Xu, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: *Adaptative Local PCA for Curvature Estimation on Data Manifolds*, Helmholtz AI Conference: AI for Science, 2024<br />
         <small>[\[BibTeX\]](Zhang24a.bib)</small>
 - C.&nbsp;Bock<sup>&dagger;</sup>, J.&thinsp;E.&nbsp;Walter<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, I.&nbsp;Strebel, K.&nbsp;Rumora, I.&nbsp;Schaefer, M.&thinsp;J.&nbsp;Zellweger, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and C.&nbsp;Müller<sup>&Dagger;</sup>: [*Enhancing the Diagnosis of Functionally Relevant Coronary Artery Disease With Machine Learning*](https://dx.doi.org/10.1038/s41467-024-49390-y), Nature Communications, Volume 15, Number 1, 2024<br />
@@ -260,7 +260,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 
 - B.&nbsp;Rieck, H.&nbsp;Mara, and S.&nbsp;Krömker: [*Unwrapping Highly-Detailed 3D Meshes of Rotationally Symmetric Man-Made Objects*](https://dx.doi.org/10.5194/isprsannals-II-5-W1-259-2013), ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume II-5/W1, pp. 259--264, 2013<br />
         <small>[\[BibTeX\]](Rieck13a.bib)</small>
-- M.&nbsp;Forbriger, H.&nbsp;Mara, B.&nbsp;Rieck, C.&nbsp;Siart, and O.&nbsp;Wagener: [*Der ''Gesprengte Turm'' Am Heidelberger Schloss -- Untersuchung Eines Kulturdenkmals Mithilfe Hoch Auflösender Terrestrischer Laserscans*](https://bastian.rieck.me/research/Gesprengter_Turm.pdf), Denkmalpflege in Baden-Württemberg, Nachrichtenblatt der Landesdenkmalpflege, Volume 3, pp. 165--168, 2013<br />
+- M.&nbsp;Forbriger, H.&nbsp;Mara, B.&nbsp;Rieck, C.&nbsp;Siart, and O.&nbsp;Wagener: [*Der &ldquo;Gesprengte Turm&rdquo; Am Heidelberger Schloss -- Untersuchung Eines Kulturdenkmals Mithilfe Hoch Auflösender Terrestrischer Laserscans*](https://bastian.rieck.me/research/Gesprengter_Turm.pdf), Denkmalpflege in Baden-Württemberg, Nachrichtenblatt der Landesdenkmalpflege, Volume 3, pp. 165--168, 2013<br />
         <small>[\[BibTeX\]](Forbriger13a.bib)</small>
 
 ## 2012

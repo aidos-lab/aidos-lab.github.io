@@ -1,8 +1,0 @@
-#!/bin/sh
-USER=bastian
-HOST=taliesin
-DIR=/var/www/aidos.group/public_html/
-
-hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
-
-exit 0

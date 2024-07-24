@@ -33,7 +33,7 @@ ignoreFiles = ['publications.md$']
 
 [[menu.main]]
   name    = "Guide"
-  url     = "/guide/"
+  url     = "/guide"
   weight  = -100
 
 [[menu.main]]

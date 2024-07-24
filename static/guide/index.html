@@ -1,0 +1,2640 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="generator" content="LaTeX Lwarp package" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A Guide to the AIDOS Lab</title>
+<link rel="stylesheet" type="text/css" href="aidos.css" />
+</head>
+<body>
+
+
+
+<div class="bodywithoutsidetoc">
+
+
+
+<main class="bodycontainer">
+
+
+
+<section class="textbody">
+
+<a id="Guide-autofile-0"></a>
+
+<a id="Guide-autopage-1"></a>
+<div class="flushleft">
+
+<p>
+<span
+    class="fbox"
+    style="display:inline-block ; border:1pt solid #000000; padding:3pt ; color:#000000"
+> This is a guide to the <a href="https://aidos.group" target="_blank" >AIDOS Lab</a>, a research lab interested in geometry, topology, and machine learning. The guide contains information for prospective graduate students, as well as some general advice that
+might be helpful for those navigating academic systems. Feedback is always welcome—please reach out to <a href="mailto:bastian@rieck.me" target="_blank" >bastian@rieck.me</a>. </span>
+</p>
+<div class="titlepage">
+<div class="flushleft">
+
+<p>
+A Guide to the AIDOS Lab<br />
+<br />
+Dr. Bastian Rieck
+</p>
+</div>
+
+<p>
+
+<a href="Figures/aidos.svg" target="_blank" ><img
+   src="Figures/aidos.svg"
+   style="
+   width:142pt;
+   "
+   class="inlineimage"
+   alt="(image)"
+></a>
+</p>
+<div class="flushright">
+
+<p>
+Version from 8th&nbsp;July 2024
+</p>
+</div>
+
+</div>
+<!--
+...... section Changelog ......
+-->
+<h4 id="autosec-6">Changelog</h4>
+<a id="Guide-autopage-6"></a>
+
+
+<a id="sec:changelog"></a>
+
+<dl class="description" >
+
+<dt><span class="listmarker">0.0.18</span></dt>
+<dd>
+<p>
+(2024-07-06) — Rewrote and extended many sections. Marking sections that are drafts or important.
+</p>
+</dd>
+<dt><span class="listmarker">0.0.17</span></dt>
+<dd>
+<p>
+(2024-04-26) — More on philosophy, writing, getting ideas, and my own responsibilities.
+</p>
+</dd>
+<dt><span class="listmarker">0.0.16</span></dt>
+<dd>
+<p>
+(2024-02-13) — Fixed some style issues and included slides on scientific writing.
+</p>
+</dd>
+<dt><span class="listmarker">0.0.15</span></dt>
+<dd>
+<p>
+(2023-06-01) — Discussion of a welcoming lab environment; provided more guidance for authorship rules.
+</p>
+</dd>
+<dt><span class="listmarker">0.0.14</span></dt>
+<dd>
+<p>
+(2023-02-21) — Added link to wiki. Removed more technical content, since this is best stored and discussed elsewhere.
+</p>
+</dd>
+<dt><span class="listmarker">0.0.13</span></dt>
+<dd>
+<p>
+(2023-01-27) — Updated personnel list. Added section about how to apply for vacations. Also added a new section about meetings, including their different types and purposes.
+</p>
+</dd>
+<dt><span class="listmarker">0.0.12</span></dt>
+<dd>
+<p>
+(2022-10-13) — Basic introduction to cluster setup, with a discussion of the necessary administrative request, as well as a brief recipe for installing <kbd>Miniconda</kbd>.
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.11</span></dt>
+<dd>
+<p>
+(2022-09-01) — More details on graduate school admission. Added special ID numbers for travelling. Added links for IT systems.
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.10</span></dt>
+<dd>
+<p>
+(2022-15-08) — Improved title page and quotes. Added discussion on shared authorships. Added special notation section. Added section on getting ideas.
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.9</span></dt>
+<dd>
+<p>
+(2022-07-09) — Added notes on research proposals
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.8</span></dt>
+<dd>
+<p>
+(2022-06-27) — Added notes on travelling
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.7</span></dt>
+<dd>
+<p>
+(2022-06-03) — Added sources
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.6</span></dt>
+<dd>
+<p>
+(2022-06-03) — Added section on internships
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.5</span></dt>
+<dd>
+<p>
+(2022-05-09) — Expanded on philosophy and additional details
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.4</span></dt>
+<dd>
+<p>
+(2022-04-11) — Added chapter on undergraduates; updated personnel list
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.3</span></dt>
+<dd>
+<p>
+(2022-03-21) — Added notes for collaborations
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.2</span></dt>
+<dd>
+<p>
+(2022-03-16) — Documents for doctoral studies
+</p>
+
+</dd>
+<dt><span class="listmarker">0.0.1</span></dt>
+<dd>
+<p>
+(2022-03-15) — First draft
+</p>
+</dd>
+</dl>
+<!--
+...... section Acknowledgements ......
+-->
+<h4 id="autosec-7">Acknowledgements</h4>
+<a id="Guide-autopage-7"></a>
+
+
+<p>
+I am grateful to Leslie O’Bray and Julius von Rohrscheidt for providing feedback on different versions of this guide. Likewise, Simon Wengert and Johanna Sommer made a lot of incisive comments that added additional depth to this guide—thank you very much for that!
+</p>
+<!--
+...... section License ......
+-->
+<h4 id="autosec-8">License</h4>
+<a id="Guide-autopage-8"></a>
+
+
+<p>
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by-nc/4.0" target="_blank"
+>http://creativecommons.org/licenses/by-nc/4.0</a> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+</p>
+<!--
+...... chapter Contents ......
+-->
+<h3 id="autosec-9">Contents</h3>
+<a id="Guide-autopage-9"></a>
+
+
+
+
+<nav class="toc">
+<p>
+<a href="index.html#autosec-10" class="tocchapter" >
+<span class="sectionnumber">1</span>&#x2003;Introduction</a>
+</p>
+
+<p>
+<a href="index.html#autosec-11" class="tocsection" >
+<span class="sectionnumber">1.1</span>&#x2003;The origins of this guide</a>
+</p>
+
+<p>
+<a href="index.html#autosec-13" class="tocsection" >
+<span class="sectionnumber">1.2</span>&#x2003;About the lab</a>
+</p>
+
+<p>
+<a href="index.html#autosec-16" class="tocsection" >
+<span class="sectionnumber">1.3</span>&#x2003;Our philosophy</a>
+</p>
+
+<p>
+<a href="index.html#autosec-17" class="tocsection" >
+<span class="sectionnumber">1.4</span>&#x2003;Our research</a>
+</p>
+
+<p>
+<a href="index.html#autosec-19" class="tocchapter" >
+<span class="sectionnumber">2</span>&#x2003;General guidelines</a>
+</p>
+
+<p>
+<a href="index.html#autosec-20" class="tocsection" >
+<span class="sectionnumber">2.1</span>&#x2003;Availability</a>
+</p>
+
+<p>
+<a href="index.html#autosec-22" class="tocsection" >
+<span class="sectionnumber">2.2</span>&#x2003;Authorship rules</a>
+</p>
+
+<p>
+<a href="index.html#autosec-25" class="tocsection" >
+<span class="sectionnumber">2.3</span>&#x2003;Coding style</a>
+</p>
+
+<p>
+<a href="index.html#autosec-26" class="tocsection" >
+<span class="sectionnumber">2.4</span>&#x2003;Collaboration</a>
+</p>
+
+<p>
+<a href="index.html#autosec-27" class="tocsection" >
+<span class="sectionnumber">2.5</span>&#x2003;Confidentiality</a>
+</p>
+
+<p>
+<a href="index.html#autosec-29" class="tocsection" >
+<span class="sectionnumber">2.6</span>&#x2003;Conflict resolution</a>
+</p>
+
+<p>
+<a href="index.html#autosec-30" class="tocsection" >
+<span class="sectionnumber">2.7</span>&#x2003;Code of conduct</a>
+</p>
+
+<p>
+<a href="index.html#autosec-32" class="tocsection" >
+<span class="sectionnumber">2.8</span>&#x2003;Creating a welcoming environment</a>
+</p>
+
+<p>
+<a href="index.html#autosec-33" class="tocsection" >
+<span class="sectionnumber">2.9</span>&#x2003;Independence</a>
+</p>
+
+<p>
+<a href="index.html#autosec-34" class="tocsection" >
+<span class="sectionnumber">2.10</span>&#x2003;Internships</a>
+</p>
+
+<p>
+<a href="index.html#autosec-35" class="tocsection" >
+<span class="sectionnumber">2.11</span>&#x2003;Lab books</a>
+</p>
+
+<p>
+<a href="index.html#autosec-36" class="tocsection" >
+<span class="sectionnumber">2.12</span>&#x2003;Meetings</a>
+</p>
+
+<p>
+<a href="index.html#autosec-38" class="tocsection" >
+<span class="sectionnumber">2.13</span>&#x2003;Mistakes</a>
+</p>
+
+<p>
+<a href="index.html#autosec-39" class="tocsection" >
+<span class="sectionnumber">2.14</span>&#x2003;Research ideas and proposals</a>
+</p>
+
+<p>
+<a href="index.html#autosec-40" class="tocsection" >
+<span class="sectionnumber">2.15</span>&#x2003;Responsibilities</a>
+</p>
+
+<p>
+<a href="index.html#autosec-44" class="tocsection" >
+<span class="sectionnumber">2.16</span>&#x2003;Social media</a>
+</p>
+
+<p>
+<a href="index.html#autosec-45" class="tocchapter" >
+<span class="sectionnumber">3</span>&#x2003;For (prospective) Ph.D. students</a>
+</p>
+
+<p>
+<a href="index.html#autosec-46" class="tocsection" >
+<span class="sectionnumber">3.1</span>&#x2003;Onboarding checklist</a>
+</p>
+
+<p>
+<a href="index.html#autosec-48" class="tocsection" >
+<span class="sectionnumber">3.2</span>&#x2003;What is the goal of a Ph.D.?</a>
+</p>
+
+<p>
+<a href="index.html#autosec-49" class="tocsection" >
+<span class="sectionnumber">3.3</span>&#x2003;Time management</a>
+</p>
+
+<p>
+<a href="index.html#autosec-50" class="tocsection" >
+<span class="sectionnumber">3.4</span>&#x2003;Work–life balance</a>
+</p>
+
+<p>
+<a href="index.html#autosec-51" class="tocsubsection" >
+<span class="sectionnumber">3.4.1</span>&#x2003;‘Shipping is also a feature’</a>
+</p>
+
+<p>
+<a href="index.html#autosec-53" class="tocsubsection" >
+<span class="sectionnumber">3.4.2</span>&#x2003;‘It’s a marathon, not a sprint’</a>
+</p>
+
+<p>
+<a href="index.html#autosec-54" class="tocsubsection" >
+<span class="sectionnumber">3.4.3</span>&#x2003;‘To thine own self be true’</a>
+</p>
+
+<p>
+<a href="index.html#autosec-55" class="tocsection" >
+<span class="sectionnumber">3.5</span>&#x2003;Getting ideas</a>
+</p>
+
+<p>
+<a href="index.html#autosec-57" class="tocsection" >
+<span class="sectionnumber">3.6</span>&#x2003;Publishing</a>
+</p>
+
+<p>
+<a href="index.html#autosec-58" class="tocsubsection" >
+<span class="sectionnumber">3.6.1</span>&#x2003;Writing style</a>
+</p>
+
+<p>
+<a href="index.html#autosec-60" class="tocsubsection" >
+<span class="sectionnumber">3.6.2</span>&#x2003;Some writing tips</a>
+</p>
+
+<p>
+<a href="index.html#autosec-62" class="tocsubsection" >
+<span class="sectionnumber">3.6.3</span>&#x2003;Common mistakes in writing</a>
+</p>
+
+<p>
+<a href="index.html#autosec-63" class="tocsection" >
+<span class="sectionnumber">3.7</span>&#x2003;Writing code</a>
+</p>
+
+<p>
+<a href="index.html#autosec-66" class="tocsection" >
+<span class="sectionnumber">3.8</span>&#x2003;Conclusion</a>
+</p>
+
+<p>
+<a href="index.html#autosec-67" class="tocchapter" >
+<span class="sectionnumber">4</span>&#x2003;For (prospective) undergraduate students</a>
+</p>
+
+<p>
+<a href="index.html#autosec-68" class="tocsection" >
+<span class="sectionnumber">4.1</span>&#x2003;What is the goal of your stay with us?</a>
+</p>
+
+<p>
+<a href="index.html#autosec-70" class="tocsection" >
+<span class="sectionnumber">4.2</span>&#x2003;Potential topics</a>
+</p>
+
+<p>
+<a href="index.html#autosec-71" class="tocsection" >
+<span class="sectionnumber">4.3</span>&#x2003;Writing a thesis or a project report</a>
+</p>
+
+<p>
+<a href="index.html#autosec-72" class="tocchapter" >
+<span class="sectionnumber">5</span>&#x2003;Miscellaneous information</a>
+</p>
+
+<p>
+<a href="index.html#autosec-73" class="tocsection" >
+<span class="sectionnumber">5.1</span>&#x2003;Important identification numbers</a>
+</p>
+
+<p>
+<a href="index.html#autosec-76" class="tocsection" >
+<span class="sectionnumber">5.2</span>&#x2003;IT systems</a>
+</p>
+
+<p>
+<a href="index.html#autosec-78" class="tocsection" >
+<span class="sectionnumber">5.3</span>&#x2003;Personnel</a>
+</p>
+
+<p>
+<a href="index.html#autosec-81" class="tocsection" >
+<span class="sectionnumber">5.4</span>&#x2003;Travelling</a>
+</p>
+
+<p>
+<a href="index.html#autosec-82" class="tocsection" >
+<span class="sectionnumber">5.5</span>&#x2003;Vacation</a>
+</p>
+
+<p>
+<a href="index.html#autosec-83" class="tocsection" >
+<span class="sectionnumber">5.6</span>&#x2003;What-the-heck list</a>
+</p>
+
+</nav>
+<!--
+...... chapter Introduction ......
+-->
+<h3 id="autosec-10"><span class="sectionnumber">1&#x2003;</span>Introduction</h3>
+<a id="Guide-autopage-10"></a>
+
+
+<p>
+This is a guide for everyone interested in the AIDOS Lab. Whether you are a prospective student or already working with us in any capacity, this guide is here to answer some of the most relevant questions while also providing an overview of what we stand for. Most of the contents of
+this guide pertain to students, but the technical and logistical details are relevant for postdoctoral researchers, visiting scholars, and anyone who interacts with us on a close basis.
+</p>
+<!--
+...... section The origins of this guide ......
+-->
+<h4 id="autosec-11"><span class="sectionnumber">1.1&#x2003;</span>The origins of this guide</h4>
+<a id="Guide-autopage-11"></a>
+
+
+<p>
+I observed that the most successful research groups all had some form of guide that serves as an introduction to the lab, expands on certain logistical details, and so on. At the same time, I am unaware of a guide that also directly addresses expectations for Ph.D. students and other lab
+members. I therefore also included brief sections on topics that are <em>not</em> commonly discussed in such guides—but that inevitably crop up time and again—to provide a good basis for further in-person talks or one-on-one meetings.
+</p>
+
+<p>
+As a secondary reason, I want to provide some structure that all of us can refer to and benefit from. I am not a big proponent of informal structures that might arise if responsibilities are not clearly defined.<sup>1</sup> This does not mean that I believe that everything needs to be
+codified, on the contrary! I see this guide therefore not as ‘laying down the law’, but more as the creation of a common scaffold for all of us. We may easily disagree on some of the finer points, but in my experience, it is better to clearly describe expectations.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-12"></a>
+<p>
+<sup>1</sup>&nbsp;For an excellent discussion of the problem of informal power structures, see <a href="https://www.jofreeman.com/joreen/tyranny.htm" target="_blank" >this essay on power in organisations</a>
+</p>
+
+
+</div>
+<!--
+...... section About the lab ......
+-->
+<h4 id="autosec-13"><span class="sectionnumber">1.2&#x2003;</span>About the lab</h4>
+<a id="Guide-autopage-13"></a>
+
+
+<p>
+Being founded in late 2021, the AIDOS Lab is extremely young, giving us all the opportunity to help shape it. The word ‘AIDOS’ has two meanings that complement each other well. The first meaning refers to our mission statement, viz. to develop <b>A</b>rtificial
+<b>I</b>ntelligence for <b>D</b>iscovering <b>O</b>bscured <b>S</b>hapes. Like the guide that you are reading, this short moniker should serve as a gentle scaffold for our research.
+</p>
+
+<p>
+The second meaning originates from the Greek word ‘αἰδώς,’ which means ‘awe,’ ‘reverence,’ or ‘humility.’ This awe or humility should serve as one of our guiding principles when we work on challenging problems in healthcare research, aiming to improve our world using machine
+learning or other tools. The principle of humility is so central because it is easy to lose one’s sense of identity amidst things that are vying for our attention. As scientists, we are entrusted by society to think about long-term problems, and this trust requires a certain humble frame of
+mind.
+</p>
+<blockquote>
+
+<p>
+True humility is not thinking less of yourself, it is thinking of yourself less.   (C.S. Lewis)
+</p>
+
+</blockquote>
+
+<p>
+In that spirit, please enjoy your stay with the lab! I am looking forward to doing great work together. I have tried to keep the tone rather light, even though the topics this guide addresses are certainly of great importance to us. Please let me know if I missed anything that you deem
+important. Ideally, this guide should be a living document, and a constant reflection of how we want to conduct our research and our daily interactions. As Heraclitus writes: ‘All is flux, nothing is stationary.’
+</p>
+<!--
+...... paragraph On other lab names ......
+-->
+
+
+<p>
+<span class="paragraph" id="autosec-15">On other lab names</span>
+<a id="Guide-autopage-15"></a>
+If you have been around for a while in science, you are probably aware of the fact that most labs are named after the PI. You will thus find a lot of instances of ‘Smith Lab,’ for example. Many institutions follow this unfortunate paradigm and would thus prefer to refer to us as the
+‘Rieck Lab.’ I believe that a name should also carry a mission as opposed to being tied to a single person.
+</p>
+<!--
+...... section Our philosophy ......
+-->
+<h4 id="autosec-16"><span class="sectionnumber">1.3&#x2003;</span>Our philosophy</h4>
+<a id="Guide-autopage-16"></a>
+
+
+<p>
+Before we get started and lose ourselves in the jungle of additional information, I want to point out the great paper by Markowetz [<a href="index.html#LWR-ht-cite.0@Markovetz15">3</a>], which I encourage you to read. The title already encapsulates how I feel about
+<em>our</em> work: indeed, you are not working <em>for</em> me but <em>with</em> me. In case you are interested in learning more about the background of such a philosophy, the overall umbrella term is <em>participative leadership</em>. As part of this philosophy, here, in no
+particular order, are three tenets arising from this philosophy.
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <b>Communication is key</b>. If you have updates on a project or need advice on something that is blocking you, make yourself heard. I am very happy to give you feedback on anything, but you should also engage with your fellow lab
+members. Often, even briefly talking or writing about your specific problem can help you get ‘unstuck.’ The same holds when you want to try out new ideas. Do not be afraid to briefly talk them through.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <b>You are in charge</b>. While I will help guide you and your research, <em>you</em> are in the driver’s seat. Be proactive, reach out to others if need be, and, following the previous point, communicate what is going on. For
+instance, if something is <em>not</em> working, let me—and your project partners—know so that we can jointly figure out what is going on. Moreover, you do not have to ask for permission if you want to try out new things. Find a course that interests you? Take it! See a paper that
+is inspiring? Read it and think about it. You get the idea—I trust you to use your time wisely; you have full autonomy concerning the research directions.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <b>Ask questions</b>. Be not afraid to ask for clarification or help, in particular if you are unsure about how to proceed. A big part of science involves navigating unknown intellectual terrain, which can be daunting. Ask away and start
+discussions left and right. It will help you in the long run!
+</p>
+</li>
+</ul>
+<!--
+...... section Our research ......
+-->
+<h4 id="autosec-17"><span class="sectionnumber">1.4&#x2003;</span>Our research</h4>
+<a id="Guide-autopage-17"></a>
+
+
+<a id="sec:Our research"></a>
+
+<p>
+Broadly speaking, our lab is all about developing methods. I always like to use the term <em>toolsmith</em> for myself, echoing a great coinage by the late Fred Brooks&nbsp;[<a href="index.html#LWR-ht-cite.0@Brooks96">1</a>]. This means that, foremost, we should be
+interested in developing new methods, new tools, new ways of looking at things. At the same time, this should never go at the expense of <em>utility</em>. Notice that utility is not the same as having a direct application! A method can provide utility by solving a problem more
+elegantly and with fewer assumptions, for instance. Ideally, a new tool should bring new insights. What I want to avoid is research along the lines of ‘solving somebody else’s problem using somebody else’s method.’ That is not to say that we should ignore existing literature or insist
+on always rolling our own solution, but it should provide an overall goal for us all to strive for.
+</p>
+
+<p>
+Navigating this requires some wisdom and a lot of reflection. A quick litmus test is to ask yourself the question ‘Why am I doing this?’ In the beginning of my own Ph.D. research , I sometimes could only answer ‘Because I can.’ This is <em>not</em> a good motivation, and I have
+since thought much more deeply about this. Nowadays, I find that the dictum ‘theory without practice is empty’ sums up my views nicely. Some more thoughts about this may be found in chapter&nbsp;<a href="index.html#chap:Ph.D. students">3</a> and, more
+specifically, section&nbsp;<a href="index.html#sec:Getting ideas">3.5</a>.
+</p>
+
+<p>
+I am aware that striving for novelty <em>and</em> utility is not necessarily easy, and many students are afraid of working on what they construe to be incremental advances.<sup>2</sup> Notice, however, that scientific progress always advances incrementally in some sense. Big
+leaps do happen, of course, and it is good to strive for them, but at the same time, I am a big advocate of intellectual humility and giving generous credit to those who came before us. As Frank Herbert wrote: ‘From the top of the mountain, you cannot see the mountain.’ I construe
+this to mean that problems, once conquered, cease to look like big challenges. That does not mean that they were conquered without any effort, though. My advice to everyone, in particular if they are just starting out in science, is to focus more on the things <em>you</em> can do
+and contribute and worry about all the other aspects later. Your research is an ongoing conversation. Let it evolve and change over time!
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-18"></a>
+<p>
+<sup>2</sup>&nbsp;This is also a comment one might get from reviewers, unfortunately. I wish we would beyond these shallow notions of&nbsp;(perceived) novelty.
+</p>
+
+
+</div>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/2023/gaps/" target="_blank" >Human in the Gaps: Thriving in the New AI Age</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/2022/toolsmith/" target="_blank" >The Machine Learning Scientist as Toolsmith: Remembering Fred Brooks</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... chapter General guidelines ......
+-->
+<h3 id="autosec-19"><span class="sectionnumber">2&#x2003;</span>General guidelines</h3>
+<a id="Guide-autopage-19"></a>
+
+
+<p>
+This chapter covers general guidelines that are of general interest to anyone working with the lab or for the lab. Guidelines are ordered alphabetically. If you only read two sections of this chapter, it should be section&nbsp;<a
+href="index.html#sec:Code of conduct">2.7</a>, which outlines how members of the lab should comport themselves, and section&nbsp;<a href="index.html#sec:Creating a welcoming environment">2.8</a>, which provides suggestions for creating a
+welcoming environment.
+</p>
+<!--
+...... section Availability ......
+-->
+<h4 id="autosec-20"><span class="sectionnumber">2.1&#x2003;</span>Availability</h4>
+<a id="Guide-autopage-20"></a>
+
+
+<p>
+As a general rule of thumb, all lab members should be available<sup>1</sup> during normal European business hours, say from 10∶00–16∶00. This makes it possible for other groups to interact with us and greatly simplifies any collaborations. I will not blindly enforce this rule, but I
+expect you to notify me if you are <em>not</em> available during a certain period of time. Moreover, as a token of respect to all other lab members, everyone should usually be present for the lab meetings.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-21"></a>
+<p>
+<sup>1</sup>&nbsp;This means either being present in your office or being responsive to messages or calls when you are working from home. It does <em>not</em> mean that you are glued to your screen at all times.
+</p>
+
+
+</div>
+<!--
+...... section Authorship rules ......
+-->
+<h4 id="autosec-22"><span class="sectionnumber">2.2&#x2003;</span>Authorship rules</h4>
+<a id="Guide-autopage-22"></a>
+
+
+<p>
+When submitting a paper to a machine learning venue, the order of authors should reflect their contribution and relevance for the project. Typically, this will mean that junior members, such as Ph.D. and graduate students, will be placed <em>before</em> more senior members. To
+assess whether a person is qualified to be an author on a manuscript, we will follow a set of rules. Anyone listed on a paper as an author has to satisfy all of the following criteria:<sup>2</sup>
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> They have made substantial intellectual contributions to at least a subset of the work described in the manuscript.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> They have participated in writing or revising the manuscript.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> They are aware of the existence of the manuscript and of the intent to submit the manuscript to a certain venue.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> They agree with the content of the manuscript and are willing to vouch for the correctness of the work.
+</p>
+</li>
+</ul>
+
+<p>
+In particular, there will <em>not</em> be any ‘courtesy authorships.’ Unless you raise this an issue with me, I will typically assume that there are no conflicts with these guidelines. Let me know well before the submission if this is not the case! Following these rules is a way for all of
+us to demonstrate scientific integrity. The main idea behind this rule is that everyone listed as an author should be comfortable with giving a talk on the work. If this is not the case, something is wrong.
+</p>
+
+<p>
+I realise that this policy cannot be enforced in larger collaborations unless <em>all</em> participants are aware of this. Certainly, I do not expect any students to handle authorship disputes—you should always feel comfortable to bring such matters to my attention. Ensuring fair
+treatment in scientific matters is one of my primary responsibilities.
+</p>
+<!--
+...... paragraph On shared authorships ......
+-->
+
+
+<p>
+<span class="paragraph" id="autosec-23">On shared authorships</span>
+<a id="Guide-autopage-23"></a>
+In machine learning and many other scientific domains, it is common practice to share authorships. This is a nod to the inherent complexity and teamwork involved in large-scale projects. I encourage you to think about sharing authorships with other Ph.D. students whenever this is
+appropriate. Please involve me in such discussions early on. If you intend to write a publication-based dissertation, pay attention to what constitutes a ‘core’ publication for your thesis.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-24"></a>
+<p>
+<sup>2</sup>&nbsp;This policy is an amalgamation of the rules instituted by ETH Zurich and the <a href="https://www.acm.org/publications/policies/authorship" target="_blank" >ACM Criteria for Authorship</a>.
+</p>
+
+
+</div>
+<!--
+...... section Coding style ......
+-->
+<h4 id="autosec-25"><span class="sectionnumber">2.3&#x2003;</span>Coding style</h4>
+<a id="Guide-autopage-25"></a>
+
+
+<p>
+Since we will be working mostly with Python, here is the ‘house style’ that I urge everyone to adopt. Most of these rules are meant to make it easy to develop software <em>together</em>. They also make it easy for me&nbsp;(and others) to read your code and interact with it.
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <b>Use a code formatter</b>. It completely obviates any need for discussions about personal styles. If you integrate it into your editor or your <a href="https://github.com/features/actions" target="_blank" >GitHub
+actions</a>, you can write your code in your preferred style, and let your editor format it for you. Personally, I like <a href="https://github.com/psf/black" target="_blank" ><kbd>black</kbd></a> for code formatting because it is easy to use.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <b>Follow the Python style guide</b>. The style guide, also known as <a href="https://peps.python.org/pep-0008" target="_blank" >PEP 8</a>, provides numerous hints as to how to structure your code. Some of this
+is redundant if you already use a code formatter, but the advice on how to build better software and structure your classes is worth a read.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <b>Use ‘docstrings’ to document your code</b>. If you are just drafting your code, you do not need good documentation. But as soon as the dust has settled somewhat, it is a good idea to think about writing some documentation in case
+you want others to build on your project. Notice that not every project needs to be perfectly documented, but you are substantially increasing the impact and overall utility of your work if you make it easy for others to perceive the salient points of your project. See the <a
+href="https://numpydoc.readthedocs.io/en/latest/format.html" target="_blank" ><kbd>numpy</kbd> documentation guide</a> for great examples of how to craft good documentation.
+</p>
+</li>
+</ul>
+<!--
+...... section Collaboration ......
+-->
+<h4 id="autosec-26"><span class="sectionnumber">2.4&#x2003;</span>Collaboration</h4>
+<a id="Guide-autopage-26"></a>
+
+
+<p>
+Science is fundamentally a collaborative endeavour. Given our research interests, we are in the special situation of working with mathematics as well as code. This makes our collaborations exciting—but may also be a source of conflict when writing code or papers together. Here are
+some suggestions to mitigate this&nbsp;(see also section&nbsp;<a href="index.html#sec:Code of conduct">2.7</a> for our code of conduct):
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <b>Understand that you will make mistakes</b>. In the context of science, it is important to be honest about such mistakes. I would rather prevent us from publishing something that we know is wrong than hoping that no one notices it.
+Truth is paramount, and making mistakes provides a learning opportunity for all of us.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <b>You are not your code or your paper</b>. It is useful to ‘depersonalise’ criticism and not take it personally. I know that this is easier said than done, but we should all at least strive for that. The goal is to do outstanding science—and
+we should take criticism as a way to improve. There <em>is</em> value even in negative results or approaches that do not work. Do not be dismayed by this.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <b>There’s always a bigger fish</b>. The goal of collaborations is to expand your knowledge. There will be others who know more about a specific facet of the research. This is perfectly normal; there’s no need to be intimidated or
+scared—they will probably feel the same about <em>you</em>!
+</p>
+</li>
+</ul>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://www.ted.com/talks/stuart_firestein_how_failure_can_be_a_path_into_the_unimaginable" target="_blank" >How Failure Can Be a Path Into the Unimaginable</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="http://blog.stephenwyattbush.com/2012/04/07/dad-and-the-ten-commandments-of-egoless-programming" target="_blank" >The Ten Commandments of Egoless Programming</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Confidentiality ......
+-->
+<h4 id="autosec-27"><span class="sectionnumber">2.5&#x2003;</span>Confidentiality</h4>
+<a id="Guide-autopage-27"></a>
+
+
+<p>
+We will adhere to the highest standards of confidentiality when it comes to data entrusted to us. This means that we ensure that confidential information—including, but not limited to, patient data—remains confidential. I will treat our one-on-one meetings as confidential and will
+not discuss them with anyone else without your approval.<sup>3</sup> If you are in doubt whether you are allowed to share certain information, please ask me! In particular when it comes to information that is sensitive or falls under privacy laws, it is better to get explicit approval.
+If I consent to sharing something, it will also be <em>my</em> responsibility and you will be protected.
+</p>
+
+<p>
+If you are working using your private hardware, ensure that the necessary steps are taken to protect potentially sensitive information. For instance, your smartphone should be protected using a PIN and, ideally, be encrypted. Make sure to lock your screen and protect your device
+when leaving it in a public space.
+</p>
+
+<p>
+Confidentiality should never prevent you from talking about your ideas or sharing them with other people. This section only covers the protection of any form of sensitive data from a legal point of view, in particular when such data contains information that could be potentially linked
+to other persons. Moreover, I want members of the lab to feel safe when it comes to discussing potentially sensitive matters among each other; such information must never be divulged to third parties, unless consent is given by all parties involved.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-28"></a>
+<p>
+<sup>3</sup>&nbsp;For conflict resolution, a high-level dissemination of the contents of a meeting might be required. I will discuss this prior to divulging any information to anyone else, though. See also section&nbsp;<a
+href="index.html#sec:Conflict resolution">2.6</a>.
+</p>
+
+
+</div>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019" target="_blank" >Full Disk Encryption&nbsp;(Ubuntu Linux)</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://support.apple.com/en-us/HT204837" target="_blank" >Using FileVault to encrypt a hard drive&nbsp;(Mac OS X)</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838" target="_blank" >Turning On Device Encryption&nbsp;(Windows)</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Conflict resolution ......
+-->
+<h4 id="autosec-29"><span class="sectionnumber">2.6&#x2003;</span>Conflict resolution</h4>
+<a id="Guide-autopage-29"></a>
+
+
+<a id="sec:Conflict resolution"></a>
+
+<p>
+We are all human, and as such, conflicts might arise naturally. Please follow the ‘least said, soonest mended’ policy and inform me <em>immediately</em> if you perceive a conflict that you cannot resolve or that you want my opinion on. If the conflict involves me, I am very open to
+discussing it with you and understanding how I can improve as a supervisor and a person. If you do <em>not</em> feel comfortable having such a discussion with me, please discuss it with other members of the Institute of AI for Health&nbsp;(for instance, Carsten Marr).
+</p>
+<!--
+...... section Code of conduct ......
+-->
+<h4 id="autosec-30"><span class="sectionnumber">2.7&#x2003;</span>Code of conduct</h4>
+<a id="Guide-autopage-30"></a>
+
+
+<a id="sec:Code of conduct"></a>
+
+<p>
+We are working together with the mission to improve the world—be it ever so slightly! Excellent science can only arise in an excellent work environment. I therefore expect all of us to follow certain guidelines in our daily dealings with others:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <b>Be kind</b>. If someone performs an action that hurts you, assume no ill intent. It is easy to jump to conclusions or aim to ‘condense fact from the vapour of nuance.’ Resist the urge to follow an emotional response and, if you can,
+sleep a night over it.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <b>Be professional</b>. We are all humans and come in different shapes, forms, colours, and beliefs. Treat everyone with respect and always hold yourself to the highest standards. Follow the principles outlined below.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <b>Be open</b>. Good science is achieved by collaborating with others. All of us are here to <em>learn</em>. Do not be afraid to ask simple questions, and do not put those in place that do so.
+</p>
+</li>
+</ul>
+
+<p>
+When representing the lab at a conference or at another venue, remember that we <em>serve the public</em>. We are graciously financed from public sources and should be accountable to the public. I personally find that the <a
+href="https://www.good-governance.org.uk/publications/insights/the-nolan-principles" target="_blank" >Nolan Principles</a> embody the ideals that we should strive for as scientists. Here is my take on them, with slight modifications:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> <b>Selflessness</b>. We should act in terms of the interest of science itself. This does not mean that we are not allowed to have our own agenda, but said agenda should never be at odds with scientific integrity&nbsp;(see the second
+point).
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> <b>Integrity</b>. We must act with integrity in our daily work. This includes, for example, that we shall always portray the work of others faithfully and to the best of our knowledge; we never wilfully ignore mentioning related work in
+papers to make our work look better.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> <b>Objectivity</b>. We must be as fair and impartial as possible and never let our inherent biases influence our decisions.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> <b>Accountability</b>. We are accountable to the public for our scientific work and should always be willing to explain our decisions.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">5.</span> <b>Transparency</b>. We should act as if our decisions are fully transparent and open. The public has a right to understand what we are doing&nbsp;(see previous point).
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">6.</span> <b>Honesty</b>. We should always act in a truthful manner. This also means sharing ‘bad news,’ such as experiments that do not work. There will always be setbacks and things that do not work, but we must be able to rely on the
+fundamental veracity of members of the lab.
+</p>
+</li>
+</ul>
+
+<p>
+In software projects, I summarise this code of conduct often as follows:
+</p>
+<blockquote>
+
+<p>
+Developing is a fundamentally collaborative endeavour. Whenever human beings interact, there is a potential for conflict. At the same time, there is an even greater potential to build something that is ‘bigger than the sum of its parts.’ In this spirit, all contributors shall be aware of the
+following guidelines:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Be tolerant of opposing views.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Be mindful of the way you utter your critiques; ensure that what you write is objective and does not attack a person or contain any disparaging remarks.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Be forgiving when interpreting the words and actions of others; always assume good intentions.
+</p>
+</li>
+</ul>
+
+<p>
+We want contributors to participate in a respectful, collaborative, and overall productive space here. Any harassment will not be tolerated.
+</p>
+</blockquote>
+
+<p>
+By the by: I do not think that such a code of conduct is strictly <em>necessary</em>, but I believe that it is useful to write down some values that we should adopt.
+</p>
+<!--
+...... section Creating a welcoming environment ......
+-->
+<h4 id="autosec-32"><span class="sectionnumber">2.8&#x2003;</span>Creating a welcoming environment</h4>
+<a id="Guide-autopage-32"></a>
+
+
+<a id="sec:Creating a welcoming environment"></a>
+
+<p>
+Many of the guidelines mentioned in this article have the explicit goal of creating a welcoming environment in the lab. Our research provides us with unprecedented access to people from many different cultures and walks of life. Yet, segregation and prejudices based on our visible
+and invisible differences continue to haunt and mar human relations. We need to work hard to address these issues properly, lest our biases lead to certain groups being prevented to excel. As part of that, we should all strive to make our lab environment welcoming for all. Among the
+myriad of things we can do to improve our daily interactions, I want to highlight two important aspects:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Whenever possible, conduct your discussions in English, to make it easier for others to join in, and to prevent excluding anyone.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Always use the names and pronouns that a person wants you to use to address them. Some of our fellow researchers are suffering from <a href="https://en.wikipedia.org/wiki/Deadnaming" target="_blank"
+>deadnaming</a> by governmental organisations. Let us be a force for good here!
+</p>
+</li>
+</ul>
+<!--
+...... section Independence ......
+-->
+<h4 id="autosec-33"><span class="sectionnumber">2.9&#x2003;</span>Independence</h4>
+<a id="Guide-autopage-33"></a>
+
+
+<a id="sec:Independence"></a>
+
+<p>
+In a very real sense of the word, you are the captain of your journey through academia. I expect you to be the person in charge of your projects and work independently. You get to decide where to go and where to take things, my job is to provide guidance and support you in your
+endeavours&nbsp;(see section&nbsp;<a href="index.html#sec:Responsibilities">2.15</a> for more thoughts on this). My support and involvement can always be adjusted to match your needs. There are projects where you might prefer close guidance, while in other
+projects, you might prefer to be left to your own devices. You are in charge!
+</p>
+<!--
+...... section Internships ......
+-->
+<h4 id="autosec-34"><span class="sectionnumber">2.10&#x2003;</span>Internships</h4>
+<a id="Guide-autopage-34"></a>
+
+
+<a id="sec:Internships"></a>
+
+<p>
+I am a big proponent of internships and secondments. This is an excellent opportunity for lab members to learn new skills, get to collaborate with other labs, and change their scenery for a spell. I will support all internships—whether they are academical or with labs from industry—to
+the best of my capabilities. My preference is for lab members to not jump into internships right away, but an excellent time could be during the middle of your planned stay in the lab. That way, there will not be any time pressure such as a looming deadline for handing in your Ph.D.
+thesis. Moreover, this will also enable you to share some of the experiences with the group. I would very much like to use internships as a way to obtain new skills, perspectives, and ideas for both the intern and the lab.
+</p>
+
+<p>
+One great way to plan such a secondment involves <a href="https://ellis.eu" target="_blank" >ELLIS</a>. As soon as you meet the requirements for joining ELLIS as a Ph.D. student, you are eligible to join the research group of any other ELLIS member for some
+time. Make use of this opportunity and discuss it with me early on if you are interested.
+</p>
+<!--
+...... section Lab books ......
+-->
+<h4 id="autosec-35"><span class="sectionnumber">2.11&#x2003;</span>Lab books</h4>
+<a id="Guide-autopage-35"></a>
+
+
+<a id="sec:Lab books"></a>
+
+<p>
+I strongly encourage everyone to maintain a lab book. This is a great way to structure information, store intermediate results, and also get an idea of what one has been working on at a certain point in time. Different types of lab books work for different people. I personally maintain a
+lab book as a text-only <kbd>Markdown</kbd> document because I like it to be available on every computer I use. Your mileage may vary—I also enjoy taking handwritten notes or using my iPad for this purpose. Find something that works for <em>you</em> and do not be afraid to
+try out multiple ways of keeping notes.
+</p>
+
+<p>
+You may also use the lab book to create an agenda for meetings with me. This is certainly not a must—you decide whether to share the lab book with me or not. The upside of having a lab book is that you will always be able to understand where you spent the bulk of your time; this can
+be very beneficial for weeks that just do not feel that busy.
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://www.sciencemag.org/careers/2019/09/how-keep-lab-notebook" target="_blank" >How to keep a lab book</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2018/lab_book" target="_blank" >Keeping a lab book</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://obsidian.md" target="_blank" ><kbd>Obsidian</kbd>, a personal <kbd>Markdown</kbd> knowledge base</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Meetings ......
+-->
+<h4 id="autosec-36"><span class="sectionnumber">2.12&#x2003;</span>Meetings</h4>
+<a id="Guide-autopage-36"></a>
+
+
+<p>
+Meetings, whether remote or in-person, are a double-edged sword: if done well, they are very conducive for research and inspiring. If done badly, they can suck the joy out of your day. We strive—obviously—to only have the first type of meeting. Notice that there are different kinds
+of meetings with different modalities and goals. For instance, if we are collaborating closely, we will have regular <em>one-on-one meetings</em>. These meetings are time that belongs to <em>you</em>, and you can fill it with anything that comes to your mind. I might have some
+direct questions about checking in with you, but apart from that, you fully control the flow of these meetings; indeed, you can and should feel free to <em>ask me anything</em>. The primary purpose of these meetings, next to being able to see each other on a regular basis, is for me to
+<em>help you get unstuck</em>. We can talk about some of your research issues or obstacles you face and there is the distinct possibility that just by talking about that, you will be able to overcome your obstacles or formulate new plans of attack. A good way to think about
+me&nbsp;(i.e. your supervisor) is to consider me an input–output machine.<sup>4</sup> In our one-on-one meetings, you provide me with some <em>input</em>, which I use to generate some <em>output</em>, typically in the form of feedback or suggestions. However, I cannot
+create useful output from empty inputs. To be able to help you effectively, you need to provide me with <em>something</em>.
+</p>
+
+<p>
+By contrast, there are some <em>project meetings</em>. These meetings are more about discussing the progress of projects, chiming in when it comes to certain aspects of the project, or discussing new ideas and directions. Project meetings typically comprise more people, and there
+is always the risk of zoning out if it not your turn to say something. We should resist that urge and think alongside our collaborators, though, because that way, we can make more rapid progress. Project meetings run the risk of feeling less effective, but we will try to keep them short
+and to the point. The most important thing to take from such meetings is an understanding of <em>who</em> is responsible for <em>what</em>. With some of my collaborators, I tend to use the terminology of the ‘token,’ i.e. if I have the ‘writing token,’ then I am responsible for
+writing until I pass the token to someone else. Being upfront about the responsibilities is a great way for making rapid progress.
+</p>
+
+<p>
+Regardless of the type of meeting, if at any point, it is unclear to you what was discussed or what you should do, <em>reach out to me</em>. There is absolutely no shame in asking for clarifications, and I would rather re-discuss a potentially tricky aspect of a project multiple times than
+not making any progress at all. The same holds of course in case you disagree with a direction or are concerned about its feasibility. <em>Please raise such concerns with me</em>; despite what some established researchers would like you to believe, we are neither all-knowing nor
+all-powerful. We may miss issues just like everyone else.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-37"></a>
+<p>
+<sup>4</sup>&nbsp;This is from a great <a href="https://austinhenley.com/blog/lessonsfrommyphd.html" target="_blank" >blog post</a> by Austin Henley.
+</p>
+
+
+</div>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://christian.bock.ml/posts/academic_meetings" target="_blank" >How to hold successful meetings in academia</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://austinhenley.com/blog/lessonsfrommyphd.html" target="_blank" >Lessons from my PhD</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Mistakes ......
+-->
+<h4 id="autosec-38"><span class="sectionnumber">2.13&#x2003;</span>Mistakes</h4>
+<a id="Guide-autopage-38"></a>
+
+
+<p>
+We are all human and make mistakes. ‘To err is human, to forgive divine.’ In that spirit, it is important to realise that mistakes happen and are a natural part of doing research. We should always strive to be open about mistakes that we make. For instance, if the calculations for a paper
+under revision are incorrect, it is critically relevant for team members to be aware of it as early as possible. At the very least, <em>I</em> should be made aware of it. I want everyone to feel confident in ‘confessing’ whenever a non-trivial mistake happens. Together, we can rectify the
+mistake and—most importantly—<em>learn from it</em>.
+</p>
+<!--
+...... section Research ideas and proposals ......
+-->
+<h4 id="autosec-39"><span class="sectionnumber">2.14&#x2003;</span>Research ideas and proposals</h4>
+<a id="Guide-autopage-39"></a>
+
+
+<p>
+One of the most common dilemmas that I faced during my Ph.D. was elucidating my research ideas and proposals to myself and others. During my postdoctoral stay in Karsten Borgwardt’s group, I condensed my own experiences into a set of guiding principles, shown in the form of
+questions to shape a research project. Whenever you embark on a research endeavour, these questions may hopefully help shape and sharpen your ideas:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> What is the main idea of your project? Try to be as succinct as possible and refrain from using too much jargon.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> What are existing approaches, i.e. potential comparison partners, in this context? How do they measure up to your proposal?
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> How do you measure success in this project? Notice that ‘success’ can take many forms; a review paper, for instance, might be considered successful if it manages to describe and categorise a specific research domain.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> Why is your project relevant? Try to see this from multiple angles and think about the potential audience of the project. A project might be relevant because it solves an existing problem; it might also be relevant because it builds a bridge
+between two disciplines, etc.
+</p>
+</li>
+</ul>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://www.darpa.mil/work-with-us/heilmeier-catechism" target="_blank" >The Heilmeier Catechism</a> is a famous list of questions George H. Heilmeier, a director of DARPA, used to pose. I
+personally do not like phrasing this as a catechism, but the overall spirit of assessing research proposals goes in a similar direction.
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Responsibilities ......
+-->
+<h4 id="autosec-40"><span class="sectionnumber">2.15&#x2003;</span>Responsibilities</h4>
+<a id="Guide-autopage-40"></a>
+
+
+<a id="sec:Responsibilities"></a>
+
+<p>
+Every person in the lab has certain responsibilities, which we mention here to provide an understanding of the expectations of different roles in the lab. The descriptions are kept relatively general on purpose; they should serve to provide a suitable overview. These responsibilities are
+paraphrased from <a href="http://ivory.idyll.org/lab/work-guidelines.html" target="_blank" >the work guidelines</a> of the <a href="http://ivory.idyll.org/lab/index.html" target="_blank" >DIB Lab</a>, headed by <a
+href="https://biology.ucdavis.edu/people/c-titus-brown" target="_blank" >Titus Brown</a>.
+</p>
+<!--
+...... paragraph Bastian's responsibilities ......
+-->
+
+
+<p>
+<span class="paragraph" id="autosec-41">Bastian’s responsibilities</span>
+<a id="Guide-autopage-41"></a>
+
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Provide scientific guidance and leadership with respect to ongoing and upcoming projects. Depending on the project, this can mean different levels of involvement. Please just ask if you want to change my level of involvement in your
+project.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Be available for discussions, brainstorm sessions, and meetings whenever necessary. If you cannot get a hold of me in real life, here are some ways to contact me virtually: for questions with a time-critical component, I prefer
+<kbd>Slack</kbd>. For longer questions that can be answered asynchronously, e-mail is best. I am also happy to hop on any meeting tool with you or meet in real life on campus.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Provide guidance for the careers of lab members and assist lab members in reaching those goals by, for instance, writing letters of recommendation or pointing out opportunities for advancement. I am happy to discuss <em>your</em>
+career with you, and will always find the time to do so.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Ensure funding and acquire new funding.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Resolve scientific and personal disputes both inside and outside the lab.
+</p>
+</li>
+</ul>
+<!--
+...... paragraph Postdoc responsibilities ......
+-->
+
+
+<p>
+<span class="paragraph" id="autosec-42">Postdoc responsibilities</span>
+<a id="Guide-autopage-42"></a>
+
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Develop research projects or identify potential new research directions; either on their own or with the help of the PI.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Pursue projects and collaborations that are aligned with their <em>own</em> career goals. Such projects do not necessarily have to involve any other members of the lab.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Present their work at lab meetings and other gatherings of lab members.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Support the PI by providing scientific leadership within the lab.
+</p>
+</li>
+</ul>
+<!--
+...... paragraph Ph.D. student responsibilities ......
+-->
+
+
+<p>
+<span class="paragraph" id="autosec-43">Ph.D. student responsibilities</span>
+<a id="Guide-autopage-43"></a>
+
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Develop research projects or identify potential new research directions with the help of postdocs and/or the PI.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Work towards the goal of obtaining a Ph.D. with their research.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Present their work at lab meetings and other gatherings of lab members.
+</p>
+</li>
+</ul>
+<!--
+...... section Social media ......
+-->
+<h4 id="autosec-44"><span class="sectionnumber">2.16&#x2003;</span>Social media</h4>
+<a id="Guide-autopage-44"></a>
+
+
+<p>
+I encourage you to use social media in order to interact with other researchers and promote your own research. Setting up a blog is a simple way to get people excited about projects. In particular for machine learning projects, a blog post, with its more informal tone and no restrictions
+on length, can often turn out to be extremely helpful for others and ‘put you on the map.’ Your own research portfolio can be easily hosted on <a href="https://github.com" target="_blank" >GitHub</a>, for instance. Approach me if you are interested in additional
+hosting options and want some feedback on creating your portfolio.
+</p>
+
+<p>
+In addition to maintaining such a website, I can also recommend creating a <a href="https://twitter.com" target="_blank" >Twitter</a> profile and following researchers or institutions that are aligned with your research interest. While the signal-to-noise ratio might
+leave something to be desired, Twitter can be a valuable source of fellowships, job advertisements, and papers. I highly recommend reading Cheplygina et al. [<a href="index.html#LWR-ht-cite.0@Cheplygina20">2</a>] for tips on how to get started.
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2019/personal_website" target="_blank" >Why every academic should have a personal website</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... chapter For (prospective) Ph.D. students ......
+-->
+<h3 id="autosec-45"><span class="sectionnumber">3&#x2003;</span>For (prospective) Ph.D. students</h3>
+<a id="Guide-autopage-45"></a>
+
+
+<a id="chap:Ph.D. students"></a>
+
+<p>
+This chapter discusses your role as a&nbsp;(prospective) Ph.D. student in our lab. It outlines your privileges, your responsibilities, and aims to give general advice on certain issues, such as structuring your work, solving issues, and taking vacations.
+</p>
+
+<p>
+If you are about to start your Ph.D. with us, make sure that you use the first few weeks to establish a <em>sustainable</em> work routine. The subsequent sections aim to provide more details about this, and you should make sure to find something that works for <em>you</em>. The
+other lab members and myself are happy to give our own thoughts about this!
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://twitter.com/kph3k/status/1428769650675003395?s=09" target="_blank" >Twitter discussion thread on finding the proper balance</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Onboarding checklist ......
+-->
+<h4 id="autosec-46"><span class="sectionnumber">3.1&#x2003;</span>Onboarding checklist</h4>
+<a id="Guide-autopage-46"></a>
+
+
+<p>
+This section is still very much a work-in-progress. It is updated whenever a new process arises that can be automated. Some of these steps will have to be performed manually by you; however, if you see something that can improved, please tell me!<sup>1</sup>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Your equipment will be provided by the centre. Normally, this should happen on your first day; details about that day will be sent to you in a separate e-mail by our HR coordinator&nbsp;(see section&nbsp;<a
+href="index.html#sec:Personnel">5.3</a> for the current team).
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> You should be part of our Slack already. If not, drop me an e-mail.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Create a <a href="https://github.com/" target="_blank" >GitHub</a> account or, if you already have one, add your university e-mail address to it. Then inform me so that I can add you to our GitHub organization.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Study the guidelines of <a href="https://www.helmholtz-helena.de/about-us/frequently-asked-questions/index.html" target="_blank" >HELENA</a>, i.e. our local graduate school, to learn about the
+registration process. Being a registered graduate student confers certain benefits, including additional access to great courses and travel support. Since I am affiliated with Technical University of Munich, you also need to check their <a
+href="https://www.cit.tum.de/en/cit/research/doctorate" target="_blank" >rules for being enrolled in the roster of graduate students</a>.
+</p>
+</li>
+</ul>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-47"></a>
+<p>
+<sup>1</sup>&nbsp;This is a general statement, pertaining to all the things discussed in this guide.
+</p>
+
+
+</div>
+<!--
+...... section What is the goal of a Ph.D.? ......
+-->
+<h4 id="autosec-48"><span class="sectionnumber">3.2&#x2003;</span>What is the goal of a Ph.D.?</h4>
+<a id="Guide-autopage-48"></a>
+
+
+<p>
+The goal of a Ph.D. is to increase our knowledge of the world. This sounds lofty and exalted, but it really boils down to providing some additional insights into data or phenomena. There are numerous ways, none fundamentally ‘better’ than the other, to achieve this goal. In some
+cases, your insights will pertain to addressing complex issues, for instance contributing to our understanding of illnesses, such as Alzheimer’s disease. In other cases, your contributions may well be of a more theoretical nature—showing that a certain algorithmic approach is feasible,
+for example. Your individual trajectory might also oscillate between theory and practice. The important thing is that you will be able to point towards novel insights that <em>you</em> and <em>your research</em> helped unveil.
+</p>
+
+<p>
+This is the primary goal of a Ph.D. A germane set of ancillary goals involves the things you might usually associate with pursuing a Ph.D., viz. (i)&nbsp;reading publications, (ii)&nbsp;publishing papers at conferences, in journals, and in workshops, (iii)&nbsp;discussing your work
+with other scientists, and (iv)&nbsp;writing a dissertation thesis. While important and conducive to reaching the primary goal, these are, in some sense, much more mundane tasks than contributing to the totality of human knowledge. I am stressing this point because every Ph.D.
+journey is different—it is <em>research</em>, after all—and not every Ph.D. student might end up with the same number of publications afterwards. This does not detract from the overall value of the endeavour! It is tough to resist the ‘counting’ mentality, but please keep in mind
+this overall goal and <a href="https://en.wikipedia.org/wiki/Goodhart%27s_law" target="_blank" >Goodhart’s Law</a>, which I paraphrase as follows: ‘When a measure becomes a target, it ceases to be a good measure.’ Thus, do not aim for publication output
+but aim for knowledge first. <b>It is better to graduate with a few excellent publications than lots of mediocre ones</b>.
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://matt.might.net/articles/phd-school-in-pictures" target="_blank" >The illustrated guide to a Ph.D.</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Time management ......
+-->
+<h4 id="autosec-49"><span class="sectionnumber">3.3&#x2003;</span>Time management</h4>
+<a id="Guide-autopage-49"></a>
+
+
+<p>
+It is <em>your</em> responsibility to manage your time during the Ph.D., and there is no ‘one-size-fits-all approach.’ However, there are certain patterns that have proven effective, so I want to spell them out explicitly:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> Make sure to allocate time for reading. You are a scientist, so reading papers is a core activity that you should do in your work time.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Take your time to document your thoughts and experiments. This will be very useful when writing your thesis. See also section&nbsp;<a href="index.html#sec:Lab books">2.11</a> on keeping a lab book.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> Set aside some time for ‘free-form learning.’ If you encounter a concept, a skill, or a technology that interests you, dive into it! It is often through serendipity that new research ideas are created.
+</p>
+</li>
+</ul>
+
+<p>
+Depending on the way you are internally wired and motivated, it might be useful to have regular mini-deadlines or milestone check-up. Raise these things in our one-on-one meetings to make sure that I am aware of your needs.
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf" target="_blank" >How to Read a Paper</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Work--life balance ......
+-->
+<h4 id="autosec-50"><span class="sectionnumber">3.4&#x2003;</span>Work–life balance</h4>
+<a id="Guide-autopage-50"></a>
+
+
+<p>
+There is more to life than research—even if we all enjoy it, everyone needs to recharge their batteries. I encourage everyone to keep a larger ‘identity’ beyond ‘I am doing research all the time’. Your output <em>will</em> suffer if you do not take care of your overall well-being. As a
+general reminder that supersedes everything else, consider ‘Do as I <em>say</em>, not as I <em>do</em>’ rule; I am writing this section as much for myself as I am writing it for you!
+</p>
+<!--
+...... subsection `Shipping is also a feature' ......
+-->
+<h5 id="autosec-51"><span class="sectionnumber">3.4.1&#x2003;</span>‘Shipping is also a feature’</h5>
+<a id="Guide-autopage-51"></a>
+
+
+<p>
+When you are writing code for your project, working on a paper, or writing a grant proposal, always remember that ‘Shipping is also a feature’. If you <em>never</em> submit your work to the scrutiny of the peer review process, you will never get any critical feedback. More
+importantly, your work will never be seen and thus also never be used by others. You are depriving yourself and the world by this. Thus, resist the urge to write the <em>perfect</em> paper. Your goal should be to iterate towards perfection—but you should always take opportunities to
+disseminate your work to a wider audience. I am not saying that you should intentionally lower the quality of your work. Just be on the lookout for the point in time at which your return on investment is just not that big any more. <b>It’s better to submit a paper that you consider to
+be 90% finished than to wait for years until you finish the remaining 10%.</b>
+</p>
+<blockquote>
+
+<p>
+The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.   (Tom Cargill, Bell Labs)
+</p>
+
+</blockquote>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2020/delayed_gratification" target="_blank" >Delayed gratification and gratitude</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2020/phd_getting_started" target="_blank" >Getting started with a Ph.D.</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... subsection `It's a marathon, not a sprint' ......
+-->
+<h5 id="autosec-53"><span class="sectionnumber">3.4.2&#x2003;</span>‘It’s a marathon, not a sprint’</h5>
+<a id="Guide-autopage-53"></a>
+
+
+<p>
+Good research takes time. Do <em>not</em> fall into the trap of trying to solve everything at once. Your Ph.D. should be treated as a marathon first and foremost; avoid the ‘workaholism’ culture that you will sometimes find&nbsp;(not only) in academia. If you are bragging about
+not sleeping sufficiently, or if you find yourself repeatedly discussing how many things you sacrificed for your work, you might be on the wrong track. Your capacity to do deep work is diminished if you are sleep-deprived; your capacity to enjoy this marvellous journey might be killed
+as well. Resist this at all costs!
+</p>
+
+<p>
+In my experience, people that obsess over how little sleep they need to be&nbsp;(barely) functioning are often highly inefficient. Of course, they put in a lot of hours, but they do not accomplish a lot because their priorities are not well-aligned. If you are always at ‘red alert’, the term
+will cease its meaning. There might be times when you need to put into more hours to get something done and it is a good idea to approach these times as a well-rested individual rather than an almost burnt-out candle. See also section&nbsp;<a
+href="index.html#sec:Travelling">5.4</a> and section&nbsp;<a href="index.html#sec:Vacation">5.5</a> for some practical tips about taking your vacations.
+</p>
+<!--
+...... subsection `To thine own self be true' ......
+-->
+<h5 id="autosec-54"><span class="sectionnumber">3.4.3&#x2003;</span>‘To thine own self be true’</h5>
+<a id="Guide-autopage-54"></a>
+
+
+<p>
+Resist the urge to compare yourself to others. I know that this is easier said than done, given that you will meet a lot of smart, ingenious, hard-working people. However, be aware that everyone has a different background and a different journey. While you can be inspired by what
+others are doing, you should also aim to focus on your own unique strengths.
+</p>
+<!--
+...... section Getting ideas ......
+-->
+<h4 id="autosec-55"><span class="sectionnumber">3.5&#x2003;</span>Getting ideas</h4>
+<a id="Guide-autopage-55"></a>
+
+
+<a id="sec:Getting ideas"></a>
+
+<p>
+When you are just starting out with your Ph.D. project, you may feel that you do not have an understanding of the community and how to create ‘good’ research ideas. While there is no easy recipe, I am fond of a process that involves continuously refining and iterating on ideas to
+sharpen them. To actually <em>get</em> ideas in the first place, think about gaps in the literature or potential extensions. What is not yet properly addressed? Where would additional work be required? Even if such a gap may seem small and insignificant to you at first, it may often
+grow into something magnificent over time.
+</p>
+<blockquote>
+
+<p>
+Gold is where you find it.   (American proverb)
+</p>
+
+</blockquote>
+
+<p>
+Related to this, be sure to <em>talk</em> about your ideas; getting feedback from others helps you start the important refinement loop I mentioned above. When giving feedback, make sure you always follow the ‘Yes, and&#x2026;’ rule of improvisational comedy. By this, I mean
+that you should strive to <em>build</em> on ideas that others present, rather than shooting them down for being impractical or infeasible. A good idea can often arise from reducing a seemingly bad one to its core constituents.
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2019/ideas" target="_blank" >On Ideas and Creativity</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://www.jstor.org/stable/j.ctvzsmf1c" target="_blank" >The Psychology of Invention in the Mathematical Field</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Publishing ......
+-->
+<h4 id="autosec-57"><span class="sectionnumber">3.6&#x2003;</span>Publishing</h4>
+<a id="Guide-autopage-57"></a>
+
+
+<a id="sec:Publishing"></a>
+
+<p>
+You will probably hear the stupid saying ‘Publish or perish’ quite often. Don’t be alarmed by this. In my view, publishing is one of the joys of research—you get to ‘wrap’ your thoughts and experiments into a nice paper and set it free for others to use. If you are new to this—and most
+of you reading this probably are—do not be daunted. I and the other group members will accompany you during this journey.
+</p>
+<!--
+...... subsection Writing style ......
+-->
+<h5 id="autosec-58"><span class="sectionnumber">3.6.1&#x2003;</span>Writing style</h5>
+<a id="Guide-autopage-58"></a>
+
+
+<p>
+Unless no other style rules apply,<sup>2</sup> we will be following the <a href="https://www.bk.admin.ch/dam/bk/en/dokumente/sprachdienste/English%20Style%20Guide.pdf.download.pdf/english_style_guide.pdf" target="_blank" >style
+guide of the Federal Chancellery</a>. Essentially, this means that our papers will be written in British English with ‘-yse’/‘-ise’ suffixes&nbsp;(e.g. analyse and optimise instead of analyze and optimize). This serves as a way to make our publications consistent and is more efficient
+than having to come up with new rules every time.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-59"></a>
+<p>
+<sup>2</sup>&nbsp;In existing projects, in particular those involving US-based collaborators, other writing styles can be followed.
+</p>
+
+
+</div>
+<!--
+...... subsection Some writing tips ......
+-->
+<h5 id="autosec-60"><span class="sectionnumber">3.6.2&#x2003;</span>Some writing tips</h5>
+<a id="Guide-autopage-60"></a>
+
+
+<p>
+Writing is an art in and of itself. Investing in your writing skills is the <em>single most important skill you have to grow during your Ph.D.</em>; good writing will serve you well throughout your career. When writing a paper, you are competing for the attention of the reader. Good writing
+helps you keep that attention, while bad writing drives readers away—and once you have lost a reader’s attention, you have lost the reader for good. Hence, when writing a paper, your overall goal should be to <em>write concisely</em>. This entails getting rid of some empty phrases
+and using short verbs whenever possible. Personal pet peeves of mine include writing ‘utilise’ when ‘use’ would do, or using ‘methodology’ instead of plain ‘methods.’ Remember that papers are supposed to be read by many people—concise writing improves accessibility. Here are
+some additional tips that I find generally useful:
+</p>
+<ul class="itemize" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <em>Prefer verb forms over nouns</em>. English is great in that we can use either the verb form or the noun form of a word. However, in scientific writing, the verb form should be preferred because it is clearer. Compare ‘This enables the
+calculation of topological features by the neural network’ versus ‘The neural network can calculate topological features.’ I am arguing that in the second form, it is clearer <em>who</em> is acting&nbsp;(the neural network).
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <em>Check whether absolutes are required</em>. It is rare<sup>3</sup> that we use absolute words&nbsp;(such as ‘never’ or ‘always’) in scientific writing.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <em>Use the active voice</em>. The active voice increases the precision of your writing <em>and</em> reduces its complexity at the same time.
+</p>
+</li>
+</ul>
+
+<p>
+Finally, be aware that ‘the perfect is the enemy of the good.’ It is natural to start with a&nbsp;(bad) first draft and refine it iteratively. The important thing is to start.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-61"></a>
+<p>
+<sup>3</sup>&nbsp;What, never? No, never! What, never? Well, hardly ever!
+</p>
+
+
+</div>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://www.penguinrandomhouse.com/books/232363/dreyers-english-by-benjamin-dreyer" target="_blank" >Dreyer’s English: An Utterly Correct Guide to Clarity and Style</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/talks/Levelling_Up_Your_Scientific_Writing.pdf" target="_blank" >Levelling Up Your Scientific Writing</a>: Some additional slides emphasising the themes mentioned
+above.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://en.wikipedia.org/wiki/The_Elements_of_Style" target="_blank" >The Elements of Style</a>: Read this extremely short&nbsp;(par for the course!) and insightful book. Ignore the grammar advice,
+but focus on the writing tips. The book has received its share of criticism, but it is still an excellent way to get you started. Plus, we are not in the business of writing the next great English novel, so <em>any</em> writing tips that help us get our point across in a better fashion should
+be celebrated.
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... subsection Common mistakes in writing ......
+-->
+<h5 id="autosec-62"><span class="sectionnumber">3.6.3&#x2003;</span>Common mistakes in writing</h5>
+<a id="Guide-autopage-62"></a>
+
+
+<p>
+Next to the content on writing and developing your own style in the previous section, this section mentions several common mistakes, which should best be avoided.
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Inconsistent citations or bibliographic entries: Unfortunately, most bibliographic entries that you can download from sources like Google Scholar are neither correct nor consistent. You will find different spellings of author names, missing
+umlauts or other characters, and much more. Avoid this by meticulously correcting bibliographic entries. A good bibliography is the hallmark of good scholarship.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> Excel-like tables: Probably due to our over-exposure to Excel, we tend to format our tables in a way that is not conducive to improved information processing. Make sure to take use good packages for formatting high-quality tables. If you
+are using <span class="latexlogofont"><span class="latexlogo">L<span class="latexlogosup">a</span>T<span class="latexlogosub">e</span>X</span></span>, the <a href="https://ctan.org/pkg/booktabs" target="_blank"
+><kbd>booktabs</kbd></a> package is great and gives a lot of tips on how to create high-quality tables. Together with a package like <a href="https://ctan.org/pkg/siunitx" target="_blank" ><kbd>siunitx</kbd></a>, you can format and align your numbers
+consistently, making it a pleasure to read and interact with your data.
+</p>
+</li>
+</ul>
+<!--
+...... section Writing code ......
+-->
+<h4 id="autosec-63"><span class="sectionnumber">3.7&#x2003;</span>Writing code</h4>
+<a id="Guide-autopage-63"></a>
+
+
+
+<p>
+Just like writing a paper, writing code is more of a craft than a science. However, it is an important skill to learn: good code can make it easier for people to use your methods, thus substantially increasing their impact and reach. Good code can also facilitate collaborations and serve to
+ensure that results are <em>reproducible</em>. The following quote should serve as your guiding principle when writing code:
+</p>
+<blockquote>
+
+<p>
+Programs must be written for people to read, and only incidentally for machines to execute.   (Harold Abelson)
+</p>
+
+</blockquote>
+
+<p>
+It will thus pay off to make sure that the <em>next</em> person reading the code has a rough idea of what is going on. Note that the next person reading the code may be <em>you</em> most of the time, for instance when collecting results for a follow-up publication. Here are the
+most important guidelines that I have distilled from past projects:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Use a version control system to manage your code. We use <kbd>git</kbd> together with <a href="https://github.com/aidos-lab" target="_blank" >GitHub</a>. Take the time to learn the basics&nbsp;(see below for
+additional resources), it will save you a lot of time in the long run!
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> Limit your line lengths to a reasonable number. If personally prefer 72 since I am coding a lot on my laptop.
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> When programming Python, follow the PEP&nbsp;8 style&nbsp;(see below). If you collaborate with multiple persons, enforce<sup>4</sup><a id="Guide-autopage-64"></a> a coding style for the full project—this makes code
+more consistent and easier to maintain.
+</p>
+</li>
+</ul>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-65"></a>
+<p>
+<sup>4</sup>&nbsp;There are tools like <a href="https://github.com/psf/black" target="_blank" ><kbd>black</kbd></a> or <a href="https://github.com/dizballanze/gray" target="_blank" ><kbd>gray</kbd></a> for formatting your
+code automatically.
+</p>
+
+
+</div>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://git-scm.com/docs/gittutorial" target="_blank" >The ‘official’ <kbd>git</kbd> tutorial</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://www.learnenough.com/git-tutorial/getting_started" target="_blank" >Learn enough <kbd>git</kbd> to be dangerous</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://peps.python.org/pep-0008" target="_blank" >PEP 8 - Style Guide for Python Code</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... section Conclusion ......
+-->
+<h4 id="autosec-66"><span class="sectionnumber">3.8&#x2003;</span>Conclusion</h4>
+<a id="Guide-autopage-66"></a>
+
+
+<p>
+I wish you an amazing time with the lab and hope you find joy in your research! If all of these suggestions are too much, feel free to ingest them at another point in time. Again, this document should only serve as a gentle scaffold—as opposed to a prison—for all of us.
+</p>
+<!--
+...... chapter For (prospective) undergraduate students ......
+-->
+<h3 id="autosec-67"><span class="sectionnumber">4&#x2003;</span>For (prospective) undergraduate students</h3>
+<a id="Guide-autopage-67"></a>
+
+
+<p>
+This chapter discusses the role of a&nbsp;(prospective) undergraduate student in our lab. You might be considering working on some project with us, for example as part of your bachelor’s or master’s thesis, or as a stand-alone stay. While many of the general recommendations in
+chapter&nbsp;<a href="index.html#chap:Ph.D. students">3</a> apply, your situation is special and deserves some more in-depth remarks.
+</p>
+<!--
+...... section What is the goal of your stay with us? ......
+-->
+<h4 id="autosec-68"><span class="sectionnumber">4.1&#x2003;</span>What is the goal of your stay with us?</h4>
+<a id="Guide-autopage-68"></a>
+
+
+<p>
+Your primary goal is to become an expert in a topic and learn how to communicate efficiently and effectively about this topic by means of a project report or a written thesis. Ideally, your work will result in a publication in an appropriate venue.<sup>1</sup> Since the duration of
+your project is typically smaller, we will ensure that the individual learning goals are <em>feasible</em>.
+</p>
+<div role="note" class="footnotes">
+
+<a id="Guide-autopage-69"></a>
+<p>
+<sup>1</sup>&nbsp;Typically, such publications will be pursued <em>after</em> your main work has been finished. A publication will not count towards your grade and, depending on the project, publications might be easier or harder to obtain.
+</p>
+
+
+</div>
+<!--
+...... section Potential topics ......
+-->
+<h4 id="autosec-70"><span class="sectionnumber">4.2&#x2003;</span>Potential topics</h4>
+<a id="Guide-autopage-70"></a>
+
+
+<p>
+When it comes to selecting a topic for your stay with us, there is a large amount of flexibility. Bearing in mind overall feasibility, I am particularly fond of projects that either involve improving an existing method, or that add a new facet—such as a new application domain—to an
+existing method. Of course, ‘the sky is the limit;’ if you have a research idea that you want to pursue with us, I am happy to discuss it with you!
+</p>
+
+<p>
+For some examples of potential topics, check the publication lists of members of the lab. You can also approach us with your project ideas, even if you think that they might not be a great fit for us. The only caveat is that we want to ensure that we are capable of providing outstanding
+supervision to you. If your topic is completely outside our area of expertise, we might not be able to fulfil our end of the supervision agreement, potentially making it harder for you to finish the project in case of obstacles.
+</p>
+<!--
+...... section Writing a thesis or a project report ......
+-->
+<h4 id="autosec-71"><span class="sectionnumber">4.3&#x2003;</span>Writing a thesis or a project report</h4>
+<a id="Guide-autopage-71"></a>
+
+
+<p>
+The writing tips outlined in section&nbsp;<a href="index.html#sec:Publishing">3.6</a> apply to a written thesis or a project report as well. Here, unlike for a scientific publication, your goal should be to strive for a <em>comprehensive</em> treatment of the topic at hand.
+The idea is for you to demonstrate that you have become proficient in a topic and are capable of communicating said proficiency to others. Hence, your thesis and project report is a perfect opportunity to practice writing skills. Regardless of your career path, such skills will always be
+useful.
+</p>
+
+<p>
+A common mistake in thesis writing is an incorrect level of detail, i.e. putting too much emphasis on too many details. This can be detrimental to progress, paradoxically, and result in an additional source of stress, so it should best be avoided. While it <em>is</em> important for your
+thesis to be self-contained and readable by, say, a fellow student of yours, there is no need to recapitulate any common definitions. I realise that this is vague point; what is common for one person might be news for another one. A good rule of thumb is to think about basic required
+undergraduate courses. If the material is covered in them, it is <em>probably</em> fine to exclude it.
+</p>
+
+
+
+<div
+   class="tcolorbox"
+   style=" border: 1px solid #000000; background: #FFFFFF; "
+>
+
+
+<div
+   class="tcolorboxupper"
+   style=" color: #000000; "
+>
+
+<p>
+<span class="textrm textbf textup textulc"><span
+    class="textcolor"
+    style="color:#000000"
+>Additional resources</span></span>
+</p>
+
+<ul class="list" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">•</span> <a href="https://github.com/Pseudomanifold/latex-mimosis" target="_blank" >A Minimal, Modern Thesis Template</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2013/diploma_thesis_tools" target="_blank" >Tools for Writing a Diploma Thesis</a>
+</p>
+
+</li>
+<li>
+
+<p>
+<span class="listmarker">•</span> <a href="https://bastian.rieck.me/blog/posts/2012/diploma_thesis_writing" target="_blank" >Writing a Diploma Thesis</a>
+</p>
+</li>
+</ul>
+
+</div>
+
+</div>
+<!--
+...... chapter Miscellaneous information ......
+-->
+<h3 id="autosec-72"><span class="sectionnumber">5&#x2003;</span>Miscellaneous information</h3>
+<a id="Guide-autopage-72"></a>
+
+
+<p>
+This is the more ‘pedestrian’ part of the guide. Some administrative information appears to be unavoidable.
+</p>
+<!--
+...... section Important identification numbers ......
+-->
+<h4 id="autosec-73"><span class="sectionnumber">5.1&#x2003;</span>Important identification numbers</h4>
+<a id="Guide-autopage-73"></a>
+
+
+<p>
+When interacting with our IT systems, you might be asked about certain ID numbers or ‘PSP Elements.’ Here is are some relevant ones that you might have to use:
+</p>
+<div class="center">
+<table>
+
+<tr style="display:none"><th>.</th></tr>
+
+
+<tr class="tbrule">
+<td class="tdl">Number</td>
+<td class="tdp">
+
+<p>
+Usage
+</p>
+</td>
+</tr>
+
+
+<tr class="hline">
+<td class="tdl">G-540007-001</td>
+<td class="tdp">
+
+<p>
+For all expenses related to AIH. Use this for departmental retreats and events, for instance.
+</p>
+</td>
+</tr>
+
+
+<tr>
+<td class="tdl"><b>G-540003-001</b></td>
+<td class="tdp">
+
+<p>
+For all expenses related to our group. This is the primary number you need to use for billing expenses to our budget when travelling.
+</p>
+</td>
+</tr>
+
+
+<tr class="tbrule" aria-hidden="true">
+<td class="tdl"></td>
+<td class="tdp">
+
+</td>
+</tr>
+</table>
+
+</div>
+<!--
+...... section IT systems ......
+-->
+<h4 id="autosec-76"><span class="sectionnumber">5.2&#x2003;</span>IT systems</h4>
+<a id="Guide-autopage-76"></a>
+
+
+<a id="sec:IT systems"></a>
+
+<p>
+Getting started with Unix or Linux&nbsp;(or even the command-line) can feel daunting at first, but your efforts <em>will</em> pay off. Most of the code you will write as part of your research career will run in one variant of a Unix system, so all the skills will remain useful for a long
+time to come. As a member of the lab, you will have access to the IT resources of the institute. Our local IT services have written an <a href="https://ascgitlab.helmholtz-muenchen.de/ICB/ICB_IT/-/wikis/home" target="_blank" >excellent guide in their
+wiki</a>. Be sure to familiarise yourself with this to set up your own computing environment most efficiently. Lab members can also contribute little helper scripts or so-called <kbd>dotfiles</kbd> in the <a href="https://github.com/aidos-lab/dotfiles"
+target="_blank" ><kbd>dotfiles</kbd></a> repository. You will find additional information and recipes about working with the cluster <a href="https://github.com/aidos-lab/dotfiles/wiki" target="_blank" >in our own wiki</a>.
+</p>
+<!--
+...... paragraph Requesting a cluster account ......
+-->
+
+
+<p>
+<span class="paragraph" id="autosec-77">Requesting a cluster account</span>
+<a id="Guide-autopage-77"></a>
+By default, users do not have access to the compute cluster. You have to create a request for a cluster account&nbsp;(HPC account) in <a href="https://spit.helmholtz-muenchen.de" target="_blank" >SPIT</a>. As part of this request, or with a separate one, you
+may suggest that your default login shell be changed to <kbd>bash</kbd>&nbsp;(or any other shell you had in mind, such as <kbd>zsh</kbd>). This will simplify the subsequent installation slightly and probably provide a more comfortable working environment.
+</p>
+<!--
+...... section Personnel ......
+-->
+<h4 id="autosec-78"><span class="sectionnumber">5.3&#x2003;</span>Personnel</h4>
+<a id="Guide-autopage-78"></a>
+
+
+<a id="sec:Personnel"></a>
+
+<p>
+This is a list of important personnel and their roles in the centre as well as in the research group. I will keep this list up to date in order to provide all of us with knowledge about whom to contact for certain things.
+</p>
+<div class="center">
+<table>
+
+<tr style="display:none"><th>.</th></tr>
+
+
+<tr class="tbrule">
+<td class="tdl">Person</td>
+<td class="tdl">Role</td>
+</tr>
+
+
+<tr class="hline">
+<td class="tdl">Antunes, Marianne</td>
+<td class="tdl">HR Manager</td>
+</tr>
+
+
+<tr>
+<td class="tdl">Bauer, Florian</td>
+<td class="tdl">Procurement&nbsp;(hardware, software)</td>
+</tr>
+
+
+<tr>
+<td class="tdl">Feest, Christoph</td>
+<td class="tdl">AIH Director, Helmholtz.AI Director</td>
+</tr>
+
+
+<tr>
+<td class="tdl">Singiali, Bom Bahadur</td>
+<td class="tdl">System Engineer&nbsp;(cluster)</td>
+</tr>
+
+
+<tr class="tbrule" aria-hidden="true">
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+</table>
+
+</div>
+<!--
+...... section Travelling ......
+-->
+<h4 id="autosec-81"><span class="sectionnumber">5.4&#x2003;</span>Travelling</h4>
+<a id="Guide-autopage-81"></a>
+
+
+<a id="sec:Travelling"></a>
+
+<p>
+Travelling is a staple of the scientific life, and you should make use of the opportunity to visit conferences, workshops, or other research groups. To be properly reimbursed for the travels, follow these steps:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Discuss the proposed trip with me and create a travel request in <a href="https://spit.helmholtz-muenchen.de" target="_blank" >SPIT</a>. Make sure that this request is created <em>prior</em> to the actual travels; for
+legal reasons, we are not allowed to travel for work without this type of authorisation. Select either Carsten&nbsp;(Marr) or Christoph&nbsp;(Feest). as approvers of the request.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> While travelling, collect all additional costs that can be reimbursed&nbsp;(taxi rides, additional food if none was provided by the venue, and so on).
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> After your trip, you will be automatically mailed a form for writing down your expenses. Send this, along with all receipts of your additional costs, to the administrative assistant handling travel reimbursements. The easiest way is to use the
+following e-mail address: <a href="mailto:fa-travel@helmholtz-muenchen.de" target="_blank" >fa-travel@helmholtz-muenchen.de</a>.
+</p>
+</li>
+</ul>
+
+<p>
+As always, notify me about any hiccups in this process. You are entitled to compensation for food and other costs; if necessary, I will discuss any issues with the administration. The usual caveats for travelling apply, of course: being tax-funded ‘servants of the people,’ we are
+supposed to be frugal when it comes to booking reservations or vehicles. As such, it might be necessary for us to share accommodations or use a cheaper means of transportation if <em>reasonably feasible</em>.
+</p>
+<!--
+...... section Vacation ......
+-->
+<h4 id="autosec-82"><span class="sectionnumber">5.5&#x2003;</span>Vacation</h4>
+<a id="Guide-autopage-82"></a>
+
+
+<a id="sec:Vacation"></a>
+
+<p>
+Make sure to take time off to rest and recharge! Research can be a burden at times, so it is always a good idea to step away for some time. Applying for vacation time is easy, just follow these steps:
+</p>
+<ul class="enumerate" style="list-style-type:none">
+
+<li>
+<p>
+<span class="listmarker">1.</span> Create a request for vacation in <a href="https://spit.helmholtz-muenchen.de" target="_blank" >SPIT</a>. Make sure that this request is created <em>prior</em> to the actual vacation; backdating a vacation is possible
+but takes a lot of effort. I have been there–trust me. When creating the request, put me as the approver.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">2.</span> Notify me about the request. The system sends out notifications by itself, but it is always good to have this on my radar.
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">3.</span> Enjoy your time off!
+</p>
+</li>
+<li>
+
+<p>
+<span class="listmarker">4.</span> Consider sharing some memories afterwards with the group. (This step is optional, but I always like to hear tall tales of adventure.)
+</p>
+<p>
+
+</p>
+</li>
+</ul>
+<!--
+...... section What-the-heck list ......
+-->
+<h4 id="autosec-83"><span class="sectionnumber">5.6&#x2003;</span>What-the-heck list</h4>
+<a id="Guide-autopage-83"></a>
+
+
+<p>
+In particular if you are just starting out in the lab, I would highly appreciate it if you brought things that made you go ‘What the heck?’ to my attention. In the spirit of continuous improvement, it is important to know where things are going wrong, and it often takes a new set of
+eyeballs to perceive these issues. Ideally, I would like to <em>prevent</em> fires rather than putting them out later on.
+</p>
+<!--
+...... chapter Bibliography ......
+-->
+<h3 id="autosec-84">Bibliography</h3>
+<a id="Guide-autopage-84"></a>
+
+
+
+<ul class="list" style="list-style-type:none">
+
+
+<li>
+<p>
+<span class="listmarker">[1]</span> <a id="LWR-ht-cite.0@Brooks96"></a>Frederick P. Brooks. ‘The Computer Scientist as Toolsmith II’. In: <em>Communications of the ACM</em> 39.3 (1996), pp. 61–68. <span class="textsc">doi</span>: <a
+href="https://doi.org/10.1145/227234.227243" target="_blank" >10.1145/227234.227243</a>.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+<span class="listmarker">[2]</span> <a id="LWR-ht-cite.0@Cheplygina20"></a>Veronika Cheplygina et al. ‘Ten simple rules for getting started on Twitter as a scientist’. In: <em>PLOS Computational Biology</em> 16.2 (2020), pp. 1–9. <span
+class="textsc">doi</span>: <a href="https://doi.org/10.1371/journal.pcbi.1007513" target="_blank" >10.1371/journal.pcbi.1007513</a>.
+</p>
+
+
+</li>
+<li>
+
+
+<p>
+<span class="listmarker">[3]</span> <a id="LWR-ht-cite.0@Markovetz15"></a>Florian Markowetz. ‘You Are Not Working for Me; I Am Working with You’. In: <em>PLOS Computational Biology</em> 11.9 (2015), pp. 1–8. <span class="textsc">doi</span>:
+<a href="https://doi.org/10.1371/journal.pcbi.1004387" target="_blank" >10.1371/journal.pcbi.1004387</a>.
+</p>
+</li>
+</ul>
+<!--
+...... section Inspiration ......
+-->
+<h4 id="autosec-85">Inspiration</h4>
+<a id="Guide-autopage-85"></a>
+
+
+<p>
+This guide is inspired by several similar documents. The primary source is the <a href="https://docs.google.com/document/d/11D3kHElzS2HQxTwPqcaTnU5HCJ8WGE5brTXI4KLf4dM/edit#" target="_blank" >Syllabus for Eric’s PhD Students</a> written by <a
+href="http://eegilbert.org" target="_blank" >Eric Gilbert</a>. Moreover, <a href="https://rycolab.io/" target="_blank" >Ryan Cotterell</a> provides helpful hints on his supervision style, some of which have been incorporated in this guide as well.
+</p>
+
+<a id="Guide-autofile-last"></a>
+</section>
+
+</main>
+
+</div>
+
+</body>
+</html>

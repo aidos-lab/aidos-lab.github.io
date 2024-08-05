@@ -6,9 +6,9 @@ title: "AIDOS Lab"
 
 # Welcome
 
-Welcome to the website of the AIDOS LAB at the [Institute of AI for
-Health](https://www.helmholtz-munich.de/aih), an institute of
-[Helmholtz Munich](https://www.helmholtz-munich.de)! We are fascinated by
+Welcome to the website of the AIDOS LAB at the [University of
+Fribourg](https://www.unifr.ch)
+We are fascinated by
 discovering hidden structures in complex data sets, in particular those
 arising in healthcare applications.
 

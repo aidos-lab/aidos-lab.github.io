@@ -36,6 +36,8 @@ Members are listed in chronological order of joining the lab.
 
 {{< figure src="cc.jpg" width="180" class="person" alt="Corinna Coupette" caption="[Corinna Coupette](https://www.coupette.io)" >}}
 
+{{< figure src="ps.jpg" width="180" class="person" alt="Pragya Singh" caption="[Pragya Singh]" >}}
+
 Your name is missing here! Learn more about [joining us]({{< relref "/join" >}}).
 
 # Alumni & Alumnae

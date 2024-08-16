@@ -22,8 +22,6 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "FS" >}}
 
-{{< person "PS" >}}
-
 {{< person "PB" >}}
 
 {{< person "RB" >}}

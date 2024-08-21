@@ -1,0 +1,14 @@
+name  = "Emily Simons"
+job   = "Fulbright Study/Research Student"
+image = "es.jpg"
+bio   = """\
+Emily recently received her Bachelor’s degree in mathematics from
+Bowdoin College in Maine, USA, and is originally from the Washington,
+D.C. area. Funded by a Fulbright Study/Research grant, she will be
+joining the AIDOS Lab as a visiting student until July 2025, during
+which she will be based in Munich. Outside the office, Emily enjoys
+spending her time hiking and rock climbing, solving and writing
+crossword puzzles, cooking (and eating) good food, and improving her
+German. She is always keen to play some soccer and is hoping to pick up
+the flute again.
+"""

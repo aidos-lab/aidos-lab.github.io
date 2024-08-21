@@ -29,7 +29,7 @@ student collaborators](https://bastian.rieck.me/collaborations).
 
 If you are interested in writing your thesis with us, please send
 your CV, your transcript of records, and a brief cover letter stating
-your research interests to bastian.rieck@helmholtz-muenchen.de. Your
+your research interests to bastian@rieck.me. Your
 cover letter should provide answers to the following questions:
 
 1. Are there any research papers of the group that pique your interest
@@ -42,30 +42,16 @@ cover letter should provide answers to the following questions:
 
 3. When would you be available for working on the thesis?
 
-If you want to write your thesis jointly with us *and* another group
-from Helmholtz Munich, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLScCYGsRATz41mSJsw-Pp8nZ1mQvpZ1riouNI9x8rf4Aq-CG0Q/viewform).
-The answer will be collected and distributed to all relevant research
-groups in the centre.
-
 ## Ph.D. positions
 
 If you are interested in working with us and have a background in
 mathematics, computer science, physics, or a general penchant for
-computational methods, please send your CV to
-bastian.rieck@helmholtz-muenchen.de for general inquiries on Ph.D.
-positions.
+computational methods, please send your CV and a brief letter of
+motivation to bastian@rieck.me for general inquiries on Ph.D. positions.
 
 ## Research visits
 
 If you are interested in a short-term research opportunity, such as
 a research visit over the summer, please reach out to
-bastian.rieck@helmholtz-muenchen.de. We are particularly interested in
+bastian@rieck.me. We are particularly interested in
 stays that may result in long-term collaborations.
-
-**If you are looking for an internship, note that, unfortunately, our
-institution does not offer paid internships.** However, there are funding
-opportunities for
-such internships available; check out [RISE](https://www.daad.de/rise/en/rise-germany/find-an-internship/)
-or [DAAD Scholarships](https://www.daad.de/en/study-and-research-in-germany/scholarships/) in general.
-We are also happy to host visiting researchers on the Ph.D. and postdoc
-level via the [HIDA Visiting Researcher Grants](https://www.helmholtz-hida.de/en/new-horizons/hida-visiting-program/).

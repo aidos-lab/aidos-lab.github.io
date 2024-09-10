@@ -7,7 +7,7 @@ title: "AIDOS Lab"
 # Welcome
 
 Welcome to the website of the AIDOS LAB at the [University of
-Fribourg](https://www.unifr.ch)
+Fribourg](https://www.unifr.ch).
 We are fascinated by
 discovering hidden structures in complex data sets, in particular those
 arising in healthcare applications.
@@ -28,6 +28,7 @@ applications.
 Check out [our research to learn more]({{< relref "/research" >}}).
 
 ## Featured Publications
+
 {{< publication "Southern23a" >}}
 
 {{< publication "vonRohrscheidt23a" >}}

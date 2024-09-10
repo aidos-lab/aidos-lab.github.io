@@ -1,11 +1,17 @@
 ## Preprints
 
+- K.&nbsp;Limbeck and B.&nbsp;Rieck: [*Detecting Spatial Dependence in Transcriptomics Data Using Vectorised Persistence Diagrams*](https://arxiv.org/abs/2409.03575), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2409.03575) &bull; [\[BibTeX\]](Limbeck24b.bib)</small>
+- J.&nbsp;Wayland, R.&thinsp;J.&nbsp;Funk, and B.&nbsp;Rieck: [*Characterizing Physician Referral Networks With Ricci Curvature*](https://arxiv.org/abs/2408.16022), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2408.16022) &bull; [\[BibTeX\]](Wayland24b.bib)</small>
+- S.&nbsp;Kališnik, B.&nbsp;Rieck, and A.&nbsp;Žegarac: [*Persistent Homology via Ellipsoids*](https://arxiv.org/abs/2408.11450), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[BibTeX\]](Kalisnik24a.bib)</small>
 - S.&nbsp;Kazeminia, C.&nbsp;Marr<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topologically Regularized Multiple Instance Learning to Harness Data Scarcity*](https://arxiv.org/abs/2307.14025), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia24a.bib)</small>
 - B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&thinsp;T.&nbsp;Fasy, and B.&nbsp;Rieck: [*The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning*](https://arxiv.org/abs/2402.09529), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2402.09529) &bull; [\[BibTeX\]](Holmgren24a.bib)</small>
 - K.&nbsp;Limbeck<sup>&dagger;</sup>, R.&nbsp;Andreeva<sup>&dagger;</sup>, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://arxiv.org/abs/2311.16054), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck23a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck24a.bib)</small>
 - F.&nbsp;Srambical and B.&nbsp;Rieck: [*Filtration Surfaces for Dynamic Graph Classification*](https://arxiv.org/abs/2309.03616), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2309.03616) &bull; [\[BibTeX\]](Srambical23a.bib)</small>
 - B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the &ldquo;Learning on Graphs&rdquo; Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />

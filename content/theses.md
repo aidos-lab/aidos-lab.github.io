@@ -11,6 +11,8 @@ interested in. Read on if you are interested in [joining us]({{< ref
 
 # 2024
 
+- Jonathan Clancy: [*Topological Kernels for Gaussian
+  Processes*](Thesis_Jonathan_Clancy.pdf), M.Sc. thesis
 - Katharina Hagedorn: [*Machine Learning for Direct Antimicrobial
   Resistance Prediction from Clinical MALDI-TOF
   Spectra*](Thesis_Katharina_Hagedorn.pdf), B.Sc. thesis

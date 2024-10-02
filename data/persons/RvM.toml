@@ -1,0 +1,11 @@
+name    = "Richard von Moos"
+job     = "Ph.D. Student"
+image   = "rvm.jpg"
+bio     = """
+Richard is interested in topological and geometric ideas to understand
+high dimensional data and seeks to bring these ideas into action,
+forming methods to understand data. He's in particular excited in
+applications in machine learning, improving and making learning more
+interpretable.
+"""
+github  = "richardvonmoos"

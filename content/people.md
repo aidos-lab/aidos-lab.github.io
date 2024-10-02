@@ -20,8 +20,6 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "SB" >}}
 
-{{< person "FS" >}}
-
 {{< person "PB" >}}
 
 {{< person "RB" >}}
@@ -43,5 +41,6 @@ Your name is missing here! Learn more about [joining us]({{< relref "/join" >}})
 - Katharina Hagedorn
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
 - [Barış Onarıcı](https://www.linkedin.com/in/barisonarici-a271828182845904523/)
+- [Franz Srambical](https://srambical.fr/) (now building AGI @ [p(doom)](https://pdoom.org))
 - Tejas Srinivasan
 - Kalyan Varma Nadimpalli (now a research assistant at IIT Madras)

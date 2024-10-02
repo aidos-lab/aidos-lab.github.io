@@ -18,8 +18,6 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "SK" >}}
 
-{{< person "SB" >}}
-
 {{< person "PB" >}}
 
 {{< person "RB" >}}

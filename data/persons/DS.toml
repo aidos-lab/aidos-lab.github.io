@@ -1,0 +1,8 @@
+me       = "Daniel Bin Schmid"
+job      = "Research Assistant"
+image    = "ds.jpg"
+bio      = """\
+Daniel is interested in shedding light on unexpected phenomena within black-box machine learning models. To achieve this, he focuses on statistical learning theory, symbolic deep learning, and geometrical and topological ideas. Additionally, he enjoys building and enhancing the practicality of AI models.
+"""
+web      = "https://danielbinschmid.com"
+github   = "https://github.com/danielbinschmid"

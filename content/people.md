@@ -20,6 +20,8 @@ Members are listed in chronological order of joining the lab.
 
 {{< person "PB" >}}
 
+{{< person "DS" >}}
+
 {{< person "RB" >}}
 
 {{< person "ES" >}}

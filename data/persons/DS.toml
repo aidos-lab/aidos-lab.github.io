@@ -2,7 +2,7 @@ name     = "Daniel Bin Schmid"
 job      = "Research Assistant"
 image    = "ds.jpg"
 bio      = """\
-Daniel is interested in shedding light on unexpected phenomena within black-box machine learning models. To achieve this, he focuses on statistical learning theory, symbolic deep learning, and geometrical and topological ideas. Additionally, he enjoys building and enhancing the practicality of AI models.
+Daniel is interested in gaining a deeper understanding in the intrinsic mechanics of machine learning models, with a particular focus on statistical learning theory and symbolic deep learning. He also has a keen interest in building topological datasets to study the expressivity of topological deep learning models and graph neural networks. In his spare time he enjoys creating music and its intersection with generative AI.
 """
 web      = "https://danielbinschmid.com"
 github   = "https://github.com/danielbinschmid"

@@ -1,5 +1,13 @@
 ## Preprints
 
+- I.&nbsp;Cannistraci, E.&nbsp;Rodolà, and B.&nbsp;Rieck: [*Detecting and Approximating Redundant Computational Blocks in Neural Networks*](https://arxiv.org/abs/2410.04941), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci24a.bib)</small>
+- J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Diss-L-Ect: Dissecting Graph Data With Local Euler Characteristic Transforms*](https://arxiv.org/abs/2410.02622), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02622) &bull; [\[BibTeX\]](vonRohrscheidt24a.bib)</small>
+- R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&nbsp;Bin Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck: [*MANTRA: The Manifold Triangulations Assemblage*](https://arxiv.org/abs/2410.02392), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester24a.bib)</small>
+- D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck: [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://arxiv.org/abs/2409.08217), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2409.08217) &bull; [\[BibTeX\]](Buffelli24a.bib)</small>
 - K.&nbsp;Limbeck and B.&nbsp;Rieck: [*Detecting Spatial Dependence in Transcriptomics Data Using Vectorised Persistence Diagrams*](https://arxiv.org/abs/2409.03575), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2409.03575) &bull; [\[BibTeX\]](Limbeck24b.bib)</small>
 - J.&nbsp;Wayland, R.&thinsp;J.&nbsp;Funk, and B.&nbsp;Rieck: [*Characterizing Physician Referral Networks With Ricci Curvature*](https://arxiv.org/abs/2408.16022), Preprint, 2024<br />

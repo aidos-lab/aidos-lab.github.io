@@ -1,0 +1,13 @@
+name    = "Mathieu Alain"
+job     = "Collaborator"
+image   = "ma.jpg"
+bio     = """\
+Mathieu seeks to extend machine learning to topological and
+combinatorial domains, including manifolds, graphs, and simplicial
+complexes. This exciting adventure inspires him to explore tools in
+disciplines as diverse as differential geometry, algebraic topology,
+quantum mechanics, differential equations, and signal processing.
+Currently, his research focuses on developing Gaussian processes that
+leverage the richness of non-Euclidean data.
+"""
+twitter = "miniapeur"

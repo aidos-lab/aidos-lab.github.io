@@ -1,7 +1,9 @@
-# AIDOS LAB
+# AIDOS Lab
 
-This is the repository of the [AIDOS LAB](https://aidos.group). I collect
-some generic usage notes in this file.
+This is the repository of the [AIDOS Lab](https://aidos.group). You can
+build our website directly from this repository, but we also have
+a [wiki](ithub.com/aidos-lab/aidos-lab.github.io/wiki), which you can
+contribute to.
 
 ## Previewing your website edits locally
 

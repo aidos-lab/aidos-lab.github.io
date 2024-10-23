@@ -41,6 +41,8 @@
 html
 {
   font-size: large;
+  overflow-y: scroll;
+
   /* Not sure how to solve this more elegantly; but it ensures that the
    * navigation bar does not cut off any anchors */
   scroll-padding-top: 5em;

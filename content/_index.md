@@ -6,7 +6,7 @@ title: "AIDOS Lab"
 
 # Welcome
 
-Welcome to the website of the AIDOS LAB at the [University of
+Welcome to the website of the AIDOS Lab at the [University of
 Fribourg](https://www.unifr.ch).
 We are fascinated by
 discovering hidden structures in complex data sets, in particular those

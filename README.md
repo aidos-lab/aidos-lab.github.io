@@ -2,7 +2,7 @@
 
 This is the repository of the [AIDOS Lab](https://aidos.group). You can
 build our website directly from this repository, but we also have
-a [wiki](/wiki), which you can
+a [wiki](https://github.com/aidos-lab/aidos-lab.github.io/wiki), which you can
 contribute to.
 
 ## Previewing your website edits locally

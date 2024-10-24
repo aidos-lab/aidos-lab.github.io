@@ -11,6 +11,8 @@ interested in. Read on if you are interested in [joining us]({{< ref
 
 # 2024
 
+- Pia Baronetzky: [*Topological Data Analysis on Multimodal Brain
+  Data*](Thesis_Pia_Baronetzky), M.Sc. thesis
 - Jonathan Clancy: [*Topological Kernels for Gaussian
   Processes*](Thesis_Jonathan_Clancy.pdf), M.Sc. thesis
 - Katharina Hagedorn: [*Machine Learning for Direct Antimicrobial

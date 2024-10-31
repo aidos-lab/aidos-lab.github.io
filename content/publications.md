@@ -1,7 +1,11 @@
 ## Preprints
 
+- B.&nbsp;Rieck: [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://arxiv.org/abs/2410.17760), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[BibTeX\]](Rieck24a.bib)</small>
 - I.&nbsp;Cannistraci, E.&nbsp;Rodolà, and B.&nbsp;Rieck: [*Detecting and Approximating Redundant Computational Blocks in Neural Networks*](https://arxiv.org/abs/2410.04941), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci24a.bib)</small>
+- E.&nbsp;Röell and B.&nbsp;Rieck: [*Generative Topology for Shape Synthesis*](https://arxiv.org/abs/2410.18987), Preprint, 2024<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[BibTeX\]](Roell24b.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Diss-L-Ect: Dissecting Graph Data With Local Euler Characteristic Transforms*](https://arxiv.org/abs/2410.02622), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.02622) &bull; [\[BibTeX\]](vonRohrscheidt24a.bib)</small>
 - R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&nbsp;Bin Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck: [*MANTRA: The Manifold Triangulations Assemblage*](https://arxiv.org/abs/2410.02392), Preprint, 2024<br />
@@ -18,8 +22,6 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia24a.bib)</small>
 - B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&thinsp;T.&nbsp;Fasy, and B.&nbsp;Rieck: [*The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning*](https://arxiv.org/abs/2402.09529), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2402.09529) &bull; [\[BibTeX\]](Holmgren24a.bib)</small>
-- K.&nbsp;Limbeck<sup>&dagger;</sup>, R.&nbsp;Andreeva<sup>&dagger;</sup>, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://arxiv.org/abs/2311.16054), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck24a.bib)</small>
 - F.&nbsp;Srambical and B.&nbsp;Rieck: [*Filtration Surfaces for Dynamic Graph Classification*](https://arxiv.org/abs/2309.03616), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2309.03616) &bull; [\[BibTeX\]](Srambical23a.bib)</small>
 - B.&nbsp;Rieck and C.&nbsp;Coupette: [*Evaluating the &ldquo;Learning on Graphs&rdquo; Conference Experience*](https://arxiv.org/abs/2306.00586), Preprint, 2023<br />
@@ -42,11 +44,13 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2024
 
+- K.&nbsp;Limbeck, R.&nbsp;Andreeva, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://arxiv.org/abs/2311.16054), Advances in Neural Information Processing Systems, Volume 37, 2024 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck24a.bib)</small>
 - T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Liò, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veličković, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi: [*Position: Topological Deep Learning Is the New Frontier for Relational Learning*](https://proceedings.mlr.press/v235/papamarkou24a.html), Proceedings of the 41st International Conference on Machine Learning, Number 235, pp. 39529--39555, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2402.08871) &bull; [\[BibTeX\]](Papamarkou24a.bib)</small>
 - J.&nbsp;Wayland, C.&nbsp;Coupette<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Mapping the Multiverse of Latent Representations*](https://proceedings.mlr.press/v235/wayland24a.html), Proceedings of the 41st International Conference on Machine Learning, Number 235, pp. 52372--52402, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2402.01514) &bull; [\[GitHub\]](https://github.com/aidos-lab/Presto) &bull; [\[BibTeX\]](Wayland24a.bib)</small>
-- M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck: [*The Magnitude Vector of Images*](https://dx.doi.org/10.1007/s41468-024-00182-9), Journal of Applied and Computational Topology, 2024<br />
+- M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck: [*The Magnitude Vector of Images*](https://dx.doi.org/10.1007/s41468-024-00182-9), Journal of Applied and Computational Topology, Volume 8, Number 3, pp. 447--473, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer24a.bib)</small>
 - Y.&nbsp;Zhang<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, X.&nbsp;Sun, C.&nbsp;Xu, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: *Adaptative Local PCA for Curvature Estimation on Data Manifolds*, Helmholtz AI Conference: AI for Science, 2024<br />
         <small>[\[BibTeX\]](Zhang24a.bib)</small>

@@ -19,8 +19,6 @@ starting a collaboration with us.
 
 {{< person "SK" >}}
 
-{{< person "PB" >}}
-
 {{< person "DS" >}}
 
 {{< person "RB" >}}

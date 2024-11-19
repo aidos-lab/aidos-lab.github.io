@@ -38,6 +38,7 @@ Your name is missing here! Learn more about [joining us]({{< relref "/join" >}})
 
 # Alumni & Alumnae
 
+- Pia Baronetzky
 - [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Katharina Hagedorn
 - Ferdinand Hölzl (now a master's student at University of Hamburg)

@@ -1,9 +1,0 @@
-name     = "Pia Baronetzky"
-job      = "M.Sc. Student"
-image    = "pb.jpg"
-bio      = """\
-           Pia is a Mathematics master student at TUM. She is interested in Machine
-           Learning und Topological Data Analysis, and in how Data Science can be
-           applied to solve meaningful problems.
-           """
-github   = "peppey"

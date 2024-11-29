@@ -6,6 +6,7 @@ enableGitInfo = true
 
 [params]
   description = "Website of the AIDOS Lab, an international lab of researchers interested in geometry, topology, and machine learning."
+  googleTagID = "G-Z7H79RP4BR"
 
 ignoreFiles = ['publications.md$']
 

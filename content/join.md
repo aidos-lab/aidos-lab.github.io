@@ -13,14 +13,15 @@ different fields and feel comfortable about writing code.
 Since the group is still starting to establish itself, you have the
 unique opportunity to truly shape and influence things here.
 
-We are not interested in 'leader-board science' or 'chasing the
-state-of-the-art' in a table. That is *not* to say that we are not
-interested in producing relevant methods! Our overarching goal is to
-produce excellent science using methods whose performance we can
-*explain* and *understand*. This necessitates comprehensive comparisons
-with other methods, ablation studies, and many additional tricks to
-figure out what is going on. If this sounds enticing to you, we would
-love to hear from you!
+While there is a lot of value in such endeavours, most of our projects
+are not 'leader-board science' in that they do not have the explicit
+goal of beating all state-of-the-art methods. That is *not* to say that
+we are not interested in producing relevant methods! Our overarching
+goal is to produce excellent science using methods whose performance we
+can *explain* and *understand*. This necessitates comprehensive
+comparisons with other methods, ablation studies, and many additional
+tricks to figure out what is going on. If this sounds enticing to you,
+we would love to hear from you!
 
 To learn more about our working style, see [this note for potential
 student collaborators](https://bastian.rieck.me/collaborations).
@@ -44,14 +45,16 @@ cover letter should provide answers to the following questions:
 
 ## Ph.D. positions
 
-If you are interested in working with us and have a background in
-mathematics, computer science, physics, or a general penchant for
-computational methods, please send your CV and a brief letter of
-motivation to bastian@rieck.me for general inquiries on Ph.D. positions.
+If you are interested in working with us, please reach out to
+bastian@rieck.me with (a) a brief motivation letter, (b) your CV, and
+(c) a full transcript of your grades. We value interdisciplinary,
+non-standard backgrounds and attention to detail.
 
 ## Research visits
 
 If you are interested in a short-term research opportunity, such as
-a research visit over the summer, please reach out to
-bastian@rieck.me. We are particularly interested in
-stays that may result in long-term collaborations.
+a research visit over the summer, please reach out to bastian@rieck.me
+with (a) a brief motivation letter in which you describe the purpose of
+the stay, (b) your CV, and (c) a suggestion for funding opportunities.
+We are particularly interested in stays that may result in long-term
+collaborations.

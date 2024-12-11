@@ -9,9 +9,7 @@
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Diss-L-Ect: Dissecting Graph Data With Local Euler Characteristic Transforms*](https://arxiv.org/abs/2410.02622), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.02622) &bull; [\[BibTeX\]](vonRohrscheidt24a.bib)</small>
 - R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&nbsp;Bin Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck: [*MANTRA: The Manifold Triangulations Assemblage*](https://arxiv.org/abs/2410.02392), Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester24a.bib)</small>
-- D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck: [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://arxiv.org/abs/2409.08217), Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2409.08217) &bull; [\[BibTeX\]](Buffelli24a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester24b.bib)</small>
 - K.&nbsp;Limbeck and B.&nbsp;Rieck: [*Detecting Spatial Dependence in Transcriptomics Data Using Vectorised Persistence Diagrams*](https://arxiv.org/abs/2409.03575), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2409.03575) &bull; [\[BibTeX\]](Limbeck24b.bib)</small>
 - J.&nbsp;Wayland, R.&thinsp;J.&nbsp;Funk, and B.&nbsp;Rieck: [*Characterizing Physician Referral Networks With Ricci Curvature*](https://arxiv.org/abs/2408.16022), Preprint, 2024<br />
@@ -28,8 +26,6 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2306.00586) &bull; [\[BibTeX\]](Rieck23b.bib)</small>
 - L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), Preprint, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel23a.bib)</small>
-- R.&nbsp;Ballester and B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Preprint, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Ballester23a.bib)</small>
 - D.&nbsp;Bhaskar<sup>&dagger;</sup>, J.&nbsp;Moore<sup>&dagger;</sup>, F.&nbsp;Gao, B.&nbsp;Rieck, F.&nbsp;Khasawneh, E.&nbsp;Munch, V.&nbsp;Greco<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>: [*Capturing Spatiotemporal Signaling Patterns in Cellular Data With Geometric Scattering Trajectory Homology*](https://dx.doi.org/10.1101/2023.03.22.533807), Preprint, 2023<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807) &bull; [\[BibTeX\]](Bhaskar23a.bib)</small>
 - C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt: [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198), Preprint, 2022<br />
@@ -44,6 +40,14 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ## 2024
 
+- D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck: [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://arxiv.org/abs/2409.08217), Proceedings of the Third Learning on Graphs Conference, 2024 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2409.08217) &bull; [\[BibTeX\]](Buffelli24a.bib)</small>
+- J.&nbsp;von Rohrscheidt, B.&nbsp;Rieck<sup>&Dagger;</sup>, and S.&thinsp;M.&nbsp;Schmon<sup>&Dagger;</sup>: [*Bayesian Computation Meets Topology*](https://openreview.net/forum?id=0h1DtRK6dA), Transactions on Machine Learning Research, 2024<br />
+        <small>[\[BibTeX\]](vonRohrscheidt24b.bib)</small>
+- M.&nbsp;Alain, S.&nbsp;Takao, B.&nbsp;Rieck, X.&nbsp;Dong, and E.&nbsp;Noutahi: [*Graph Classification Gaussian Processes via Hodgelet Spectral Features*](https://openreview.net/forum?id=zgLOn7f2Lp), 'Bayesian Decision-Making and Uncertainty' Workshop at NeurIPS, 2024<br />
+        <small>[\[BibTeX\]](Alain24a.bib)</small>
+- R.&nbsp;Ballester and B.&nbsp;Rieck: [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826), Proceedings of the Third Learning on Graphs Conference, 2024 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Ballester24a.bib)</small>
 - K.&nbsp;Limbeck, R.&nbsp;Andreeva, R.&nbsp;Sarkar, and B.&nbsp;Rieck: [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://arxiv.org/abs/2311.16054), Advances in Neural Information Processing Systems, Volume 37, 2024 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck24a.bib)</small>
 - T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Liò, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veličković, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi: [*Position: Topological Deep Learning Is the New Frontier for Relational Learning*](https://proceedings.mlr.press/v235/papamarkou24a.html), Proceedings of the 41st International Conference on Machine Learning, Number 235, pp. 39529--39555, 2024<br />

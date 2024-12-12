@@ -14,17 +14,22 @@ Since the group is still starting to establish itself, you have the
 unique opportunity to truly shape and influence things here.
 
 While there is a lot of value in such endeavours, most of our projects
-are not 'leader-board science' in that they do not have the explicit
+are not leader-board science in that they do not have the explicit
 goal of beating all state-of-the-art methods. That is *not* to say that
-we are not interested in producing relevant methods! Our overarching
-goal is to produce excellent science using methods whose performance we
-can *explain* and *understand*. This necessitates comprehensive
-comparisons with other methods, ablation studies, and many additional
-tricks to figure out what is going on. If this sounds enticing to you,
-we would love to hear from you!
+we are not interested in producing relevant methods or that leader-board
+science is bad, on the contrary: As [Jimmy Lin](https://cs.uwaterloo.ca/~jimmylin)
+outlines when describing his ideal intellectual [ecosystem](https://github.com/lintool/guide/blob/master/ecosystem.md),
+this type of research is just what comes more naturally to him and his
+group. Our goals are different in that we want to produce excellent
+science based on methods whose performance we can *explain* and
+*understand*. This necessitates comprehensive comparisons with other
+methods, ablation studies, and many additional tricks to figure out what
+is going on. If this sounds enticing to you, we would love to hear from
+you!
 
 To learn more about our working style, see [this note for potential
-student collaborators](https://bastian.rieck.me/collaborations).
+student collaborators](https://bastian.rieck.me/collaborations) and read
+our [research guide](/guide).
 
 ## Bachelor's and master's theses
 

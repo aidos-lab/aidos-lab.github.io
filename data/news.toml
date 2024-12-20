@@ -1,0 +1,11 @@
+# `news.toml`: News items to display on the main page. Just add a new
+# key, format it correctly (YYYY-MM-DD), and you are set. The *value*
+# attached to your key supports Markdown directly.
+
+2024-12-19 = """
+  Emily wrote up a great thread on [SCOTT](https://github.com/aidos-lab/curvature-filtrations), our
+  new codebase for curvature filtrations.
+  See her post on [X](https://x.com/simons_emilym/status/1869728997623628106) or
+  [BlueSky](https://bsky.app/profile/emsimons.bsky.social/post/3ldnzqoefrc2x)
+  for more details.
+"""

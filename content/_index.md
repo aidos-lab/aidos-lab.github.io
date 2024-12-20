@@ -26,3 +26,5 @@ address challenges in biomedicine and healthcare
 applications.
 
 Check out [our research to learn more]({{< relref "/research" >}}).
+
+{{< news >}}

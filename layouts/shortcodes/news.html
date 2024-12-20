@@ -1,0 +1,10 @@
+<h2>News</h2>
+
+{{ range $date, $news := .Site.Data.news }}
+  <article>
+  {{ $date := printf $date | time }}
+  <time>{{ time.Format "January 2, 2006" $date }}</time>:
+  {{ $news | markdownify }}
+  </article>
+</ul>
+{{ end }}

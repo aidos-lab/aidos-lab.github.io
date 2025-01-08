@@ -2,24 +2,21 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2025-01-08 = """Bastian will give three talks at
+  [JMM](https://jointmathematicsmeetings.org/jmm), the Joint Mathematics
+  Meetings, one on "Diss-lECT: Dissecting Data with local Euler Characteristic
+   Transforms" (related to a [recent preprint of
+   ours](https://arxiv.org/abs/2410.02622)), the second one on "Two
+   Households, Both Alike In Dignity: Geometry and Topology in Machine
+   Learning," and the final one on "Good Gradients and How To Find Them:
+   Towards Multi-Scale Representation Learning."
+   Find these (and more!) talks at [Bastian's website](https://bastian.rieck.me/talks/).
+"""
+
 2024-12-19 = """
   Emily wrote up a great thread on [SCOTT](https://github.com/aidos-lab/curvature-filtrations), our
   new codebase for curvature filtrations.
   See her post on [X](https://x.com/simons_emilym/status/1869728997623628106) or
   [BlueSky](https://bsky.app/profile/emsimons.bsky.social/post/3ldnzqoefrc2x)
   for more details.
-"""
-
-2025-01-08 = """
-  Bastian will give three talks at
-  [JMM](https://jointmathematicsmeetings.org/jmm), the Joint Mathematics
-  Meetings: 
-
-  1. Diss-lECT: Dissecting Data with local Euler Characteristic
-     Transforms (related to a [recent preprint of
-     ours](https://arxiv.org/abs/2410.02622))
-  2. Two Households, Both Alike In Dignity: Geometry and Topology in Machine Learning
-  3. Good Gradients and How To Find Them: Towards Multi-Scale Representation Learning
-
-  Find these (and more!) talks at [Bastian's website](https://bastian.rieck.me/talks/).
 """

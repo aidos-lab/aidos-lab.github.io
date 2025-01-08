@@ -318,3 +318,8 @@ time
     width:   100%;
   }
 }
+
+article.news
+{
+  margin-bottom: 1em;
+}

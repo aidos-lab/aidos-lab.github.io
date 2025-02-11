@@ -9,6 +9,11 @@ just a brief glimpse into some of the research topics that we are
 interested in. Read on if you are interested in [joining us]({{< ref
 "/join" >}}).
 
+# 2025
+
+- Ege Erdogan: [*Geometric Flow Models over Neural Network Weights*](Thesis_Ege_Erdogan.pdf), M.Sc. thesis
+- Yevhenii Sharapov: [*Topological NeRF: 3D Reconstruction with NeRFs Reinforced with TDA*](Thesis_Yevhenii_Sharapov.pdf), M.Sc. thesis
+
 # 2024
 
 - Pia Baronetzky: [*Topological Data Analysis on Multimodal Brain
@@ -31,5 +36,4 @@ interested in. Read on if you are interested in [joining us]({{< ref
   Cancer Patients*](Thesis_Niklas_Kiermeyer.pdf), M.Sc. thesis
 - Barış Onarıcı, [*Neural Approximations to Gromov-Hausdorff
   Distances*](Thesis_Barış_Onarıcı.pdf), M.Sc. thesis
-- Kalyan Varma Nadimpalli: [*Weighted Euler Characteristic Transform based Topological Loss for Reconstructing
-3D Images from Single 2D Slices*](Thesis_Kalyan_Varma_Nadimpalli.pdf), M.Sc. thesis
+- Kalyan Varma Nadimpalli: [*Weighted Euler Characteristic Transform based Topological Loss for Reconstructing 3D Images from Single 2D Slices*](Thesis_Kalyan_Varma_Nadimpalli.pdf), M.Sc. thesis

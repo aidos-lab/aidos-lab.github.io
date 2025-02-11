@@ -41,7 +41,7 @@ starting a collaboration with us.
 | {{< figure src="ra.jpg" width="180" class="person" alt="Rayna Andreeva" caption="[Rayna Andreeva](https://rorondre.github.io)" >}} | {{< figure src="ic.jpg" width="180" class="person" alt="Irene Cannistraci" caption="[Irene Cannistraci](https://irene.cannistraci.dev)" >}} | {{< figure src="cc.jpg" width="180" class="person" alt="Corinna Coupette" caption="[Corinna Coupette](https://www.coupette.io)" >}} |
 | {{< figure src="ps.jpg" width="180" class="person" alt="Pragya Singh" caption="Pragya Singh" >}} | | |
 
-Your name is missing here! Learn more about [joining us]({{< relref "/join" >}}).
+Your name is missing here! Learn more about [joining us]({{< relref "/contact/#join-us" >}}).
 
 # Alumni & Alumnae
 

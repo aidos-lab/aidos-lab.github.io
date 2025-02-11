@@ -6,8 +6,7 @@ title: "Theses"
 
 This list of theses, sorted in reverse chronological order, provides
 just a brief glimpse into some of the research topics that we are
-interested in. Read on if you are interested in [joining us]({{< ref
-"/join" >}}).
+interested in. Read on if you are interested in [joining us]({{< relref "/contact/#join-us" >}}).
 
 # 2025
 

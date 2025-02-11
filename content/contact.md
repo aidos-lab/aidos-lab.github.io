@@ -41,7 +41,7 @@ our [research guide](/guide).
 
 If you are interested in writing your thesis with us, please send
 your CV, your transcript of records, and a brief cover letter stating
-your research interests to bastian@rieck.me. Your
+your research interests to bastian.grossenbacher@unifr.ch. Your
 cover letter should provide answers to the following questions:
 
 1. Are there any research papers of the group that pique your interest
@@ -57,14 +57,15 @@ cover letter should provide answers to the following questions:
 ## Ph.D. positions
 
 If you are interested in working with us, please reach out to
-bastian@rieck.me with (a) a brief motivation letter, (b) your CV, and
+bastian.grossenbacher@unifr.ch with (a) a brief motivation letter, (b) your CV, and
 (c) a full transcript of your grades. We value interdisciplinary,
 non-standard backgrounds and attention to detail.
 
 ## Research visits
 
 If you are interested in a short-term research opportunity, such as
-a research visit over the summer, please reach out to bastian@rieck.me
+a research visit over the summer, please reach out to
+bastian.grossenbacher@unifr.ch
 with (a) a brief motivation letter in which you describe the purpose of
 the stay, (b) your CV, and (c) a suggestion for funding opportunities.
 We are particularly interested in stays that may result in long-term

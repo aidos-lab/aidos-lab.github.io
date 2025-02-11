@@ -2,13 +2,13 @@
 title: "Get In Touch"
 ---
 
-# Find us
+# Find Us
 
 We are located at the Pérolles Campus of the University of Fribourg. Here is a map&nbsp;(click for larger version):
 
 {{< figure src="/contact/how_to_find_us.jpg" link="/contact/how_to_find_us.jpg" width="100%" alt="Map of how to find the lab" caption="A map of the campus. We are located in the highlighted building, i.e. building PER 21. The campus can be reached by walking from the main station or by taking buses 1, 3, 8, 9, or 10 and exiting at Fribourg, Charmettes." >}}
 
-# Join us
+# Join Us
 
 Thanks for your interest in our group! Why not consider joining the
 team? We are seeking students&nbsp;(at all levels) with strong
@@ -37,7 +37,7 @@ To learn more about our working style, see [this note for potential
 student collaborators](https://bastian.rieck.me/collaborations) and read
 our [research guide](/guide).
 
-## Bachelor's and master's theses
+## Bachelor's and Master's Theses
 
 If you are interested in writing your thesis with us, please send
 your CV, your transcript of records, and a brief cover letter stating
@@ -54,14 +54,14 @@ cover letter should provide answers to the following questions:
 
 3. When would you be available for working on the thesis?
 
-## Ph.D. positions
+## Ph.D. Positions
 
 If you are interested in working with us, please reach out to
 bastian.grossenbacher@unifr.ch with (a) a brief motivation letter, (b) your CV, and
 (c) a full transcript of your grades. We value interdisciplinary,
 non-standard backgrounds and attention to detail.
 
-## Research visits
+## Research Visits
 
 If you are interested in a short-term research opportunity, such as
 a research visit over the summer, please reach out to

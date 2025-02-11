@@ -11,11 +11,6 @@ enableGitInfo = true
 ignoreFiles = ['publications.md$']
 
 [markup]
-  [markup.tableOfContents]
-    endLevel   = 1
-    ordered    = false
-    startLevel = 1
-
   [markup.goldmark.renderer]
     unsafe = true
 

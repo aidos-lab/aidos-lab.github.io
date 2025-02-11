@@ -323,3 +323,19 @@ article.news
 {
   margin-bottom: 1em;
 }
+
+/*
+ * Styling publication lists
+ */
+
+.publications ul
+{
+  list-style-type: none;
+  padding-left:    0px;
+}
+
+.publications li
+{
+  padding: 0.5em;
+  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

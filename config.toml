@@ -28,11 +28,6 @@ ignoreFiles = ['publications.md$']
   weight  = -150
 
 [[menu.main]]
-  name    = "About"
-  pageRef = "/about"
-  weight  = -100
-
-[[menu.main]]
   name    = "Guide"
   url     = "/guide"
   weight  = -100
@@ -53,9 +48,9 @@ ignoreFiles = ['publications.md$']
   weight = -80
 
 [[menu.main]]
-  name   = "Join Us"
-  pageRef = "/join"
-  weight = -70
+  name    = "Get In Touch"
+  pageRef = "/contact"
+  weight  = -70
 
 # Ditto (see above), but for the footer.
 [params.footer.logos]

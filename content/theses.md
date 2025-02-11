@@ -13,6 +13,7 @@ interested in. Read on if you are interested in [joining us]({{< ref
 
 - Ege Erdogan: [*Geometric Flow Models over Neural Network Weights*](Thesis_Ege_Erdogan.pdf), M.Sc. thesis
 - Yevhenii Sharapov: [*Topological NeRF: 3D Reconstruction with NeRFs Reinforced with TDA*](Thesis_Yevhenii_Sharapov.pdf), M.Sc. thesis
+- Milad Bassil: [*Improving Topologically-Regularized Multiple Instance Learning on Single Cell Images*](Thesis_Milad_Bassil.pdf)
 
 # 2024
 

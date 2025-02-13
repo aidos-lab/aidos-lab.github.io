@@ -189,21 +189,21 @@ nav a:hover
 
 footer
 {
-   border-top:  1px solid lightgray;
-   padding-top: 0.5em;
-   background:  #f2f2f2;
+  padding:     10px;
+  border-top:  1px solid lightgray;
+  padding-top: 0.5em;
+  background:  #f2f2f2;
 }
 
 #footer-logos
 {
-  max-width:  50%;
   margin:     1% auto;
-  text-align: left;
+  text-align: center;
 }
 
 #footer-text
 {
-  max-width: 50%;
+  width: 100%;
   margin: 1% auto;
 }
 

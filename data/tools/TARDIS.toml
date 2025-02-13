@@ -1,6 +1,6 @@
 name = "TARDIS"
 paper   = "Topological Algorithms for Robust DIscovery of Singularities"
-image   = "tardis.png"
+image   = "TARDIS.svg"
 venue   = "ICML 2023"
 description = """\
 The manifold hypothesis, which assumes that data lies on or close to an unknown manifold of 
@@ -11,5 +11,5 @@ that can lead to erroneous findings. We address this issue by developing a topol
 'manifoldness' of a point along multiple scales.
 """
 arXiv   = "2210.00069"
-url     = "https://arxiv.org/abs/2210.00069"
-code    = "https://github.com/aidos-lab/TARDIS"
+pub     = "https://arxiv.org/abs/2210.00069"
+repo    = "https://github.com/aidos-lab/TARDIS"

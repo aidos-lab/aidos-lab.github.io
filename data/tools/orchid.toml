@@ -11,5 +11,5 @@ largely unexplored. Our toolbox aims to fill this gap and presents a new
 framework for hypergraph curvature.
 """
 arXiv   = "2210.12048"
-url     = "https://arxiv.org/abs/2210.12048"
+pub     = "https://arxiv.org/abs/2210.12048"
 repo    = "https://github.com/aidos-lab/orchid"

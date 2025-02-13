@@ -10,7 +10,7 @@
       {{ with $person.github }}
       <li>
         <a href="https://github.com/{{ . }}">
-            <img src="/github-mark.svg" alt="GitHub" />
+            <img src="/icons/github.svg" alt="GitHub" />
           </a>
       </li>
       {{end }}
@@ -18,15 +18,23 @@
       {{ with $person.orcid }}
       <li>
         <a href="{{ . }}">
-            <img src="/orchid-id.svg" alt="ORCHID" />
+            <img src="/icons/orcid.svg" alt="ORCID" />
           </a>
       </li>
       {{end }}
 
+      {{ with $person.bluesky }}
+      <li>
+        <a href="https://bsky.app/profile/{{ . }}">
+            <img src="/icons/x.svg" alt="Bluesky" />
+          </a>
+      </li>
+      {{ end }}
+
       {{ with $person.twitter }}
       <li>
         <a href="https://twitter.com/{{ . }}">
-            <img src="/logo-x-black.png" alt="X (formerly Twitter)" />
+            <img src="/icons/x.svg" alt="X (formerly Twitter)" />
           </a>
       </li>
       {{ end }}
@@ -34,7 +42,7 @@
       {{ with $person.web }}
       <li>
         <a href="{{ . }}">
-            <img src="/home.png" alt="Homepage" />
+            <img src="/icons/home.svg" alt="Homepage" />
           </a>
       </li>
       {{ end }} 

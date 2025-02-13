@@ -35,7 +35,7 @@ starting a collaboration with us.
     {{< person "MA" >}}
 </div>
 
-Your name is missing here! Learn more about [joining us]({{< relref "/contact/#join-us" >}}).
+Your name is missing here! Learn more about [joining us]({{< relref "/contact" >}}).
 
 # Alumni & Alumnae
 

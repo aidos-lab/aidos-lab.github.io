@@ -223,15 +223,15 @@ footer
 }
 
 
-.card-name
+.card-name 
 {
-  font-size  : 1.50rem;
-  font-weight: bold; 
+  /*font-size  : 1.50rem;*/
+  /*font-weight: bold; */
 }
 
 .card-title
 {
-  font-size  : 1.10rem;
+  font-size  : 1.0rem;
   font-weight: bold; 
   margin-bottom: 3px;
 
@@ -287,6 +287,24 @@ footer
   width: 10%;
 }
 
+.card-tool 
+{
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.tool-left {
+  flex: 3; /* 30% of the width */
+  padding: 10px;
+}
+
+.tool-right {
+  flex: 7; /* 70% of the width */
+  justify-content: space-between; /* Ensures spacing between text and icons */
+  align-items: center;
+  padding: 10px;
+}
 
 .tool-title-container {
   display: flex;
@@ -296,7 +314,9 @@ footer
 }
 
 .tool-title {
-  font-size: larger;
+  font-size  : 1.50rem;
+  font-weight: bold; 
+  /*font-size: larger;*/
   flex: 4; /* Takes up 80% of the space */
 }
 

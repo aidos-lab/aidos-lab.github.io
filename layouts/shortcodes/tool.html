@@ -13,7 +13,7 @@
         <div class="tool-title">{{ $tool.name }}</div>
         <div class="tool-icons">{{ partial "icons.html" (dict "paper" $tool.pub "repo" $tool.repo) }}</div>
       </div>
-      <span style="font-size: small">
+      <span >
         {{ $tool.description | markdownify }}
       </span>
     </div>

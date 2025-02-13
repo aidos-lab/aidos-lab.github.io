@@ -14,32 +14,26 @@ We, the people of the AIDOS Lab, firmly believe in and are committed to [Dr. Fed
 All people are listed in chronological order of joining the lab or
 starting a collaboration with us.
 
-{{< person "BR" >}}
+<div class="people-card-container">
+    {{< person "BR" >}}
+    {{< person "JvR" >}}
+    {{< person "JW" >}}
+    {{< person "KL" >}}
+    {{< person "ER" >}}
+    {{< person "SK" >}}
+    {{< person "DS" >}}
+    {{< person "RB" >}}
+    {{< person "ES" >}}
+    {{< person "RvM" >}}
+    {{< person "MA" >}}
+</div>
 
-{{< person "JvR" >}}
+# Collaborators
 
-{{< person "JW" >}}
-
-{{< person "KL" >}}
-
-{{< person "ER" >}}
-
-{{< person "SK" >}}
-
-{{< person "DS" >}}
-
-{{< person "RB" >}}
-
-{{< person "ES" >}}
-
-{{< person "RvM" >}}
-
-{{< person "MA" >}}
-
-| | |
-|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|
-| {{< figure src="ra.jpg" width="180" class="person" alt="Rayna Andreeva" caption="[Rayna Andreeva](https://rorondre.github.io)" >}} | {{< figure src="ic.jpg" width="180" class="person" alt="Irene Cannistraci" caption="[Irene Cannistraci](https://irene.cannistraci.dev)" >}} | {{< figure src="cc.jpg" width="180" class="person" alt="Corinna Coupette" caption="[Corinna Coupette](https://www.coupette.io)" >}} |
-| {{< figure src="ps.jpg" width="180" class="person" alt="Pragya Singh" caption="Pragya Singh" >}} | | |
+<div class="people-card-container">
+    {{< person "CC" >}}
+    {{< person "IC" >}}
+</div>
 
 Your name is missing here! Learn more about [joining us]({{< relref "/contact/#join-us" >}}).
 

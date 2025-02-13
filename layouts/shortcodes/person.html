@@ -7,14 +7,14 @@
     <span class="card-name">{{ $person.name }}</span><br />
     <span class="card-job">{{ $person.job }}</span>
     <ul class="card-icons">
-      {{ with $person.github }}
+      {{ with $person.web }}
       <li>
-        <a href="https://github.com/{{ . }}">
-            <img src="/icons/github.svg" alt="GitHub" />
+        <a href="{{ . }}">
+            <img src="/icons/home.svg" alt="Homepage" />
           </a>
       </li>
-      {{end }}
-      
+      {{ end }} 
+
       {{ with $person.orcid }}
       <li>
         <a href="{{ . }}">
@@ -23,10 +23,18 @@
       </li>
       {{end }}
 
+      {{ with $person.github }}
+      <li>
+        <a href="https://github.com/{{ . }}">
+            <img src="/icons/github.svg" alt="GitHub" />
+          </a>
+      </li>
+      {{end }}
+      
       {{ with $person.bluesky }}
       <li>
         <a href="https://bsky.app/profile/{{ . }}">
-            <img src="/icons/x.svg" alt="Bluesky" />
+            <img src="/icons/bluesky.svg" alt="Bluesky" />
           </a>
       </li>
       {{ end }}
@@ -38,13 +46,5 @@
           </a>
       </li>
       {{ end }}
-
-      {{ with $person.web }}
-      <li>
-        <a href="{{ . }}">
-            <img src="/icons/home.svg" alt="Homepage" />
-          </a>
-      </li>
-      {{ end }} 
   </ul>
 </div>

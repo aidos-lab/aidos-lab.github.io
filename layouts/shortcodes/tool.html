@@ -1,21 +1,21 @@
-<div class="card">
+<div class="card-tool">
     {{ $tool := .Get 0 }}
     {{ $tool :=  index .Site.Data.tools $tool }}
 
-    <div class="card-left">
+    <div class="tool-left">
         <figure>
             <img src="/tools/{{ $tool.image }}" width="180" alt="{{ $tool.name }}" />
         </figure>
     </div>
   
-    <div class="card-right">
+    <div class="tool-right">
       <div class="tool-title-container">
         <div class="tool-title">{{ $tool.name }}</div>
         <div class="tool-icons">{{ partial "icons.html" (dict "paper" $tool.pub "repo" $tool.repo) }}</div>
       </div>
-      <div class="card-bio">
+      <span style="font-size: small">
         {{ $tool.description | markdownify }}
-      </div>
+      </span>
     </div>
 </div>
   

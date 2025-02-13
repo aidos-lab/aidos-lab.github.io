@@ -25,17 +25,6 @@ applications. Check out our [research page]({{< relref "/research" >}}) to learn
 
 ## Mission Statement
 
-'AIDOS' has two meanings that complement each other well. The first
-meaning refers to our mission statement, viz. to develop **A**rtificial
-**I**ntelligence for **D**iscovering **O**bscured **S**hapes. The
-second meaning originates from the Greek word 'αἰδώς,' which means
-'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
-one of our guiding principles when we work on challenging problems in
-healthcare research, aiming to improve our world using machine
-learning.
-
-## Mission Statement
-
 'AIDOS' has two meanings that complement each other well.  The first
 meaning refers to our mission statement, viz. to develop **A**rtificial
 **I**ntelligence for **D**iscovering **O**bscured **S**hapes.  The

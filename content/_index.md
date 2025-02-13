@@ -17,7 +17,7 @@ Our primary research interests are situated at the intersection of
 topological information to imbue our methods with foundations that foster interpretability and robustness. Along the way, we develop new **manifold learning** techniques, new
 **representation learning** algorithms, and much more.
 
-{{< figure src="new_logo_standin.svg" width="600" class="center" alt="New Lab Logo" >}}
+{{< figure src="new_logo_standin.svg" width="450" class="center" alt="New Lab Logo" >}}
 
 Following the dictum 'theory without practice is empty,' we
 address challenges in biomedicine and healthcare

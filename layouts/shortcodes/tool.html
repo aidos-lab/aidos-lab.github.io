@@ -14,7 +14,6 @@
         <div class="tool-icons">{{ partial "icons.html" (dict "paper" $tool.pub "repo" $tool.repo) }}</div>
       </div>
       <div class="card-bio">
-        <b>Description:</b>
         {{ $tool.description | markdownify }}
       </div>
     </div>

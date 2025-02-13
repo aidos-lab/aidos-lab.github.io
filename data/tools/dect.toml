@@ -1,6 +1,6 @@
 name = "DECT"
 paper   = "Differentiable Euler Characteristic Transform"
-image   = "ect_overview.png"
+image   = "dect.png"
 venue   = "ICLR 2024"
 description = """\
 The Euler Characteristic Transform (ECT) has proven to be a powerful representation, 
@@ -12,3 +12,4 @@ which can be integrated into deep neural networks.
 arXiv   = "2310.07630"
 pub     = "https://arxiv.org/abs/2310.07630"
 repo    = "https://github.com/aidos-lab/dect"
+pip     = "pip install git+https://github.com/aidos-lab/dect.git"

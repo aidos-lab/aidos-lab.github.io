@@ -1,6 +1,6 @@
 name = "magnipy"
 paper   = "Metric Space Magnitude Computations"
-image   = "magnipy_logo.svg"
+image   = "magnipy.svg"
 venue   = "NeurIPS 2024"
 description = """\
 The magnitude of a metric space is a powerful invariant that provides a measure of the 'effective size' 

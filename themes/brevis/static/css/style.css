@@ -65,7 +65,7 @@ body
 header
 {
   padding:        10px;
-  border-bottom:  1px solid black;
+  /*border-bottom:  1px solid black;*/
 
   position:       fixed;
   top:            0;
@@ -198,29 +198,21 @@ footer
   margin: 1% auto;
 }
 
-.card
+.people-card-container
 {
-  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width  : 100%;
-  margin     : auto;
   display    : flex;
+  max-width  : 100%;
+  /*border: 1px solid red; */
+  margin     : auto;
   flex-wrap  : wrap;
-  padding    : 1em;
-  margin-top : 1em;
+  row-gap: 1em;
+  column-gap: 1em;
+  align-content: center; 
+  justify-content: center;
+  /*padding    : 1em;*/
+  /*margin-top : 1em;*/
 }
 
-.card-left
-{
-  flex     :    1;
-  max-width: 180px;
-}
-
-.card-right
-{
-  flex:         2;
-  padding-left: 1em;
-  line-height:  1.2;
-}
 
 .card-name,
 {
@@ -323,3 +315,39 @@ article.news
 {
   margin-bottom: 1em;
 }
+
+ul.card-icons 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-icons img 
+{
+  width: 16px; 
+}
+
+ul.card-icons li 
+{
+  display: inline;
+  margin: 0; 
+}
+
+.card-person 
+{
+  width: 200px; 
+  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*border: 1px solid black; */
+  /*padding: em;*/
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+
+.card-person a 
+{
+  text-decoration: none;
+}
+

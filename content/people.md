@@ -7,27 +7,22 @@ title: "People"
 All people are listed in chronological order of joining the lab or
 starting a collaboration with us.
 
+<div class="people-card-container">
 {{< person "BR" >}}
-
 {{< person "JvR" >}}
-
 {{< person "JW" >}}
-
 {{< person "KL" >}}
-
 {{< person "ER" >}}
-
 {{< person "SK" >}}
-
 {{< person "DS" >}}
-
 {{< person "RB" >}}
-
 {{< person "ES" >}}
-
 {{< person "RvM" >}}
-
 {{< person "MA" >}}
+</div>
+
+
+
 
 | | |
 |:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:|

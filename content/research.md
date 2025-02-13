@@ -9,11 +9,11 @@ The AIDOS lab is dedicated to establishing foundational principles in machine le
 # Toolbox
 Here is a collection of tools that have been developed by the AIDOS Lab, in order from most to least recent.
 {{< tool "scott" >}}
-{{< tool "presto" >}}
 {{< tool "magnipy" >}}
-{{< tool "orchid" >}}
+{{< tool "presto" >}}
 {{< tool "dect" >}}
 {{< tool "tardis" >}}
+{{< tool "orchid" >}}
 
 # Publications
 

@@ -250,6 +250,7 @@ footer
 .card-job
 {
   font-style: italic;
+  font-size:  smaller;
 }
 
 .card-bio, .card-summary

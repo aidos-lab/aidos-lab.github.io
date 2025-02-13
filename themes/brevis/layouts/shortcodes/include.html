@@ -1,2 +1,12 @@
 {{ $file := .Get 0 }}
+{{ $class := .Get 1 }}
+
+{{- with $class -}}
+  <div class="{{ . }}">
+{{- end -}}
+
 {{ readFile $file | markdownify }}
+
+{{- with $class -}}
+  </div>
+{{- end -}}

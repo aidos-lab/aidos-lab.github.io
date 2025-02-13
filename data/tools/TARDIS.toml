@@ -1,6 +1,6 @@
 name = "TARDIS"
 paper   = "Topological Algorithms for Robust DIscovery of Singularities"
-image   = "TARDIS.svg"
+image   = "tardis.svg"
 venue   = "ICML 2023"
 description = """\
 The manifold hypothesis, which assumes that data lies on or close to an unknown manifold of 

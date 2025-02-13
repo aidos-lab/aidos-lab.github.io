@@ -3,9 +3,9 @@ paper   = "Metric Space Magnitude Computations"
 image   = "magnipy_logo.svg"
 venue   = "NeurIPS 2024"
 description = """\
-The magnitude of a metric space is a powerful invariant that provides a measure of the 'effective size' 
+The **magnitude of a metric space** is a powerful invariant that provides a measure of the *effective size* 
 of a space across multiple scales, while also capturing numerous geometrical properties, 
-such as curvature, density, or entropy. We provide a toolbox for computing and comparing
+such as curvature, density, entropy or diversity. We provide a toolbox for computing and comparing
 the magnitude of metric spaces.  
 """
 arXiv   = "2311.16054"

@@ -7,8 +7,7 @@ Bridging geometry and topology, curvature is a powerful and expressive
 invariant. While the utility of curvature has been theoretically and
 empirically confirmed in the context of manifolds and graphs, its
 generalisation to the emerging domain of hypergraphs has remained
-largely unexplored. Our toolbox aims to fill this gap and presents a new
-framework for hypergraph curvature.
+largely unexplored. Our toolbox presents a framework for **hypergraph curvature**.
 """
 arXiv   = "2210.12048"
 pub     = "https://arxiv.org/abs/2210.12048"

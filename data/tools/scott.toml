@@ -1,0 +1,9 @@
+name    = "SCOTT: Synthesizing Curvature Operations and Topological Tools"
+paper   = "Curvature Filtrations for Graph Generative Model Evaluation"
+image   = "scott.jpg"
+description     = """\
+          SCOTT is a Python package for **computing curvature filtrations** for graphs and graph distributions. Our method introduces a novel way to compare graph distributions, avoiding the limitations of Maximal Mean Discrepancy (MMD), which has known [drawbacks](https://arxiv.org/abs/2106.01098).<br><br>By combining discrete curvature on graphs with persistent homology, SCOTT provides expressive descriptors of graph sets that are: *robust*, *stable*, *expressive*, and *compatible with statistical testing*.<br><br>The package is highly adaptable, offering several options for **user customization**, including different curvature computation methods and diverse metrics for comparing persistent homology outputs.
+          """
+repo    = "https://github.com/aidos-lab/curvature-filtrations"
+pub     = "https://doi.org/10.48550/arXiv.2301.12906"
+pip     = "pip install curvature-filtrations"

@@ -357,9 +357,7 @@ ul.card-icons li
 .card-person 
 {
   width: 200px; 
-  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  /*border: 1px solid black; */
-  /*padding: em;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -378,11 +376,11 @@ ul.card-icons li
 .publications ul
 {
   list-style-type: none;
-  padding-left:    0px;
+  padding-left: 0px;
 }
 
 .publications li
 {
   padding: 0.5em;
-  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

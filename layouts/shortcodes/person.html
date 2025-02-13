@@ -1,41 +1,42 @@
-<div class="card">
+<div class="card-person">
   {{ $person := .Get 0 }}
   {{ $person :=  index .Site.Data.people $person }}
-
-  <div class="card-left">
     <figure class="person">
       <img src="{{ $person.image }}" width="180" alt="{{ $person.name }}" />
     </figure>
-  </div>
-
-  <div class="card-right">
     <span class="card-name">{{ $person.name }}</span><br />
     <span class="card-job">{{ $person.job }}</span>
-
-    <dl class="card-profiles">
+    <ul class="card-icons">
       {{ with $person.github }}
-        {{ $link := printf "https://github.com/%s" $person.github }}
-        {{ partial "profile.html" (dict "name" "GitHub" "link" $link "text" $person.github) }}
+      <li>
+        <a href="https://github.com/{{ . }}">
+            <img src="/github-mark.svg" alt="GitHub" />
+          </a>
+      </li>
       {{end }}
-
+      
       {{ with $person.orcid }}
-        {{ $link := printf "https://orcid.org/%s" $person.orcid }}
-        {{ partial "profile.html" (dict "name" "ORCID" "link" $link "text" $person.orcid) }}
+      <li>
+        <a href="{{ . }}">
+            <img src="/orchid-id.svg" alt="ORCHID" />
+          </a>
+      </li>
       {{end }}
 
       {{ with $person.twitter }}
-        {{ $link := printf "https://twitter.com/%s" $person.twitter }}
-        {{ $name := printf "@%s" $person.twitter }}
-        {{ partial "profile.html" (dict "name" "Twitter" "link" $link "text" $name) }}
+      <li>
+        <a href="https://twitter.com/{{ . }}">
+            <img src="/logo-x-black.png" alt="X (formerly Twitter)" />
+          </a>
+      </li>
       {{ end }}
 
       {{ with $person.web }}
-        {{ partial "profile.html" (dict "name" "Web" "link" $person.web "text" $person.web) }}
-      {{ end }}
-    </dl>
-
-    <div class="card-bio">
-      {{ $person.bio | markdownify }}
-    </div>
-  </div>
+      <li>
+        <a href="{{ . }}">
+            <img src="/home.png" alt="Homepage" />
+          </a>
+      </li>
+      {{ end }} 
+  </ul>
 </div>

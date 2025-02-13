@@ -5,5 +5,5 @@
 # `.bib` files.
 
 source ~/.virtualenvs/playground/bin/activate
-python ~/Projects/bastian.rieck.me/scripts/bibtex_to_markdown.py ~/Documents/Papers.bib -v >  ../content/publications.md
+python ~/Projects/bastian.rieck.me/scripts/bibtex_to_markdown.py ~/Documents/Papers.bib --level 3 -v >  ../content/publications.md
 cp /tmp/*.bib ../static/research/

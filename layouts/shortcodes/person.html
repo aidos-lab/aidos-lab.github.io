@@ -8,38 +8,35 @@
     <span class="card-job">{{ $person.job }}</span>
     <ul class="card-icons">
       {{ with $person.github }}
-        <li>
+      <li>
         <a href="https://github.com/{{ . }}">
-            <img src="/github-mark.svg" alt="">
+            <img src="/github-mark.svg" alt="GitHub" />
           </a>
-        </li>
+      </li>
       {{end }}
       
-    {{ with $person.orcid }}
+      {{ with $person.orcid }}
       <li>
-      <a href="{{ . }}">
-          <img src="/orchid-id.svg" alt="">
-        </a>
+        <a href="{{ . }}">
+            <img src="/orchid-id.svg" alt="ORCHID" />
+          </a>
       </li>
-    {{end }}
+      {{end }}
 
-    {{ with $person.twitter }}
+      {{ with $person.twitter }}
       <li>
-      <a href="https://twitter.com/{{ . }}">
-          <img src="/logo-x-black.png" alt="">
-        </a>
+        <a href="https://twitter.com/{{ . }}">
+            <img src="/logo-x-black.png" alt="X (formerly Twitter)" />
+          </a>
       </li>
-    {{ end }}
-     {{ with $person.web }}
-      <li>
-      <a href="{{ . }}">
-          <img src="/home.png" alt="">
-        </a>
-      </li>
-   {{ end }} 
+      {{ end }}
 
+      {{ with $person.web }}
+      <li>
+        <a href="{{ . }}">
+            <img src="/home.png" alt="Homepage" />
+          </a>
+      </li>
+      {{ end }} 
   </ul>
-
-
-
 </div>

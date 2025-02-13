@@ -223,7 +223,7 @@ footer
 }
 
 
-.card-name,
+.card-name
 {
   font-size  : 1.50rem;
   font-weight: bold; 
@@ -233,6 +233,8 @@ footer
 {
   font-size  : 1.10rem;
   font-weight: bold; 
+  margin-bottom: 3px;
+
 }
 
 .card-venue
@@ -267,9 +269,10 @@ footer
 
 .card-profiles dt, .card-profiles dd
 {
-  display  : inline-block;
+  display  : block;
   float    : left;
   font-size: smaller;
+  display: flex;
 }
 
 .card-references
@@ -282,6 +285,25 @@ footer
 {
   clear: left;
   width: 10%;
+}
+
+
+.tool-title-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensures spacing between text and icons */
+  width: 100%;
+}
+
+.tool-title {
+  font-size: larger;
+  flex: 4; /* Takes up 80% of the space */
+}
+
+.tool-icons {
+  flex: 1; /* Takes up 20% of the space */
+  display: flex;
+  justify-content: space-around; /* Evenly space icons */
 }
 
 /* Stops any superscripts from ruining our lines */

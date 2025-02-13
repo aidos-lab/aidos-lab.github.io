@@ -1,0 +1,13 @@
+name = "magnipy"
+paper   = "Metric Space Magnitude Computations"
+image   = "magnipy.svg"
+venue   = "NeurIPS 2024"
+description = """\
+The magnitude of a metric space is a powerful invariant that provides a measure of the 'effective size' 
+of a space across multiple scales, while also capturing numerous geometrical properties, 
+such as curvature, density, or entropy. We provide a toolbox for computing and comparing
+the magnitude of metric spaces.  
+"""
+arXiv   = "2311.16054"
+pub     = "https://arxiv.org/abs/2311.16054"
+repo    = "https://github.com/aidos-lab/magnipy"

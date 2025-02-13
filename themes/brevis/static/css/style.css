@@ -295,8 +295,13 @@ footer
 }
 
 .tool-left {
-  flex: 3; /* 30% of the width */
-  padding: 10px;
+  /*flex: 3; /* 30% of the width */*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  align-items: center;
+  margin-top: auto; 
+  margin-bottom: auto; 
+  /*padding: 10px;*/
 }
 
 .tool-right {

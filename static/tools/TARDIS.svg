@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="Layer_1"
    x="0px"
    y="0px"
-   width="74.967003"
-   height="142.633"
-   viewBox="0 0 74.967005 142.633"
+   width="70"
+   height="70"
+   viewBox="0 0 70.000002 70.000002"
    enable-background="new 0 0 1400 980"
    xml:space="preserve"
    sodipodi:docname="TARDIS.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"><metadata
+   id="metadata150"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs2119">
 	
 
@@ -44,25 +48,26 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    showgrid="false"
-   inkscape:zoom="0.96326531"
-   inkscape:cx="-70.074153"
-   inkscape:cy="113.15678"
+   inkscape:zoom="7.7061225"
+   inkscape:cx="42.85927"
+   inkscape:cy="36.720114"
    inkscape:window-width="1920"
-   inkscape:window-height="1115"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
+   inkscape:window-height="1121"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
+   inkscape:current-layer="Layer_1"
+   inkscape:document-rotation="0" />
 <g
    id="g292"
-   transform="matrix(0.5,0,0,0.5,-519.0305,-92.3065)">
+   transform="matrix(0.24508149,0,0,0.24508149,-237.78256,-45.115463)">
 		<g
    id="g12">
 			<g
    id="g6">
 				<polygon
    fill="#1a48a4"
-   points="1106.463,190.859 1113.028,186.022 1119.594,190.859 1119.594,210.092 1106.463,210.092 "
+   points="1113.028,186.022 1119.594,190.859 1119.594,210.092 1106.463,210.092 1106.463,190.859 "
    id="polygon4" />
 			</g>
 			<g
@@ -79,7 +84,7 @@
    id="g16">
 				<polygon
    fill="#1c75bc"
-   points="1186.86,459.268 1186.86,468.744 1039.197,468.744 1039.197,459.268 1045.725,454.553 1180.332,454.553 "
+   points="1180.332,454.553 1186.86,459.268 1186.86,468.744 1039.197,468.744 1039.197,459.268 1045.725,454.553 "
    id="polygon14" />
 			</g>
 			<g
@@ -138,7 +143,7 @@
    id="g46">
 					<polygon
    fill="#1c75bc"
-   points="1175.091,213.887 1174.922,216.144 1051.135,216.144 1050.966,213.887 1103.708,205.963 1103.708,201.014 1122.349,201.014 1122.349,205.963 "
+   points="1050.966,213.887 1103.708,205.963 1103.708,201.014 1122.349,201.014 1122.349,205.963 1175.091,213.887 1174.922,216.144 1051.135,216.144 "
    id="polygon44" />
 				</g>
 				<g

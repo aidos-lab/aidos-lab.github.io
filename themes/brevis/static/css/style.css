@@ -286,7 +286,6 @@ footer
   padding-top: 0.5em;
 }
 
-
 .card-profiles dt
 {
   clear: left;
@@ -316,16 +315,28 @@ time
     display: block;
   }
 
+  nav li
+  {
+    padding-left: 1em;
+  }
+
   /* Ensures that the header does not overlap with the content */
   header
   {
     position: relative;
+    padding: 0px;
   }
 
+  
   th, td
   {
     display: block;
     width:   100%;
+  }
+
+  main
+  {
+    padding: 1em;
   }
 }
 

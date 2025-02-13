@@ -232,6 +232,8 @@ footer
 {
   font-size  : 1.10rem;
   font-weight: bold; 
+  margin-bottom: 3px;
+
 }
 
 .card-venue
@@ -282,6 +284,25 @@ footer
 {
   clear: left;
   width: 10%;
+}
+
+
+.tool-title-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensures spacing between text and icons */
+  width: 100%;
+}
+
+.tool-title {
+  font-size: larger;
+  flex: 4; /* Takes up 80% of the space */
+}
+
+.tool-icons {
+  flex: 1; /* Takes up 20% of the space */
+  display: flex;
+  justify-content: space-around; /* Evenly space icons */
 }
 
 /* Stops any superscripts from ruining our lines */

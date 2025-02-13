@@ -15,7 +15,7 @@ arising in healthcare applications.
 {{< figure src="new_logo_standin.svg" width="600" class="center" alt="New Lab Logo" >}}
 
 Our primary research interests are situated at the intersection of
-**geometry, topology, and machine learning**. From data-centric evaluation frameworks, to novel architecture developments we make use of geometrical and
+**geometry, topology, and machine learning**. From data-centric evaluation frameworks to novel architecture developments, we make use of geometrical and
 topological information to imbue our methods with foundations that foster interpretability and robustness. Along the way, we develop new **manifold learning** techniques, new
 **representation learning** algorithms, and much more.
 

@@ -8,4 +8,5 @@ bio     = """\
 github  = "Pseudomanifold"
 orcid   = "0000-0003-4335-0302"
 web     = "https://bastian.rieck.me"
+bluesky = "pseudomanifold.topology.rocks"
 twitter = "Pseudomanifold"

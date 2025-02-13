@@ -12,7 +12,7 @@ We are fascinated by
 discovering hidden structures in complex data sets, in particular those
 arising in healthcare applications.
 
-{{< figure src="new_logo_standin.svg" width="400" class="center" alt="New Lab Logo" >}}
+{{< figure src="new_logo_standin.svg" width="600" class="center" alt="New Lab Logo" >}}
 
 Our primary research interests are situated at the intersection of
 **geometry, topology, and machine learning**. From data-centric evaluation frameworks, to novel architecture developments we make use of geometrical and

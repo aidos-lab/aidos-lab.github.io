@@ -1,6 +1,6 @@
-name = "DECT: Differentiable Euler Characteristic Transform"
-paper   = "Differentiable Euler Characteristic Transforms for Shape Classification"
-image   = "ect_overview.png"
+name = "DECT"
+paper   = "Differentiable Euler Characteristic Transform"
+image   = "dect.png"
 venue   = "ICLR 2024"
 description = """\
 The Euler Characteristic Transform (ECT) has proven to be a powerful representation, 
@@ -11,3 +11,4 @@ end-to-end-trainable Euler Characteristic Transform**, which can be integrated i
 arXiv   = "2310.07630"
 pub     = "https://arxiv.org/abs/2310.07630"
 repo    = "https://github.com/aidos-lab/dect"
+pip     = "pip install git+https://github.com/aidos-lab/dect.git"

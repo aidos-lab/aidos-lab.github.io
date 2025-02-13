@@ -1,6 +1,6 @@
 name   = "Orchid: Ollivier–Ricci Curvature for Hypergraphs"
 paper = "Ollivier–Ricci Curvature for Hypergraphs: A Unified Framework"
-image   = "Coupette23a.png"
+image   = "orchid.png"
 venue   = "ICLR 2023"
 description = """\
 Bridging geometry and topology, curvature is a powerful and expressive
@@ -12,3 +12,4 @@ largely unexplored. Our toolbox presents a framework for **hypergraph curvature*
 arXiv   = "2210.12048"
 pub     = "https://arxiv.org/abs/2210.12048"
 repo    = "https://github.com/aidos-lab/orchid"
+pip     = "julia -e 'using Pkg; Pkg.add(url='https://github.com/aidos-lab/orchid.git')'"

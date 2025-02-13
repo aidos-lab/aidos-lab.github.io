@@ -1,6 +1,6 @@
-name = "magnipy: Metric Space Magnitude Computations"
-paper   = "Metric Space Magnitude for Evaluating the Diversity of Latent Representations"
-image   = "magnipy_logo.svg"
+name = "magnipy"
+paper   = "Metric Space Magnitude Computations"
+image   = "magnipy.svg"
 venue   = "NeurIPS 2024"
 description = """\
 The **magnitude of a metric space** is a powerful invariant that provides a measure of the *effective size* 

@@ -1,6 +1,6 @@
 name = "TARDIS: Topological Algorithms for Robust DIscovery of Singularities"
 paper   = "Topological Algorithms for Robust DIscovery of Singularities"
-image   = "TARDIS.svg"
+image   = "tardis.svg"
 venue   = "ICML 2023"
 description = """\
 The manifold hypothesis is a staple of modern machine learning research. However, real-world data exhibits 

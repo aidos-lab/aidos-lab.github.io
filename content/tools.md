@@ -10,9 +10,6 @@ Here is a collection of tools that have been developed by the AIDOS Lab, in orde
 
 {{< tool "dect" >}}
 
-{{< tool "TARDIS" >}}
-
 {{< tool "orchid" >}}
 
-{{< tool "pytorch-topological" >}}
-
+{{< tool "tardis" >}}

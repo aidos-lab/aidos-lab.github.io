@@ -73,7 +73,6 @@ header
 {
   padding:        10px;
   border-bottom:  1px solid lightgray;
-
   position:       fixed;
   top:            0;
   width:          100%;
@@ -190,47 +189,39 @@ nav a:hover
 
 footer
 {
-   border-top:  1px solid lightgray;
-   padding-top: 0.5em;
-   background:  #f2f2f2;
+  padding:     10px;
+  border-top:  1px solid lightgray;
+  padding-top: 0.5em;
+  background:  #f2f2f2;
 }
 
 #footer-logos
 {
-  max-width:  50%;
   margin:     1% auto;
-  text-align: left;
+  text-align: center;
 }
 
 #footer-text
 {
-  max-width: 50%;
+  width: 100%;
   margin: 1% auto;
 }
 
-.card
+.people-card-container
 {
-  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width  : 100%;
-  margin     : auto;
   display    : flex;
+  max-width  : 100%;
+  /*border: 1px solid red; */
+  margin     : auto;
   flex-wrap  : wrap;
-  padding    : 1em;
-  margin-top : 1em;
+  row-gap: 1em;
+  column-gap: 1em;
+  align-content: center; 
+  justify-content: center;
+  /*padding    : 1em;*/
+  /*margin-top : 1em;*/
 }
 
-.card-left
-{
-  flex     :    1;
-  max-width: 180px;
-}
-
-.card-right
-{
-  flex:         2;
-  padding-left: 1em;
-  line-height:  1.2;
-}
 
 .card-name
 {
@@ -242,6 +233,8 @@ footer
 {
   font-size  : 1.10rem;
   font-weight: bold; 
+  margin-bottom: 3px;
+
 }
 
 .card-venue
@@ -259,6 +252,7 @@ footer
 .card-job
 {
   font-style: italic;
+  font-size:  smaller;
 }
 
 .card-bio, .card-summary
@@ -291,6 +285,25 @@ footer
 {
   clear: left;
   width: 10%;
+}
+
+
+.tool-title-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensures spacing between text and icons */
+  width: 100%;
+}
+
+.tool-title {
+  font-size: larger;
+  flex: 4; /* Takes up 80% of the space */
+}
+
+.tool-icons {
+  flex: 1; /* Takes up 20% of the space */
+  display: flex;
+  justify-content: space-around; /* Evenly space icons */
 }
 
 /* Stops any superscripts from ruining our lines */
@@ -346,6 +359,39 @@ article.news
   margin-bottom: 1em;
 }
 
+ul.card-icons 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-icons img 
+{
+  width: 16px; 
+}
+
+ul.card-icons li 
+{
+  display: inline;
+  margin: 0; 
+}
+
+.card-person 
+{
+  width: 200px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+
+.card-person a 
+{
+  text-decoration: none;
+}
+
 /*
  * Styling publication lists
  */
@@ -353,11 +399,11 @@ article.news
 .publications ul
 {
   list-style-type: none;
-  padding-left:    0px;
+  padding-left: 0px;
 }
 
 .publications li
 {
   padding: 0.5em;
-  box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

@@ -6,7 +6,7 @@
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[BibTeX\]](Rieck24a.bib)</small>
 - I.&nbsp;Cannistraci, E.&nbsp;Rodolà, and B.&nbsp;Rieck: [*Detecting and Approximating Redundant Computational Blocks in Neural Networks*](https://arxiv.org/abs/2410.04941), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci24a.bib)</small>
-- E.&nbsp;Röell and B.&nbsp;Rieck: [*Generative Topology for Shape Synthesis*](https://arxiv.org/abs/2410.18987), Preprint, 2024<br />
+- E.&nbsp;Röell and B.&nbsp;Rieck: [*Point Cloud Synthesis Using Inner Product Transforms*](https://arxiv.org/abs/2410.18987), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[BibTeX\]](Roell24b.bib)</small>
 - J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck: [*Diss-L-Ect: Dissecting Graph Data With Local Euler Characteristic Transforms*](https://arxiv.org/abs/2410.02622), Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.02622) &bull; [\[BibTeX\]](vonRohrscheidt24a.bib)</small>
@@ -36,14 +36,14 @@
 presentation at the ICML Workshop on the Art of
 Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
-## 2025
+### 2025
 
 - L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann: [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303), International Conference on Learning Representations, 2025 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel25a.bib)</small>
 - Y.&nbsp;Zhang, L.&nbsp;Mezrag, X.&nbsp;Sun, C.&nbsp;Xu, K.&nbsp;Macdonald, D.&nbsp;Bhaskar, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Principal Curvatures Estimation With Applications to Single Cell Data*](https://arxiv.org/abs/2502.03750), IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp;(ICASSP), 2025 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2502.03750) &bull; [\[BibTeX\]](Zhang25a.bib)</small>
 
-## 2024
+### 2024
 
 - R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&nbsp;Bin Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck: [*MANTRA: The Manifold Triangulations Assemblage*](https://arxiv.org/abs/2410.02392), International Conference on Learning Representations, 2024 (in press)<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester25a.bib)</small>
@@ -76,7 +76,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 - E.&nbsp;Röell and B.&nbsp;Rieck: [*Differentiable Euler Characteristic Transforms for Shape Classification*](https://openreview.net/forum?id=MO632iPq3I), International Conference on Learning Representations, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2310.07630) &bull; [\[GitHub\]](https://github.com/aidos-lab/DECT) &bull; [\[BibTeX\]](Roell24a.bib)</small>
 
-## 2023
+### 2023
 
 - C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&thinsp;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt: [*Weisfeiler and Leman Go Machine Learning: The Story So Far*](https://arxiv.org/abs/2112.09992), Journal of Machine Learning Research, Volume 24, Number 333, pp. 1--59, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2112.09992) &bull; [\[BibTeX\]](Morris23a.bib)</small>
@@ -107,7 +107,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 - C.&nbsp;Coupette, S.&nbsp;Dalleiger, and B.&nbsp;Rieck: [*Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework*](https://openreview.net/forum?id=sPCKNl5qDps), International Conference on Learning Representations, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2210.12048) &bull; [\[BibTeX\]](Coupette23a.bib)</small>
 
-## 2022
+### 2022
 
 - D.&nbsp;Thomas, S.&nbsp;Demers, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>: [*Topological Jet Tagging*](https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_176.pdf), 'Machine Learning and the Physical Sciences' Workshop at NeurIPS, 2022<br />
         <small>[\[BibTeX\]](Thomas22a.bib)</small>
@@ -139,7 +139,7 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 COVID-19*](https://dx.doi.org/10.1038/s41587-021-01186-x), Nature Biotechnology, Volume 40, Number 5, pp. 681--691, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2020.11.15.383661v1) &bull; [\[BibTeX\]](Kuchroo22a.bib)</small>
 
-## 2021
+### 2021
 
 - M.&nbsp;Kuijs, C.&thinsp;R.&nbsp;Jutzeler, B.&nbsp;Rieck, and S.&thinsp;C.&nbsp;Brüningk: [*Interpretability Aware Model Training to Improve Robustness Against Out-of-Distribution Magnetic Resonance Images in Alzheimer's Disease Classification*](https://arxiv.org/abs/2111.08701), 'Machine Learning for Health&nbsp;(ML4H)' Symposium, 2021<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2111.08701) &bull; [\[BibTeX\]](Kuijs21a.bib)</small>
@@ -173,7 +173,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - A.&thinsp;C.&nbsp;Gumpinger, B.&nbsp;Rieck, D.&thinsp;G.&nbsp;Grimm, I.&thinsp;H.&nbsp;Consortium, and K.&nbsp;Borgwardt: [*Network-Guided Search for Genetic Heterogeneity Between Gene Pairs*](https://dx.doi.org/10.1093/bioinformatics/btaa581), Bioinformatics, Volume 37, Number 1, pp. 57--65, 2021<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/SiNIMin) &bull; [\[BibTeX\]](Gumpinger21.bib)</small>
 
-## 2020
+### 2020
 
 - B.&nbsp;Rieck, F.&nbsp;Sadlo, and H.&nbsp;Leitte: [*Persistence Concepts for 2D Skeleton Evolution Analysis*](https://dx.doi.org/10.1007/978-3-030-43036-8_9), Topological Methods in Data Analysis and Visualization&nbsp;V, pp. 139--154, 2020<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/1907.13486) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/Skeleton_Persistence) &bull; [\[BibTeX\]](Rieck20d.bib)</small>
@@ -217,7 +217,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - S.&thinsp;L.&nbsp;Hyland<sup>&dagger;</sup>, M.&nbsp;Faltys<sup>&dagger;</sup>, M.&nbsp;Hüser<sup>&dagger;</sup>, X.&nbsp;Lyu<sup>&dagger;</sup>, T.&nbsp;Gumbsch<sup>&dagger;</sup>, C.&nbsp;Esteban, C.&nbsp;Bock, M.&nbsp;Horn, M.&nbsp;Moor, B.&nbsp;Rieck, M.&nbsp;Zimmermann, D.&nbsp;Bodenham, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, G.&nbsp;Rätsch<sup>&Dagger;</sup>, and T.&thinsp;M.&nbsp;Merz<sup>&Dagger;</sup>: [*Early Prediction of Circulatory Failure in the Intensive Care Unit Using Machine Learning*](https://dx.doi.org/10.1038/s41591-020-0789-4), Nature Medicine, Volume 26, Number 3, pp. 364--373, 2020<br />
         <small>[\[GitHub\]](https://github.com/ratschlab/circEWS) &bull; [\[BibTeX\]](Hyland20.bib)</small>
 
-## 2019
+### 2019
 
 - M.&nbsp;Togninalli<sup>&dagger;</sup>, E.&nbsp;Ghisu<sup>&dagger;</sup>, F.&nbsp;Llinares-López, B.&nbsp;Rieck, and K.&nbsp;Borgwardt: [*Wasserstein Weisfeiler--Lehman Graph Kernels*](https://papers.nips.cc/paper/2019/hash/73fed7fd472e502d8908794430511f4d-Abstract.html), Advances in Neural Information Processing Systems, Volume 32, pp. 6436--6446, 2019<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/1906.01277) &bull; [\[GitHub\]](https://github.com/BorgwardtLab/WWL) &bull; [\[BibTeX\]](Togninalli19.bib)</small><br />
@@ -235,7 +235,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - B.&nbsp;Rieck<sup>&dagger;</sup>, M.&nbsp;Togninalli<sup>&dagger;</sup>, C.&nbsp;Bock<sup>&dagger;</sup>, M.&nbsp;Moor, M.&nbsp;Horn, T.&nbsp;Gumbsch, and K.&nbsp;Borgwardt: [*Neural Persistence: A Complexity Measure for Deep Neural Networks Using Algebraic Topology*](https://openreview.net/forum?id=ByxkijC5FQ), International Conference on Learning Representations, 2019<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/1812.09764) &bull; [\[GitHub\]](https://github.com/BorgwardtLab/Neural-Persistence) &bull; [\[BibTeX\]](Rieck19a.bib)</small>
 
-## 2018
+### 2018
 
 - C.&nbsp;Bock, T.&nbsp;Gumbsch, M.&nbsp;Moor, B.&nbsp;Rieck, D.&nbsp;Roqueiro, and K.&nbsp;Borgwardt: [*Association Mapping in Biomedical Time Series via Statistically Significant Shapelet Mining*](https://dx.doi.org/10.1093/bioinformatics/bty246), Bioinformatics, Volume 34, Number 13, pp. i438--i446, 2018<br />
         <small>[\[GitHub\]](https://github.com/BorgwardtLab/S3M) &bull; [\[BibTeX\]](Bock18a.bib)</small>
@@ -248,7 +248,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - B.&nbsp;Rieck, U.&nbsp;Fugacci, J.&nbsp;Lukasczyk, and H.&nbsp;Leitte: [*Clique Community Persistence: A Topological Visual Analysis Approach for Complex Networks*](https://dx.doi.org/10.1109/TVCG.2017.2744321), IEEE Transactions on Visualization and Computer Graphics, Volume 24, Number 1, pp. 822--831, 2018<br />
         <small>[\[Author's copy\]](https://bastian.rieck.me/research/Vis2017_Clique_Community_Persistence.pdf) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/Aleph) &bull; [\[BibTeX\]](Rieck18a.bib)</small>
 
-## 2017
+### 2017
 
 - B.&nbsp;Rieck: [*Persistent Homology in Multivariate Data Visualization*](https://dx.doi.org/10.11588/heidok.00022914), Ph.D. thesis, Heidelberg University, 2017<br />
         <small>[\[Author's copy\]](https://bastian.rieck.me/research/Dissertation_Rieck_2017.pdf) &bull; [\[BibTeX\]](Rieck17d.bib)</small>
@@ -260,7 +260,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - B.&nbsp;Rieck and H.&nbsp;Leitte: [*Agreement Analysis of Quality Measures for Dimensionality Reduction*](https://dx.doi.org/10.1007/978-3-319-44684-4_6), Topological Methods in Data Analysis and Visualization IV, pp. 103--117, 2017<br />
         <small>[\[Author's copy\]](https://bastian.rieck.me/research/TopoInVis2015.pdf) &bull; [\[BibTeX\]](Rieck17a.bib)</small>
 
-## 2016
+### 2016
 
 - B.&nbsp;Rieck and H.&nbsp;Leitte: [*'Shall I Compare Thee to a Network?' --- Visualizing the Topological Structure of Shakespeare's Plays*](https://bastian.rieck.me/research/Vis2016.pdf), Workshop on Visualization for the Digital Humanities at IEEE Vis, 2016<br />
         <small>[\[GitHub\]](https://github.com/Pseudomanifold/Shakespeare) &bull; [\[BibTeX\]](Rieck16b.bib)</small>
@@ -269,7 +269,7 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - J.&nbsp;Fangerau, B.&nbsp;Höckendorf, B.&nbsp;Rieck, C.&nbsp;Heine, J.&nbsp;Wittbrodt, and H.&nbsp;Leitte: [*Interactive Similarity Analysis and Error Detection in Large Tree Collections*](https://dx.doi.org/10.1007/978-3-319-24523-2_13), Visualization in Medicine and Life Sciences III, pp. 287--307, 2016<br />
         <small>[\[BibTeX\]](Fangerau16.bib)</small>
 
-## 2015
+### 2015
 
 - B.&nbsp;Rieck and H.&nbsp;Leitte: [*Comparing Dimensionality Reduction Methods Using Data Descriptor Landscapes*](https://bastian.rieck.me/research/Vis2015.pdf), Symposium on Visualization in Data Science&nbsp;(VDS) at IEEE VIS, 2015<br />
         <small>[\[BibTeX\]](Rieck15c.bib)</small>
@@ -278,26 +278,26 @@ Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
 - B.&nbsp;Rieck and H.&nbsp;Leitte: [*Agreement Analysis of Quality Measures for Dimensionality Reduction*](https://bastian.rieck.me/research/TopoInVis2015.pdf), Workshop on Topology-Based Methods in Visualization&nbsp;(TopoInVis), 2015<br />
         <small>[\[BibTeX\]](Rieck15a.bib)</small>
 
-## 2014
+### 2014
 
 - B.&nbsp;Rieck and H.&nbsp;Leitte: [*Enhancing Comparative Model Analysis Using Persistent Homology*](https://bastian.rieck.me/research/Vis2014.pdf), IEEE Vis Workshop on Visualization for Predictive Analytics, 2014<br />
         <small>[\[BibTeX\]](Rieck14b.bib)</small>
 - B.&nbsp;Rieck and H.&nbsp;Leitte: [*Structural Analysis of Multivariate Point Clouds Using Simplicial Chains*](https://dx.doi.org/10.1111/cgf.12398), Computer Graphics Forum, Volume 33, Number 8, pp. 28--37, 2014<br />
         <small>[\[Author's copy\]](https://bastian.rieck.me/research/CGF2014.pdf) &bull; [\[BibTeX\]](Rieck14a.bib)</small>
 
-## 2013
+### 2013
 
 - B.&nbsp;Rieck, H.&nbsp;Mara, and S.&nbsp;Krömker: [*Unwrapping Highly-Detailed 3D Meshes of Rotationally Symmetric Man-Made Objects*](https://dx.doi.org/10.5194/isprsannals-II-5-W1-259-2013), ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume II-5/W1, pp. 259--264, 2013<br />
         <small>[\[BibTeX\]](Rieck13a.bib)</small>
 - M.&nbsp;Forbriger, H.&nbsp;Mara, B.&nbsp;Rieck, C.&nbsp;Siart, and O.&nbsp;Wagener: [*Der &ldquo;Gesprengte Turm&rdquo; Am Heidelberger Schloss -- Untersuchung Eines Kulturdenkmals Mithilfe Hoch Auflösender Terrestrischer Laserscans*](https://bastian.rieck.me/research/Gesprengter_Turm.pdf), Denkmalpflege in Baden-Württemberg, Nachrichtenblatt der Landesdenkmalpflege, Volume 3, pp. 165--168, 2013<br />
         <small>[\[BibTeX\]](Forbriger13a.bib)</small>
 
-## 2012
+### 2012
 
 - B.&nbsp;Rieck, H.&nbsp;Mara, and H.&nbsp;Leitte: [*Multivariate Data Analysis Using Persistence-Based Filtering and Topological Signatures*](https://dx.doi.org/10.1109/TVCG.2012.248), IEEE Transactions on Visualization and Computer Graphics, Volume 18, Number 12, pp. 2382--2391, 2012<br />
         <small>[\[Author's copy\]](https://bastian.rieck.me/research/Vis2012.pdf) &bull; [\[BibTeX\]](Rieck12a.bib)</small>
 
-## 2011
+### 2011
 
 - B.&nbsp;Rieck: [*Smoothness Analysis of Subdivision Algorithms*](https://dx.doi.org/10.11588/heidok.00013011), M.Sc. thesis, Heidelberg University, 2011<br />
         <small>[\[Author's copy\]](https://bastian.rieck.me/research/Diploma_Thesis_Rieck_2011.pdf) &bull; [\[GitHub\]](https://github.com/Pseudomanifold/psalm) &bull; [\[BibTeX\]](Rieck11.bib)</small>

@@ -1,9 +1,8 @@
-name    = "PRESTO: Projected Embedding Similarity based on Topological Overlays"
+name    = "PRESTO"
 paper   = "Mapping the Multiverse of Latent Representations"
 image   = "presto.svg"
 description     = """\
-        The world of machine learning research is riddled with small decisions, from data collection, cleaning, into model selection and parameter tuning. Each combination of data, implementation, and modeling decisions leads to a potential universe where we can analyze and interpret results. Together, these form a multiverse! 🌌 <br><br>
-        In this project, we focus on **mapping out the multiverse of latent representations**, specifically targeting machine learning tasks that produce embeddings. With PRESTO, we offer topological tools to efficiently measure the structural variation between representations that arise from different choices in a machine learning workflow.
+            The world of machine learning research is riddled with small decisions, from data collection, cleaning, into model selection and parameter tuning 🎶. Each combination of data, implementation, and modeling decisions leads to a potential universe where we can analyze and interpret results. Together, these form a multiverse! 🌌 With PRESTO (Projected Embedding Similarity based on Topological Overlays), we offer topological tools to efficiently measure the structural variation between representations that arise from different choices in a machine learning workflow.
           """
 repo    = "https://github.com/aidos-lab/Presto"
 pub     = "https://doi.org/10.48550/arXiv.2402.01514"

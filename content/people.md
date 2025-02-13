@@ -25,7 +25,6 @@ starting a collaboration with us.
     {{< person "RB" >}}
     {{< person "ES" >}}
     {{< person "RvM" >}}
-    {{< person "MA" >}}
 </div>
 
 # Collaborators
@@ -33,6 +32,7 @@ starting a collaboration with us.
 <div class="people-card-container">
     {{< person "CC" >}}
     {{< person "IC" >}}
+    {{< person "MA" >}}
 </div>
 
 Your name is missing here! Learn more about [joining us]({{< relref "/contact/#join-us" >}}).

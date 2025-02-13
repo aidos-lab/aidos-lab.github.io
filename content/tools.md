@@ -4,4 +4,12 @@ Here is a collection of tools that have been developed by the AIDOS Lab, in orde
 
 {{< tool "scott" >}}
 
+{{< tool "magnipy" >}}
+
 {{< tool "presto" >}}
+
+{{< tool "dect" >}}
+
+{{< tool "orchid" >}}
+
+{{< tool "tardis" >}}

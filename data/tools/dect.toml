@@ -1,12 +1,12 @@
-name = "DECT"
-paper   = "Differentiable Euler Characteristic Transform"
+name = "DECT: Differentiable Euler Characteristic Transform"
+paper   = "Differentiable Euler Characteristic Transforms for Shape Classification"
 image   = "ect_overview.png"
 venue   = "ICLR 2024"
 description = """\
 The Euler Characteristic Transform (ECT) has proven to be a powerful representation, 
 combining geometrical and topological characteristics of shapes and graphs.
 We provide a fast and **computationally efficient** implementation of a **differentiable, 
-end-to-end-trainable Euler Characteristic Transform, which can be integrated into deep neural networks.
+end-to-end-trainable Euler Characteristic Transform**, which can be integrated into deep neural networks.
 """
 arXiv   = "2310.07630"
 pub     = "https://arxiv.org/abs/2310.07630"

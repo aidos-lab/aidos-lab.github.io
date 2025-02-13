@@ -1,5 +1,5 @@
-name = "magnipy"
-paper   = "Metric Space Magnitude Computations"
+name = "magnipy: Metric Space Magnitude Computations"
+paper   = "Metric Space Magnitude for Evaluating the Diversity of Latent Representations"
 image   = "magnipy_logo.svg"
 venue   = "NeurIPS 2024"
 description = """\

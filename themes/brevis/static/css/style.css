@@ -222,7 +222,7 @@ footer
   line-height:  1.2;
 }
 
-.card-name,
+.card-name
 {
   font-size  : 1.50rem;
   font-weight: bold; 
@@ -265,9 +265,10 @@ footer
 
 .card-profiles dt, .card-profiles dd
 {
-  display  : inline-block;
+  display  : block;
   float    : left;
   font-size: smaller;
+  display: flex;
 }
 
 .card-references

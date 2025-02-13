@@ -1,4 +1,4 @@
-name    = "pytorch-topological: A Topological Machine Learning Framework for `pytorch`"
+name    = "pytorch-topological"
 image   = "torch_topological.svg"
 description     = """\
 `pytorch-topological` (or `torch_topological`) is a **topological machine learning framework for PyTorch**. It aims to collect loss terms 

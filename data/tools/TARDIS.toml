@@ -1,4 +1,4 @@
-name = "TARDIS: Topological Algorithms for Robust DIscovery of Singularities"
+name = "TARDIS"
 paper   = "Topological Algorithms for Robust DIscovery of Singularities"
 image   = "tardis.svg"
 venue   = "ICML 2023"

@@ -52,7 +52,8 @@ ignoreFiles = ['publications.md$']
   text = """
   <a href="https://www.unifr.ch"><img src="/signet_unifr.svg" height="32" alt="University of Fribourg" /></a>
   <a href="https://www.helmholtz-muenchen.de/en"><img src="/logo_helmholtz_munich.svg" height="32" alt="Helmholtz Munich" style="padding-left:16px" /></a>
-  <a href="https://www.tum.de"><img src="/logo_tum.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Technical University of Munich" /></a>
+  <a href="https://www.tum.de"><img src="/logo_tum.svg" height="32" style="padding-left:16px" alt="Technical University of Munich" /></a>
+  <a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)"><img src="/progress_flag.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Pride flag" /></a>
 """
 
 [params.footer.license]

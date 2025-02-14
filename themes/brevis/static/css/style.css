@@ -374,6 +374,21 @@ time
   }
 }
 
+@media only screen and (max-width: 690px) {
+  .card-tool {
+    display: block;
+  }
+  .tool-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+
 article.news
 {
   margin-bottom: 1em;

@@ -47,6 +47,11 @@ ignoreFiles = ['publications.md$']
   pageRef = "/contact"
   weight  = -70
 
+[[menu.main]]
+  name = "Wiki"
+  url = "/wiki/"
+  weight = -70
+
 # Ditto (see above), but for the footer.
 [params.footer.logos]
   text = """

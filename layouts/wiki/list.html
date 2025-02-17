@@ -3,36 +3,38 @@
     <h1 style="font-size: 2em;">{{ .Title }}</h1>
     <p>{{ .Description }}</p>
 
-    <ul>
+    <dl>
       {{ range .Pages }}
-        {{ if .Params.external_url }}
-          <li>
-            <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
-              {{ .Title }}
-            </a>
-          </li>
-        {{ else if .IsPage }}  {{/* Regular internal page */}}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-        {{ else }}
-          <li><strong>{{ .Title }}</strong>
-            <ul>
-              {{ range .Pages }}
-                {{ if .Params.external_url }}
-                  <li>
-                    <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
-                      {{ .Title }}
-                    </a>
-                  </li>
-                {{ else if .IsPage }}
-                  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <div class="card-tool">
+          {{ if .Params.external_url }}
+            <dt>
+              <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
+                {{ .Title }}
+              </a>
+            </dt>
+          {{ else if .IsPage }}  {{/* Regular internal page */}}
+            <dt>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </dt>
+          {{ else }}
+            <dt><strong>{{ .Title }}</strong>
+              <ul>
+                {{ range .Pages }}
+                  {{ if .Params.external_url }}
+                    <li>
+                      <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
+                        {{ .Title }}
+                      </a>
+                    </li>
+                  {{ else if .IsPage }}
+                      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                  {{ end }}
                 {{ end }}
-              {{ end }}
-            </ul>
-          </li>
-        {{ end }}
+              </ul>
+            </dt>
+          {{ end }}
+        </div>
       {{ end }}
-    </ul>
+    </dl>
   </main>
 {{ end }}

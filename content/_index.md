@@ -17,7 +17,7 @@ Our primary research interests are situated at the intersection of
 topological information to imbue our methods with foundations that foster interpretability and robustness. Along the way, we develop new **manifold learning** techniques, new
 **representation learning** algorithms, and much more.
 
-{{< figure src="new_logo_standin.svg" width="450" class="center" alt="New Lab Logo" >}}
+{{< figure src="new_logo_standin.svg" width="75%" class="center" alt="New Lab Logo" >}}
 
 Following the dictum 'theory without practice is empty,' we
 address challenges in biomedicine and healthcare
@@ -27,10 +27,10 @@ applications. Check out our [research page]({{< relref "/research" >}}) to learn
 
 'AIDOS' has two meanings that complement each other well. The first
 meaning refers to our mission statement, viz. to develop **A**rtificial
-**I**ntelligence for **D**iscovering **O**bscured **S**hapes. The
-second meaning originates from the Greek word 'αἰδώς,' which means
-'awe,' 'reverence,' or 'humility.' This awe or humility should serve as
-one of our guiding principles when we work on challenging problems, aiming to improve human and environmental health using machine
-learning.
+**I**ntelligence for **D**ata-**O**riented **S**cience. The second
+meaning originates from the Greek word 'αἰδώς,' which means 'awe,'
+'reverence,' or 'humility.' This awe or humility should serve as one of
+our guiding principles when we work on challenging problems, aiming to
+improve the world using machine learning.
 
 {{< news >}}

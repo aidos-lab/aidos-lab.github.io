@@ -70,6 +70,10 @@ Learning with Missing Values&nbsp;(ARTEMISS)</small>
 
 ### 2025
 
+- [*MANTRA: The Manifold Triangulations Assemblage*](https://arxiv.org/abs/2410.02392)<br />
+R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&nbsp;Bin Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck<br />
+International Conference on Learning Representations, 2025 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester25a.bib)</small>
 - [*MAGNet: Motif-Agnostic Generation of Molecules From Shapes*](https://arxiv.org/abs/2305.19303)<br />
 L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann<br />
 International Conference on Learning Representations, 2025 (in press)<br />
@@ -81,10 +85,6 @@ IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp;(I
 
 ### 2024
 
-- [*MANTRA: The Manifold Triangulations Assemblage*](https://arxiv.org/abs/2410.02392)<br />
-R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&nbsp;Bin Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck<br />
-International Conference on Learning Representations, 2024 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester25a.bib)</small>
 - [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://arxiv.org/abs/2409.08217)<br />
 D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck<br />
 Proceedings of the Third Learning on Graphs Conference, 2024 (in press)<br />

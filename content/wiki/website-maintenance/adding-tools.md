@@ -7,13 +7,13 @@ This wiki article explains how to add a new tool to the AIDOS toolbox (see [Rese
 
 #### Important! Remember to make a branch and open a pull request! All the following changes should be made on a separate branch.
 
-Choose an image that represents your tool. It is best if this image is roughly square-shaped.
+Choose an image that represents your tool. It is ideal if this image is roughly square-shaped.
 
 Save this image as `your-tool-name.svg` (.png or .jpg is also fine). Upload it to the `/static/tools/` folder.
 
 ### Step 2: Create a .toml file
 
-In the `/data/tools` folder, add a new file named `your-tool-name.toml`.  
+In the `/data/tools/` folder, create a new file named `your-tool-name.toml`. The toolbox cards pull from these `.toml` files when they render.  
 
 You can use the following as a template:
 
@@ -54,12 +54,20 @@ In the `/content/tools.md` file, add:
 < tool "your-tool-name" > within a pair of double curly braces {{}}
 ```
  
- to the **top** of the list of tools. We want to preserve ordering based on most to least recently developed.
+ to the **top** of the list of tools. (We want to preserve ordering from most to least recently developed.)
  
- Sanity check: Make sure "your-tool-name" is the same as the name of your `.toml` file.  
+ **Sanity check:** Make sure "your-tool-name" is the same as the name of your `toml` file.  
 
 ### Step 3: Final Check & PR Submission
 
 After a quick check to make sure the toolbox is rendering properly with your new addition, you are ready to submit the pull request for Bastian to review.
 
 Nice work!
+
+### Further Development
+
+Keen to change how the tool cards render?
+
+Tool cards are designed in the `/layouts/shortcodes/tool.html` file, with support from the `/layouts/partials/icons.html` file (for the GitHub and Document icons).
+
+These files use classes defined in the main CSS file, found at `/themes/brevis/static/css/style.css`.

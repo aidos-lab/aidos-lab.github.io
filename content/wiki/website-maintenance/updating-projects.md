@@ -3,13 +3,13 @@ title: Updating projects on the homepage figure
 ---
 As the lab engages in new projects, the website should be updated to reflect these exciting new endeavors.  
 
-This wiki article explains how to update one of the hexagonal icons on the homepage (see [Welcome](/Welcome)).
+This wiki article explains how to update one of the hexagonal icons on the homepage (see [Welcome](/)).
 
 ### Step 1: Design a new hexagon overview figure using Figma
 
-You will need access to the AIDOS lab's shared Figma project. (Reach out to a team member if you require access). Within the project, there is a page entitled `Project Overview Figure`.  
+You will need access to the AIDOS lab's shared Figma project. (Reach out to a team member if you require access.)
 
-Here you will find the template for a new project icon, shown below.
+Within the project, there is a page entitled `Project Overview Figure`. Here you will find the template for a new project icon, shown below.
 
 <img src="/wiki/project-template.svg" alt="Project icon template" style="width: 25%; height: auto;">
 
@@ -25,7 +25,7 @@ For consistency, please name the file `project_title.svg`.
 
 #### Important! Remember to make a branch and open a pull request! All the following changes should be made on a separate branch.
 
-Upload your image (saved as `project_title.svg`) to the repo under the `/static/project-images` folder.
+Upload your image (saved as `project_title.svg`) to the repo under the `/static/project-images/` folder.
 
 In the `/layouts/shortcodes/projects.html` file, you will see the HTML code that controls which project images are shown.
 
@@ -42,7 +42,7 @@ Find the `project-column` div with the project you want to replace. It will look
 
 Make sure you:
 1. Edit the arXiv link.
-2. Change `project-name.svg` in to the name of your new image.
+2. Change `project-name.svg` to the name of your new uploaded image.
 3. Change the alt text to reflect your project title.
 
 ### Step 3: Final Check & PR Submission

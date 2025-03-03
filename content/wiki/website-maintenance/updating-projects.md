@@ -27,7 +27,7 @@ For consistency, please name the file `project_title.svg`.
 
 1. Upload your image (saved as `project_title.svg`) to the repo under the `/static/project-images/` folder.
 
-2. Open `/data/featured_projects/projects.toml` file. This file controls which projects render as part of the overview image.
+2. Open `/data/featured_projects.toml` file. This file controls which projects render as part of the overview image.
 
 It will look something like this.
 ```toml

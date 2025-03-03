@@ -1,0 +1,36 @@
+# The 6 projects listed in this toml file render as the six linked images on the Overview page.
+
+# Key:
+# img = Image path in the static folder
+# alt = Alt text for the image (name of the project)
+# link = Hyperlink for the image (to arXiv)
+
+# Top left
+img1       = "project-images/presto-4.svg"
+alt1       = "Mapping the Multiverse of Latent Representations"
+link1      = "https://arxiv.org/abs/2402.01514"
+
+# Top center
+img2       = "project-images/dect-4.svg"
+alt2       = "Differentiable Euler Characteristic Transform"
+link2      = "https://arxiv.org/abs/2310.07630"
+
+# Top right
+img3       = "project-images/magnitude-4.svg"
+alt3       = "Metric Space Magnitude for Diversity Evaluation"
+link3      = "https://arxiv.org/abs/2311.16054"
+
+# Bottom left
+img4     = "project-images/tardis-4.svg"
+alt4     = "Topological Singularity Detection"
+link4    = "https://arxiv.org/abs/2210.00069"
+
+# Bottom center
+img5      = "project-images/curvature-filtrations-4.svg"
+alt5      = "Curvature Filtrations"
+link5     = "https://arxiv.org/abs/2301.12906"
+
+# Bottom right
+img6    = "project-images/mantra-4.svg"
+alt6    = "Manifold Triangulations Assembly"
+link6   = "https://arxiv.org/abs/2410.02392"

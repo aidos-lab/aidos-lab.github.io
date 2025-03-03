@@ -1,39 +1,42 @@
-<div class="projects-grid">
-    <div class="project-column">
-        <a href="https://arxiv.org/abs/2402.01514">
-            <img src="project-images/presto-4.svg" alt="Mapping the Multiverse of Latent Representations">
-        </a>
+<div>
+    {{ $projects := .Site.Data.featured_projects.projects }}
+    <div class="projects-grid">
+        <div class="project-column">
+            <a href="{{ $projects.link1 }}">
+                <img src="{{ $projects.img1 }}" alt="{{ $projects.alt1 }}">
+            </a>
+        </div>
+        <div class="project-column">
+            <a href="{{ $projects.link2 }}">
+                <img src="{{ $projects.img2 }}" alt="{{ $projects.alt2 }}">
+            </a>
+        </div>
+        <div class="project-column">
+            <a href="{{ $projects.link3 }}">
+                <img src="{{ $projects.img3 }}" alt="{{ $projects.alt3 }}">
+            </a>
+        </div>
     </div>
-    <div class="project-column">
-        <a href="https://arxiv.org/abs/2310.07630">
-            <img src="project-images/dect-4.svg" alt="Differentiable Euler Characteristic Transform">
-        </a>
-    </div>
-    <div class="project-column">
-        <a href="https://arxiv.org/abs/2311.16054">
-            <img src="project-images/magnitude-4.svg" alt="Metric Space Magnitude for Diversity Evaluation">
-        </a>
-    </div>
-</div>
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-    <img src="infinity-logo.svg" style="width: 75%;" alt="Lab Large Infinity Logo">
-</div>
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+        <img src="infinity-logo.svg" style="width: 75%;" alt="Lab Large Infinity Logo">
+    </div>
 
-<div class="projects-grid">
-    <div class="project-column">
-        <a href="https://arxiv.org/abs/2210.00069">
-            <img src="project-images/tardis-4.svg" alt="Topological Singularity Detection">
-        </a>
-    </div>
-    <div class="project-column">
-        <a href="https://arxiv.org/abs/2301.12906">
-            <img src="project-images/curvature-filtrations-4.svg" alt="Curvature Filtrations">
-        </a>
-    </div>
-    <div class="project-column">
-        <a href="https://arxiv.org/abs/2410.02392">
-            <img src="project-images/mantra-4.svg" alt="Manifold Triangulations Assembly">
-        </a>
+    <div class="projects-grid">
+        <div class="project-column">
+            <a href="{{ $projects.link4 }}">
+                <img src="{{ $projects.img4 }}" alt="{{ $projects.alt4 }}">
+            </a>
+        </div>
+        <div class="project-column">
+            <a href="{{ $projects.link5 }}">
+                <img src="{{ $projects.img5 }}" alt="{{ $projects.alt5 }}">
+            </a>
+        </div>
+        <div class="project-column">
+            <a href="{{ $projects.link6 }}">
+                <img src="{{ $projects.img6 }}" alt="{{ $projects.alt6 }}">
+            </a>
+        </div>
     </div>
 </div>

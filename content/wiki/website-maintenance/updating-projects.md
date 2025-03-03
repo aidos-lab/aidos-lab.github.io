@@ -1,5 +1,5 @@
 ---
-title: Updating projects on the homepage figure
+title: Updating featured projects on the homepage
 ---
 As the lab engages in new projects, the website should be updated to reflect these exciting new endeavors.  
 
@@ -32,7 +32,7 @@ For consistency, please name the file `project_title.svg`.
 It will look something like this.
 ```toml
 # Key:
-# img = Image path from the static folder (should be in project-images folder)
+# img = Image path from the static folder (in project-images folder)
 # alt = Alt text for the image (name of the project)
 # link = Hyperlink for the image (arXiv link)
 

@@ -25,25 +25,24 @@ For consistency, please name the file `project_title.svg`.
 
 #### Important! Remember to make a branch and open a pull request! All the following changes should be made on a separate branch.
 
-Upload your image (saved as `project_title.svg`) to the repo under the `/static/project-images/` folder.
+1. Upload your image (saved as `project_title.svg`) to the repo under the `/static/project-images/` folder.
 
-In the `/layouts/shortcodes/projects.html` file, you will see the HTML code that controls which project images are shown.
+2. Open `/data/featured_projects/projects.toml` file. This file controls which projects render as part of the overview image.
 
-Find the `project-column` div with the project you want to replace. It will look something like so:
+It will look something like this.
+```toml
+# Key:
+# img = Image path from the static folder (should be in project-images folder)
+# alt = Alt text for the image (name of the project)
+# link = Hyperlink for the image (arXiv link)
 
-```html
-<div class="project-column">
-    <a href="https://arxiv.org/abs/######">
-        <img src="project-images/project-name.svg"
-        alt="Project name here">
-    </a>
-</div>
+# Position (e.g. top left)
+img1       = "project-images/your-project.svg"
+alt1       = "Your Project Title"
+link1      = "https://arxiv.org/abs/#########"
 ```
 
-Make sure you:
-1. Edit the arXiv link.
-2. Change `project-name.svg` to the name of your new uploaded image.
-3. Change the alt text to reflect your project title.
+Edit the `img`, `alt`, and `link` fields in the position where you want your image to appear (e.g. Top left). Please consider replacing the oldest project.
 
 ### Step 3: Final Check & PR Submission
 

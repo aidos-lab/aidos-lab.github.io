@@ -2,6 +2,17 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2025-05-21 = """
+  🎙 Bastian was interviewed on the [DataSkeptic podcast](https://open.spotify.com/episode/2z4Aw1LrdBPlQznZP1xOjc?si=ZuFcn2UPSVywafMAURJcSQ)
+  to discuss our work on [No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets](https://arxiv.org/abs/2502.02379).
+"""
+
+2025-05-01 = """
+  🎉 Our works on [local variants of the Euler Characteristic Transform](https://arxiv.org/abs/2410.02622)
+  and on [a principled analysis of graph-learning data sets](https://arxiv.org/abs/2502.02379)
+  have been accepted at ICML 2025!  🎉
+"""
+
 2025-02-01 = """
   🎉 Our works on [molecule generation](https://arxiv.org/abs/2305.19303)
   and on [new data sets for topological deep learning](https://arxiv.org/abs/2410.02392)

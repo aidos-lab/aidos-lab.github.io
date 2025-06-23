@@ -1,0 +1,13 @@
+name    = "Martin Carrasco"
+job     = "ELLIS Ph.D. Student"
+image   = "mc.jpg"
+bio     = """\
+
+Martin is interested in topological and geometrical methods in
+deep learning. He is particularly interested in methods that leverage
+the structure of data such as graphs. 
+"""
+github  = "martin-carrasco"
+web = "https://martin-carrasco.github.io/"
+bluesky = "martinca.bsky.social"
+twitter = "martincar98"

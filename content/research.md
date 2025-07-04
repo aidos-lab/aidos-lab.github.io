@@ -21,6 +21,8 @@ targets method development in machine learning, we are also passionate
 about impacting change with the help of our wonderful collaborators in
 biomedical, healthcare, and environmental applications.
 
+{{< toc >}}
+
 ## Toolbox
 
 Here is a collection of tools that have been developed by the AIDOS Lab, in order from most to least recent.

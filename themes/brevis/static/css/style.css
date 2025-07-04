@@ -140,16 +140,17 @@ h2
   margin-bottom: 0.5em;
 }
 
-#TableOfContents ul, #logos ul
+#logos ul
 {
   list-style-type:  none;
   padding-left:     0px;
   margin:           0;
   overflow:         hidden;
   width:            100%;
+  display:          inline;
 }
 
-#TableOfContents li, #logos li
+#logos li
 {
   display: inline;
 }
@@ -161,19 +162,19 @@ li
 }
 
 /* no extra spacing for lists in the navigation bar */
-nav ul
+#menu ul
 {
   padding: 0;
   margin: 0;
 }
 
 /* no blocks for list items */
-nav li
+#menu li
 {
   display: inline;
 }
 
-nav a
+#menu a
 {
   padding-top:     20px;
   padding-right:   20px;
@@ -182,7 +183,7 @@ nav a
   font-size:       1.5rem;
 }
 
-nav a:hover
+#menu a:hover
 {
   text-decoration: underline;
 }
@@ -346,9 +347,11 @@ time
   font-weight: bold;
 }
 
-#logos ul
+#toc
 {
-  display: inline;
+  padding:        10px;
+  border-bottom:  1px solid lightgray;
+  border-top:     1px solid lightgray;
 }
 
 @media (max-width: 960px)
@@ -394,10 +397,6 @@ time
   }
 }
 
-
-
-
-
 article.news
 {
   margin-bottom: 1em;
@@ -429,7 +428,6 @@ ul.card-icons li
   align-content: center;
   text-align: center;
 }
-
 
 .card-person a 
 {

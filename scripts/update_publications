@@ -5,5 +5,27 @@
 # `.bib` files.
 
 source ~/.virtualenvs/playground/bin/activate
-python ~/Projects/bastian.rieck.me/scripts/bibtex_to_markdown.py ~/Documents/Papers.bib --blocks --level 3 -v >  ../content/publications.md
+python ~/Projects/bastian.rieck.me/scripts/bibtex_to_markdown.py ~/Documents/Papers.bib --blocks --level 3 -v >  ../content/publications_tmp.md
 cp /tmp/*.bib ../static/research/
+
+{
+  echo "<div class=\"publications\">"
+  echo ""
+  cat ../content/publications_tmp.md
+  echo ""
+  echo "</div>"
+} > ../content/publications.md
+
+awk '
+  BEGIN { in_block = 0 }
+  /<!-- BEGIN:PUBLICATIONS -->/ {
+    print
+    while ((getline line < "../content/publications.md") > 0) print line
+    in_block = 1
+    next
+  }
+  /<!-- END:INSERT -->/ { in_block = 0 }
+  !in_block
+' ../content/research.md > ../content/research_tmp.md
+
+mv ../content/research_tmp.md ../content/research.md

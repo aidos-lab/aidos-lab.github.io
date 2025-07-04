@@ -39,4 +39,4 @@ Here is a collection of tools that have been developed by the AIDOS Lab, in orde
 Here are all publications of lab members, sorted by year. Publications
 appear in the order in which they are accepted.
 
-{{< include "publications.md" "publications" >}}
+{{% include "publications.md" "publications" %}}

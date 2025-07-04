@@ -1,5 +1,9 @@
 ### 2025
 
+- [*Defining and Benchmarking Open Problems in Single-Cell Analysis*](https://dx.doi.org/10.1038/s41587-025-02694-w)<br />
+M.&thinsp;D.&nbsp;Luecken<sup>&dagger;</sup>, S.&nbsp;Gigante<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, D.&thinsp;C.&nbsp;Strobl, N.&thinsp;S.&nbsp;Markov, L.&nbsp;Zappia, G.&nbsp;Palla, W.&nbsp;Lewis, D.&nbsp;Dimitrov, M.&thinsp;E.&nbsp;Vinyard, D.&thinsp;S.&nbsp;Magruder, M.&thinsp;F.&nbsp;Mueller, A.&nbsp;Andersson, E.&nbsp;Dann, Q.&nbsp;Qin, D.&thinsp;J.&nbsp;Otto, M.&nbsp;Klein, O.&thinsp;B.&nbsp;Botvinnik, L.&nbsp;Deconinck, K.&nbsp;Waldrant, S.&thinsp;N.&nbsp;Yasa, A.&nbsp;Szałata, A.&nbsp;Benz, Z.&nbsp;Li, O.&thinsp;P.&nbsp;Members, B.&nbsp;Rieck, C.&nbsp;Ahlmann-Eltze, E.&nbsp;da Veiga Beltrame, C.&thinsp;B.&nbsp;González-Blas, A.&thinsp;T.&nbsp;Chen, B.&nbsp;DeMeo, C.&nbsp;Ergen, S.&nbsp;Floc'hlay, A.&nbsp;Gayoso, S.&nbsp;Hicks, Y.&nbsp;Ji, V.&nbsp;Kleshchevnikov, G.&nbsp;La Manno, M.&thinsp;G.&nbsp;Lombardo, R.&nbsp;Lopez, D.&nbsp;Righelli, H.&nbsp;Sarkar, V.&nbsp;Svensson, A.&nbsp;Tong, G.&nbsp;Xing, C.&nbsp;Xu, J.&thinsp;M.&nbsp;Bloom, A.&thinsp;O.&nbsp;Pisco, J.&nbsp;Saez-Rodriguez, D.&nbsp;Wulsin, L.&nbsp;Pinello, Y.&nbsp;Saeys, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup><br />
+Nature Biotechnology, 2025<br />
+        <small>[\[BibTeX\]](Luecken25a.bib)</small>
 - [*Geometry-Aware Edge Pooling for Graph Neural Networks*](https://arxiv.org/abs/2506.11700)<br />
 K.&nbsp;Limbeck<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
 Preprint, 2025<br />
@@ -24,7 +28,7 @@ Preprint, 2025<br />
 D.&nbsp;Bhaskar<sup>&dagger;</sup>, Y.&nbsp;Zhang<sup>&dagger;</sup>, J.&nbsp;Moore, F.&nbsp;Gao, B.&nbsp;Rieck, G.&nbsp;Wolf, F.&nbsp;Khasawneh, E.&nbsp;Munch, J.&thinsp;A.&nbsp;Noah, H.&nbsp;Pushkarskaya, C.&nbsp;Pittenger, V.&nbsp;Greco, and S.&nbsp;Krishnaswamy<br />
 Preprint, 2025<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807v3) &bull; [\[BibTeX\]](Bhaskar25a.bib)</small>
-- [*Characterizing Physician Referral Networks With Ricci Curvature*](https://arxiv.org/abs/2408.16022)<br />
+- [*Characterizing Physician Referral Networks With Ricci Curvature*](https://dx.doi.org/10.1007/978-3-031-88346-0_1)<br />
 J.&nbsp;Wayland, R.&thinsp;J.&nbsp;Funk, and B.&nbsp;Rieck<br />
 Pediatric and Lifespan Data Science, pp. 1--16, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2408.16022) &bull; [\[BibTeX\]](Wayland25a.bib)</small>
@@ -293,7 +297,7 @@ S.&nbsp;Horoi<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, B.&nbsp;Riec
 Montreal AI Symposium, 2021<br />
         <small>[\[BibTeX\]](Horoi21a.bib)</small>
 - [*A Sandbox for Prediction and Integration of DNA, RNA, and Proteins in Single Cells*](https://openreview.net/forum?id=gN35BGa1Rt)<br />
-M.&thinsp;D.&nbsp;Lücken<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, C.&nbsp;Lance<sup>&dagger;</sup>, A.&nbsp;Agrawal, H.&nbsp;Aliee, A.&thinsp;T.&nbsp;Chen, L.&nbsp;Deconinck, A.&thinsp;M.&nbsp;Detweiler, A.&thinsp;A.&nbsp;Granados, S.&nbsp;Huynh, L.&nbsp;Isacco, Y.&thinsp;J.&nbsp;Kim, B.&nbsp;De Kumar, S.&nbsp;Kuppasani, H.&nbsp;Lickert, A.&nbsp;McGeever, J.&thinsp;C.&nbsp;Melgarejo, H.&nbsp;Mekonen, M.&nbsp;Morri, M.&nbsp;Müller, N.&nbsp;Neff, S.&nbsp;Paul, B.&nbsp;Rieck, K.&nbsp;Schneider, S.&nbsp;Steelman, M.&nbsp;Sterr, D.&thinsp;J.&nbsp;Treacy, A.&nbsp;Tong, A.&nbsp;Villani, G.&nbsp;Wang, J.&nbsp;Yan, C.&nbsp;Zhang, A.&thinsp;O.&nbsp;Pisco<sup>&Dagger;</sup>, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and J.&thinsp;M.&nbsp;Bloom<sup>&Dagger;</sup><br />
+M.&thinsp;D.&nbsp;Luecken<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, C.&nbsp;Lance<sup>&dagger;</sup>, A.&nbsp;Agrawal, H.&nbsp;Aliee, A.&thinsp;T.&nbsp;Chen, L.&nbsp;Deconinck, A.&thinsp;M.&nbsp;Detweiler, A.&thinsp;A.&nbsp;Granados, S.&nbsp;Huynh, L.&nbsp;Isacco, Y.&thinsp;J.&nbsp;Kim, B.&nbsp;De Kumar, S.&nbsp;Kuppasani, H.&nbsp;Lickert, A.&nbsp;McGeever, J.&thinsp;C.&nbsp;Melgarejo, H.&nbsp;Mekonen, M.&nbsp;Morri, M.&nbsp;Müller, N.&nbsp;Neff, S.&nbsp;Paul, B.&nbsp;Rieck, K.&nbsp;Schneider, S.&nbsp;Steelman, M.&nbsp;Sterr, D.&thinsp;J.&nbsp;Treacy, A.&nbsp;Tong, A.&nbsp;Villani, G.&nbsp;Wang, J.&nbsp;Yan, C.&nbsp;Zhang, A.&thinsp;O.&nbsp;Pisco<sup>&Dagger;</sup>, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and J.&thinsp;M.&nbsp;Bloom<sup>&Dagger;</sup><br />
 Advances in Neural Information Processing
 Systems&nbsp;(Datasets and Benchmarks Track), 2021<br />
         <small>[\[BibTeX\]](Luecken21a.bib)</small>

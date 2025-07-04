@@ -17,6 +17,9 @@ ignoreFiles = ['publications.md$']
   [markup.goldmark.extensions]
     typographer = true
 
+  [markup.tableOfContents]
+    endLevel = 3
+
 [[menu.main]]
   name    = "Welcome"
   pageRef = "/"

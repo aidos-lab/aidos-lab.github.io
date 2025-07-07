@@ -1,0 +1,10 @@
+name    = "Johannes S. Schmidt"
+job     = "Ph.D. Student"
+image   = "jss.jpg"
+bio     = """\
+          Johannes is interested in differential geometry and topology and the application on machine learning
+          algorithms. At the moment, Johannes is intrigued by the Euler charakteristic transform and its continued
+          development and application on molecular or other structured data.
+          """
+web     = ""
+github  = "JSSchmidt"

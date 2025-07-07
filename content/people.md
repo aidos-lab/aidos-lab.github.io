@@ -28,6 +28,7 @@ starting a collaboration with us.
     {{< person "NH" >}}
     {{< person "VT" >}}
     {{< person "MC" >}}
+    {{< person "JsS" >}}
 </div>
 
 # Collaborators

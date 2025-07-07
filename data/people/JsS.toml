@@ -6,5 +6,7 @@ bio     = """\
           algorithms. At the moment, Johannes is intrigued by the Euler charakteristic transform and its continued
           development and application on molecular or other structured data.
           """
-web     = ""
+orcid   = "0009-0004-4296-8260"
+web     = "https://jsschmidt.github.io"
+bluesky = "j-s-schmidt.bsky.social"
 github  = "JSSchmidt"

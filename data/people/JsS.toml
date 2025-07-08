@@ -1,5 +1,5 @@
 name    = "Johannes S. Schmidt"
-job     = "Ph.D. Student"
+job     = "ELLIS Ph.D. Student"
 image   = "jss.jpg"
 bio     = """\
           Johannes is interested in differential geometry and topology and the application on machine learning
@@ -7,6 +7,6 @@ bio     = """\
           development and application on molecular or other structured data.
           """
 orcid   = "0009-0004-4296-8260"
-web     = "https://jsschmidt.github.io"
+web     = "https://j-s-schmidt.topology.rocks"
 bluesky = "j-s-schmidt.bsky.social"
 github  = "JSSchmidt"

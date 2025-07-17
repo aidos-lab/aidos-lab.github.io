@@ -1,5 +1,13 @@
 ### 2025
 
+- [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://dx.doi.org/10.1090/noti3193)<br />
+B.&nbsp;Rieck<br />
+Notices of the American Mathematical Society, Volume 72, Number 7, pp. 719--727, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[Author's copy\]](https://www.ams.org/journals/notices/202507/rnoti-p719.pdf) &bull; [\[BibTeX\]](Rieck25a.bib)</small>
+- [*Molecular Machine Learning Using Euler Characteristic Transforms*](https://arxiv.org/abs/2507.03474)<br />
+V.&nbsp;Toscano-Duran, F.&nbsp;Rottach, and B.&nbsp;Rieck<br />
+Preprint, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2507.03474) &bull; [\[BibTeX\]](Toscano25a.bib)</small>
 - [*Defining and Benchmarking Open Problems in Single-Cell Analysis*](https://dx.doi.org/10.1038/s41587-025-02694-w)<br />
 M.&thinsp;D.&nbsp;Luecken<sup>&dagger;</sup>, S.&nbsp;Gigante<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, D.&thinsp;C.&nbsp;Strobl, N.&thinsp;S.&nbsp;Markov, L.&nbsp;Zappia, G.&nbsp;Palla, W.&nbsp;Lewis, D.&nbsp;Dimitrov, M.&thinsp;E.&nbsp;Vinyard, D.&thinsp;S.&nbsp;Magruder, M.&thinsp;F.&nbsp;Mueller, A.&nbsp;Andersson, E.&nbsp;Dann, Q.&nbsp;Qin, D.&thinsp;J.&nbsp;Otto, M.&nbsp;Klein, O.&thinsp;B.&nbsp;Botvinnik, L.&nbsp;Deconinck, K.&nbsp;Waldrant, S.&thinsp;N.&nbsp;Yasa, A.&nbsp;Szałata, A.&nbsp;Benz, Z.&nbsp;Li, O.&thinsp;P.&nbsp;Members, B.&nbsp;Rieck, C.&nbsp;Ahlmann-Eltze, E.&nbsp;da Veiga Beltrame, C.&thinsp;B.&nbsp;González-Blas, A.&thinsp;T.&nbsp;Chen, B.&nbsp;DeMeo, C.&nbsp;Ergen, S.&nbsp;Floc'hlay, A.&nbsp;Gayoso, S.&nbsp;Hicks, Y.&nbsp;Ji, V.&nbsp;Kleshchevnikov, G.&nbsp;La Manno, M.&thinsp;G.&nbsp;Lombardo, R.&nbsp;Lopez, D.&nbsp;Righelli, H.&nbsp;Sarkar, V.&nbsp;Svensson, A.&nbsp;Tong, G.&nbsp;Xing, C.&nbsp;Xu, J.&thinsp;M.&nbsp;Bloom, A.&thinsp;O.&nbsp;Pisco, J.&nbsp;Saez-Rodriguez, D.&nbsp;Wulsin, L.&nbsp;Pinello, Y.&nbsp;Saeys, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup><br />
 Nature Biotechnology, 2025<br />
@@ -24,7 +32,7 @@ Preprint, 2025<br />
 M.&nbsp;Alain, S.&nbsp;Takao, X.&nbsp;Dong, B.&nbsp;Rieck, and E.&nbsp;Noutahi<br />
 Preprint, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2505.10877) &bull; [\[BibTeX\]](Alain25a.bib)</small>
-- [*Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity*](https://dx.doi.org/10.1101/2023.03.22.533807)<br />
+- [*Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity*](https://biorxiv.org/content/10.1101/2023.03.22.533807v3)<br />
 D.&nbsp;Bhaskar<sup>&dagger;</sup>, Y.&nbsp;Zhang<sup>&dagger;</sup>, J.&nbsp;Moore, F.&nbsp;Gao, B.&nbsp;Rieck, G.&nbsp;Wolf, F.&nbsp;Khasawneh, E.&nbsp;Munch, J.&thinsp;A.&nbsp;Noah, H.&nbsp;Pushkarskaya, C.&nbsp;Pittenger, V.&nbsp;Greco, and S.&nbsp;Krishnaswamy<br />
 Preprint, 2025<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807v3) &bull; [\[BibTeX\]](Bhaskar25a.bib)</small>
@@ -44,7 +52,7 @@ ICLR Workshop 'I Can't Believe It's Not Better: Challenges in Applied Deep Learn
 C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers<br />
 ICLR Workshop on Machine Learning Multiscale Processes, 2025<br />
         <small>[\[BibTeX\]](Koke25a.bib)</small>
-- [*Representation of Visual Sequences in the Tuning and Topology of Neuronal Activity in the Human Hippocampus*](https://dx.doi.org/10.1101/2025.03.04.641300)<br />
+- [*Representation of Visual Sequences in the Tuning and Topology of Neuronal Activity in the Human Hippocampus*](https://biorxiv.org/content/10.1101/2025.03.04.641300v1)<br />
 T.&nbsp;John, Y.&nbsp;Zhou, A.&nbsp;Aljishi, B.&nbsp;Rieck, N.&thinsp;B.&nbsp;Turk-Browne, and E.&thinsp;C.&nbsp;Damisah<br />
 Preprint, 2025<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2025.03.04.641300v1) &bull; [\[BibTeX\]](John25a.bib)</small>
@@ -76,10 +84,6 @@ Transactions on Machine Learning Research, 2024<br />
 M.&nbsp;Alain, S.&nbsp;Takao, B.&nbsp;Rieck, X.&nbsp;Dong, and E.&nbsp;Noutahi<br />
 'Bayesian Decision-Making and Uncertainty' Workshop at NeurIPS, 2024<br />
         <small>[\[BibTeX\]](Alain24a.bib)</small>
-- [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://arxiv.org/abs/2410.17760)<br />
-B.&nbsp;Rieck<br />
-Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[BibTeX\]](Rieck24a.bib)</small>
 - [*Detecting and Approximating Redundant Computational Blocks in Neural Networks*](https://arxiv.org/abs/2410.04941)<br />
 I.&nbsp;Cannistraci, E.&nbsp;Rodolà, and B.&nbsp;Rieck<br />
 Preprint, 2024<br />
@@ -191,10 +195,6 @@ Proceedings of the 40th International Conference on Machine Learning, Volume 202
 G.&nbsp;Huguet<sup>&dagger;</sup>, A.&nbsp;Tong<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, M.&nbsp;Kuchroo, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup><br />
 SIAM Journal on Mathematics of Data Science, Volume 5, Number 2, pp. 346--372, 2023<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2203.14860) &bull; [\[BibTeX\]](Huguet23a.bib)</small>
-- [*Capturing Spatiotemporal Signaling Patterns in Cellular Data With Geometric Scattering Trajectory Homology*](https://dx.doi.org/10.1101/2023.03.22.533807)<br />
-D.&nbsp;Bhaskar<sup>&dagger;</sup>, J.&nbsp;Moore<sup>&dagger;</sup>, F.&nbsp;Gao, B.&nbsp;Rieck, F.&nbsp;Khasawneh, E.&nbsp;Munch, V.&nbsp;Greco<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup><br />
-Preprint, 2023<br />
-        <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2023.03.22.533807) &bull; [\[BibTeX\]](Bhaskar23a.bib)</small>
 - [*Single-Cell Analysis Reveals Inflammatory Interactions Driving Macular Degeneration*](https://dx.doi.org/10.1038/s41467-023-37025-7)<br />
 M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Song, E.&nbsp;Calapkulu, L.&nbsp;Zhang, M.&nbsp;Ige, A.&thinsp;H.&nbsp;Sheth, A.&nbsp;Majdoubi, M.&nbsp;Menon, A.&nbsp;Tong, A.&nbsp;Godavarthi, Y.&nbsp;Xing, S.&nbsp;Gigante, H.&nbsp;Steach, J.&nbsp;Huang, G.&nbsp;Huguet, J.&nbsp;Narain, K.&nbsp;You, G.&nbsp;Mourgkos, R.&thinsp;M.&nbsp;Dhodapkar, M.&thinsp;J.&nbsp;Hirn, B.&nbsp;Rieck, G.&nbsp;Wolf, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&thinsp;P.&nbsp;Hafler<sup>&Dagger;</sup><br />
 Nature Communications, Volume 14, Number 1, pp. 2589, 2023<br />
@@ -206,7 +206,7 @@ Journal of Cell Biology, Volume 222, Number 7, pp. e202302095, 2023<br />
 - [*DONUT: Creation, Development, and Opportunities of a Database*](https://dx.doi.org/10.1090/noti2797)<br />
 B.&nbsp;Giunti, J.&nbsp;Lazovskis, and B.&nbsp;Rieck<br />
 Notices of the American Mathematical Society, Volume 70, Number 10, pp. 1640--1644, 2023<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2304.12417) &bull; [\[Author's copy\]](https://www.ams.org/journals/notices/202310/rnoti-p1640.pdf) &bull; [\[BibTeX\]](Giunti23a.bib)</small>
 - [*A Note on Cherry-Picking in Meta-Analyses*](https://dx.doi.org/10.3390/e25040691)<br />
 D.&nbsp;Yoneoka and B.&nbsp;Rieck<br />
 Entropy, Volume 25, Number 4, 2023<br />
@@ -247,7 +247,7 @@ Proceedings of Topological, Algebraic, and Geometric Learning Workshops 2022, Vo
 D.&nbsp;Bhaskar<sup>&dagger;</sup>, K.&nbsp;MacDonald<sup>&dagger;</sup>, O.&nbsp;Fasina, D.&nbsp;Thomas, B.&nbsp;Rieck, I.&nbsp;Adelstein<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup><br />
 Advances in Neural Information Processing Systems, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.03977) &bull; [\[BibTeX\]](Bhaskar22a.bib)</small>
-- [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://dx.doi.org/10.1101/2022.04.13.488198)<br />
+- [*Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification*](https://biorxiv.org/content/10.1101/2022.04.13.488198v1)<br />
 C.&nbsp;Weis<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, S.&nbsp;Balzer<sup>&dagger;</sup>, A.&nbsp;Cuénod, A.&nbsp;Egli, and K.&nbsp;Borgwardt<br />
 Preprint, 2022<br />
         <small>[\[Preprint\]](https://biorxiv.org/content/10.1101/2022.04.13.488198v1) &bull; [\[BibTeX\]](Weis22b.bib)</small>

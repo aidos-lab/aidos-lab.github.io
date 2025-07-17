@@ -1,40 +1,38 @@
 {{ define "main" }}
-  <main>
-    <h1 style="font-size: 2em;">{{ .Title }}</h1>
-    <p>{{ .Description }}</p>
+<h1 style="font-size: 2em;">{{ .Title }}</h1>
+<p>{{ .Description }}</p>
 
-    <dl>
-      {{ range .Pages }}
-        <div class="wiki-toc">
-          {{ if .Params.external_url }}
-            <dt>
-              <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
-                {{ .Title }}
-              </a>
-            </dt>
-          {{ else if .IsPage }}  {{/* Regular internal page */}}
-            <dt>
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </dt>
-          {{ else }}
-            <dt><strong>{{ .Title }}</strong>
-              <ul>
-                {{ range .Pages }}
-                  {{ if .Params.external_url }}
-                    <li>
-                      <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
-                        {{ .Title }}
-                      </a>
-                    </li>
-                  {{ else if .IsPage }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                  {{ end }}
-                {{ end }}
-              </ul>
-            </dt>
-          {{ end }}
-        </div>
+<dl>
+  {{ range .Pages }}
+    <div class="wiki-toc">
+      {{ if .Params.external_url }}
+        <dt>
+          <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
+            {{ .Title }}
+          </a>
+        </dt>
+      {{ else if .IsPage }}  {{/* Regular internal page */}}
+        <dt>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </dt>
+      {{ else }}
+        <dt><strong>{{ .Title }}</strong>
+          <ul>
+            {{ range .Pages }}
+              {{ if .Params.external_url }}
+                <li>
+                  <a href="{{ .Params.external_url}}" target="_blank" rel="noopener noreferrer">
+                    {{ .Title }}
+                  </a>
+                </li>
+              {{ else if .IsPage }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </dt>
       {{ end }}
-    </dl>
-  </main>
+    </div>
+  {{ end }}
+</dl>
 {{ end }}

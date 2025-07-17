@@ -90,6 +90,7 @@ main
 {
   max-width:  40em;
   margin:     5% auto;
+  min-height: 40em;
   padding:    5em;
   border:     1px solid lightgray;
   background: #f2f2f2;

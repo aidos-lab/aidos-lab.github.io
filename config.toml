@@ -31,19 +31,24 @@ ignoreFiles = ['publications.md$']
   weight  = -100
 
 [[menu.main]]
-  name   = "People"
+  name    = "People"
   pageRef = "/people"
-  weight = -90
+  weight  = -90
 
 [[menu.main]]
-  name   = "Research"
+  name    = "Research"
   pageRef = "/research"
-  weight = -80
+  weight  = -80
 
 [[menu.main]]
-  name   = "Theses"
+  name    = "Blog"
+  pageRef = "/blog"
+  weight  = -80
+
+[[menu.main]]
+  name    = "Theses"
   pageRef = "/theses"
-  weight = -80
+  weight  = -80
 
 [[menu.main]]
   name    = "Get In Touch"
@@ -51,8 +56,8 @@ ignoreFiles = ['publications.md$']
   weight  = -70
 
 [[menu.main]]
-  name = "Wiki"
-  url = "/wiki/"
+  name   = "Wiki"
+  url    = "/wiki/"
   weight = -70
 
 # Ditto (see above), but for the footer.

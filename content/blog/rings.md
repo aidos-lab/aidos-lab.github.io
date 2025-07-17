@@ -5,10 +5,6 @@ title = "Standard graph-learning benchmarks earn poor marks: <span style='font-w
 date = 2025-07-17
 +++
 
-# Standard graph-learning benchmarks earn poor marks: <span style="font-weight: lighter; font-style: italic">New dataset-evaluation framework raises concerns about how the field measures progress</span>
-
-**By: [Emily Simons](https://emsimons.github.io/me/) | July 2025**
-
 While the field of graph-learning has not yet come of age (by Hobbit standards), the forthcoming story will be reminiscent of Bilbo Baggins’ eleventy-first birthday bash: There will be some goodbyes, the bestowal of powerful rings (yes, rings *plural*), and the beginnings of a noble pursuit — aided by some (mathematical) wizardry. Buckle up.
 
 {{< centered-figure 

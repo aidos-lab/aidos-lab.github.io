@@ -186,10 +186,6 @@ Tolkien, J. R. R. The Lord of the Rings. HarperCollins, 1991.
 
 And [https://movie-screencaps.com/](https://movie-screencaps.com/) for Lord of the Rings images.
 
-## The Director's Cut:
-
 [^gollum]: Wait, how did Gollum get in there?! Ignore him.
 
 [^metrics]: Note that this workflow is modular: Our feature metric (Euclidean distance), graph metric (diffusion distance), and norm (L<sub>1,1</sub>) can all be exchanged for other metrics. See our paper for a lengthier discussion of our choices and recommended alternatives.
-
-

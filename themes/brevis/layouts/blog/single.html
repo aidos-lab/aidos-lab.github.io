@@ -1,0 +1,25 @@
+{{- define "main" }}
+  <article>
+    <h1>{{ .Title | safeHTML }}</h1>
+    <p>
+      Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      by
+      {{- with .Params.authors }}
+        {{- range $index, $author := . }}
+          {{- if $index }}, {{ end }}
+          {{- $.Scratch.Set "found" false }}
+          {{- range $key, $val := site.Data.people }}
+            {{- if eq $val.name $author }}
+              {{- $.Scratch.Set "found" true }}
+              <a rel="author"  href="{{ $val.web }}">{{ $val.name }}</a>
+            {{- end }}
+          {{- end }}
+          {{- if not ($.Scratch.Get "found") }}
+            <span >{{ $author }}</span>
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    </p>
+    {{- .Content }}
+  </article>
+{{- end }}

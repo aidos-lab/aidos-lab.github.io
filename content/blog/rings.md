@@ -1,5 +1,4 @@
 +++
-draft = true
 authors = ["Emily Simons"]
 title = "Standard graph-learning benchmarks earn poor marks: <span style='font-weight: lighter; font-style: italic'>New dataset-evaluation framework raises concerns about how the field measures progress</span>"
 date = 2025-07-17

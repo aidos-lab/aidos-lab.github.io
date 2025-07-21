@@ -48,7 +48,7 @@ Dr. Bastian Rieck
 <a href="Figures/aidos.svg" target="_blank" ><img
    src="Figures/aidos.svg"
    style="
-   width:142pt;
+   width:228pt;
    "
    class="inlineimage"
    alt="(image)"
@@ -57,7 +57,7 @@ Dr. Bastian Rieck
 <div class="flushright">
 
 <p>
-Version from 2nd&nbsp;February 2025
+Version from 21st&nbsp;July 2025
 </p>
 </div>
 
@@ -73,6 +73,12 @@ Version from 2nd&nbsp;February 2025
 
 <dl class="description" >
 
+<dt><span class="listmarker">0.0.21</span></dt>
+<dd>
+<p>
+(2025-07-21) — Fixed various typos and updated logo.
+</p>
+</dd>
 <dt><span class="listmarker">0.0.20</span></dt>
 <dd>
 <p>
@@ -502,7 +508,7 @@ codified, on the contrary! I see this guide therefore not as ‘laying down the 
 
 <p>
 Being founded in late 2021, the AIDOS Lab is extremely young, giving us all the opportunity to help shape it. The word ‘AIDOS’ has two meanings that complement each other well. The first meaning refers to our mission statement, viz. to develop <b>A</b>rtificial
-<b>I</b>ntelligence for <b>D</b>iscovering <b>O</b>bscured <b>S</b>hapes. Like the guide that you are reading, this short moniker should serve as a gentle scaffold for our research.
+<b>I</b>ntelligence for <b>D</b>ata-<b>O</b>riented <b>S</b>cience. Like the guide that you are reading, this short moniker should serve as a gentle scaffold for our research.
 </p>
 
 <p>
@@ -1859,7 +1865,7 @@ general reminder that supersedes everything else, consider ‘Do as I <em>say</e
 When you are writing code for your project, working on a paper, or writing a grant proposal, always remember that ‘Shipping is also a feature’. If you <em>never</em> submit your work to the scrutiny of the peer review process, you will never get any critical feedback. More
 importantly, your work will never be seen and thus also never be used by others. You are depriving yourself and the world by this. Thus, resist the urge to write the <em>perfect</em> paper. Your goal should be to iterate towards perfection—but you should always take opportunities to
 disseminate your work to a wider audience. I am not saying that you should intentionally lower the quality of your work. Just be on the lookout for the point in time at which your return on investment is just not that big any more. <b>It’s better to submit a paper that you consider to
-be 90% finished than to wait for years until you finish the remaining 10%.</b>
+be 90&percnt; finished than to wait for years until you finish the remaining 10&percnt;.</b>
 </p>
 <blockquote>
 
@@ -2095,7 +2101,7 @@ href="index.html#sec:Research ideas">2.16</a> for more thoughts on how to write 
 
 <p>
 <span class="listmarker">•</span> Every theoretical statement should support your method. Avoid ‘cosmetic mathematics,’ i.e. mathematical formalism for the sake of making the paper appear more ‘sound,’ at all costs. This is but one of the troubling trends plaguing
-research; see Lipton and Steinhardt [<a href="index.html#LWR-ht-cite.0@Lipton19a">3</a>] for an in-depth discussion on the topic.
+research in machine learning; see Lipton and Steinhardt [<a href="index.html#LWR-ht-cite.0@Lipton19a">3</a>] for an in-depth discussion on the topic.
 </p>
 </li>
 <li>
@@ -2146,7 +2152,7 @@ Remember that papers are supposed to be read by many people—concise writing im
 <li>
 <p>
 <span class="listmarker">•</span> <em>Prefer verb forms over nouns</em>. English is great in that we can use either the verb form or the noun form of a word. However, in scientific writing, the verb form should be preferred because it is clearer. Compare ‘This enables the
-calculation of topological features by the neural network’ versus ‘The neural network can calculate topological features.’ I am arguing that in the second form, it is clearer <em>who</em> is acting&nbsp;(the neural network).
+calculation of topological features by the neural network’ versus ‘The neural network can calculate topological features.’ I posit that in the second form, it is clearer <em>who</em> is acting&nbsp;(the neural network).
 </p>
 
 </li>
@@ -2353,7 +2359,7 @@ Notice that I removed the <span class="verb">keywords</span> field because, to m
 
 </pre>
 <p>
-Next to the incorrect capitalisation&nbsp;(it should be ‘Leman’), there are many things are wrong with this entry: The journal, publisher, number&nbsp;(issue) and pages are <em>all</em> incorrect. Here is a better entry:
+Next to the incorrect capitalisation&nbsp;(it should be ‘Leman’), there are many things that are wrong with this entry: The journal, publisher, number&nbsp;(issue) and pages are <em>all</em> incorrect. Here is a better entry:
 </p>
 <pre class="verbatim">
 
@@ -2375,9 +2381,9 @@ Next to the incorrect capitalisation&nbsp;(it should be ‘Leman’), there are 
 </pre>
 <p>
 Moreover, depending on the bibliography style, make sure that ‘Weisfeiler’ and ‘Leman’ remain capitalised. You can escape such names&nbsp;(or abbreviations) using curly braces. For instance, you could protect yourself against errors by writing <span
-class="verb">{W}eisfeiler and {L}eman</span> in the <span class="verb">title</span> field. For other words in the title, it is best to let your selected bibliography style do the work. Please capitalise the names of venues, though: It should be ‘Advances in Neural
-Information Processing Systems,’ not ‘advances in neural information processing systems.’ When you use abbreviations for the venues, make sure to use them consistently. Personally, I believe they are best to be avoided because there are no conferences where the length of the
-bibliography counts towards the page limit.
+class="verb">{W}eisfeiler</span> and <span class="verb">{L}eman</span> in the <span class="verb">title</span> field. For other words in the title, it is best to let your selected bibliography style do the work. Please capitalise the names of venues, though: It
+should be ‘Advances in Neural Information Processing Systems,’ not ‘advances in neural information processing systems.’ When you use abbreviations for the venues, make sure to use them consistently. Personally, I believe they are best to be avoided because there are no
+conferences where the length of the bibliography counts towards the page limit.
 </p>
 </li>
 <li>
@@ -2394,7 +2400,7 @@ consistently, making it a pleasure to read and interact with your data.
 <p>
 <span class="listmarker">3.</span> Incorrect use of citations. Make use of the right citation commands of the respective packages. For instance, <span class="verb">natbib</span> offers <span class="verb">\citep</span> for parenthetical citations, i.e.
 citations that <em>follow</em> a sentence or word, and <span class="verb">\citet</span> for in-text citations, i.e. citations that can be treated as a word. For <span class="verb">biblatex</span>, you can use <span class="verb">\parencite</span> and
-<span class="verb">\textcite</span>. The reason for this rule is that different citation styles can cause ‘bare’ citations to be rendered incorrectly, thus causing additional work when rewriting or resubmitting a paper. By communication your <em>intent</em> for a citation,
+<span class="verb">\textcite</span>. The reason for this rule is that different citation styles can cause ‘bare’ citations to be rendered incorrectly, thus causing additional work when rewriting or resubmitting a paper. By communicating your <em>intent</em> for a citation,
 you pass the control back to <span class="latexlogofont"><span class="latexlogo">L<span class="latexlogosup">a</span>T<span class="latexlogosub">e</span>X</span></span> and the bibliography package, making your paper read well
 independent of the citation style.
 </p>

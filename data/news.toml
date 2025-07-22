@@ -2,6 +2,14 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2025-07-22 = """
+  🎉 Bastian's article [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://www.ams.org/journals/notices/202507/rnoti-p719.pdf)
+  in the [Notices of the AMS](https://www.ams.org/notices) is out.
+  If you are curious what this is all about, here are brief summary
+  posts on [X](https://x.com/Pseudomanifold/status/1947570125734818075)
+  and [BlueSky](https://bsky.app/profile/pseudomanifold.topology.rocks/post/3luk2u2dko22y).
+"""
+
 2025-05-21 = """
   🎙 Bastian was interviewed on the [DataSkeptic podcast](https://open.spotify.com/episode/2z4Aw1LrdBPlQznZP1xOjc?si=ZuFcn2UPSVywafMAURJcSQ)
   to discuss our work on [No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets](https://arxiv.org/abs/2502.02379).

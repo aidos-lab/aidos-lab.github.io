@@ -1,5 +1,13 @@
 ### 2025
 
+- *A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform*<br />
+V.&nbsp;Toscano-Duran and B.&nbsp;Rieck<br />
+ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
+        <small>[\[BibTeX\]](Toscano25b.bib)</small>
+- *Geometry-Aware Edge Pooling for Graph Neural Networks*<br />
+K.&nbsp;Limbeck<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
+ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
+        <small>[\[BibTeX\]](Limbeck25b.bib)</small>
 - [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://dx.doi.org/10.1090/noti3193)<br />
 B.&nbsp;Rieck<br />
 Notices of the American Mathematical Society, Volume 72, Number 7, pp. 719--727, 2025<br />
@@ -48,7 +56,7 @@ ICLR Workshop on Learning Meaningful Representations of Life&nbsp;(LMRL), 2025<b
 C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers<br />
 ICLR Workshop 'I Can't Believe It's Not Better: Challenges in Applied Deep Learning', 2025<br />
         <small>[\[BibTeX\]](Koke25b.bib)</small>
-- [*On the Successful Incorporation of Scale Into Graph Neural Networks*](https://openreview.net/forum?id=SRCsyJafgP)<br />
+- [*On Incorporating Scale Into Graph Networks*](https://openreview.net/forum?id=SRCsyJafgP)<br />
 C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers<br />
 ICLR Workshop on Machine Learning Multiscale Processes, 2025<br />
         <small>[\[BibTeX\]](Koke25a.bib)</small>
@@ -238,7 +246,7 @@ Advances in Neural Information Processing Systems, Volume 35, pp. 10164--10178, 
 R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cantürk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Rampášek<sup>&dagger;</sup><sup>&Dagger;</sup><br />
 Proceedings of the First Learning on Graphs Conference, Volume 198, pp. 6:1--6:25, 2022<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.07729) &bull; [\[BibTeX\]](Liu22a.bib)</small><br />
-        <small>Accepted as an oral presentation at LoG&nbsp;(top 5% of all submissions)</small>
+        <small>Accepted as an oral presentation&nbsp;(top 5% of all submissions)</small>
 - [*On the Surprising Behaviour of node2vec*](https://arxiv.org/abs/2206.08252)<br />
 C.&nbsp;Hacker and B.&nbsp;Rieck<br />
 Proceedings of Topological, Algebraic, and Geometric Learning Workshops 2022, Volume 196, pp. 142--151, 2022<br />

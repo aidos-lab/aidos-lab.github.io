@@ -21,12 +21,8 @@ starting a collaboration with us.
     {{< person "KL" >}}
     {{< person "ER" >}}
     {{< person "SK" >}}
-    {{< person "DS" >}}
-    {{< person "RB" >}}
-    {{< person "ES" >}}
     {{< person "RvM" >}}
     {{< person "NH" >}}
-    {{< person "VT" >}}
     {{< person "MC" >}}
     {{< person "JsS" >}}
 </div>
@@ -43,13 +39,17 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 
 # Alumni & Alumnae
 
+- [Rubén Ballester](https://rubenbb.com) (now a research scientist at [NDEA](https://ndea.com))
 - Pia Baronetzky
 - [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ege Erdogan
 - Katharina Hagedorn
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
+- Kalyan Varma Nadimpalli (now a research assistant at Helmholtz Munich)
 - [Barış Onarıcı](https://www.linkedin.com/in/barisonarici-a271828182845904523/)
 - Yevhenii Sharapov
+- [Daniel Bīn Schmid](https://danielbinschmid.com)
+- [Emily Simons](https://emsimons.github.io/me)
 - [Franz Srambical](https://srambical.fr/) (now building AGI at [p(doom)](https://pdoom.org))
 - Tejas Srinivasan
-- Kalyan Varma Nadimpalli (now a research assistant at IIT Madras)
+- [Víctor Toscano-Durán](https://victosdur.github.io)

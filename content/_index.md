@@ -17,11 +17,13 @@ Our primary research interests are situated at the intersection of
 topological information to imbue our methods with foundations that foster interpretability and robustness. Along the way, we develop new **manifold learning** techniques, new
 **representation learning** algorithms, and much more.
 
-{{< projects >}}
-
 Following the dictum 'theory without practice is empty,' we
 address challenges in biomedicine and healthcare
 applications. Check out our [research page]({{< relref "/research" >}}) to learn more about our current projects.
+
+If you are student at the [University of Fribourg](https://unifr.ch) and
+are interested in writing a bachelor's or master's thesis with us,
+please [get in touch](https://aidos.group/contact/#bachelors-and-masters-theses).
 
 ## Mission Statement
 

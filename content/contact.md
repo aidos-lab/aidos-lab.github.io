@@ -45,14 +45,20 @@ your research interests to bastian.grossenbacher@unifr.ch. Your
 cover letter should provide answers to the following questions:
 
 1. Are there any research papers of the group that pique your interest
-   specifically? (You do not have to be an expert in the topic yet, of
-   course!)
+   specifically (You do not have to be an expert in the topic yet, of
+   course!) or do you already have a topic in mind?
 
 2. Are you more comfortable working *empirically*, i.e. lots of
    implementations, experiments, and so on, or working *theoretically*,
    i.e. lots of proofs, derivations, and more?
 
 3. When would you be available for working on the thesis?
+
+Some **formalities**:
+
+- Your thesis has to be written using the [LaTeX typesetting system](https://www.latex-project.org). Any template will do, there are no strict requirements.
+- Your thesis can be written either in English, German, or French. We recommend writing the thesis in English as an additional training to interact with contemporary research.
+- You have to disclose the use of AI tools.
 
 ## Ph.D. Positions
 

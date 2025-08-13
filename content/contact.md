@@ -56,6 +56,7 @@ cover letter should provide answers to the following questions:
 
 Some **formalities**:
 
+- You should be *familiar* with machine learning and *comfortable* with the Python programming language.
 - Your thesis has to be written using the [LaTeX typesetting system](https://www.latex-project.org). Any template will do, there are no strict requirements.
 - Your thesis can be written either in English, German, or French. We recommend writing the thesis in English as an additional training to interact with contemporary research.
 - You have to disclose the use of AI tools.

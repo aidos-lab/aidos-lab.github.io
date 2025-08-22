@@ -424,20 +424,10 @@ ul.card-icons li
   text-decoration: none;
 }
 
-/*
- * Styling publication lists
- */
-
 .publications ul
 {
-  list-style-type: none;
+  /* Don't waste any additional space here */
   padding-left: 0px;
-}
-
-.publications li
-{
-  padding: 0.5em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .projects-grid {

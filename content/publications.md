@@ -1,5 +1,17 @@
 ### 2025
 
+- [*On the Expressivity of Persistent Homology in Graph Learning*](https://proceedings.mlr.press/v269/ballester25a.html)<br />
+R.&nbsp;Ballester and B.&nbsp;Rieck<br />
+Proceedings of the Third Learning on Graphs Conference, Volume 269, pp. 42:1--42:31, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Ballester25b.bib)</small>
+- [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://proceedings.mlr.press/v269/buffelli25a.html)<br />
+D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck<br />
+Proceedings of the Third Learning on Graphs Conference, Volume 269, pp. 45:1--45:17, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2409.08217) &bull; [\[BibTeX\]](Buffelli25a.bib)</small>
+- [*Stable and Accurate Orbital-Free Density Functional Theory Powered by Machine Learning*](https://dx.doi.org/10.1021/jacs.5c06219)<br />
+R.&nbsp;Remme, T.&nbsp;Kaczun, T.&nbsp;Ebert, C.&thinsp;A.&nbsp;Gehrig, D.&nbsp;Geng, G.&nbsp;Gerhartz, M.&thinsp;K.&nbsp;Ickler, M.&thinsp;V.&nbsp;Klockow, P.&nbsp;Lippmann, J.&thinsp;S.&nbsp;Schmidt, S.&nbsp;Wagner, A.&nbsp;Dreuw, and F.&thinsp;A.&nbsp;Hamprecht<br />
+Journal of the American Chemical Society, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2503.00443) &bull; [\[BibTeX\]](Remme25a.bib)</small>
 - *A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform*<br />
 V.&nbsp;Toscano-Duran and B.&nbsp;Rieck<br />
 ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
@@ -80,10 +92,6 @@ IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp;(I
 
 ### 2024
 
-- [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://arxiv.org/abs/2409.08217)<br />
-D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck<br />
-Proceedings of the Third Learning on Graphs Conference, 2024 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2409.08217) &bull; [\[BibTeX\]](Buffelli24a.bib)</small>
 - [*Bayesian Computation Meets Topology*](https://openreview.net/forum?id=0h1DtRK6dA)<br />
 J.&nbsp;von Rohrscheidt, B.&nbsp;Rieck<sup>&Dagger;</sup>, and S.&thinsp;M.&nbsp;Schmon<sup>&Dagger;</sup><br />
 Transactions on Machine Learning Research, 2024<br />
@@ -100,10 +108,6 @@ Preprint, 2024<br />
 E.&nbsp;Röell and B.&nbsp;Rieck<br />
 Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[BibTeX\]](Roell24b.bib)</small>
-- [*On the Expressivity of Persistent Homology in Graph Learning*](https://arxiv.org/abs/2302.09826)<br />
-R.&nbsp;Ballester and B.&nbsp;Rieck<br />
-Proceedings of the Third Learning on Graphs Conference, 2024 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Ballester24a.bib)</small>
 - [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://papers.nips.cc/paper_files/paper/2024/hash/dfc24bd3ec5d74960e104268bbb52849-Abstract-Conference.html)<br />
 K.&nbsp;Limbeck, R.&nbsp;Andreeva, R.&nbsp;Sarkar, and B.&nbsp;Rieck<br />
 Advances in Neural Information Processing Systems, Volume 37, pp. 123911--123953, 2024<br />
@@ -116,6 +120,10 @@ Preprint, 2024<br />
 S.&nbsp;Kališnik, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
 Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[BibTeX\]](Kalisnik24a.bib)</small>
+- [*Applied and Combinatorial Topology (Dagstuhl Seminar 24092)*](https://dx.doi.org/10.4230/DagRep.14.2.206)<br />
+P.&nbsp;Dłotko, D.&nbsp;Feichtner-Kozlov, A.&nbsp;Stefanou, Y.&nbsp;Wang, and J.&thinsp;F.&nbsp;Senge<br />
+Dagstuhl Reports, Volume 14, Number 2, pp. 206--239, 2024<br />
+        <small>[\[BibTeX\]](Dlotko24a.bib)</small>
 - [*Position: Topological Deep Learning Is the New Frontier for Relational Learning*](https://proceedings.mlr.press/v235/papamarkou24a.html)<br />
 T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Liò, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veličković, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi<br />
 Proceedings of the 41st International Conference on Machine Learning, Volume 235, pp. 39529--39555, 2024<br />

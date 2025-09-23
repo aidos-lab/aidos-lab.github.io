@@ -1,0 +1,8 @@
+name    = "Kavir Sumaraj"
+job     = "PhD Student"
+image   = "ks.jpg"
+bio     = """\
+         Kavir is interested in algebraic topology, applied topology, 
+         and the study of topological structures in machine learning
+          """
+github  = "Kavir92"

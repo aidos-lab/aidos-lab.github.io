@@ -2,6 +2,21 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2025-10-01 = """
+  🐣 The lab is taking shape! With Richard, Nadja, Johannes, Kavir, and
+  Martin joining as Ph.D. students, we are now eagerly awaiting our
+  postdocs [Elena](https://elenaxwang.com) and
+  [Inés](https://sites.google.com/view/ines-garcia-redondo). Welcome,
+  everyone!
+"""
+
+2025-08-01 = """
+  🎉 Johannes's paper [*Stable and Accurate Orbital-Free Density
+  Functional Theory Powered by Machine
+  Learning*](https://pubs.acs.org/doi/10.1021/jacs.5c06219) appeared in
+  the Journal of the American Chemical Society. Congratulations!
+"""
+
 2025-07-22 = """
   🎉 Bastian's article [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://www.ams.org/journals/notices/202507/rnoti-p719.pdf)
   in the [Notices of the AMS](https://www.ams.org/notices) is out.

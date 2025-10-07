@@ -26,6 +26,7 @@ starting a collaboration with us.
     {{< person "MC" >}}
     {{< person "JsS" >}}
     {{< person "KS" >}}   
+    {{< person "PG" >}}
 </div>
 
 # Collaborators

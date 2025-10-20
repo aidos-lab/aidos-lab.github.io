@@ -2,6 +2,17 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2025-10-15 = """
+  🎉 Our research on [geometry-aware edge
+  pooling](https://arxiv.org/abs/2506.11700), [LLM analysis using
+  intrinsic dimensionality](https://arxiv.org/abs/2506.01034), and
+  [point cloud generation](https://arxiv.org/abs/2410.18987) was
+  accepted at NeurIPS 2025. Our small lab has now been present in all
+  of the three major machine learning conferences since its foundation
+  in 2022. May Fortuna continue smiling upon us! 🍀
+"""
+
+
 2025-10-01 = """
   🐣 The lab is taking shape! With Richard, Nadja, Johannes, Kavir, and
   Martin joining as Ph.D. students, we are now eagerly awaiting our

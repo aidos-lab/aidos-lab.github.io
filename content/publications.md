@@ -1,5 +1,9 @@
 ### 2025
 
+- [*Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities*](https://dx.doi.org/10.1038/s41560-025-01871-0)<br />
+S.&nbsp;Gathrid, J.&nbsp;Wayland, S.&nbsp;Wayland, R.&nbsp;Deshmukh, and G.&thinsp;C.&nbsp;Wu<br />
+Nature Energy, Volume 10, Number 10, pp. 1274--1288, 2025<br />
+        <small>[\[BibTeX\]](Gathrid25a.bib)</small>
 - [*Less Is More: Local Intrinsic Dimensions of Contextual Language Models*](https://arxiv.org/abs/2506.01034)<br />
 B.&thinsp;M.&nbsp;Ruppik, J.&nbsp;von Rohrscheidt, C.&nbsp;van Niekerk, M.&nbsp;Heck, R.&nbsp;Vukovic, S.&nbsp;Feng, H.&nbsp;Lin, N.&nbsp;Lubis, B.&nbsp;Rieck, M.&nbsp;Zibrowius, and M.&nbsp;Gašić<br />
 Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />

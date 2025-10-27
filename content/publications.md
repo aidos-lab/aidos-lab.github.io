@@ -1,5 +1,13 @@
 ### 2025
 
+- [*Persistent Homology via Ellipsoids*](https://arxiv.org/abs/2408.11450)<br />
+N.&nbsp;Canova, S.&nbsp;Kališnik, A.&nbsp;Moser, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
+Preprint, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[BibTeX\]](Canova25a.bib)</small>
+- [*TOAST: Transformer Optimization Using Adaptive and Simple Transformations*](https://arxiv.org/abs/2410.04941)<br />
+I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodolà, B.&nbsp;Rieck, and J.&thinsp;E.&nbsp;Vogt<br />
+Preprint, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci25a.bib)</small>
 - [*Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities*](https://dx.doi.org/10.1038/s41560-025-01871-0)<br />
 S.&nbsp;Gathrid, J.&nbsp;Wayland, S.&nbsp;Wayland, R.&nbsp;Deshmukh, and G.&thinsp;C.&nbsp;Wu<br />
 Nature Energy, Volume 10, Number 10, pp. 1274--1288, 2025<br />
@@ -120,10 +128,6 @@ Transactions on Machine Learning Research, 2024<br />
 M.&nbsp;Alain, S.&nbsp;Takao, B.&nbsp;Rieck, X.&nbsp;Dong, and E.&nbsp;Noutahi<br />
 &ldquo;Bayesian Decision-Making and Uncertainty&rdquo; Workshop at NeurIPS, 2024<br />
         <small>[\[BibTeX\]](Alain24a.bib)</small>
-- [*Detecting and Approximating Redundant Computational Blocks in Neural Networks*](https://arxiv.org/abs/2410.04941)<br />
-I.&nbsp;Cannistraci, E.&nbsp;Rodolà, and B.&nbsp;Rieck<br />
-Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci24a.bib)</small>
 - [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://papers.nips.cc/paper_files/paper/2024/hash/dfc24bd3ec5d74960e104268bbb52849-Abstract-Conference.html)<br />
 K.&nbsp;Limbeck, R.&nbsp;Andreeva, R.&nbsp;Sarkar, and B.&nbsp;Rieck<br />
 Advances in Neural Information Processing Systems, Volume 37, pp. 123911--123953, 2024<br />
@@ -132,10 +136,6 @@ Advances in Neural Information Processing Systems, Volume 37, pp. 123911--123953
 K.&nbsp;Limbeck and B.&nbsp;Rieck<br />
 Preprint, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2409.03575) &bull; [\[BibTeX\]](Limbeck24b.bib)</small>
-- [*Persistent Homology via Ellipsoids*](https://arxiv.org/abs/2408.11450)<br />
-S.&nbsp;Kališnik, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
-Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[BibTeX\]](Kalisnik24a.bib)</small>
 - [*Applied and Combinatorial Topology (Dagstuhl Seminar 24092)*](https://dx.doi.org/10.4230/DagRep.14.2.206)<br />
 P.&nbsp;Dłotko, D.&nbsp;Feichtner-Kozlov, A.&nbsp;Stefanou, Y.&nbsp;Wang, and J.&thinsp;F.&nbsp;Senge<br />
 Dagstuhl Reports, Volume 14, Number 2, pp. 206--239, 2024<br />

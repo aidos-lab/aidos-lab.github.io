@@ -2,6 +2,13 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2025-10-24 = """
+  🎉 Jeremy's paper [*Strategies to accelerate US coal power phase-out
+  using contextual retirement
+  vulnerabilities*](https://www.nature.com/articles/s41560-025-01871-0)
+  appeared in Nature Energy. Congratulations!
+"""
+
 2025-10-15 = """
   🎉 Our research on [geometry-aware edge
   pooling](https://arxiv.org/abs/2506.11700), [LLM analysis using
@@ -11,7 +18,6 @@
   of the three major machine learning conferences since its foundation
   in 2022. May Fortuna continue smiling upon us! 🍀
 """
-
 
 2025-10-01 = """
   🐣 The lab is taking shape! With Richard, Nadja, Johannes, Kavir, and

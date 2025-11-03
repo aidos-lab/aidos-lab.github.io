@@ -346,13 +346,14 @@ time
 
 @media (max-width: 960px)
 {
-  nav li, #TableOfContents li, #logos li
+  #TableOfContents li, #logos li
   {
     display: block;
   }
 
-  nav li
+  #menu li
   {
+    display: block;
     padding-left: 1em;
   }
 
@@ -363,7 +364,6 @@ time
     padding: 0px;
   }
 
-  
   th, td
   {
     display: block;

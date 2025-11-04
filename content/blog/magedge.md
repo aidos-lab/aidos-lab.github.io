@@ -1,7 +1,9 @@
 +++
+draft = true
 authors = ["Katharina Limbeck"]
-title = "Geometry-Aware Edge Pooling: <span style='font-weight: lighter; font-style: italic'>Motivational Guide to Structure-Preserving Graph Coarsening for Graph Neural Networks</span>"
-date = 2025-11-05
+title = "Geometry-Aware Edge Pooling: <span style='font-weight: lighter; font-style: italic'>Motivational guide to structure-preserving graph coarsening for graph neural networks</span>"
+
+date = 2025-11-03
 +++
 
 
@@ -18,7 +20,7 @@ Graph pooling describes a range of methods that are used to coarsen i.e. compres
     alt="Hierarchical graph pooling" 
     width="95%" 
     border-weight="1.5px" 
-    caption="**Figure 1. Hierarchical graph pooling.**" 
+    caption="**Figure 1.** Hierarchical graph pooling." 
 >}}
 
 
@@ -44,7 +46,7 @@ Considering the goals above, we find that existing pooling methods often struggl
     alt="Examples of pooled graphs" 
     width="95%" 
     border-weight="1.5px" 
-    caption="**Figure 2. Examples of pooled graphs.**" 
+    caption="**Figure 2.** Examples of pooled graphs." 
 >}}
 
 
@@ -52,7 +54,7 @@ Considering the goals above, we find that existing pooling methods often struggl
 
 To design structure-aware pooling operations, we find that it is of interest to leverage tools from computational geometry to formally quantify the qualitative difference between graphs. That is, we make precise when a pooled graph succeeds or fails to preserve the original graph’s geometry by tracking whether key graph invariants are preserved. In particular, we find that the magnitude or the spread of a graph, which are generalised measures of size and diversity, are especially promising candidates. By using the magnitude or spread of a graph to guide our pooling decisions, we aim to preserve the graph’s structural diversity. 
 
-For this blog post, we briefly present the intuition behind computing these invariants.[^maths] Want to learn more? More details can be found in our [graph pooling paper](https://arxiv.org/abs/2506.11700), in our previous work on [diversity evaluation using magnitude](https://arxiv.org/abs/2311.16054), or further references on magnitude or spread.[^ref]
+For this blog post, we briefly present the intuition behind computing these invariants.[^maths] Want to learn more? Further details can be found in our [graph pooling paper](https://arxiv.org/abs/2506.11700), our previous work on [diversity evaluation using magnitude](https://arxiv.org/abs/2311.16054), or other references on magnitude or spread.[^ref] 
 
 First, to consider the geometry of a graph, we view the graph as a metric space characterised by its nodes and the structural dissimilarity between them. Specifically, we compute diffusion distances based on the graph’s adjacencies, which allows us to directly make comparisons across graphs.[^diffusion] 
 
@@ -68,7 +70,7 @@ Note that spread gives a faster and closely-related alternative to magnitude, bu
     alt="Structural diversity detects important edges" 
     width="75%" 
     border-weight="1.5px" 
-    caption="**Figure 3. Structural diversity detects important edges.**" 
+    caption="**Figure 3.** Structural diversity detects important edges." 
 >}}
 
 
@@ -83,9 +85,9 @@ We choose edge contraction, i.e. the collapse of adjacent nodes, as a pooling op
 {{< centered-figure 
     src="contract.png" 
     alt="Contracting one edge" 
-    width="35%" 
+    width="45%" 
     border-weight="1.5px" 
-    caption="**Figure 4. Contracting one edge.**" 
+    caption="**Figure 4.** Contracting one edge." 
 >}}
 
 2. Then, we stepwise contract the edge with the lowest edge score not adjacent to an already contracted node until the desired pooling ratio is reached. 
@@ -95,7 +97,7 @@ We choose edge contraction, i.e. the collapse of adjacent nodes, as a pooling op
     alt="Pool edges based on edge importance" 
     width="95%" 
     border-weight="1.5px" 
-    caption="**Figure 5. Pool edges based on edge importance.**" 
+    caption="**Figure 5.** Pool edges based on edge importance." 
 >}}
 
 3. During GNN training our pooling layers reduce the graph based on the pre-computed edge selection. The node features of the merged nodes are averaged (or otherwise aggregate).
@@ -103,9 +105,9 @@ We choose edge contraction, i.e. the collapse of adjacent nodes, as a pooling op
 {{< centered-figure 
     src="feature_pool.png" 
     alt="Aggregate the node features" 
-    width="50%" 
+    width="45%" 
     border-weight="1.5px" 
-    caption="**Figure 6. Aggregate the node features.**" 
+    caption="**Figure 6.** Aggregate the node features." 
 >}}
 
 ## Overview: How does our method compare to alternative pooling methods?
@@ -118,7 +120,7 @@ For further context, we compare our pooling methods to alternative pooling layer
     alt="Overview of different pooling methods" 
     width="75%" 
     border-weight="1.5px" 
-    caption="**Figure 7. Overview of different pooling methods.**" 
+    caption="**Figure 7.** Overview of different pooling methods." 
 >}}
 
 
@@ -131,7 +133,7 @@ The success of graph pooling layers is often evaluated by assessing whether they
     alt="Graph classification performance" 
     width="85%" 
     border-weight="1.5px" 
-    caption="**Figure 8. Graph classification performance.**" 
+    caption="**Figure 8.** Graph classification performance." 
 >}}
 
 ## Graph classification performance across pooling ratios
@@ -143,7 +145,7 @@ We consider the best performing methods from before and ask how task performance
     alt="Graph classification performance across pooling ratios" 
     width="85%" 
     border-weight="1.5px" 
-    caption="**Figure 9. Graph classification performance across pooling ratios.**" 
+    caption="**Figure 9.** Graph classification performance across pooling ratios." 
 >}}
 
 ## Graph structure preservation
@@ -156,7 +158,7 @@ To assess how well our methods preserve graph structure during pooling, we compa
     alt="Graph structure preservation" 
     width="85%" 
     border-weight="1.5px" 
-    caption="**Figure 9. Graph structure preservation across pooling ratios.**" 
+    caption="**Figure 9.** Graph structure preservation across pooling ratios." 
 >}}
 
 ## Final remarks
@@ -192,10 +194,10 @@ Computational Geometry & Applications, 25(03):207–225, 2015.
 
 ## Footnotes
 
-[^pool] For further context, here is a comprehensive [blog post on graph pooling](https://filippomb.github.io/blogs/gnn-pool-1/) that introduces and compares various pooling approaches. 
+[^pool]: For further context, here is a comprehensive [blog post on graph pooling](https://filippomb.github.io/blogs/gnn-pool-1/) that introduces and compares various pooling approaches. 
 
-[^diffusion] Our framework is flexible and we could vary this choice of distance to explore alternative geometries. Nevertheless, we find that diffusion distances are particularly suitable to encode and compare the geometry of graphs.
+[^diffusion]: Our framework is flexible and we could vary this choice of distance to explore alternative geometries. Nevertheless, we find that diffusion distances are particularly suitable to encode and compare the geometry of graphs.
 
-[^maths] Following in the footsteps of more renowned mathematicians, who long since mastered the art of [blogging about magnitude](https://case.edu/artsci/math/mwmeckes/mdblogs.html), spread or the diversity of metric spaces, with more mathematical rigour. 
+[^maths]: Following in the footsteps of more renowned mathematicians, who long since mastered the art of [blogging about magnitude](https://case.edu/artsci/math/mwmeckes/mdblogs.html), spread or the diversity of metric spaces, with more mathematical rigour. 
 
-[^ref] Check out this [bibliography on magnitude](https://webhomes.maths.ed.ac.uk/~tl/magbib/) for a comprehensive overview on the mathematical background.
+[^ref]: Check out this [bibliography on magnitude](https://webhomes.maths.ed.ac.uk/~tl/magbib/) for a comprehensive overview on the mathematical background.

@@ -13,14 +13,14 @@ As a general starting point, let’s consider the following main question: How t
 
 ## What is graph pooling and why do we care?
 
-Graph pooling describes a range of methods that are used to coarsen i.e. compress graphs during GNN training. Global graph pooling layers reduce each graph to a single vector representation and are often used as part of a final readout operation. In contrast, hierarchical graph pooling layers reduce the number of nodes in each graph and are used in alternation with message passing layers. Hierarchical pooling in combination with convolutional layers allows the model to learn from coarsened graphs at multiple resolutions. Figure 1 shows a sketch of a GNN architecture with one intermediate hierarchical edge pooling layer that merges adjacent nodes and aggregates their node features. 
+Graph pooling describes a range of methods that are used to coarsen i.e. compress graphs during GNN training. Global graph pooling layers reduce each graph to a single vector representation and are often used as part of a final readout operation. In contrast, hierarchical graph pooling layers reduce the number of nodes in each graph and are used in alternation with message passing layers. Hierarchical pooling in combination with convolutional layers allows the model to learn from coarsened graphs at multiple resolutions. Figure 1 shows a sketch of a GNN architecture with one intermediate hierarchical edge pooling layer that merges adjacent nodes and aggregates their node features. This allows the GNN to learn from graphs' coarsened geometry and features in a hierarchical manner. 
 
 {{< centered-figure 
     src="pipeline.png" 
     alt="Hierarchical graph pooling" 
     width="95%" 
     border-weight="1.5px" 
-    caption="**Figure 1.** Hierarchical graph pooling." 
+    caption="**Figure 1.** Example of a GNN with one intermediate hierarchical graph pooling layer." 
 >}}
 
 
@@ -35,18 +35,18 @@ The focus of our work is to design “better” hierarchical pooling methods gui
 * Retain key **node feature** information.
 * Ensure **expressivity** at distinguishing pooled graphs.
 
-Designing pooling methods is a field of ongoing research that has proposed a wide range of methods that balance these goals to varying extents.[/pool] 
+Designing pooling methods is a field of ongoing research that has proposed a wide range of methods that balance these goals to varying extents.[^pool] 
 
 ## Why do we need structure-aware pooling?
 
-Considering the goals above, we find that existing pooling methods often struggle with preserving graphs’ connectivities in an interpretable manner. The examples below illustrate how standard pooling methods tend to make counterintuitive pooling decisions even on simple toy examples. Node dropping methods, such as TopK or SAGPool, remove nodes, which reduces expressivity and can disconnect entire portions of the graphs. Node clustering methods, such as Graclus or DiffPool, merge clusters of nodes and tend to create counterintuitive edges or return dense graph representations that do not preserve any geometric structure. In comparison, our proposed methods, MagEdgePool and SpreadEdgePool, contract adjacent nodes during pooling and faithfully preserve graphs’ connectivities. Our edge-centric and structure-aware pooling methods then perform best as capturing the original graphs’ geometry for the motivating examples below. 
+Considering the goals above, we find that existing pooling methods often struggle with preserving graphs’ connectivities in an interpretable manner. The examples below illustrate how standard pooling methods tend to make counterintuitive pooling decisions even on simple toy examples. Node dropping methods, such as TopK or SAGPool, remove nodes, which reduces expressivity and can disconnect entire portions of the graphs. Node clustering methods, such as Graclus or DiffPool, merge clusters of nodes and tend to create counterintuitive edges or return dense graph representations that do not preserve any geometric structure. In comparison, our proposed methods, MagEdgePool and SpreadEdgePool, contract adjacent nodes during pooling and faithfully preserve graphs’ connectivities. Our edge-centric and structure-aware pooling methods perform best at capturing the original graphs’ geometry for the motivating examples below. 
 
 {{< centered-figure 
     src="examples.png" 
     alt="Examples of pooled graphs" 
     width="95%" 
     border-weight="1.5px" 
-    caption="**Figure 2.** Examples of pooled graphs." 
+    caption="**Figure 2.** Examples of pooled graphs using different pooling layers." 
 >}}
 
 
@@ -58,9 +58,9 @@ For this blog post, we briefly present the intuition behind computing these inva
 
 First, to consider the geometry of a graph, we view the graph as a metric space characterised by its nodes and the structural dissimilarity between them. Specifically, we compute diffusion distances based on the graph’s adjacencies, which allows us to directly make comparisons across graphs.[^diffusion] 
 
-Structural diversity as measured via magnitude or spread then summarises the number of distinct sub-communities in a network based on the distance metric and degree of similarity between nodes. Intuitively, to preserve the input graph’s coarsened geometry, we’d like to collapse the most redundant graph structures during pooling but preserve the ones that are most characteristic of the graph’s structural diversity. Magnitude and spread help us to distinguish between structurally important or redundant edges. 
+Structural diversity as measured via magnitude or spread  summarises the number of distinct sub-communities in a network based on the distance metric and degree of similarity between nodes. Intuitively, to preserve the input graph’s geometry, we’d like to collapse the most redundant graph structures during pooling but preserve the ones that are most characteristic of the graph’s structural diversity. Magnitude and spread help us to distinguish between structurally important or redundant edges. 
 
-As a motivating example, we consider the three graphs in Figure 3. The graph with two distinct communities on the left, is more diverse than the modified graph in the middle, for which two edges in the more dense cluster have been collapsed. In contrast, the graph on the right, for which the two structurally important edges that bridge the two communities are contracted, is the least diverse example. By computing magnitude or spread, we are thus able to distinguish structural differences between graphs and detect structurally-important edges.
+As a motivating example, we consider the three graphs in Figure 3. The graph on the left has two distinct communities and is more diverse than the modified graph in the middle, for which two edges in the denser cluster have been collapsed. In contrast, the graph on the right, for which the two structurally important edges that bridge the two communities are contracted, is the least diverse example. By computing magnitude or spread, we are thus able to distinguish structural differences between graphs and detect structurally-important edges.
 
 Note that spread gives a faster and closely-related alternative to magnitude, but magnitude has a stronger theoretic foundation and has been more frequently used in applications. This is why we investigate both measures and use them interchangeably throughout our work. 
 
@@ -112,7 +112,7 @@ We choose edge contraction, i.e. the collapse of adjacent nodes, as a pooling op
 
 ## Overview: How does our method compare to alternative pooling methods?
 
-For further context, we compare our pooling methods to alternative pooling layers in the overview table below. From the comparison it is clear that our methods are non-trainable and can be pre-computed independent of the GNN architecture, which allows for more efficient GNN training. Further, edge contraction is compatible with sparse GNN layers, which enables faster training than dense pooling methods, which need to be followed by dense convolutional layers. In terms of the size of the pooled graphs, our methods allow for a flexible choice of pooling ratio making it more flexible than other layers, which always pool graphs to approximately half their size or to a fixed number of super-nodes. Regarding theoretical properties, we can further show that MagEdgePool and SpreadEdgePool fulfil sufficient conditions for retaining the expressivity of the preceding message passing layers laid out by Bianchi et al. (2023) ensuring that non-isomorphic pooled graphs output by our methods can be distinguished.
+For further context, we compare our pooling methods to alternative pooling layers in the overview table below. From the comparison it is clear that our methods are non-trainable and can be pre-computed independently of the GNN architecture, which allows for more efficient GNN training. Further, edge contraction is compatible with sparse GNN layers, which enables faster training than dense pooling methods, which need to be followed by dense convolutional layers. In terms of the size of the pooled graphs, our methods allow for a flexible choice of pooling ratio making it more flexible than other layers, which always pool graphs to approximately half their size or to a fixed number of super-nodes. Regarding theoretical properties, we can further show that MagEdgePool and SpreadEdgePool fulfil sufficient conditions for retaining the expressivity of the preceding message passing layers laid out by Bianchi et al. (2023) ensuring that non-isomorphic pooled graphs output by our methods can be distinguished.
 
 
 {{< centered-figure 
@@ -126,44 +126,44 @@ For further context, we compare our pooling methods to alternative pooling layer
 
 ## Graph classification performance
 
-The success of graph pooling layers is often evaluated by assessing whether they maintain or even increase task performance of GNNs at downstream tasks, such as graph classification. To compare our methods against alternative pooling layers we plug each layer into the same GNN architecture, which contains one intermediate pooling layer that reduces graphs to approximately half their original size. The table below then reports the classification accuracies of different pooling layers across stratified 10-fold cross-validation. From the results, we are happy to report that our proposed pooling methods reach top classification performance amongst alternative pooling layers and achieve the highest mean ranks across datasets. 
+The success of graph pooling layers is often evaluated by assessing whether they maintain or even increase task performance of GNNs at downstream tasks, such as graph classification. To compare our methods against alternative pooling layers we plug each layer into the same GNN architecture, which contains one intermediate pooling layer that reduces graphs to approximately half their original size. The table below reports the classification accuracies of different pooling layers across stratified 10-fold cross-validation. From the results, we are happy to report that our proposed pooling methods reach top classification performance amongst alternative pooling layers and achieve the highest mean ranks across datasets. 
 
 {{< centered-figure 
     src="classification.png" 
     alt="Graph classification performance" 
-    width="85%" 
+    width="95%" 
     border-weight="1.5px" 
     caption="**Figure 8.** Graph classification performance." 
 >}}
 
 ## Graph classification performance across pooling ratios
 
-We consider the best performing methods from before and ask how task performance changes for increasing pooling ratios i.e. when reducing the size of the pooled graphs from the ENZYMES or NCI1 datasets. Keeping almost the same model architecture as before, we vary the pooling ratio for flexible methods. Else, for fixed methods that always pool graphs to approximately half their size, we apply the pooling operation repeatedly. Our methods then retain robust classification performance across various pooling ratios and reach top accuracies amongst alternative pooling layers, especially at low pooling ratios.
+We consider the best performing methods from before and ask how task performance changes for increasing pooling ratios i.e. when reducing the size of the pooled graphs from the ENZYMES or NCI1 datasets. Keeping almost the same model architecture as before, we vary the pooling ratio for flexible methods. Else, for fixed methods that always pool graphs to approximately half their size, we apply the pooling operation repeatedly. Our methods retain robust classification performance across various pooling ratios and reach top accuracies amongst alternative pooling layers, especially at low pooling ratios.
 
 {{< centered-figure 
     src="ratios.png" 
     alt="Graph classification performance across pooling ratios" 
-    width="85%" 
+    width="95%" 
     border-weight="1.5px" 
     caption="**Figure 9.** Graph classification performance across pooling ratios." 
 >}}
 
 ## Graph structure preservation
 
-To assess how well our methods preserve graph structure during pooling, we compare how well different pooling layers preserve spectral properties or the structural diversity of the input graphs for all graphs from the NCI1 dataset. The left plots report the normalised spectral distances between the original and pooled graphs. The right plots show the relative difference in magnitude compared to the input graph. Our methods reach the lowest spectral distances as well as the lowest differences in magnitude compared to alternative pooling layers. MagEdgePool and SpreadEdgePool thus best preserve graph structure during pooling. 
+To assess whether our methods preserve graph structure during pooling as intended, we compare how well different pooling layers preserve spectral properties or the structural diversity of the input graphs for all graphs from the NCI1 dataset. The left plots report the normalised spectral distances between the original and pooled graphs. The right plots show the relative difference in magnitude compared to the input graph. Our methods reach the lowest spectral distances as well as the lowest differences in magnitude compared to alternative pooling layers. MagEdgePool and SpreadEdgePool thus best preserve graph structure during pooling. 
 
 
 {{< centered-figure 
     src="spectral.png" 
     alt="Graph structure preservation" 
-    width="85%" 
+    width="95%" 
     border-weight="1.5px" 
     caption="**Figure 9.** Graph structure preservation across pooling ratios." 
 >}}
 
 ## Final remarks
 
-Let’s answer our original question on how to pool a graph while preserving its key properties. Edge-contraction pooling using MagEdgePool or SpreadEdgePool ensures that task performance, graph structure, and node feature information are maintained in an expressive and interpretable manner. Our pooling methods then are useful general-purpose approaches that respect the graph’s inherent geometry while achieving robust classification performance across datasets and pooling ratios.  
+Let’s answer our original question on how to pool a graph while preserving its key properties. Edge-contraction pooling using MagEdgePool or SpreadEdgePool ensures that task performance, graph structure, and node feature information are maintained in an expressive and interpretable manner. Our pooling methods are useful general-purpose approaches that respect the graph’s inherent geometry while achieving robust classification performance across datasets and pooling ratios.  
 
 Interested in learning more or trying the pooling methods on your own datasets? Here is a link to our [paper](https://arxiv.org/abs/2506.11700) and to a PyTorch implementation of our pooling methods on [GitHub](https://github.com/aidos-lab/mag_edge_pool). Our paper shows a more in-depth evaluation of computational efficiency, performance at graph regression tasks, or comparisons with other baseline pooling methods. We further report theoretical results linking magnitude and spread, and demonstrate key properties of our pooling methods, such as permutation invariance, computational efficiency, and expressivity.
 

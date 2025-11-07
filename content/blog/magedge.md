@@ -13,7 +13,7 @@ As a general starting point, let’s consider the following main question: How t
 
 ## What is graph pooling and why do we care?
 
-Graph pooling describes a range of methods that are used to coarsen i.e. compress graphs during GNN training. Global graph pooling layers reduce each graph to a single vector representation and are often used as part of a final readout operation. In contrast, hierarchical graph pooling layers reduce the number of nodes in each graph and are used in alternation with message passing layers. Hierarchical pooling in combination with convolutional layers allows the model to learn from coarsened graphs at multiple resolutions. Figure 1 shows a sketch of a GNN architecture with one intermediate hierarchical edge pooling layer that merges adjacent nodes and aggregates their node features. This allows the GNN to learn from graphs' coarsened geometry and features in a hierarchical manner. 
+Graph pooling describes a range of methods that are used to coarsen i.e. compress graphs during GNN training. Global graph pooling layers reduce each graph to a single vector representation and are often used as part of a final readout operation. In contrast, hierarchical graph pooling layers reduce the number of nodes in each graph and are used in alternation with message passing layers. Hierarchical pooling in combination with convolutional layers allows the model to learn from coarsened graphs at multiple resolutions. Figure 1 shows a sketch of a GNN architecture with one intermediate hierarchical edge pooling layer that merges adjacent nodes and aggregates their node features. This allows the GNN to capture multi-scale structural information and learn from graphs in a hierarchical manner. 
 
 {{< centered-figure 
     src="pipeline.png" 
@@ -35,7 +35,7 @@ The focus of our work is to design “better” hierarchical pooling methods gui
 * Retain key **node feature** information.
 * Ensure **expressivity** at distinguishing pooled graphs.
 
-Designing pooling methods is a field of ongoing research that has proposed a wide range of methods that balance these goals to varying extents.[^pool] 
+Designing pooling methods is a field of ongoing research which has proposed a wide range of methods that balance these goals to varying extents.[^pool] 
 
 ## Why do we need structure-aware pooling?
 
@@ -56,7 +56,7 @@ To design structure-aware pooling operations, we find that it is of interest to 
 
 For this blog post, we briefly present the intuition behind computing these invariants.[^maths] Want to learn more? Further details can be found in our [graph pooling paper](https://arxiv.org/abs/2506.11700), our previous work on [diversity evaluation using magnitude](https://arxiv.org/abs/2311.16054), or other references on magnitude or spread.[^ref] 
 
-First, to consider the geometry of a graph, we view the graph as a metric space characterised by its nodes and the structural dissimilarity between them. Specifically, we compute diffusion distances based on the graph’s adjacencies, which allows us to directly make comparisons across graphs.[^diffusion] 
+First, to consider the geometry of a graph, we view the graph as a metric space characterised by its nodes and the structural dissimilarity between them. Specifically, we compute diffusion distances based on the graph’s adjacencies, which encode the information flow between nodes and allow us to directly make comparisons across graphs.[^diffusion] 
 
 Structural diversity as measured via magnitude or spread  summarises the number of distinct sub-communities in a network based on the distance metric and degree of similarity between nodes. Intuitively, to preserve the input graph’s geometry, we’d like to collapse the most redundant graph structures during pooling but preserve the ones that are most characteristic of the graph’s structural diversity. Magnitude and spread help us to distinguish between structurally important or redundant edges. 
 

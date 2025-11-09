@@ -1,5 +1,9 @@
 ### 2025
 
+- [*Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them*](https://arxiv.org/abs/2511.03068)<br />
+M.&nbsp;Carrasco, O.&nbsp;Zaghen, E.&nbsp;Bekkers, and B.&nbsp;Rieck<br />
+M.Sc. thesis, Vrije Universiteit Amsterdam, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2511.03068) &bull; [\[BibTeX\]](Carrasco25a.bib)</small>
 - [*Persistent Homology via Ellipsoids*](https://arxiv.org/abs/2408.11450)<br />
 N.&nbsp;Canova, S.&nbsp;Kališnik, A.&nbsp;Moser, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
 Preprint, 2025<br />

@@ -1,5 +1,4 @@
 +++
-draft = true
 authors = ["Katharina Limbeck"]
 title = "Geometry-Aware Edge Pooling: <span style='font-weight: lighter; font-style: italic'>Motivational guide to structure-preserving graph coarsening for graph neural networks</span>"
 

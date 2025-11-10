@@ -104,7 +104,7 @@ We choose edge contraction, i.e. the collapse of adjacent nodes, as a pooling op
 {{< centered-figure 
     src="feature_pool.png" 
     alt="Aggregate the node features" 
-    width="45%" 
+    width="50%" 
     border-weight="1.5px" 
     caption="**Figure 6.** Aggregating the node features." 
 >}}

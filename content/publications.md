@@ -1,5 +1,9 @@
 ### 2025
 
+- [*NervePool: A Simplicial Pooling Layer*](https://arxiv.org/abs/2305.06315)<br />
+S.&thinsp;M.&nbsp;Scullen<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, E.&nbsp;Munch, B.&nbsp;Rieck, and M.&nbsp;Hirn<br />
+Preprint, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2305.06315) &bull; [\[GitHub\]](https://github.com/aidos-lab/nerve-pool) &bull; [\[BibTeX\]](Scullen25a.bib)</small>
 - [*Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them*](https://arxiv.org/abs/2511.03068)<br />
 M.&nbsp;Carrasco, O.&nbsp;Zaghen, E.&nbsp;Bekkers, and B.&nbsp;Rieck<br />
 M.Sc. thesis, Vrije Universiteit Amsterdam, 2025<br />
@@ -7,7 +11,7 @@ M.Sc. thesis, Vrije Universiteit Amsterdam, 2025<br />
 - [*Persistent Homology via Ellipsoids*](https://arxiv.org/abs/2408.11450)<br />
 N.&nbsp;Canova, S.&nbsp;Kališnik, A.&nbsp;Moser, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
 Preprint, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[BibTeX\]](Canova25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[GitHub\]](https://github.com/a-zeg/ellipsoids) &bull; [\[BibTeX\]](Canova25a.bib)</small>
 - [*TOAST: Transformer Optimization Using Adaptive and Simple Transformations*](https://arxiv.org/abs/2410.04941)<br />
 I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodolà, B.&nbsp;Rieck, and J.&thinsp;E.&nbsp;Vogt<br />
 Preprint, 2025<br />
@@ -19,15 +23,15 @@ Nature Energy, Volume 10, Number 10, pp. 1274--1288, 2025<br />
 - [*Less Is More: Local Intrinsic Dimensions of Contextual Language Models*](https://arxiv.org/abs/2506.01034)<br />
 B.&thinsp;M.&nbsp;Ruppik, J.&nbsp;von Rohrscheidt, C.&nbsp;van Niekerk, M.&nbsp;Heck, R.&nbsp;Vukovic, S.&nbsp;Feng, H.&nbsp;Lin, N.&nbsp;Lubis, B.&nbsp;Rieck, M.&nbsp;Zibrowius, and M.&nbsp;Gašić<br />
 Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2506.01034) &bull; [\[BibTeX\]](Ruppik25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2506.01034) &bull; [\[GitHub\]](https://github.com/aidos-lab/Topo_LLM_public) &bull; [\[BibTeX\]](Ruppik25a.bib)</small>
 - [*Point Cloud Synthesis Using Inner Product Transforms*](https://arxiv.org/abs/2410.18987)<br />
 E.&nbsp;Röell and B.&nbsp;Rieck<br />
 Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[BibTeX\]](Roell25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[GitHub\]](https://github.com/aidos-lab/inner-product-transforms) &bull; [\[BibTeX\]](Roell25a.bib)</small>
 - [*Geometry-Aware Edge Pooling for Graph Neural Networks*](https://arxiv.org/abs/2506.11700)<br />
 K.&nbsp;Limbeck<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
 Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2506.11700) &bull; [\[BibTeX\]](Limbeck25b.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2506.11700) &bull; [\[GitHub\]](https://github.com/aidos-lab/mag_edge_pool) &bull; [\[BibTeX\]](Limbeck25b.bib)</small>
 - [*Diss-l-ECT: Dissecting Graph Data With Local Euler Characteristic Transforms*](https://proceedings.mlr.press/v267/von-rohrscheidt25a.html)<br />
 J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck<br />
 Proceedings of the 42nd International Conference on Machine Learning, Volume 267, pp. 61790--61809, 2025<br />
@@ -51,7 +55,7 @@ Preprint, 2025<br />
 - [*On the Expressivity of Persistent Homology in Graph Learning*](https://proceedings.mlr.press/v269/ballester25a.html)<br />
 R.&nbsp;Ballester and B.&nbsp;Rieck<br />
 Proceedings of the Third Learning on Graphs Conference, Volume 269, pp. 42:1--42:31, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[BibTeX\]](Ballester25b.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2302.09826) &bull; [\[GitHub\]](https://github.com/aidos-lab/PH_expressivity) &bull; [\[BibTeX\]](Ballester25b.bib)</small>
 - [*CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs*](https://proceedings.mlr.press/v269/buffelli25a.html)<br />
 D.&nbsp;Buffelli<sup>&dagger;</sup>, F.&nbsp;Soleymani<sup>&dagger;</sup>, and B.&nbsp;Rieck<br />
 Proceedings of the Third Learning on Graphs Conference, Volume 269, pp. 45:1--45:17, 2025<br />
@@ -67,11 +71,11 @@ ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
 - *Geometry-Aware Edge Pooling for Graph Neural Networks*<br />
 K.&nbsp;Limbeck<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
 ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
-        <small>[\[BibTeX\]](Limbeck25a.bib)</small>
+        <small>[\[GitHub\]](https://github.com/aidos-lab/mag_edge_pool) &bull; [\[BibTeX\]](Limbeck25a.bib)</small>
 - [*Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform*](https://dx.doi.org/10.1090/noti3193)<br />
 B.&nbsp;Rieck<br />
 Notices of the American Mathematical Society, Volume 72, Number 7, pp. 719--727, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[Author's copy\]](https://www.ams.org/journals/notices/202507/rnoti-p719.pdf) &bull; [\[BibTeX\]](Rieck25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[Author's copy\]](https://www.ams.org/journals/notices/202507/rnoti-p719.pdf) &bull; [\[GitHub\]](https://github.com/aidos-lab/ECT) &bull; [\[BibTeX\]](Rieck25a.bib)</small>
 - [*Molecular Machine Learning Using Euler Characteristic Transforms*](https://arxiv.org/abs/2507.03474)<br />
 V.&nbsp;Toscano-Duran, F.&nbsp;Rottach, and B.&nbsp;Rieck<br />
 Preprint, 2025<br />
@@ -111,23 +115,23 @@ Preprint, 2025<br />
 - [*MANTRA: The Manifold Triangulations Assemblage*](https://openreview.net/forum?id=X6y5CC44HM)<br />
 R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck<br />
 International Conference on Learning Representations, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[BibTeX\]](Ballester25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.02392) &bull; [\[GitHub\]](https://github.com/aidos-lab/mantra) &bull; [\[BibTeX\]](Ballester25a.bib)</small>
 - [*MAGNet: Motif-Agnostic Generation of Molecules From Scaffolds*](https://openreview.net/forum?id=5FXKgOxmb2)<br />
 L.&nbsp;Hetzel<sup>&dagger;</sup>, J.&nbsp;Sommer<sup>&dagger;</sup>, B.&nbsp;Rieck, F.&nbsp;Theis, and S.&nbsp;Günnemann<br />
 International Conference on Learning Representations, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[BibTeX\]](Hetzel25a.bib)</small><br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2305.19303) &bull; [\[GitHub\]](https://github.com/TUM-DAML/MAGNet) &bull; [\[BibTeX\]](Hetzel25a.bib)</small><br />
         <small>Accepted as a spotlight presentation&nbsp;(top 5% of all submissions)</small>
 - [*Principal Curvatures Estimation With Applications to Single Cell Data*](https://dx.doi.org/10.1109/ICASSP49660.2025.10888433)<br />
 Y.&nbsp;Zhang, L.&nbsp;Mezrag, X.&nbsp;Sun, C.&nbsp;Xu, K.&nbsp;Macdonald, D.&nbsp;Bhaskar, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
 IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp;(ICASSP), pp. 1--5, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2502.03750) &bull; [\[BibTeX\]](Zhang25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2502.03750) &bull; [\[GitHub\]](https://github.com/LydiaMez/AdaL-PCA) &bull; [\[BibTeX\]](Zhang25a.bib)</small>
 
 ### 2024
 
 - [*Bayesian Computation Meets Topology*](https://openreview.net/forum?id=0h1DtRK6dA)<br />
 J.&nbsp;von Rohrscheidt, B.&nbsp;Rieck<sup>&Dagger;</sup>, and S.&thinsp;M.&nbsp;Schmon<sup>&Dagger;</sup><br />
 Transactions on Machine Learning Research, 2024<br />
-        <small>[\[BibTeX\]](vonRohrscheidt24a.bib)</small>
+        <small>[\[GitHub\]](https://github.com/aidos-lab/TABAC) &bull; [\[BibTeX\]](vonRohrscheidt24a.bib)</small>
 - [*Graph Classification Gaussian Processes via Hodgelet Spectral Features*](https://openreview.net/forum?id=zgLOn7f2Lp)<br />
 M.&nbsp;Alain, S.&nbsp;Takao, B.&nbsp;Rieck, X.&nbsp;Dong, and E.&nbsp;Noutahi<br />
 &ldquo;Bayesian Decision-Making and Uncertainty&rdquo; Workshop at NeurIPS, 2024<br />
@@ -135,7 +139,7 @@ M.&nbsp;Alain, S.&nbsp;Takao, B.&nbsp;Rieck, X.&nbsp;Dong, and E.&nbsp;Noutahi<b
 - [*Metric Space Magnitude for Evaluating the Diversity of Latent Representations*](https://papers.nips.cc/paper_files/paper/2024/hash/dfc24bd3ec5d74960e104268bbb52849-Abstract-Conference.html)<br />
 K.&nbsp;Limbeck, R.&nbsp;Andreeva, R.&nbsp;Sarkar, and B.&nbsp;Rieck<br />
 Advances in Neural Information Processing Systems, Volume 37, pp. 123911--123953, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[BibTeX\]](Limbeck24a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2311.16054) &bull; [\[GitHub\]](https://github.com/aidos-lab/magnipy) &bull; [\[BibTeX\]](Limbeck24a.bib)</small>
 - [*Detecting Spatial Dependence in Transcriptomics Data Using Vectorised Persistence Diagrams*](https://arxiv.org/abs/2409.03575)<br />
 K.&nbsp;Limbeck and B.&nbsp;Rieck<br />
 Preprint, 2024<br />
@@ -155,7 +159,7 @@ Proceedings of the 41st International Conference on Machine Learning, Volume 235
 - [*The Magnitude Vector of Images*](https://dx.doi.org/10.1007/s41468-024-00182-9)<br />
 M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck<br />
 Journal of Applied and Computational Topology, Volume 8, Number 3, pp. 447--473, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[BibTeX\]](Adamer24a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2110.15188) &bull; [\[GitHub\]](https://github.com/MikeAdamer/mag-metric) &bull; [\[BibTeX\]](Adamer24a.bib)</small>
 - *Adaptative Local PCA for Curvature Estimation on Data Manifolds*<br />
 Y.&nbsp;Zhang<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, X.&nbsp;Sun, C.&nbsp;Xu, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
 Helmholtz AI Conference: AI for Science, 2024<br />

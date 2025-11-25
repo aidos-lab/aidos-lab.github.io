@@ -2,7 +2,7 @@
 title: "AIDOS Lab"
 ---
 
-{{< figure src="logo_with_byline.svg" width="256" alt="AIDOS Lab Logo" >}}
+{{< figure src="logo_with_byline.svg" width="384" alt="AIDOS Lab Logo" >}}
 
 # Welcome
 

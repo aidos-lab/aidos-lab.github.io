@@ -1,0 +1,9 @@
+name    = "Inés García-Redondo"
+job     = "Postdoctoral Researcher"
+image   = "igr.jpg"
+bio     = """\
+          Inés completed her PhD at Imperial College London, as part of the London School of Geometry and Number Theory. She is interested in topological and geometric approaches to data analysis and machine learning.
+          """
+orcid   = "0000-0001-8340-4235"
+web     = "https://sites.google.com/view/ines-garcia-redondo/home"
+github  = "inesgare"

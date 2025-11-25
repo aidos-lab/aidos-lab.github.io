@@ -28,6 +28,7 @@ starting a collaboration with us.
     {{< person "KS" >}}   
     {{< person "PG" >}}
     {{< person "EW" >}}
+    {{< person "IGR" >}}
 </div>
 
 # Collaborators

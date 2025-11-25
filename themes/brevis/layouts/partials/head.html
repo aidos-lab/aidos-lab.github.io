@@ -3,27 +3,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta property="og:url" content="{{ .Site.Params.URL }}">
+  <meta property="og:type" content="website">
+
   <title>{{ .Title | markdownify | plainify }}</title>
-  {{ with .Site.Params.description }}
-  <meta name="description" content="{{ . }}">
-  {{ end }}
+  <meta property="og:title" content="{{ .Title | markdownify | plainify }}">
 
-  {{ with .Site.Params.author }}
+  {{- with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+  {{- end }}
+
+  {{- with .Site.Params.author }}
   <meta name="author" content="{{ . }}">
-  {{ end }}
+  {{- end }}
 
-  {{ with .Site.Params.google_site_verification }}
+  {{- with .Site.Params.google_site_verification }}
   <meta name="google-site-verification" content="{{ . }}">
-  {{ end }}
+  {{- end }}
 
-  {{ with .Description }}
+  {{- with .Site.Params.ogImage }}
+  <meta property="og:image" content="{{ absURL . }}">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  {{- end }}
+
+  {{- with .Description }}
   <meta name="description" content="{{ . }}">
-  {{ end }}
+  {{- end }}
 
   <link rel="preload" as="style" href="{{ relURL "css/style.css" }}">
   <link rel="stylesheet" href="{{ relURL "css/style.css" }}">
 
-  {{ with .Site.Params.googleTagID }}
+  {{- with .Site.Params.googleTagID }}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
   <script>
@@ -33,6 +45,5 @@
 
     gtag('config', '{{ . }}');
   </script>
-  {{ end }}
-
+  {{- end }}
 </head>

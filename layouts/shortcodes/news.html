@@ -9,7 +9,7 @@
   {{ $news := index $.Site.Data.news $date }}
   <article class="news">
   {{ $date := printf $date | time }}
-  <time>{{ time.Format "January 2, 2006" $date }}</time>:
+  <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ time.Format "January 2, 2006" $date }}</time>:
   {{ $news | markdownify }}
   </article>
 {{ end }}

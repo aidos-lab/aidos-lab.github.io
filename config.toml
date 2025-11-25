@@ -1,5 +1,5 @@
 baseURL       = "http://aidos.group/"
-languageCode  = "en-gb"
+languageCode  = "en-us"
 title         = "AIDOS Lab"
 theme         = "brevis"
 enableGitInfo = true
@@ -7,6 +7,7 @@ enableGitInfo = true
 [params]
   description = "Website of the AIDOS Lab, an international lab of researchers interested in geometry, topology, and machine learning."
   googleTagID = "G-Z7H79RP4BR"
+  ogImage     = "logo_with_byline.png"
 
 ignoreFiles = ['publications.md$']
 
@@ -60,13 +61,12 @@ ignoreFiles = ['publications.md$']
   url    = "/wiki/"
   weight = -70
 
-# Ditto (see above), but for the footer.
 [params.footer.logos]
   text = """
-  <a href="https://www.unifr.ch"><img src="/signet_unifr.svg" height="32" alt="University of Fribourg" /></a>
-  <a href="https://www.helmholtz-muenchen.de/en"><img src="/logo_helmholtz_munich.svg" height="32" alt="Helmholtz Munich" style="padding-left:16px" /></a>
-  <a href="https://www.tum.de"><img src="/logo_tum.svg" height="32" style="padding-left:16px" alt="Technical University of Munich" /></a>
-  <a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)"><img src="/progress_flag.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Pride flag" /></a>
+  <a href="https://www.unifr.ch"><img src="/signet_unifr.svg" height="32" alt="University of Fribourg"></a>
+  <a href="https://www.helmholtz-muenchen.de/en"><img src="/logo_helmholtz_munich.svg" height="32" alt="Helmholtz Munich" style="padding-left:16px"></a>
+  <a href="https://www.tum.de"><img src="/logo_tum.svg" height="32" style="padding-left:16px" alt="Technical University of Munich"></a>
+  <a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)"><img src="/progress_flag.svg" height="32" style="padding-left:16px; padding-right:16px" alt="Pride flag"></a>
 """
 
 [params.footer.license]

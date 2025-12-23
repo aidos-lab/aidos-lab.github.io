@@ -51,6 +51,7 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
 - Kalyan Varma Nadimpalli (now a research assistant at Helmholtz Munich)
 - [Barış Onarıcı](https://www.linkedin.com/in/barisonarici-a271828182845904523/)
+- Giacomo Parolin
 - Yevhenii Sharapov
 - [Daniel Bīn Schmid](https://danielbinschmid.com)
 - [Emily Simons](https://emsimons.github.io/me)

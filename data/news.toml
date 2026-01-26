@@ -2,6 +2,12 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-01-26 = """
+  🎉 Our work on [*LEAP: Local ECT-Based Learnable Positional Encodings
+  for Graphs*](https://openreview.net/forum?id=8XFPhByERc) was accepted
+  to ICLR 2026. 🎉
+"""
+
 2026-01-02 = """
   🎉 Our work on [*Molecular Machine Learning Using Euler Characteristic
   Transforms*](https://link.springer.com/chapter/10.1007/978-3-032-10661-2_30),

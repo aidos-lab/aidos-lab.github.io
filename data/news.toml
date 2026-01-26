@@ -2,6 +2,13 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-01-02 = """
+  🎉 Our work on [*Molecular Machine Learning Using Euler Characteristic
+  Transforms*](https://link.springer.com/chapter/10.1007/978-3-032-10661-2_30),
+  was published. This was spearheaded by our academic visitor
+  Victor---congratulations!
+"""
+
 2025-12-19 = """
   👏 Our academic visitor Giacomo (Parolin) defended his MSc thesis
   "Differentiable Euler Characteristic Transform for Molecular

@@ -1,13 +1,32 @@
+### 2026
+
+- [*Graph Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them*](https://arxiv.org/abs/2511.03068)<br />
+M.&nbsp;Carrasco<sup>&dagger;</sup>, O.&nbsp;Zaghen<sup>&dagger;</sup>, K.&nbsp;Sumaraj, E.&nbsp;Bekkers, and B.&nbsp;Rieck<br />
+Preprint, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2511.03068) &bull; [\[BibTeX\]](Carrasco26a.bib)</small>
+- [*LEAP: Local ECT-Based Learnable Positional Encodings for Graphs*](https://openreview.net/forum?id=8XFPhByERc)<br />
+J.&nbsp;Amboage, E.&nbsp;Röell, P.&nbsp;Schnider, and B.&nbsp;Rieck<br />
+International Conference on Learning Representations, 2026 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2510.00757) &bull; [\[BibTeX\]](Amboage26a.bib)</small>
+- [*Molecular Machine Learning Using Euler Characteristic Transforms*](https://dx.doi.org/10.1007/978-3-032-10661-2_30)<br />
+V.&nbsp;Toscano-Duran, F.&nbsp;Rottach, and B.&nbsp;Rieck<br />
+Artificial Intelligence in Biomedicine, pp. 391--405, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2507.03474) &bull; [\[GitHub\]](https://github.com/victosdur/ECTforMoleculeMachineLearningTask) &bull; [\[BibTeX\]](Toscano26a.bib)</small>
+
 ### 2025
 
+- [*Cortex-Wide Preservation of Multi-Stimulus Information Across Degrees of Network Synchronization*](https://biorxiv.org/content/10.64898/2025.11.28.690948v1)<br />
+S.&thinsp;V.&nbsp;Bodea, R.&thinsp;G.&nbsp;Laiz, R.&thinsp;H.&nbsp;Williams, M.&nbsp;Gladkova, D.&nbsp;Thalmeier, B.&nbsp;Rieck, F.&nbsp;Sigmund, M.&nbsp;Piraud, A.&nbsp;Wohlschlaeger, D.&nbsp;Juestel, A.&nbsp;Stroh, S.&nbsp;Schneider, and G.&thinsp;G.&nbsp;Westmeyer<br />
+Preprint, 2025<br />
+        <small>[\[Preprint\]](https://biorxiv.org/content/10.64898/2025.11.28.690948v1) &bull; [\[BibTeX\]](Bodea25a.bib)</small>
+- [*From Topology to Retrieval: Decoding Embedding Spaces With Unified Signatures*](https://arxiv.org/abs/2511.22150)<br />
+F.&nbsp;Rottach, W.&nbsp;Rudman, B.&nbsp;Rieck, H.&nbsp;Scells, and C.&nbsp;Eickhoff<br />
+Preprint, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2511.22150) &bull; [\[BibTeX\]](Rottach25a.bib)</small>
 - [*NervePool: A Simplicial Pooling Layer*](https://arxiv.org/abs/2305.06315)<br />
 S.&thinsp;M.&nbsp;Scullen<sup>&dagger;</sup>, E.&nbsp;Röell<sup>&dagger;</sup>, E.&nbsp;Munch, B.&nbsp;Rieck, and M.&nbsp;Hirn<br />
 Preprint, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2305.06315) &bull; [\[GitHub\]](https://github.com/aidos-lab/nerve-pool) &bull; [\[BibTeX\]](Scullen25a.bib)</small>
-- [*Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them*](https://arxiv.org/abs/2511.03068)<br />
-M.&nbsp;Carrasco, O.&nbsp;Zaghen, E.&nbsp;Bekkers, and B.&nbsp;Rieck<br />
-M.Sc. thesis, Vrije Universiteit Amsterdam, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2511.03068) &bull; [\[BibTeX\]](Carrasco25a.bib)</small>
 - [*Persistent Homology via Ellipsoids*](https://arxiv.org/abs/2408.11450)<br />
 N.&nbsp;Canova, S.&nbsp;Kališnik, A.&nbsp;Moser, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
 Preprint, 2025<br />
@@ -40,10 +59,6 @@ Proceedings of the 42nd International Conference on Machine Learning, Volume 267
 C.&nbsp;Coupette<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, E.&nbsp;Simons, and B.&nbsp;Rieck<br />
 Proceedings of the 42nd International Conference on Machine Learning, Volume 267, pp. 11405--11434, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2502.02379) &bull; [\[GitHub\]](https://github.com/aidos-lab/rings) &bull; [\[BibTeX\]](Coupette25a.bib)</small>
-- [*LEAP: Local ECT-Based Learnable Positional Encodings for Graphs*](https://arxiv.org/abs/2510.00757)<br />
-J.&nbsp;Amboage, E.&nbsp;Röell, P.&nbsp;Schnider, and B.&nbsp;Rieck<br />
-Preprint, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2510.00757) &bull; [\[BibTeX\]](Amboage25a.bib)</small>
 - [*EmbedOR: Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings*](https://arxiv.org/abs/2509.03703)<br />
 T.&thinsp;L.&nbsp;Saidi, A.&nbsp;Hickok, B.&nbsp;Rieck, and A.&thinsp;J.&nbsp;Blumberg<br />
 Preprint, 2025<br />
@@ -67,7 +82,7 @@ Journal of the American Chemical Society, Volume 147, Number 32, pp. 28851--2885
 - *A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform*<br />
 V.&nbsp;Toscano-Duran and B.&nbsp;Rieck<br />
 ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
-        <small>[\[BibTeX\]](Toscano25b.bib)</small>
+        <small>[\[BibTeX\]](Toscano25a.bib)</small>
 - *Geometry-Aware Edge Pooling for Graph Neural Networks*<br />
 K.&nbsp;Limbeck<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
 ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
@@ -76,10 +91,6 @@ ECML PKDD Workshop on Mining and Learning with Graphs, 2025<br />
 B.&nbsp;Rieck<br />
 Notices of the American Mathematical Society, Volume 72, Number 7, pp. 719--727, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2410.17760) &bull; [\[Author's copy\]](https://www.ams.org/journals/notices/202507/rnoti-p719.pdf) &bull; [\[GitHub\]](https://github.com/aidos-lab/ECT) &bull; [\[BibTeX\]](Rieck25a.bib)</small>
-- [*Molecular Machine Learning Using Euler Characteristic Transforms*](https://arxiv.org/abs/2507.03474)<br />
-V.&nbsp;Toscano-Duran, F.&nbsp;Rottach, and B.&nbsp;Rieck<br />
-Preprint, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2507.03474) &bull; [\[BibTeX\]](Toscano25a.bib)</small>
 - [*Defining and Benchmarking Open Problems in Single-Cell Analysis*](https://dx.doi.org/10.1038/s41587-025-02694-w)<br />
 M.&thinsp;D.&nbsp;Luecken<sup>&dagger;</sup>, S.&nbsp;Gigante<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, D.&thinsp;C.&nbsp;Strobl, N.&thinsp;S.&nbsp;Markov, L.&nbsp;Zappia, G.&nbsp;Palla, W.&nbsp;Lewis, D.&nbsp;Dimitrov, M.&thinsp;E.&nbsp;Vinyard, D.&thinsp;S.&nbsp;Magruder, M.&thinsp;F.&nbsp;Mueller, A.&nbsp;Andersson, E.&nbsp;Dann, Q.&nbsp;Qin, D.&thinsp;J.&nbsp;Otto, M.&nbsp;Klein, O.&thinsp;B.&nbsp;Botvinnik, L.&nbsp;Deconinck, K.&nbsp;Waldrant, S.&thinsp;N.&nbsp;Yasa, A.&nbsp;Szałata, A.&nbsp;Benz, Z.&nbsp;Li, O.&thinsp;P.&nbsp;Members, B.&nbsp;Rieck, C.&nbsp;Ahlmann-Eltze, E.&nbsp;da Veiga Beltrame, C.&thinsp;B.&nbsp;González-Blas, A.&thinsp;T.&nbsp;Chen, B.&nbsp;DeMeo, C.&nbsp;Ergen, S.&nbsp;Floc'hlay, A.&nbsp;Gayoso, S.&nbsp;Hicks, Y.&nbsp;Ji, V.&nbsp;Kleshchevnikov, G.&nbsp;La Manno, M.&thinsp;G.&nbsp;Lombardo, R.&nbsp;Lopez, D.&nbsp;Righelli, H.&nbsp;Sarkar, V.&nbsp;Svensson, A.&nbsp;Tong, G.&nbsp;Xing, C.&nbsp;Xu, J.&thinsp;M.&nbsp;Bloom, A.&thinsp;O.&nbsp;Pisco, J.&nbsp;Saez-Rodriguez, D.&nbsp;Wulsin, L.&nbsp;Pinello, Y.&nbsp;Saeys, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup><br />
 Nature Biotechnology, 2025<br />

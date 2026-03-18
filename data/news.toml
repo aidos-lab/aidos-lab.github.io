@@ -2,6 +2,13 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-03-06 = """
+  Julius defended his dissertation "Robust Topological Representation
+  Learning" with *magna cum laude* and is the **first PhD student of the
+  lab to gradudate**. Congratulations and all the best for your future
+  career, Julius! It was a pleasure working with you!
+"""
+
 2026-01-26 = """
   🎉 Our work on [*LEAP: Local ECT-Based Learnable Positional Encodings
   for Graphs*](https://openreview.net/forum?id=8XFPhByERc) was accepted

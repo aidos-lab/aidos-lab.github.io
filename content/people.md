@@ -16,7 +16,6 @@ starting a collaboration with us.
 
 <div class="people-card-container">
     {{< person "BR" >}}
-    {{< person "JvR" >}}
     {{< person "JW" >}}
     {{< person "KL" >}}
     {{< person "ER" >}}
@@ -52,6 +51,7 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - Kalyan Varma Nadimpalli (now a research assistant at Helmholtz Munich)
 - [Barış Onarıcı](https://www.linkedin.com/in/barisonarici-a271828182845904523/)
 - Giacomo Parolin
+- [Julius von Rohrscheidt](https://www.rohrscheidt.com) (PhD, 2026)
 - Yevhenii Sharapov
 - [Daniel Bīn Schmid](https://danielbinschmid.com)
 - [Emily Simons](https://emsimons.github.io/me)

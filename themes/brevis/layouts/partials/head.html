@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta property="og:url" content="{{ .Site.Params.URL }}">
+  <meta property="og:url" content="{{ absURL "" }}">
   <meta property="og:type" content="website">
 
   <title>{{ .Title | markdownify | plainify }}</title>
@@ -27,6 +27,9 @@
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="720">
   {{- end }}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Pseudomanifold">
 
   {{- with .Description }}
   <meta name="description" content="{{ . }}">

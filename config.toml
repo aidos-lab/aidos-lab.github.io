@@ -1,11 +1,11 @@
-baseURL       = "http://aidos.group/"
+baseURL       = "https://aidos.group/"
 languageCode  = "en-us"
 title         = "AIDOS Lab"
 theme         = "brevis"
 enableGitInfo = true
 
 [params]
-  description = "Website of the AIDOS Lab, an international lab of researchers interested in geometry, topology, and machine learning."
+  description = "The AIDOS Lab at the University of Fribourg builds principled methods at the intersection of geometry, topology, and machine learning to reveal hidden structure in complex data."
   googleTagID = "G-Z7H79RP4BR"
   ogImage     = "logo_with_byline.png"
 

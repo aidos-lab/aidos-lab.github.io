@@ -4,35 +4,25 @@ title: "AIDOS Lab"
 
 {{< figure src="logo_with_byline.svg" width="384" alt="AIDOS Lab Logo" >}}
 
-# Welcome
+# Welcome to the AIDOS Lab
 
-Welcome to the website of the AIDOS Lab at the [University of
-Fribourg](https://www.unifr.ch).
-We are fascinated by
-discovering hidden structures in complex data sets, in particular those
-arising in healthcare and environmental applications.
+We are a research group at the [University of Fribourg](https://www.unifr.ch), working at the intersection of **geometry, topology, and machine learning**.
+Grounded in mathematics, we build principled methods that reveal hidden structure in complex data.
 
-Our primary research interests are situated at the intersection of
-**geometry, topology, and machine learning**. From data-centric evaluation frameworks to novel architecture developments, we make use of geometrical and
-topological information to imbue our methods with foundations that foster interpretability and robustness. Along the way, we develop new **manifold learning** techniques, new
-**representation learning** algorithms, and much more.
+If you are a student at the University of Fribourg and are interested in writing a bachelor's or master's thesis with us, [please drop us a line](/contact/#bachelors-and-masters-theses).
 
-Following the dictum 'theory without practice is empty,' we
-address challenges in biomedicine and healthcare
-applications. Check out our [research page]({{< relref "/research" >}}) to learn more about our current projects.
+## What We Do
 
-If you are student at the [University of Fribourg](https://unifr.ch) and
-are interested in writing a bachelor's or master's thesis with us,
-please [get in touch](https://aidos.group/contact/#bachelors-and-masters-theses).
+Data has shape, and we build tools that find it.
 
-## Mission Statement
+Our core focus is *geometrical and topological machine learning*, i.e., developing methods that make use of principles from geometry and topology to learn robust, expressive representations. We work with concepts like *Euler Characteristic Transforms*, *persistent homology*, *discrete curvature*, and *metric space magnitude* to analyze point clouds, graphs, and manifolds.
 
-'AIDOS' has two meanings that complement each other well. The first
-meaning refers to our mission statement, viz. to develop **A**rtificial
-**I**ntelligence for **D**ata-**O**riented **S**cience. The second
-meaning originates from the Greek word 'αἰδώς,' which means 'awe,'
-'reverence,' or 'humility.' This awe or humility should serve as one of
-our guiding principles when we work on challenging problems, aiming to
-improve the world using machine learning.
+We see ourselves as [*toolsmiths*](https://bastian.rieck.me/blog/2022/toolsmith/), caring about theory and practice alike.
+
+Our research is graciously supported by the Canton of Fribourg and the Swiss State Secretariat for Education, Research and Innovation SERI, which funds our ERC Starting Grant ["HOLES: Higher-Order Learning of Essential Structures with Geometry and Topology"](https://bastian.rieck.me/holes/) under the transitional measures for the Horizon package 2021–2027.
+
+## Why We Do It
+
+"AIDOS" carries two meanings. The first one describes our work, i.e., **A**rtificial **I**ntelligence for **D**ata-**O**riented **S**cience. The second one originates from the ancient Greek word "αἰδώς," which denotes a sense of awe, reverence, or humility when facing something greater than oneself. This awe keeps us honest about the many things we do not (yet) know, and we strongly believe that this is the right disposition for doing science.
 
 {{< news >}}

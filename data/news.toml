@@ -12,7 +12,7 @@
 2026-01-26 = """
   🎉 Our work on [*LEAP: Local ECT-Based Learnable Positional Encodings
   for Graphs*](https://openreview.net/forum?id=8XFPhByERc) was accepted
-  to ICLR 2026. 🎉
+  to ICLR 2026.
 """
 
 2026-01-02 = """
@@ -77,13 +77,13 @@
 2025-05-01 = """
   🎉 Our works on [local variants of the Euler Characteristic Transform](https://arxiv.org/abs/2410.02622)
   and on [a principled analysis of graph-learning data sets](https://arxiv.org/abs/2502.02379)
-  have been accepted at ICML 2025!  🎉
+  have been accepted at ICML 2025!
 """
 
 2025-02-01 = """
   🎉 Our works on [molecule generation](https://arxiv.org/abs/2305.19303)
   and on [new data sets for topological deep learning](https://arxiv.org/abs/2410.02392)
-  have been accepted at ICLR 2025! 🎉
+  have been accepted at ICLR 2025!
 """
 
 2025-01-08 = """Bastian will give three talks at

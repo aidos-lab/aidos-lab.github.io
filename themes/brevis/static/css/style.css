@@ -192,7 +192,7 @@ footer
 
 #footer-logos
 {
-  margin:     1% auto;
+  margin:     1em auto;
   text-align: center;
 }
 
@@ -367,6 +367,13 @@ time
   {
     padding: 1em;
   }
+
+  #footer-text
+  {
+    width:   auto;
+    padding: 1em;
+  }
+
 }
 
 @media only screen and (max-width: 690px) {

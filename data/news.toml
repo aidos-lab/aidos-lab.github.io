@@ -2,6 +2,13 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-04-11 = """
+  🎉 Our work on [*TOAST: Transformer Optimization using Adaptive and
+  Simple Transformations*](https://openreview.net/forum?id=fSwMCsBtTG)
+  was accepted at TMLR. Congratulations to our academic visitor and
+  collaborator Irene!
+"""
+
 2026-03-06 = """
   Julius defended his dissertation "Robust Topological Representation
   Learning" with *magna cum laude* and is the **first PhD student of the

@@ -14,6 +14,7 @@ interested in. Read on if you are interested in [joining us]({{< relref "/contac
 
 # 2025
 
+- Juan Amboage: [*ECT-based Positional Encoding for Graph Neural Networks*](Thesis_Juan_Amboage.pdf), MSc thesis
 - Lucas Mösch: [*Explorative Datenanalyse von Rettungsdiensteinsätzen und Hilfsfristen in der Stadt Zürich*](Thesis_Lucas_Mösch.pdf), BSc thesis
 - Nicola Schärer: [*Vergleich verschiedener Machine-Learning-Modelle unter Einbezug eines neues Einflussfaktors anhand der Bundesliga-Saison 2024/2025*](Thesis_Nicola_Schärer.pdf), BSc thesis
 - Leonardo Horvatic: *Perception and Acceptability of AI-Generated Social Media Comments: A Comparative Study of ChatGPT, Gemini and DeepSeek*, BSc thesis

@@ -1,5 +1,17 @@
 ### 2026
 
+- [*TOAST: Transformer Optimization Using Adaptive and Simple Transformations*](https://openreview.net/forum?id=fSwMCsBtTG)<br />
+I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodolà, B.&nbsp;Rieck, and J.&thinsp;E.&nbsp;Vogt<br />
+Transactions on Machine Learning Research, 2026 (in press)<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci26a.bib)</small>
+- [*Scale Continuity in Graph Learning: Going Beyond Spectral Methods*](https://openreview.net/forum?id=RYl2VWfIRI)<br />
+C.&nbsp;Koke, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers<br />
+ICLR Workshop on Geometry-grounded Representation Learning and Generative Modeling, 2026<br />
+        <small>[\[BibTeX\]](Koke26a.bib)</small>
+- [*Topological Inductive Bias Fosters Multiple Instance Learning in Data-Scarce Scenarios*](https://openreview.net/forum?id=1hZy9ZjjCc)<br />
+S.&nbsp;Kazeminia, C.&nbsp;Marr, and B.&nbsp;Rieck<br />
+Transactions on Machine Learning Research, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[GitHub\]](https://github.com/SalomeKaze/TGMIL) &bull; [\[BibTeX\]](Kazeminia26a.bib)</small>
 - [*Graph Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them*](https://arxiv.org/abs/2511.03068)<br />
 M.&nbsp;Carrasco<sup>&dagger;</sup>, O.&nbsp;Zaghen<sup>&dagger;</sup>, K.&nbsp;Sumaraj, E.&nbsp;Bekkers, and B.&nbsp;Rieck<br />
 Preprint, 2026<br />
@@ -31,10 +43,6 @@ Preprint, 2025<br />
 N.&nbsp;Canova, S.&nbsp;Kališnik, A.&nbsp;Moser, B.&nbsp;Rieck, and A.&nbsp;Žegarac<br />
 Preprint, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2408.11450) &bull; [\[GitHub\]](https://github.com/a-zeg/ellipsoids) &bull; [\[BibTeX\]](Canova25a.bib)</small>
-- [*TOAST: Transformer Optimization Using Adaptive and Simple Transformations*](https://arxiv.org/abs/2410.04941)<br />
-I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodolà, B.&nbsp;Rieck, and J.&thinsp;E.&nbsp;Vogt<br />
-Preprint, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.04941) &bull; [\[BibTeX\]](Cannistraci25a.bib)</small>
 - [*Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities*](https://dx.doi.org/10.1038/s41560-025-01871-0)<br />
 S.&nbsp;Gathrid, J.&nbsp;Wayland, S.&nbsp;Wayland, R.&nbsp;Deshmukh, and G.&thinsp;C.&nbsp;Wu<br />
 Nature Energy, Volume 10, Number 10, pp. 1274--1288, 2025<br />
@@ -58,7 +66,7 @@ Proceedings of the 42nd International Conference on Machine Learning, Volume 267
 - [*No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets*](https://proceedings.mlr.press/v267/coupette25a.html)<br />
 C.&nbsp;Coupette<sup>&dagger;</sup>, J.&nbsp;Wayland<sup>&dagger;</sup>, E.&nbsp;Simons, and B.&nbsp;Rieck<br />
 Proceedings of the 42nd International Conference on Machine Learning, Volume 267, pp. 11405--11434, 2025<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2502.02379) &bull; [\[GitHub\]](https://github.com/aidos-lab/rings) &bull; [\[BibTeX\]](Coupette25a.bib)</small>
+        <small>[\[Preprint\]](https://arxiv.org/abs/2502.02379) &bull; [\[GitHub\]](https://github.com/aidos-lab/RINGS) &bull; [\[BibTeX\]](Coupette25a.bib)</small>
 - [*EmbedOR: Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings*](https://arxiv.org/abs/2509.03703)<br />
 T.&thinsp;L.&nbsp;Saidi, A.&nbsp;Hickok, B.&nbsp;Rieck, and A.&thinsp;J.&nbsp;Blumberg<br />
 Preprint, 2025<br />
@@ -187,10 +195,6 @@ Laboratory Investigation, Volume 104, Number 6, 2024<br />
 C.&nbsp;Coupette, J.&nbsp;Vreeken, and B.&nbsp;Rieck<br />
 Digital Scholarship in the Humanities, Volume 39, Number 1, pp. 74--96, 2024<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2206.08225) &bull; [\[Author's copy\]](https://hyperbard.net) &bull; [\[GitHub\]](https://github.com/hyperbard/hyperbard) &bull; [\[BibTeX\]](Coupette24a.bib)</small>
-- [*Topologically Regularized Multiple Instance Learning to Harness Data Scarcity*](https://arxiv.org/abs/2307.14025)<br />
-S.&nbsp;Kazeminia, C.&nbsp;Marr<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
-Preprint, 2024<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2307.14025) &bull; [\[BibTeX\]](Kazeminia24a.bib)</small>
 - [*The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning*](https://arxiv.org/abs/2402.09529)<br />
 B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&thinsp;T.&nbsp;Fasy, and B.&nbsp;Rieck<br />
 Preprint, 2024<br />

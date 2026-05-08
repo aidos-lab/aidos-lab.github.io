@@ -1,5 +1,21 @@
 ### 2026
 
+- [*No Triangulation Without Representation: Generalization in Topological Deep Learning*](https://arxiv.org/abs/2605.06467)<br />
+J.&thinsp;S.&nbsp;Schmidt<sup>&dagger;</sup>, M.&nbsp;Carrasco<sup>&dagger;</sup>, E.&nbsp;Röell, G.&nbsp;Wolf, N.&nbsp;Blaser<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
+Preprint, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2605.06467) &bull; [\[BibTeX\]](Schmidt26a.bib)</small>
+- [*Diversity Curves for Graph Representation Learning*](https://arxiv.org/abs/2605.06466)<br />
+K.&nbsp;Limbeck, N.&nbsp;Häusermann, M.&nbsp;Carrasco, G.&nbsp;Wolf, and B.&nbsp;Rieck<br />
+Preprint, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2605.06466) &bull; [\[BibTeX\]](Limbeck26a.bib)</small>
+- [*Invariant-Based Diagnostics for Graph Benchmarks*](https://arxiv.org/abs/2605.06462)<br />
+R.&nbsp;von Moos, M.&nbsp;Alain, and B.&nbsp;Rieck<br />
+Preprint, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2605.06462) &bull; [\[BibTeX\]](vonMoos26a.bib)</small>
+- [*Geometry-Aware Simplicial Message Passing*](https://arxiv.org/abs/2605.06061)<br />
+E.&thinsp;X.&nbsp;Wang and B.&nbsp;Rieck<br />
+Preprint, 2026<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2605.06061) &bull; [\[BibTeX\]](Wang26a.bib)</small>
 - [*TOAST: Transformer Optimization Using Adaptive and Simple Transformations*](https://openreview.net/forum?id=fSwMCsBtTG)<br />
 I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodolà, B.&nbsp;Rieck, and J.&thinsp;E.&nbsp;Vogt<br />
 Transactions on Machine Learning Research, 2026 (in press)<br />
@@ -18,7 +34,7 @@ Preprint, 2026<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2511.03068) &bull; [\[BibTeX\]](Carrasco26a.bib)</small>
 - [*LEAP: Local ECT-Based Learnable Positional Encodings for Graphs*](https://openreview.net/forum?id=8XFPhByERc)<br />
 J.&nbsp;Amboage, E.&nbsp;Röell, P.&nbsp;Schnider, and B.&nbsp;Rieck<br />
-International Conference on Learning Representations, 2026 (in press)<br />
+International Conference on Learning Representations, 2026<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2510.00757) &bull; [\[BibTeX\]](Amboage26a.bib)</small>
 - [*Molecular Machine Learning Using Euler Characteristic Transforms*](https://dx.doi.org/10.1007/978-3-032-10661-2_30)<br />
 V.&nbsp;Toscano-Duran, F.&nbsp;Rottach, and B.&nbsp;Rieck<br />
@@ -47,18 +63,18 @@ Preprint, 2025<br />
 S.&nbsp;Gathrid, J.&nbsp;Wayland, S.&nbsp;Wayland, R.&nbsp;Deshmukh, and G.&thinsp;C.&nbsp;Wu<br />
 Nature Energy, Volume 10, Number 10, pp. 1274--1288, 2025<br />
         <small>[\[BibTeX\]](Gathrid25a.bib)</small>
-- [*Less Is More: Local Intrinsic Dimensions of Contextual Language Models*](https://arxiv.org/abs/2506.01034)<br />
-B.&thinsp;M.&nbsp;Ruppik, J.&nbsp;von Rohrscheidt, C.&nbsp;van Niekerk, M.&nbsp;Heck, R.&nbsp;Vukovic, S.&nbsp;Feng, H.&nbsp;Lin, N.&nbsp;Lubis, B.&nbsp;Rieck, M.&nbsp;Zibrowius, and M.&nbsp;Gašić<br />
-Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2506.01034) &bull; [\[GitHub\]](https://github.com/aidos-lab/Topo_LLM_public) &bull; [\[BibTeX\]](Ruppik25a.bib)</small>
-- [*Point Cloud Synthesis Using Inner Product Transforms*](https://arxiv.org/abs/2410.18987)<br />
-E.&nbsp;Röell and B.&nbsp;Rieck<br />
-Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />
-        <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[GitHub\]](https://github.com/aidos-lab/inner-product-transforms) &bull; [\[BibTeX\]](Roell25a.bib)</small>
 - [*Geometry-Aware Edge Pooling for Graph Neural Networks*](https://arxiv.org/abs/2506.11700)<br />
 K.&nbsp;Limbeck<sup>&dagger;</sup>, L.&nbsp;Mezrag<sup>&dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup><br />
-Advances in Neural Information Processing Systems, Volume 38, 2025 (in press)<br />
+Advances in Neural Information Processing Systems, Volume 38, pp. 157770--157808, 2025<br />
         <small>[\[Preprint\]](https://arxiv.org/abs/2506.11700) &bull; [\[GitHub\]](https://github.com/aidos-lab/mag_edge_pool) &bull; [\[BibTeX\]](Limbeck25b.bib)</small>
+- [*Point Cloud Synthesis Using Inner Product Transforms*](https://arxiv.org/abs/2410.18987)<br />
+E.&nbsp;Röell and B.&nbsp;Rieck<br />
+Advances in Neural Information Processing Systems, Volume 38, pp. 14551--14583, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2410.18987) &bull; [\[GitHub\]](https://github.com/aidos-lab/inner-product-transforms) &bull; [\[BibTeX\]](Roell25a.bib)</small>
+- [*Less Is More: Local Intrinsic Dimensions of Contextual Language Models*](https://arxiv.org/abs/2506.01034)<br />
+B.&thinsp;M.&nbsp;Ruppik, J.&nbsp;von Rohrscheidt, C.&nbsp;van Niekerk, M.&nbsp;Heck, R.&nbsp;Vukovic, S.&nbsp;Feng, H.&nbsp;Lin, N.&nbsp;Lubis, B.&nbsp;Rieck, M.&nbsp;Zibrowius, and M.&nbsp;Gašić<br />
+Advances in Neural Information Processing Systems, Volume 38, pp. 67795--67828, 2025<br />
+        <small>[\[Preprint\]](https://arxiv.org/abs/2506.01034) &bull; [\[GitHub\]](https://github.com/aidos-lab/Topo_LLM_public) &bull; [\[BibTeX\]](Ruppik25a.bib)</small>
 - [*Diss-l-ECT: Dissecting Graph Data With Local Euler Characteristic Transforms*](https://proceedings.mlr.press/v267/von-rohrscheidt25a.html)<br />
 J.&nbsp;von Rohrscheidt and B.&nbsp;Rieck<br />
 Proceedings of the 42nd International Conference on Machine Learning, Volume 267, pp. 61790--61809, 2025<br />

@@ -450,3 +450,88 @@ ul.card-icons li
   height: auto;
   object-fit: cover;
 }
+
+/* ── publication search & filters ───────────────────────────────────────── */
+
+.publication-controls
+{
+  margin-bottom: 1.5em;
+}
+
+#publication-search
+{
+  width:       100%;
+  box-sizing:  border-box;
+  padding:     0.5em 0.6em;
+  font-size:   1rem;
+  color:       #444;
+  background:  #fff;
+  border:      1px solid lightgray;
+  margin-bottom: 0.75em;
+}
+
+#publication-search:focus
+{
+  outline:        none;
+  border-color:   #0055DD;
+}
+
+#publication-filters
+{
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       0.5em 1.25em;
+  margin-bottom: 0.5em;
+}
+
+.publication-facet-group
+{
+  display:        flex;
+  flex-direction: column;
+  align-items:    stretch;
+  gap:            0.4em;
+  padding:        0.5em 0.75em;
+}
+
+.publication-facet-group-buttons
+{
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       0.3em;
+}
+
+.publication-facet-label
+{
+  font-size:      0.75rem;
+  font-weight:    700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color:          #888;
+  margin-right:   0.2em;
+  text-align:     center;
+}
+
+.publication-facet-btn
+{
+  font-size:      1.00rem;
+  color:          #444;
+  background:     #fff;
+  border:         1px solid lightgray;
+  padding:        0.2em 0.6em;
+  cursor:         pointer;
+  transition:     background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.publication-facet-btn:hover, .publication-facet-btn--active
+{
+  background:   #E8E8E8;
+  border-color: lightgray;
+  color:        #444;
+}
+
+#publication-count
+{
+  font-size: 0.85rem;
+  color:     #888;
+  margin:    0.25em 0 0;
+}

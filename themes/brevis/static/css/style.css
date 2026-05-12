@@ -504,9 +504,7 @@ ul.card-icons li
 {
   font-size:      0.75rem;
   font-weight:    700;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
-  color:          #888;
   margin-right:   0.2em;
   text-align:     center;
 }
@@ -515,7 +513,7 @@ ul.card-icons li
 {
   font-size:      1.00rem;
   color:          #444;
-  background:     #fff;
+  background:     white;
   border:         1px solid lightgray;
   padding:        0.2em 0.6em;
   cursor:         pointer;
@@ -531,7 +529,17 @@ ul.card-icons li
 
 #publication-count
 {
-  font-size: 0.85rem;
-  color:     #888;
-  margin:    0.25em 0 0;
+  font-size:  0.85rem;
+  margin:     0.25em 0 0;
+  text-align: right;
 }
+
+.publication-tag
+{
+  font-size:    0.75rem;
+  margin-right: 0.25em;
+  border:       1px solid lightgray;
+  background:   white;
+  padding:      0.1em 0.4em;
+}
+

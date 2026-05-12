@@ -41,12 +41,22 @@
               </div>
 
               <div class="publication-authors">
-                <span>{{ .authors | safeHTML }}</span>
+                <span>{{ index . "authors-display" | safeHTML }}</span>
               </div>
 
               {{- with $venue }}
                 <div class="publication-venue">{{ . }}</div>
               {{ end -}}
+
+              {{- with .keywords -}}
+                <div class="publication-tags">
+                  {{- range . -}}
+                    {{- if . -}}
+                    <span class="publication-tag">{{ . }}</span>
+                    {{- end -}}
+                  {{- end -}}
+                </div>
+              {{- end -}}
 
               {{- $links := slice -}}
               {{- with index . "author-copy" -}}

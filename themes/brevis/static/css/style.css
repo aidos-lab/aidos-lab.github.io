@@ -520,7 +520,7 @@ ul.card-icons li
   transition:     background 0.15s, color 0.15s, border-color 0.15s;
 }
 
-.publication-facet-btn:hover, .publication-facet-btn--active
+.publication-facet-btn--active
 {
   background:   #E8E8E8;
   border-color: lightgray;

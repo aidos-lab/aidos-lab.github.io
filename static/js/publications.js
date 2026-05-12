@@ -65,6 +65,7 @@
   appendGroup("Year",  years, "year");
   appendGroup("Topic", tags,  "tag");
 
+
   function appendGroup(label, values, axis) {
     if (!values.length) return;
     const g = document.createElement("div");
@@ -73,6 +74,8 @@
     h.className   = "publication-facet-label";
     h.textContent = label;
     g.appendChild(h);
+    const btns = document.createElement("div");
+    btns.className = "publication-facet-group-buttons";
     values.forEach(v => {
       const btn = document.createElement("button");
       btn.type          = "button";
@@ -81,8 +84,9 @@
       btn.dataset.value = v;
       btn.textContent   = v;
       btn.addEventListener("click", () => toggleFilter(axis, v));
-      g.appendChild(btn);
+      btns.appendChild(btn);
     });
+    g.appendChild(btns);
     $filters.appendChild(g);
   }
 

@@ -60,17 +60,25 @@
               {{- end -}}
 
               {{- $links := slice -}}
+
               {{- with index . "author-copy" -}}
                 {{- $links = $links | append (printf "<a href=\"%s\">[Author's copy]</a>" .) -}}
               {{- end -}}
+
               {{- with index . "preprint" -}}
                 {{- $links = $links | append (printf "<a href=\"%s\">[Preprint]</a>" .) -}}
               {{- end -}}
+
               {{- with .doi -}}
                 {{- $links = $links | append (printf "<a href=\"https://doi.org/%s\">[DOI]</a>" .) -}}
               {{- end -}}
+
               {{- with .repository -}}
                 {{- $links = $links | append (printf "<a href=\"%s\">[GitHub]</a>" .) -}}
+              {{- end -}}
+
+              {{- with .id -}}
+                {{- $links = $links | append (printf "<a href=\"%s.bib\">[BibTeX]</a>" .) -}}
               {{- end -}}
 
               <div class="publication-links">

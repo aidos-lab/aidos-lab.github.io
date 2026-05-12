@@ -1,5 +1,5 @@
-{
-    "Rieck26a": {
+[
+    {
         "title": "Have Graph -- Will Lift? The Case for Higher-Order Benchmarks",
         "authors": [
             "Rieck, Bastian"
@@ -17,7 +17,7 @@
         "id": "Rieck26a",
         "order": 0
     },
-    "Schmidt26a": {
+    {
         "title": "No Triangulation Without Representation: Generalization in Topological Deep Learning",
         "authors": [
             "Schmidt, Johannes S.",
@@ -39,7 +39,7 @@
         "id": "Schmidt26a",
         "order": 1
     },
-    "Limbeck26a": {
+    {
         "title": "Diversity Curves for Graph Representation Learning",
         "authors": [
             "Limbeck, Katharina",
@@ -60,7 +60,7 @@
         "id": "Limbeck26a",
         "order": 2
     },
-    "vonMoos26a": {
+    {
         "title": "Invariant-Based Diagnostics for Graph Benchmarks",
         "authors": [
             "von Moos, Richard",
@@ -79,7 +79,7 @@
         "id": "vonMoos26a",
         "order": 3
     },
-    "Wang26a": {
+    {
         "title": "Geometry-Aware Simplicial Message Passing",
         "authors": [
             "Wang, Elena Xinyi",
@@ -98,7 +98,7 @@
         "id": "Wang26a",
         "order": 4
     },
-    "Cannistraci26a": {
+    {
         "title": "TOAST: Transformer Optimization Using Adaptive and Simple Transformations",
         "authors": [
             "Cannistraci, Irene",
@@ -120,7 +120,7 @@
         "id": "Cannistraci26a",
         "order": 5
     },
-    "Koke26a": {
+    {
         "title": "Scale Continuity in Graph Learning: Going Beyond Spectral Methods",
         "authors": [
             "Koke, Christian",
@@ -140,7 +140,7 @@
         "id": "Koke26a",
         "order": 6
     },
-    "Kazeminia26a": {
+    {
         "title": "Topological Inductive Bias Fosters Multiple Instance Learning in Data-Scarce Scenarios",
         "authors": [
             "Kazeminia, Salome",
@@ -161,7 +161,7 @@
         "id": "Kazeminia26a",
         "order": 7
     },
-    "Carrasco26a": {
+    {
         "title": "Graph Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them",
         "authors": [
             "Carrasco, Martin",
@@ -182,7 +182,7 @@
         "id": "Carrasco26a",
         "order": 8
     },
-    "Amboage26a": {
+    {
         "title": "LEAP: Local ECT-Based Learnable Positional Encodings for Graphs",
         "authors": [
             "Amboage, Juan",
@@ -203,7 +203,7 @@
         "id": "Amboage26a",
         "order": 9
     },
-    "Toscano26a": {
+    {
         "title": "Molecular Machine Learning Using Euler Characteristic Transforms",
         "authors": [
             "Toscano-Duran, Victor",
@@ -223,7 +223,7 @@
         "id": "Toscano26a",
         "order": 10
     },
-    "Bodea25a": {
+    {
         "title": "Cortex-Wide Preservation of Multi-Stimulus Information Across Degrees of Network Synchronization",
         "authors": [
             "Bodea, Silviu Vasile",
@@ -251,7 +251,7 @@
         "id": "Bodea25a",
         "order": 11
     },
-    "Rottach25a": {
+    {
         "title": "From Topology to Retrieval: Decoding Embedding Spaces With Unified Signatures",
         "authors": [
             "Rottach, Florian",
@@ -272,7 +272,7 @@
         "id": "Rottach25a",
         "order": 12
     },
-    "Scullen25a": {
+    {
         "title": "NervePool: A Simplicial Pooling Layer",
         "authors": [
             "McGuire Scullen, Sarah",
@@ -296,7 +296,7 @@
         "id": "Scullen25a",
         "order": 13
     },
-    "Canova25a": {
+    {
         "title": "Persistent Homology via Ellipsoids",
         "authors": [
             "Canova, Niklas",
@@ -317,7 +317,7 @@
         "id": "Canova25a",
         "order": 14
     },
-    "Gathrid25a": {
+    {
         "title": "Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities",
         "authors": [
             "Gathrid, Sidney",
@@ -336,7 +336,7 @@
         "id": "Gathrid25a",
         "order": 15
     },
-    "Limbeck25b": {
+    {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
         "authors": [
             "Limbeck, Katharina",
@@ -357,7 +357,7 @@
         "id": "Limbeck25b",
         "order": 16
     },
-    "Roell25a": {
+    {
         "title": "Point Cloud Synthesis Using Inner Product Transforms",
         "authors": [
             "R\u00f6ell, Ernst",
@@ -376,7 +376,7 @@
         "id": "Roell25a",
         "order": 17
     },
-    "Ruppik25a": {
+    {
         "title": "Less Is More: Local Intrinsic Dimensions of Contextual Language Models",
         "authors": [
             "Ruppik, Benjamin Matthias",
@@ -403,7 +403,7 @@
         "id": "Ruppik25a",
         "order": 18
     },
-    "vonRohrscheidt25a": {
+    {
         "title": "Diss-l-ECT: Dissecting Graph Data With Local Euler Characteristic Transforms",
         "authors": [
             "von Rohrscheidt, Julius",
@@ -424,7 +424,7 @@
         "id": "vonRohrscheidt25a",
         "order": 19
     },
-    "Coupette25a": {
+    {
         "title": "No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets",
         "authors": [
             "Coupette, Corinna",
@@ -445,7 +445,7 @@
         "id": "Coupette25a",
         "order": 20
     },
-    "Saidi25a": {
+    {
         "title": "EmbedOR: Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
         "authors": [
             "Saidi, Tristan Luca",
@@ -464,7 +464,7 @@
         "id": "Saidi25a",
         "order": 21
     },
-    "deBodt25a": {
+    {
         "title": "Low-Dimensional Embeddings of High-Dimensional Data",
         "authors": [
             "de Bodt, Cyril",
@@ -500,7 +500,7 @@
         "id": "deBodt25a",
         "order": 22
     },
-    "Ballester25b": {
+    {
         "title": "On the Expressivity of Persistent Homology in Graph Learning",
         "authors": [
             "Ballester, Rub\u00e9n",
@@ -520,7 +520,7 @@
         "id": "Ballester25b",
         "order": 23
     },
-    "Buffelli25a": {
+    {
         "title": "CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs",
         "authors": [
             "Buffelli, Davide",
@@ -540,7 +540,7 @@
         "id": "Buffelli25a",
         "order": 24
     },
-    "Remme25a": {
+    {
         "title": "Stable and Accurate Orbital-Free Density Functional Theory Powered by Machine Learning",
         "authors": [
             "Remme, Roman",
@@ -568,7 +568,7 @@
         "id": "Remme25a",
         "order": 25
     },
-    "Toscano25a": {
+    {
         "title": "A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform",
         "authors": [
             "Toscano-Duran, Victor",
@@ -584,7 +584,7 @@
         "id": "Toscano25a",
         "order": 26
     },
-    "Limbeck25a": {
+    {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
         "authors": [
             "Limbeck, Katharina",
@@ -604,7 +604,7 @@
         "id": "Limbeck25a",
         "order": 27
     },
-    "Rieck25a": {
+    {
         "title": "Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform",
         "authors": [
             "Rieck, Bastian"
@@ -622,7 +622,7 @@
         "id": "Rieck25a",
         "order": 28
     },
-    "Luecken25a": {
+    {
         "title": "Defining and Benchmarking Open Problems in Single-Cell Analysis",
         "authors": [
             "Luecken, Malte D.",
@@ -691,7 +691,7 @@
         "id": "Luecken25a",
         "order": 29
     },
-    "Alain25a": {
+    {
         "title": "Graph and Simplicial Complex Prediction Gaussian Process via the Hodgelet Representations",
         "authors": [
             "Alain, Mathieu",
@@ -712,7 +712,7 @@
         "id": "Alain25a",
         "order": 30
     },
-    "Bhaskar25a": {
+    {
         "title": "Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity",
         "authors": [
             "Bhaskar, Dhananjay",
@@ -741,7 +741,7 @@
         "id": "Bhaskar25a",
         "order": 31
     },
-    "Wayland25a": {
+    {
         "title": "Characterizing Physician Referral Networks With Ricci Curvature",
         "authors": [
             "Wayland, Jeremy",
@@ -759,7 +759,7 @@
         "id": "Wayland25a",
         "order": 32
     },
-    "Koke25c": {
+    {
         "title": "On Multi-Scale Graph Representation Learning",
         "authors": [
             "Koke, Christian",
@@ -783,7 +783,7 @@
         "id": "Koke25c",
         "order": 33
     },
-    "Koke25b": {
+    {
         "title": "Graph Networks Struggle With Variable Scale",
         "authors": [
             "Koke, Christian",
@@ -806,7 +806,7 @@
         "id": "Koke25b",
         "order": 34
     },
-    "Koke25a": {
+    {
         "title": "On Incorporating Scale Into Graph Networks",
         "authors": [
             "Koke, Christian",
@@ -829,7 +829,7 @@
         "id": "Koke25a",
         "order": 35
     },
-    "John25a": {
+    {
         "title": "Representation of Visual Sequences in the Tuning and Topology of Neuronal Activity in the Human Hippocampus",
         "authors": [
             "John, Tibin",
@@ -851,7 +851,7 @@
         "id": "John25a",
         "order": 36
     },
-    "Ballester25a": {
+    {
         "title": "MANTRA: The Manifold Triangulations Assemblage",
         "authors": [
             "Ballester, Rub\u00e9n",
@@ -875,7 +875,7 @@
         "id": "Ballester25a",
         "order": 37
     },
-    "Hetzel25a": {
+    {
         "title": "MAGNet: Motif-Agnostic Generation of Molecules From Scaffolds",
         "authors": [
             "Hetzel, Leon",
@@ -898,7 +898,7 @@
         "note": "Accepted as a spotlight presentation&nbsp;(top 5% of all submissions)",
         "order": 38
     },
-    "Zhang25a": {
+    {
         "title": "Principal Curvatures Estimation With Applications to Single Cell Data",
         "authors": [
             "Zhang, Yanlei",
@@ -923,7 +923,7 @@
         "id": "Zhang25a",
         "order": 39
     },
-    "vonRohrscheidt24a": {
+    {
         "title": "Bayesian Computation Meets Topology",
         "authors": [
             "von Rohrscheidt, Julius",
@@ -942,7 +942,7 @@
         "id": "vonRohrscheidt24a",
         "order": 40
     },
-    "Alain24a": {
+    {
         "title": "Graph Classification Gaussian Processes via Hodgelet Spectral Features",
         "authors": [
             "Alain, Mathieu",
@@ -962,7 +962,7 @@
         "id": "Alain24a",
         "order": 41
     },
-    "Limbeck24a": {
+    {
         "title": "Metric Space Magnitude for Evaluating the Diversity of Latent Representations",
         "authors": [
             "Limbeck, Katharina",
@@ -982,7 +982,7 @@
         "id": "Limbeck24a",
         "order": 42
     },
-    "Limbeck24b": {
+    {
         "title": "Detecting Spatial Dependence in Transcriptomics Data Using Vectorised Persistence Diagrams",
         "authors": [
             "Limbeck, Katharina",
@@ -999,7 +999,7 @@
         "id": "Limbeck24b",
         "order": 43
     },
-    "Dlotko24a": {
+    {
         "title": "Applied and Combinatorial Topology (Dagstuhl Seminar 24092)",
         "authors": [
             "D\u0142otko, Pawe\u0142",
@@ -1018,7 +1018,7 @@
         "id": "Dlotko24a",
         "order": 44
     },
-    "Papamarkou24a": {
+    {
         "title": "Position: Topological Deep Learning Is the New Frontier for Relational Learning",
         "authors": [
             "Papamarkou, Theodore",
@@ -1056,7 +1056,7 @@
         "id": "Papamarkou24a",
         "order": 45
     },
-    "Wayland24a": {
+    {
         "title": "Mapping the Multiverse of Latent Representations",
         "authors": [
             "Wayland, Jeremy",
@@ -1076,7 +1076,7 @@
         "id": "Wayland24a",
         "order": 46
     },
-    "Adamer24a": {
+    {
         "title": "The Magnitude Vector of Images",
         "authors": [
             "Adamer, Michael F.",
@@ -1094,7 +1094,7 @@
         "id": "Adamer24a",
         "order": 47
     },
-    "Zhang24a": {
+    {
         "title": "Adaptative Local PCA for Curvature Estimation on Data Manifolds",
         "authors": [
             "Zhang, Yanlei",
@@ -1114,7 +1114,7 @@
         "id": "Zhang24a",
         "order": 48
     },
-    "Bock24a": {
+    {
         "title": "Enhancing the Diagnosis of Functionally Relevant Coronary Artery Disease With Machine Learning",
         "authors": [
             "Bock, Christian",
@@ -1137,7 +1137,7 @@
         "id": "Bock24a",
         "order": 49
     },
-    "Levenson24a": {
+    {
         "title": "Advancing Precision Medicine: Algebraic Topology and Differential Geometry in Radiology and Computational Pathology",
         "authors": [
             "Levenson, Richard M.",
@@ -1163,7 +1163,7 @@
         "id": "Levenson24a",
         "order": 50
     },
-    "Coupette24a": {
+    {
         "title": "All the World's a (Hyper)Graph: A Data Drama",
         "authors": [
             "Coupette, Corinna",
@@ -1183,7 +1183,7 @@
         "id": "Coupette24a",
         "order": 51
     },
-    "Holmgren24a": {
+    {
         "title": "The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning",
         "authors": [
             "Holmgren, Benjamin",
@@ -1203,7 +1203,7 @@
         "id": "Holmgren24a",
         "order": 52
     },
-    "Maggs24a": {
+    {
         "title": "Simplicial Representation Learning With Neural $k$-Forms",
         "authors": [
             "Maggs, Kelly",
@@ -1225,7 +1225,7 @@
         "id": "Maggs24a",
         "order": 53
     },
-    "Roell24a": {
+    {
         "title": "Differentiable Euler Characteristic Transforms for Shape Classification",
         "authors": [
             "R\u00f6ell, Ernst",
@@ -1246,7 +1246,7 @@
         "id": "Roell24a",
         "order": 54
     },
-    "Morris23a": {
+    {
         "title": "Weisfeiler and Leman Go Machine Learning: The Story So Far",
         "authors": [
             "Morris, Christopher",
@@ -1270,7 +1270,7 @@
         "id": "Morris23a",
         "order": 55
     },
-    "Southern23a": {
+    {
         "title": "Curvature Filtrations for Graph Generative Model Evaluation",
         "authors": [
             "Southern, Joshua",
@@ -1291,7 +1291,7 @@
         "id": "Southern23a",
         "order": 56
     },
-    "Srambical23a": {
+    {
         "title": "Filtration Surfaces for Dynamic Graph Classification",
         "authors": [
             "Srambical, Franz",
@@ -1309,7 +1309,7 @@
         "id": "Srambical23a",
         "order": 57
     },
-    "Alhoori23a": {
+    {
         "title": "Who Can Submit an Excellent Review for This Manuscript in the Next 30 Days? --- Peer Reviewing in the Age of Overload",
         "authors": [
             "Alhoori, Hamed",
@@ -1331,7 +1331,7 @@
         "id": "Alhoori23a",
         "order": 58
     },
-    "Waibel23a": {
+    {
         "title": "A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images",
         "authors": [
             "Waibel, Dominik J. E.",
@@ -1351,7 +1351,7 @@
         "id": "Waibel23a",
         "order": 59
     },
-    "Moor23a": {
+    {
         "title": "Predicting Sepsis Using Deep Learning Across International Sites: A Retrospective Development and Validation Study",
         "authors": [
             "Moor, Michael",
@@ -1374,7 +1374,7 @@
         "id": "Moor23a",
         "order": 60
     },
-    "Rieck23b": {
+    {
         "title": "Evaluating the &ldquo;Learning on Graphs&rdquo; Conference Experience",
         "authors": [
             "Rieck, Bastian",
@@ -1391,7 +1391,7 @@
         "id": "Rieck23b",
         "order": 62
     },
-    "Andreeva23a": {
+    {
         "title": "Metric Space Magnitude and Generalisation in Neural Networks",
         "authors": [
             "Andreeva, Rayna",
@@ -1410,7 +1410,7 @@
         "id": "Andreeva23a",
         "order": 63
     },
-    "vonRohrscheidt23a": {
+    {
         "title": "Topological Singularity Detection at Multiple Scales",
         "authors": [
             "von Rohrscheidt, Julius",
@@ -1429,7 +1429,7 @@
         "id": "vonRohrscheidt23a",
         "order": 64
     },
-    "Huguet23a": {
+    {
         "title": "Time-Inhomogeneous Diffusion Geometry and Topology",
         "authors": [
             "Huguet, Guillaume",
@@ -1450,7 +1450,7 @@
         "id": "Huguet23a",
         "order": 65
     },
-    "Kuchroo23a": {
+    {
         "title": "Single-Cell Analysis Reveals Inflammatory Interactions Driving Macular Degeneration",
         "authors": [
             "Kuchroo, Manik",
@@ -1490,7 +1490,7 @@
         "id": "Kuchroo23a",
         "order": 66
     },
-    "Moore23a": {
+    {
         "title": "Cell Cycle Controls Long-Range Calcium Signaling in the Regenerating Epidermis",
         "authors": [
             "Moore, Jessica L.",
@@ -1522,7 +1522,7 @@
         "id": "Moore23a",
         "order": 67
     },
-    "Giunti23a": {
+    {
         "title": "DONUT: Creation, Development, and Opportunities of a Database",
         "authors": [
             "Giunti, Barbara",
@@ -1541,7 +1541,7 @@
         "id": "Giunti23a",
         "order": 68
     },
-    "Yoneoka23a": {
+    {
         "title": "A Note on Cherry-Picking in Meta-Analyses",
         "authors": [
             "Yoneoka, Daisuke",
@@ -1557,7 +1557,7 @@
         "id": "Yoneoka23a",
         "order": 69
     },
-    "Nadimpalli23a": {
+    {
         "title": "Euler Characteristic Transform Based Topological Loss for Reconstructing 3D Images From Single 2D Slices",
         "authors": [
             "Nadimpalli, Kalyan Varma",
@@ -1576,7 +1576,7 @@
         "id": "Nadimpalli23a",
         "order": 70
     },
-    "Coupette23a": {
+    {
         "title": "Ollivier--Ricci Curvature for Hypergraphs: A Unified Framework",
         "authors": [
             "Coupette, Corinna",
@@ -1595,7 +1595,7 @@
         "id": "Coupette23a",
         "order": 71
     },
-    "Thomas22a": {
+    {
         "title": "Topological Jet Tagging",
         "authors": [
             "Thomas, Dawson",
@@ -1615,7 +1615,7 @@
         "id": "Thomas22a",
         "order": 72
     },
-    "Dyer22a": {
+    {
         "title": "Approximate Bayesian Computation for Panel Data With Signature Maximum Mean Discrepancies",
         "authors": [
             "Dyer, Joel",
@@ -1633,7 +1633,7 @@
         "id": "Dyer22a",
         "order": 73
     },
-    "Graf22a": {
+    {
         "title": "On Measuring Excess Capacity in Neural Networks",
         "authors": [
             "Graf, Florian",
@@ -1653,7 +1653,7 @@
         "id": "Graf22a",
         "order": 74
     },
-    "Liu22a": {
+    {
         "title": "Taxonomy of Benchmarks in Graph Representation Learning",
         "authors": [
             "Liu, Renming",
@@ -1683,7 +1683,7 @@
         "note": "Accepted as an oral presentation&nbsp;(top 5% of all submissions)",
         "order": 75
     },
-    "Hacker22a": {
+    {
         "title": "On the Surprising Behaviour of node2vec",
         "authors": [
             "Hacker, Celia",
@@ -1702,7 +1702,7 @@
         "id": "Hacker22a",
         "order": 76
     },
-    "Bhaskar22a": {
+    {
         "title": "Diffusion Curvature for Estimating Local Curvature in High Dimensional Data",
         "authors": [
             "Bhaskar, Dhananjay",
@@ -1724,7 +1724,7 @@
         "id": "Bhaskar22a",
         "order": 77
     },
-    "Weis22b": {
+    {
         "title": "Improved MALDI-TOF MS Based Antimicrobial Resistance Prediction Through Hierarchical Stratification",
         "authors": [
             "Weis, Caroline",
@@ -1745,7 +1745,7 @@
         "id": "Weis22b",
         "order": 78
     },
-    "MacDonald22a": {
+    {
         "title": "Diffusion-Based Methods for Estimating Curvature in Data",
         "authors": [
             "MacDonald, Kincaid",
@@ -1769,7 +1769,7 @@
         "id": "MacDonald22a",
         "order": 79
     },
-    "Waibel22a": {
+    {
         "title": "Capturing Shape Information With Multi-Scale Topological Loss Terms for 3D Reconstruction",
         "authors": [
             "Waibel, Dominik J. E.",
@@ -1791,7 +1791,7 @@
         "id": "Waibel22a",
         "order": 80
     },
-    "OBray22a": {
+    {
         "title": "Evaluation Metrics for Graph Generative Models: Problems, Pitfalls, and Practical Solutions",
         "authors": [
             "O'Bray, Leslie",
@@ -1813,7 +1813,7 @@
         "note": "Accepted as a spotlight presentation&nbsp;(top 5% of all submissions)",
         "order": 81
     },
-    "Horn22a": {
+    {
         "title": "Topological Graph Neural Networks",
         "authors": [
             "Horn, Max",
@@ -1837,7 +1837,7 @@
         "id": "Horn22a",
         "order": 82
     },
-    "Horoi22a": {
+    {
         "title": "Exploring the Geometry and Topology of Neural Network Loss Landscapes",
         "authors": [
             "Horoi, Stefan",
@@ -1859,7 +1859,7 @@
         "id": "Horoi22a",
         "order": 83
     },
-    "Weis22a": {
+    {
         "title": "Direct Antimicrobial Resistance Prediction From Clinical MALDI-TOF Mass Spectra Using Machine Learning",
         "authors": [
             "Weis, Caroline",
@@ -1887,7 +1887,7 @@
         "id": "Weis22a",
         "order": 84
     },
-    "Kuchroo22a": {
+    {
         "title": "Multiscale PHATE Identifies Multimodal Signatures Of\nCOVID-19",
         "authors": [
             "Kuchroo, Manik",
@@ -1933,7 +1933,7 @@
         "id": "Kuchroo22a",
         "order": 85
     },
-    "Kuijs21a": {
+    {
         "title": "Interpretability Aware Model Training to Improve Robustness Against Out-of-Distribution Magnetic Resonance Images in Alzheimer's Disease Classification",
         "authors": [
             "Kuijs, Merel",
@@ -1952,7 +1952,7 @@
         "id": "Kuijs21a",
         "order": 86
     },
-    "Liu21a": {
+    {
         "title": "Towards a Taxonomy of Graph Learning Datasets",
         "authors": [
             "Liu, Renming",
@@ -1981,7 +1981,7 @@
         "id": "Liu21a",
         "order": 87
     },
-    "Horoi21a": {
+    {
         "title": "Exploring the Loss Landscape of Neural Networks With Manifold Learning and Topological Data Analysis",
         "authors": [
             "Horoi, Stefan",
@@ -2001,7 +2001,7 @@
         "id": "Horoi21a",
         "order": 88
     },
-    "Luecken21a": {
+    {
         "title": "A Sandbox for Prediction and Integration of DNA, RNA, and Proteins in Single Cells",
         "authors": [
             "Luecken, Malte D.",
@@ -2053,7 +2053,7 @@
         "id": "Luecken21a",
         "order": 89
     },
-    "Horn21b": {
+    {
         "title": "Topological Graph Neural Networks",
         "authors": [
             "Horn, Max",
@@ -2074,7 +2074,7 @@
         "id": "Horn21b",
         "order": 90
     },
-    "OBray21a": {
+    {
         "title": "Filtration Curves for Graph Representation",
         "authors": [
             "O'Bray, Leslie",
@@ -2095,7 +2095,7 @@
         "id": "OBray21a",
         "order": 91
     },
-    "Ghalamkari21": {
+    {
         "title": "Advances in Graph Kernels",
         "authors": [
             "Ghalamkari, Kazu",
@@ -2116,7 +2116,7 @@
         "note": "This article constitutes an abridged translation of our survey &ldquo;Graph Kernels: State-of-the-Art and Future Challenges&rdquo;",
         "order": 92
     },
-    "Brueningk21a": {
+    {
         "title": "Back to the Basics With Inclusion of Clinical Domain Knowledge --- A Simple, Scalable, and Effective Model of Alzheimer's Disease Classification",
         "authors": [
             "Br\u00fcningk, Sarah C.",
@@ -2136,7 +2136,7 @@
         "id": "Brueningk21a",
         "order": 93
     },
-    "Vandaele21": {
+    {
         "title": "Stable Topological Signatures for Metric Trees Through Graph Approximations",
         "authors": [
             "Vandaele, Robin",
@@ -2155,7 +2155,7 @@
         "id": "Vandaele21",
         "order": 94
     },
-    "Moor21a": {
+    {
         "title": "Early Prediction of Sepsis in the ICU Using Machine Learning: A Systematic Review",
         "authors": [
             "Moor, Michael",
@@ -2174,7 +2174,7 @@
         "id": "Moor21a",
         "order": 95
     },
-    "Hensel21": {
+    {
         "title": "A Survey of Topological Machine Learning Methods",
         "authors": [
             "Hensel, Felix",
@@ -2193,7 +2193,7 @@
         "id": "Hensel21",
         "order": 96
     },
-    "Rieck21": {
+    {
         "title": "Basic Analysis of Bin-Packing Heuristics",
         "authors": [
             "Rieck, Bastian"
@@ -2210,7 +2210,7 @@
         "id": "Rieck21",
         "order": 97
     },
-    "Gao21": {
+    {
         "title": "Exploring Epithelial-Cell Calcium Signaling With Geometric and Topological Data Analysis",
         "authors": [
             "Gao, Feng",
@@ -2230,7 +2230,7 @@
         "id": "Gao21",
         "order": 98
     },
-    "Born21": {
+    {
         "title": "Accelerating Detection of Lung Pathologies With Explainable Ultrasound Image Analysis",
         "authors": [
             "Born, Jannis",
@@ -2257,7 +2257,7 @@
         "id": "Born21",
         "order": 99
     },
-    "Gumpinger21": {
+    {
         "title": "Network-Guided Search for Genetic Heterogeneity Between Gene Pairs",
         "authors": [
             "Gumpinger, Anja C.",
@@ -2277,7 +2277,7 @@
         "id": "Gumpinger21",
         "order": 100
     },
-    "Rieck20d": {
+    {
         "title": "Persistence Concepts for 2D Skeleton Evolution Analysis",
         "authors": [
             "Rieck, Bastian",
@@ -2297,7 +2297,7 @@
         "id": "Rieck20d",
         "order": 101
     },
-    "Rieck20c": {
+    {
         "title": "Topological Machine Learning With Persistence Indicator Functions",
         "authors": [
             "Rieck, Bastian",
@@ -2316,7 +2316,7 @@
         "id": "Rieck20c",
         "order": 102
     },
-    "Rieck20b": {
+    {
         "title": "Persistent Intersection Homology for the Analysis of Discrete Data",
         "authors": [
             "Rieck, Bastian",
@@ -2336,7 +2336,7 @@
         "id": "Rieck20b",
         "order": 103
     },
-    "Rieck20a": {
+    {
         "title": "Hierarchies and Ranks for Persistence Pairs",
         "authors": [
             "Rieck, Bastian",
@@ -2355,7 +2355,7 @@
         "id": "Rieck20a",
         "order": 104
     },
-    "Groha20": {
+    {
         "title": "Topological Data Analysis of Copy Number Alterations in Cancer",
         "authors": [
             "Groha, Stefan",
@@ -2375,7 +2375,7 @@
         "id": "Groha20",
         "order": 105
     },
-    "Brueningk20b": {
+    {
         "title": "Scalable Solutions for MR Image Classification of Alzheimer's Disease",
         "authors": [
             "Br\u00fcningk, Sarah C.",
@@ -2392,7 +2392,7 @@
         "id": "Brueningk20b",
         "order": 106
     },
-    "Brueningk20a": {
+    {
         "title": "Image Analysis for Alzheimer's Disease Prediction: Embracing Pathological Hallmarks for Model Architecture Design",
         "authors": [
             "Br\u00fcningk, Sarah C.",
@@ -2413,7 +2413,7 @@
         "id": "Brueningk20a",
         "order": 107
     },
-    "Borgwardt20": {
+    {
         "title": "Graph Kernels: State-of-the-Art and Future Challenges",
         "authors": [
             "Borgwardt, Karsten",
@@ -2435,7 +2435,7 @@
         "id": "Borgwardt20",
         "order": 108
     },
-    "Moor20c": {
+    {
         "title": "Challenging Euclidean Topological Autoencoders",
         "authors": [
             "Moor, Michael",
@@ -2455,7 +2455,7 @@
         "id": "Moor20c",
         "order": 109
     },
-    "Rieck20f": {
+    {
         "title": "Uncovering the Topology of Time-Varying fMRI Data Using Cubical Persistence",
         "authors": [
             "Rieck, Bastian",
@@ -2481,7 +2481,7 @@
         "note": "Accepted as a spotlight presentation at NeurIPS&nbsp;(top 3% of all submissions)",
         "order": 110
     },
-    "Rieck20e": {
+    {
         "title": "Topological Methods for fMRI Data",
         "authors": [
             "Rieck, Bastian",
@@ -2503,7 +2503,7 @@
         "id": "Rieck20e",
         "order": 111
     },
-    "Weis20c": {
+    {
         "title": "Kernel-Based Antimicrobial Resistance Prediction From MALDI-TOF Mass Spectra",
         "authors": [
             "Weis, Caroline",
@@ -2522,7 +2522,7 @@
         "id": "Weis20c",
         "order": 112
     },
-    "Moor20e": {
+    {
         "title": "Path Imputation Strategies for Signature Models of Irregular Time Series",
         "authors": [
             "Moor, Michael",
@@ -2543,7 +2543,7 @@
         "note": "A preliminary version of this work was accepted for presentation at the ICML Workshop on the Art of Learning with Missing Values&nbsp;(ARTEMISS)",
         "order": 113
     },
-    "Moor20b": {
+    {
         "title": "Path Imputation Strategies for Signature Models",
         "authors": [
             "Moor, Michael",
@@ -2561,7 +2561,7 @@
         "id": "Moor20b",
         "order": 114
     },
-    "Gumbsch20a": {
+    {
         "title": "Enhancing Statistical Power in Temporal Biomarker Discovery Through Representative Shapelet Mining",
         "authors": [
             "Gumbsch, Thomas",
@@ -2581,7 +2581,7 @@
         "id": "Gumbsch20a",
         "order": 115
     },
-    "Moor20a": {
+    {
         "title": "Topological Autoencoders",
         "authors": [
             "Moor, Michael",
@@ -2602,7 +2602,7 @@
         "id": "Moor20a",
         "order": 116
     },
-    "Horn20a": {
+    {
         "title": "Set Functions for Time Series",
         "authors": [
             "Horn, Max",
@@ -2623,7 +2623,7 @@
         "id": "Horn20a",
         "order": 117
     },
-    "Hofer20a": {
+    {
         "title": "Graph Filtration Learning",
         "authors": [
             "Hofer, Christoph D.",
@@ -2646,7 +2646,7 @@
         "id": "Hofer20a",
         "order": 118
     },
-    "Jutzeler20": {
+    {
         "title": "Comorbidities, Clinical Signs and Symptoms, Laboratory Findings, Imaging Features, Treatment Strategies, and Outcomes in Adult and Pediatric Patients With COVID-19: A Systematic Review and Meta-Analysis",
         "authors": [
             "Jutzeler, Catherine R.",
@@ -2672,7 +2672,7 @@
         "id": "Jutzeler20",
         "order": 119
     },
-    "Weis20a": {
+    {
         "title": "Topological and Kernel-Based Microbial Phenotype Prediction From MALDI-TOF Mass Spectra",
         "authors": [
             "Weis, Caroline",
@@ -2694,7 +2694,7 @@
         "id": "Weis20a",
         "order": 120
     },
-    "Hyland20": {
+    {
         "title": "Early Prediction of Circulatory Failure in the Intensive Care Unit Using Machine Learning",
         "authors": [
             "Hyland, Stephanie L.",
@@ -2724,7 +2724,7 @@
         "id": "Hyland20",
         "order": 122
     },
-    "Togninalli19": {
+    {
         "title": "Wasserstein Weisfeiler--Lehman Graph Kernels",
         "authors": [
             "Togninalli, Matteo",
@@ -2747,7 +2747,7 @@
         "note": "Accepted as a spotlight presentation at NeurIPS&nbsp;(top 3% of all submissions)",
         "order": 124
     },
-    "Bock19b": {
+    {
         "title": "A Wasserstein Subsequence Kernel for Time Series",
         "authors": [
             "Bock, Christian",
@@ -2768,7 +2768,7 @@
         "id": "Bock19b",
         "order": 125
     },
-    "Bock19a": {
+    {
         "title": "A Wasserstein Subsequence Kernel for Time Series",
         "authors": [
             "Bock, Christian",
@@ -2790,7 +2790,7 @@
         "id": "Bock19a",
         "order": 126
     },
-    "Moor19a": {
+    {
         "title": "Early Recognition of Sepsis With Gaussian Process Temporal Convolutional Networks and Dynamic Time Warping",
         "authors": [
             "Moor, Michael",
@@ -2811,7 +2811,7 @@
         "id": "Moor19a",
         "order": 127
     },
-    "Rieck19b": {
+    {
         "title": "A Persistent Weisfeiler--Lehman Procedure for Graph Classification",
         "authors": [
             "Rieck, Bastian",
@@ -2830,7 +2830,7 @@
         "id": "Rieck19b",
         "order": 128
     },
-    "Zheng19": {
+    {
         "title": "Visualization of Equivalence in 2D Bivariate Fields",
         "authors": [
             "Zheng, Boyan",
@@ -2849,7 +2849,7 @@
         "id": "Zheng19",
         "order": 129
     },
-    "Rieck19a": {
+    {
         "title": "Neural Persistence: A Complexity Measure for Deep Neural Networks Using Algebraic Topology",
         "authors": [
             "Rieck, Bastian",
@@ -2873,7 +2873,7 @@
         "id": "Rieck19a",
         "order": 130
     },
-    "Bock18a": {
+    {
         "title": "Association Mapping in Biomedical Time Series via Statistically Significant Shapelet Mining",
         "authors": [
             "Bock, Christian",
@@ -2894,7 +2894,7 @@
         "id": "Bock18a",
         "order": 131
     },
-    "Sdeo18a": {
+    {
         "title": "Visualization of Fullerene Fragmentation",
         "authors": [
             "Sdeo, Kai",
@@ -2912,7 +2912,7 @@
         "id": "Sdeo18a",
         "order": 132
     },
-    "Hofmann18a": {
+    {
         "title": "Visualization of 4D Vector Field Topology",
         "authors": [
             "Hofmann, Lutz",
@@ -2930,7 +2930,7 @@
         "id": "Hofmann18a",
         "order": 133
     },
-    "Hanser18a": {
+    {
         "title": "Visualization of Parameter Sensitivity of 2D Time-Dependent Flow",
         "authors": [
             "Hanser, Karsten",
@@ -2956,7 +2956,7 @@
         "id": "Hanser18a",
         "order": 134
     },
-    "Rieck18a": {
+    {
         "title": "Clique Community Persistence: A Topological Visual Analysis Approach for Complex Networks",
         "authors": [
             "Rieck, Bastian",
@@ -2977,7 +2977,7 @@
         "id": "Rieck18a",
         "order": 135
     },
-    "Rieck17d": {
+    {
         "title": "Persistent Homology in Multivariate Data Visualization",
         "authors": [
             "Rieck, Bastian"
@@ -2994,7 +2994,7 @@
         "id": "Rieck17d",
         "order": 136
     },
-    "Rieck17c": {
+    {
         "title": "Persistence Concepts for 2D Skeleton Evolution Analysis",
         "authors": [
             "Rieck, Bastian",
@@ -3013,7 +3013,7 @@
         "id": "Rieck17c",
         "order": 137
     },
-    "Rieck17b": {
+    {
         "title": "Hierarchies and Ranks for Persistence Pairs",
         "authors": [
             "Rieck, Bastian",
@@ -3032,7 +3032,7 @@
         "note": "Award for the best extended abstract",
         "order": 138
     },
-    "Rieck17a": {
+    {
         "title": "Agreement Analysis of Quality Measures for Dimensionality Reduction",
         "authors": [
             "Rieck, Bastian",
@@ -3050,7 +3050,7 @@
         "id": "Rieck17a",
         "order": 139
     },
-    "Rieck16b": {
+    {
         "title": "'Shall I Compare Thee to a Network?' --- Visualizing the Topological Structure of Shakespeare's Plays",
         "authors": [
             "Rieck, Bastian",
@@ -3068,7 +3068,7 @@
         "id": "Rieck16b",
         "order": 140
     },
-    "Rieck16a": {
+    {
         "title": "Exploring and Comparing Clusterings of Multivariate Data Sets Using Persistent Homology",
         "authors": [
             "Rieck, Bastian",
@@ -3086,7 +3086,7 @@
         "id": "Rieck16a",
         "order": 141
     },
-    "Fangerau16": {
+    {
         "title": "Interactive Similarity Analysis and Error Detection in Large Tree Collections",
         "authors": [
             "Fangerau, Jens",
@@ -3106,7 +3106,7 @@
         "id": "Fangerau16",
         "order": 142
     },
-    "Rieck15c": {
+    {
         "title": "Comparing Dimensionality Reduction Methods Using Data Descriptor Landscapes",
         "authors": [
             "Rieck, Bastian",
@@ -3123,7 +3123,7 @@
         "id": "Rieck15c",
         "order": 143
     },
-    "Rieck15b": {
+    {
         "title": "Persistent Homology for the Evaluation of Dimensionality Reduction Schemes",
         "authors": [
             "Rieck, Bastian",
@@ -3141,7 +3141,7 @@
         "id": "Rieck15b",
         "order": 144
     },
-    "Rieck15a": {
+    {
         "title": "Agreement Analysis of Quality Measures for Dimensionality Reduction",
         "authors": [
             "Rieck, Bastian",
@@ -3158,7 +3158,7 @@
         "id": "Rieck15a",
         "order": 145
     },
-    "Rieck14b": {
+    {
         "title": "Enhancing Comparative Model Analysis Using Persistent Homology",
         "authors": [
             "Rieck, Bastian",
@@ -3175,7 +3175,7 @@
         "id": "Rieck14b",
         "order": 146
     },
-    "Rieck14a": {
+    {
         "title": "Structural Analysis of Multivariate Point Clouds Using Simplicial Chains",
         "authors": [
             "Rieck, Bastian",
@@ -3193,7 +3193,7 @@
         "id": "Rieck14a",
         "order": 147
     },
-    "Rieck13a": {
+    {
         "title": "Unwrapping Highly-Detailed 3D Meshes of Rotationally Symmetric Man-Made Objects",
         "authors": [
             "Rieck, Bastian",
@@ -3210,7 +3210,7 @@
         "id": "Rieck13a",
         "order": 148
     },
-    "Forbriger13a": {
+    {
         "title": "Der &ldquo;Gesprengte Turm&rdquo; Am Heidelberger Schloss -- Untersuchung Eines Kulturdenkmals Mithilfe Hoch Aufl\u00f6sender Terrestrischer Laserscans",
         "authors": [
             "Forbriger, Markus",
@@ -3229,7 +3229,7 @@
         "id": "Forbriger13a",
         "order": 149
     },
-    "Rieck12a": {
+    {
         "title": "Multivariate Data Analysis Using Persistence-Based Filtering and Topological Signatures",
         "authors": [
             "Rieck, Bastian",
@@ -3248,7 +3248,7 @@
         "id": "Rieck12a",
         "order": 150
     },
-    "Rieck11": {
+    {
         "title": "Smoothness Analysis of Subdivision Algorithms",
         "authors": [
             "Rieck, Bastian"
@@ -3265,4 +3265,4 @@
         "id": "Rieck11",
         "order": 151
     }
-}
+]

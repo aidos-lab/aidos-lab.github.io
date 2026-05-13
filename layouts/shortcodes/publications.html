@@ -46,7 +46,7 @@
               </div>
 
               {{- with $venue }}
-                <div class="publication-venue">{{ . }}</div>
+                <div class="publication-venue">{{ . | safeHTML }}</div>
               {{ end -}}
 
               {{- with .keywords -}}

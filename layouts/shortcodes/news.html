@@ -1,12 +1,12 @@
 <h2>News</h2>
 
 {{ $dates := slice }}
-{{ range $date, $news := .Site.Data.news }}
+{{ range $date, $news := hugo.Data.news }}
   {{ $dates = $dates | append $date }}
 {{ end }}
 
 {{ range $date := $dates | collections.Reverse }}
-  {{ $news := index $.Site.Data.news $date }}
+  {{ $news := index hugo.Data.news $date }}
   <article class="news">
   {{ $date := printf $date | time }}
   <time datetime="{{ time.Format "2006-01-02" $date }}">{{ time.Format "January 2, 2006" $date }}</time>:

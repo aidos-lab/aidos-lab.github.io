@@ -1,6 +1,6 @@
 <div class="card-tool">
     {{ $tool := .Get 0 }}
-    {{ $tool :=  index .Site.Data.tools $tool }}
+    {{ $tool :=  index hugo.Data.tools $tool }}
 
     <div class="tool-left">
         <figure>

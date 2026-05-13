@@ -1,6 +1,6 @@
 <div class="card-person">
   {{ $person := .Get 0 }}
-  {{ $person :=  index .Site.Data.people $person }}
+  {{ $person :=  index hugo.Data.people $person }}
     <figure class="person">
       <img src="{{ $person.image }}" width="180" alt="{{ $person.name }}" />
     </figure>

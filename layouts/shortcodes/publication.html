@@ -1,6 +1,6 @@
 <div class="card">
   {{ $publication := .Get 0 }}
-  {{ $publication :=  index .Site.Data.publications $publication }}
+  {{ $publication :=  index hugo.Data.publications $publication }}
 
   <div class="card-left">
     <figure class="publication">

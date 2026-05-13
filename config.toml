@@ -1,5 +1,5 @@
 baseURL       = "https://aidos.group/"
-languageCode  = "en-us"
+local         = "en-us"
 title         = "AIDOS Lab"
 theme         = "brevis"
 enableGitInfo = true

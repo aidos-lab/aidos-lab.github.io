@@ -8,7 +8,7 @@
         {{- range $index, $author := . }}
           {{- if $index }}, {{ end }}
           {{- $.Scratch.Set "found" false }}
-          {{- range $key, $val := site.Data.people }}
+          {{- range $key, $val := hugo.Data.people }}
             {{- if eq $val.name $author }}
               {{- $.Scratch.Set "found" true }}
               <a rel="author"  href="{{ $val.web }}">{{ $val.name }}</a>

@@ -9,8 +9,6 @@ enableGitInfo = true
   googleTagID = "G-Z7H79RP4BR"
   ogImage     = "logo_with_byline.png"
 
-ignoreFiles = ['publications.md$']
-
 [markup]
   [markup.goldmark.renderer]
     unsafe = true

@@ -37,16 +37,16 @@
             >
               <div class="publication-title">
                 {{- with .url -}}<a href="{{ . }}">{{- end -}}
-                {{- .title | safeHTML -}}
+                {{- .title | markdownify -}}
                 {{- if .url }}</a>{{ end -}}
               </div>
 
               <div class="publication-authors">
-                <span>{{ index . "authors-display" | safeHTML }}</span>
+                <span>{{ index . "authors-display" | markdownify }}</span>
               </div>
 
               {{- with $venue }}
-                <div class="publication-venue">{{ . | safeHTML }}</div>
+                <div class="publication-venue">{{ . | markdownify }}</div>
               {{ end -}}
 
               {{- with .keywords -}}

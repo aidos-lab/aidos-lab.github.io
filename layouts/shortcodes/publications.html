@@ -37,7 +37,7 @@
             >
               <div class="publication-title">
                 {{- with .url -}}<a href="{{ . }}">{{- end -}}
-                {{- .title -}}
+                {{- .title | safeHTML -}}
                 {{- if .url }}</a>{{ end -}}
               </div>
 

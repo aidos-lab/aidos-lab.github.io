@@ -2,6 +2,12 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-05-27 = """
+  🎉 Our work on [*EmbedOR: Provable Cluster-Preserving Visualizations with Curvature-Based Stochastic Neighbor Embeddings*](https://arxiv.org/abs/2509.03703) was
+  accepted at PNAS! A wonderful collaboration with Tristan Saidi,
+  Abigail Hickok, and Andrew Blumberg.
+"""
+
 2026-04-11 = """
   🎉 Our work on [*TOAST: Transformer Optimization using Adaptive and
   Simple Transformations*](https://openreview.net/forum?id=fSwMCsBtTG)

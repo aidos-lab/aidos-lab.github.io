@@ -10,6 +10,7 @@ interested in. Read on if you are interested in [joining us]({{< relref "/contac
 
 # 2026
 
+- Tobias Robert Eeksman: [*Differentiable Inner Product Transform for 3D Reconstruction*](Thesis_Thesis_Tobias_Robert_Eeksman.pdf), BSc thesis
 - Julius von Rohrscheidt: [*Robust Topological Representation Learning*](https://nbn-resolving.org/urn:nbn:de:bvb:91-diss-20260306-1783572-0-4), PhD thesis
 - Marta Visetti: [*TDA Technologies on fMRI: What Topology Can Tell Us About Data*](Thesis_Marta_Visetti.pdf), BSc thesis
 

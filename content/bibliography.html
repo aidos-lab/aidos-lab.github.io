@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+
+    <title>Bibliography</title>
+    <style>
+      body
+      {
+        margin:       5% auto;
+        max-width:    50%;
+        line-height:  1.6;
+        font-size:    18px;
+        color:        #444;
+        background:   #f2f2f2;
+        padding:      0 10px;
+      }
+
+      h1, h2, h3
+      {
+        line-height:1.2
+      }
+
+      [class="title"]
+      {
+        font-weight: bold;
+      }
+
+      article
+      {
+        margin-top: 1.0em;
+        padding   : 0.5em;
+        border    : 1px solid black;
+      }
+
+      h1.YEAR
+      {
+        font-size  : larger;
+        font-weight: bold;
+        display    : inline;
+      }
+
+      [class="bibtexraw"]
+      {
+        overflow: auto;
+      }
+    </style>
+
+    <meta content="A placeholder site with some information about the interesting domain name. Provides access to some subdomains that are hosted here." name="description" />
+    <meta content="Bastian Rieck" name="author" />
+    <meta name="robots" content="all" />
+</head>
+
+<body>
+
+  <bibtex src="bibliography.bib"></bibtex>
+  <main>
+    <input type="text" class="bibtex_search" id="searchbar" placeholder="Search publications">
+
+    <select class="bibtex_search bibtex_generate_author" search="author">
+      <option value="">Select author</option>
+    </select>
+
+    <div class="bibtex_structure">
+      <div class="group year" extra="DESC number">
+  	    <a href="#top" style="display: inline"><em> (back to top &uarr;)</em></a>
+        <div class="templates"></div>
+      </div>
+    </div>
+
+    <div class="bibtex_template">
+      <article>
+        <div class="if title">
+          <div class="if url">
+            <a class="bibtexVar" href="+URL+" extra="url">
+              <span class="title"></span>
+            </a>
+          </div>
+          <div class="if !url">
+            <div class="if doi">
+              <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+                <span class="title"></span>
+              </a>
+            </div>
+
+            <div class="if !doi">
+              <span class="title"></span>
+            </div>
+          </div>
+        </div>
+        <div class="if author">
+          <span class="author"></span>
+        </div>
+        <span class="if journal"><em><span class="journal"></span></em>,</span>
+        <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+        <span class="if editor"><span class="editor"></span> (editors),</span>
+        <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+        <span class="if institution"><span class="institution"></span>,</span>
+        <span class="if address"><span class="address"></span>,</span>
+        <span class="if volume">Vol. <span class="volume"></span>,</span>
+        <span class="if journal number">(<span class="number"></span>),</span>
+        <span class="if pages"> pages <span class="pages"></span>,</span>
+        <span class="if month"><span class="month"></span>,</span>
+        <span class="if type"><span class="type"></span>,</span>
+        <span class="if year"><span class="year"></span>.</span>
+        <span class="if note"><span class="note"></span>.</span>
+        <details>
+          <summary><a>[BibTeX]</a></summary>
+          <pre class="bibtexraw"><span class="bibtexraw noread"></span></pre>
+        </details>
+      </article>
+    </div>
+
+
+    <div id="bibtex_display"></div>
+  </main>
+</body>
+</html>
+

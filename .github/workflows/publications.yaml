@@ -46,5 +46,7 @@ jobs:
           branch: publications-update
           title: "Updated publications"
           commit-message: "Updated publications"
-          body: "This is the automated output from `bibtex_to_json.py`. Make sure to review before merging."
+          body: >
+            This is the automated output from `bibtex_to_json.py`. Make sure
+            to review before merging.
           delete-branch: true

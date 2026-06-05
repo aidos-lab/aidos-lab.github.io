@@ -1,3 +1,4 @@
 bibtexparser
-titlecase
+colorlog
 nameparser
+titlecase

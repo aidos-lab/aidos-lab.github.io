@@ -1,5 +1,29 @@
 [
     {
+        "title": "Graph Neural Networks Are Not Continuous Across Graph Resolutions",
+        "authors": [
+            "Koke, Christian",
+            "Shen, Yuesong",
+            "Saroha, Abhishek",
+            "Eisenberger, Marvin",
+            "Rieck, Bastian",
+            "Bronstein, Michael",
+            "Cremers, Daniel"
+        ],
+        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&nbsp;Bronstein, and D.&nbsp;Cremers",
+        "keywords": [
+            "AI/ML",
+            "GDL",
+            "Graphs"
+        ],
+        "url": "https://arxiv.org/abs/2605.31315",
+        "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2605.31315",
+        "id": "Koke26b",
+        "order": 0
+    },
+    {
         "title": "Have Graph -- Will Lift? The Case for Higher-Order Benchmarks",
         "authors": [
             "Rieck, Bastian"
@@ -15,7 +39,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.07397",
         "id": "Rieck26a",
-        "order": 0
+        "order": 1
     },
     {
         "title": "No Triangulation Without Representation: Generalization in Topological Deep Learning",
@@ -37,7 +61,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06467",
         "id": "Schmidt26a",
-        "order": 1
+        "order": 2
     },
     {
         "title": "Diversity Curves for Graph Representation Learning",
@@ -58,7 +82,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06466",
         "id": "Limbeck26a",
-        "order": 2
+        "order": 3
     },
     {
         "title": "Invariant-Based Diagnostics for Graph Benchmarks",
@@ -77,7 +101,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06462",
         "id": "vonMoos26a",
-        "order": 3
+        "order": 4
     },
     {
         "title": "Geometry-Aware Simplicial Message Passing",
@@ -96,7 +120,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06061",
         "id": "Wang26a",
-        "order": 4
+        "order": 5
     },
     {
         "title": "TOAST: Transformer Optimization Using Adaptive and Simple Transformations",
@@ -109,7 +133,7 @@
             "Rieck, Bastian",
             "Vogt, Julia E."
         ],
-        "authors-display": "I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodol\u00e0, B.&nbsp;Rieck, and J.&thinsp;E.&nbsp;Vogt",
+        "authors-display": "I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodol\u00e0, B.&nbsp;Rieck<sup>&Dagger;</sup>, and J.&thinsp;E.&nbsp;Vogt<sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML"
         ],
@@ -117,8 +141,9 @@
         "venue": "Transactions on Machine Learning Research",
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2410.04941",
+        "repository": "https://github.com/icannistraci/toast",
         "id": "Cannistraci26a",
-        "order": 5
+        "order": 6
     },
     {
         "title": "Scale Continuity in Graph Learning: Going Beyond Spectral Methods",
@@ -138,7 +163,7 @@
         "venue": "ICLR Workshop on Geometry-grounded Representation Learning and Generative Modeling",
         "year": "2026",
         "id": "Koke26a",
-        "order": 6
+        "order": 7
     },
     {
         "title": "Topological Inductive Bias Fosters Multiple Instance Learning in Data-Scarce Scenarios",
@@ -159,7 +184,7 @@
         "preprint": "https://arxiv.org/abs/2307.14025",
         "repository": "https://github.com/SalomeKaze/TGMIL",
         "id": "Kazeminia26a",
-        "order": 7
+        "order": 8
     },
     {
         "title": "Graph Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them",
@@ -180,7 +205,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2511.03068",
         "id": "Carrasco26a",
-        "order": 8
+        "order": 9
     },
     {
         "title": "LEAP: Local ECT-Based Learnable Positional Encodings for Graphs",
@@ -201,7 +226,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2510.00757",
         "id": "Amboage26a",
-        "order": 9
+        "order": 10
     },
     {
         "title": "Molecular Machine Learning Using Euler Characteristic Transforms",
@@ -221,7 +246,7 @@
         "preprint": "https://arxiv.org/abs/2507.03474",
         "repository": "https://github.com/victosdur/ECTforMoleculeMachineLearningTask",
         "id": "Toscano26a",
-        "order": 10
+        "order": 11
     },
     {
         "title": "Cortex-Wide Preservation of Multi-Stimulus Information Across Degrees of Network Synchronization",
@@ -249,7 +274,7 @@
         "year": "2025",
         "preprint": "https://biorxiv.org/content/10.64898/2025.11.28.690948v1",
         "id": "Bodea25a",
-        "order": 11
+        "order": 12
     },
     {
         "title": "From Topology to Retrieval: Decoding Embedding Spaces With Unified Signatures",
@@ -270,7 +295,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2511.22150",
         "id": "Rottach25a",
-        "order": 12
+        "order": 13
     },
     {
         "title": "NervePool: A Simplicial Pooling Layer",
@@ -294,7 +319,7 @@
         "preprint": "https://arxiv.org/abs/2305.06315",
         "repository": "https://github.com/aidos-lab/nerve-pool",
         "id": "Scullen25a",
-        "order": 13
+        "order": 14
     },
     {
         "title": "Persistent Homology via Ellipsoids",
@@ -315,7 +340,7 @@
         "preprint": "https://arxiv.org/abs/2408.11450",
         "repository": "https://github.com/a-zeg/ellipsoids",
         "id": "Canova25a",
-        "order": 14
+        "order": 15
     },
     {
         "title": "Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities",
@@ -334,7 +359,7 @@
         "venue": "Nature Energy, Volume 10, Number 10, pp. 1274--1288",
         "year": "2025",
         "id": "Gathrid25a",
-        "order": 15
+        "order": 16
     },
     {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
@@ -355,7 +380,7 @@
         "preprint": "https://arxiv.org/abs/2506.11700",
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25b",
-        "order": 16
+        "order": 17
     },
     {
         "title": "Point Cloud Synthesis Using Inner Product Transforms",
@@ -374,7 +399,7 @@
         "preprint": "https://arxiv.org/abs/2410.18987",
         "repository": "https://github.com/aidos-lab/inner-product-transforms",
         "id": "Roell25a",
-        "order": 17
+        "order": 18
     },
     {
         "title": "Less Is More: Local Intrinsic Dimensions of Contextual Language Models",
@@ -401,7 +426,7 @@
         "preprint": "https://arxiv.org/abs/2506.01034",
         "repository": "https://github.com/aidos-lab/Topo_LLM_public",
         "id": "Ruppik25a",
-        "order": 18
+        "order": 19
     },
     {
         "title": "Diss-l-ECT: Dissecting Graph Data With Local Euler Characteristic Transforms",
@@ -422,7 +447,7 @@
         "preprint": "https://arxiv.org/abs/2410.02622",
         "repository": "https://github.com/aidos-lab/Diss-l-ECT",
         "id": "vonRohrscheidt25a",
-        "order": 19
+        "order": 20
     },
     {
         "title": "No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets",
@@ -443,7 +468,7 @@
         "preprint": "https://arxiv.org/abs/2502.02379",
         "repository": "https://github.com/aidos-lab/RINGS",
         "id": "Coupette25a",
-        "order": 20
+        "order": 21
     },
     {
         "title": "EmbedOR: Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
@@ -462,7 +487,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2509.03703",
         "id": "Saidi25a",
-        "order": 21
+        "order": 22
     },
     {
         "title": "Low-Dimensional Embeddings of High-Dimensional Data",
@@ -498,7 +523,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2508.15929",
         "id": "deBodt25a",
-        "order": 22
+        "order": 23
     },
     {
         "title": "On the Expressivity of Persistent Homology in Graph Learning",
@@ -518,7 +543,7 @@
         "preprint": "https://arxiv.org/abs/2302.09826",
         "repository": "https://github.com/aidos-lab/PH_expressivity",
         "id": "Ballester25b",
-        "order": 23
+        "order": 24
     },
     {
         "title": "CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs",
@@ -538,7 +563,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2409.08217",
         "id": "Buffelli25a",
-        "order": 24
+        "order": 25
     },
     {
         "title": "Stable and Accurate Orbital-Free Density Functional Theory Powered by Machine Learning",
@@ -566,7 +591,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2503.00443",
         "id": "Remme25a",
-        "order": 25
+        "order": 26
     },
     {
         "title": "A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform",
@@ -582,7 +607,7 @@
         "venue": "ECML PKDD Workshop on Mining and Learning with Graphs",
         "year": "2025",
         "id": "Toscano25a",
-        "order": 26
+        "order": 27
     },
     {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
@@ -602,7 +627,7 @@
         "year": "2025",
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25a",
-        "order": 27
+        "order": 28
     },
     {
         "title": "Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform",
@@ -620,7 +645,7 @@
         "author-copy": "https://www.ams.org/journals/notices/202507/rnoti-p719.pdf",
         "repository": "https://github.com/aidos-lab/ECT",
         "id": "Rieck25a",
-        "order": 28
+        "order": 29
     },
     {
         "title": "Defining and Benchmarking Open Problems in Single-Cell Analysis",
@@ -689,7 +714,7 @@
         "venue": "Nature Biotechnology",
         "year": "2025",
         "id": "Luecken25a",
-        "order": 29
+        "order": 30
     },
     {
         "title": "Graph and Simplicial Complex Prediction Gaussian Process via the Hodgelet Representations",
@@ -710,7 +735,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2505.10877",
         "id": "Alain25a",
-        "order": 30
+        "order": 31
     },
     {
         "title": "Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity",
@@ -739,7 +764,7 @@
         "year": "2025",
         "preprint": "https://biorxiv.org/content/10.1101/2023.03.22.533807v3",
         "id": "Bhaskar25a",
-        "order": 31
+        "order": 32
     },
     {
         "title": "Characterizing Physician Referral Networks With Ricci Curvature",
@@ -757,7 +782,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2408.16022",
         "id": "Wayland25a",
-        "order": 32
+        "order": 33
     },
     {
         "title": "On Multi-Scale Graph Representation Learning",
@@ -781,7 +806,7 @@
         "venue": "ICLR Workshop on Learning Meaningful Representations of Life&nbsp;(LMRL)",
         "year": "2025",
         "id": "Koke25c",
-        "order": 33
+        "order": 34
     },
     {
         "title": "Graph Networks Struggle With Variable Scale",
@@ -804,7 +829,7 @@
         "venue": "ICLR Workshop &ldquo;I Can't Believe It's Not Better: Challenges in Applied Deep Learning&rdquo;",
         "year": "2025",
         "id": "Koke25b",
-        "order": 34
+        "order": 35
     },
     {
         "title": "On Incorporating Scale Into Graph Networks",
@@ -827,7 +852,7 @@
         "venue": "ICLR Workshop on Machine Learning Multiscale Processes",
         "year": "2025",
         "id": "Koke25a",
-        "order": 35
+        "order": 36
     },
     {
         "title": "Representation of Visual Sequences in the Tuning and Topology of Neuronal Activity in the Human Hippocampus",
@@ -849,7 +874,7 @@
         "year": "2025",
         "preprint": "https://biorxiv.org/content/10.1101/2025.03.04.641300v1",
         "id": "John25a",
-        "order": 36
+        "order": 37
     },
     {
         "title": "MANTRA: The Manifold Triangulations Assemblage",
@@ -873,7 +898,7 @@
         "preprint": "https://arxiv.org/abs/2410.02392",
         "repository": "https://github.com/aidos-lab/mantra",
         "id": "Ballester25a",
-        "order": 37
+        "order": 38
     },
     {
         "title": "MAGNet: Motif-Agnostic Generation of Molecules From Scaffolds",
@@ -896,7 +921,7 @@
         "repository": "https://github.com/TUM-DAML/MAGNet",
         "id": "Hetzel25a",
         "note": "Accepted as a spotlight presentation&nbsp;(top 5% of all submissions)",
-        "order": 38
+        "order": 39
     },
     {
         "title": "Principal Curvatures Estimation With Applications to Single Cell Data",
@@ -921,7 +946,7 @@
         "preprint": "https://arxiv.org/abs/2502.03750",
         "repository": "https://github.com/LydiaMez/AdaL-PCA",
         "id": "Zhang25a",
-        "order": 39
+        "order": 40
     },
     {
         "title": "Bayesian Computation Meets Topology",
@@ -940,7 +965,7 @@
         "year": "2024",
         "repository": "https://github.com/aidos-lab/TABAC",
         "id": "vonRohrscheidt24a",
-        "order": 40
+        "order": 41
     },
     {
         "title": "Graph Classification Gaussian Processes via Hodgelet Spectral Features",
@@ -960,7 +985,7 @@
         "venue": "&ldquo;Bayesian Decision-Making and Uncertainty&rdquo; Workshop at NeurIPS",
         "year": "2024",
         "id": "Alain24a",
-        "order": 41
+        "order": 42
     },
     {
         "title": "Metric Space Magnitude for Evaluating the Diversity of Latent Representations",
@@ -980,7 +1005,7 @@
         "preprint": "https://arxiv.org/abs/2311.16054",
         "repository": "https://github.com/aidos-lab/magnipy",
         "id": "Limbeck24a",
-        "order": 42
+        "order": 43
     },
     {
         "title": "Detecting Spatial Dependence in Transcriptomics Data Using Vectorised Persistence Diagrams",
@@ -997,7 +1022,7 @@
         "year": "2024",
         "preprint": "https://arxiv.org/abs/2409.03575",
         "id": "Limbeck24b",
-        "order": 43
+        "order": 44
     },
     {
         "title": "Applied and Combinatorial Topology (Dagstuhl Seminar 24092)",
@@ -1016,7 +1041,7 @@
         "venue": "Dagstuhl Reports, Volume 14, Number 2, pp. 206--239",
         "year": "2024",
         "id": "Dlotko24a",
-        "order": 44
+        "order": 45
     },
     {
         "title": "Position: Topological Deep Learning Is the New Frontier for Relational Learning",
@@ -1054,7 +1079,7 @@
         "year": "2024",
         "preprint": "https://arxiv.org/abs/2402.08871",
         "id": "Papamarkou24a",
-        "order": 45
+        "order": 46
     },
     {
         "title": "Mapping the Multiverse of Latent Representations",
@@ -1074,7 +1099,7 @@
         "preprint": "https://arxiv.org/abs/2402.01514",
         "repository": "https://github.com/aidos-lab/Presto",
         "id": "Wayland24a",
-        "order": 46
+        "order": 47
     },
     {
         "title": "The Magnitude Vector of Images",
@@ -1092,7 +1117,7 @@
         "preprint": "https://arxiv.org/abs/2110.15188",
         "repository": "https://github.com/MikeAdamer/mag-metric",
         "id": "Adamer24a",
-        "order": 47
+        "order": 48
     },
     {
         "title": "Adaptative Local PCA for Curvature Estimation on Data Manifolds",
@@ -1112,7 +1137,7 @@
         "venue": "Helmholtz AI Conference: AI for Science",
         "year": "2024",
         "id": "Zhang24a",
-        "order": 48
+        "order": 49
     },
     {
         "title": "Enhancing the Diagnosis of Functionally Relevant Coronary Artery Disease With Machine Learning",
@@ -1135,7 +1160,7 @@
         "venue": "Nature Communications, Volume 15, Number 1",
         "year": "2024",
         "id": "Bock24a",
-        "order": 49
+        "order": 50
     },
     {
         "title": "Advancing Precision Medicine: Algebraic Topology and Differential Geometry in Radiology and Computational Pathology",
@@ -1161,7 +1186,7 @@
         "venue": "Laboratory Investigation, Volume 104, Number 6",
         "year": "2024",
         "id": "Levenson24a",
-        "order": 50
+        "order": 51
     },
     {
         "title": "All the World's a (Hyper)Graph: A Data Drama",
@@ -1181,7 +1206,7 @@
         "author-copy": "https://hyperbard.net",
         "repository": "https://github.com/hyperbard/hyperbard",
         "id": "Coupette24a",
-        "order": 51
+        "order": 52
     },
     {
         "title": "The Manifold Density Function: An Intrinsic Method for the Validation of Manifold Learning",
@@ -1201,7 +1226,7 @@
         "year": "2024",
         "preprint": "https://arxiv.org/abs/2402.09529",
         "id": "Holmgren24a",
-        "order": 52
+        "order": 53
     },
     {
         "title": "Simplicial Representation Learning With Neural $k$-Forms",
@@ -1223,7 +1248,7 @@
         "preprint": "https://arxiv.org/abs/2312.08515",
         "repository": "https://github.com/aidos-lab/neural-k-forms",
         "id": "Maggs24a",
-        "order": 53
+        "order": 54
     },
     {
         "title": "Differentiable Euler Characteristic Transforms for Shape Classification",
@@ -1244,7 +1269,7 @@
         "preprint": "https://arxiv.org/abs/2310.07630",
         "repository": "https://github.com/aidos-lab/DECT",
         "id": "Roell24a",
-        "order": 54
+        "order": 55
     },
     {
         "title": "Weisfeiler and Leman Go Machine Learning: The Story So Far",
@@ -1268,7 +1293,7 @@
         "year": "2023",
         "preprint": "https://arxiv.org/abs/2112.09992",
         "id": "Morris23a",
-        "order": 55
+        "order": 56
     },
     {
         "title": "Curvature Filtrations for Graph Generative Model Evaluation",
@@ -1289,7 +1314,7 @@
         "year": "2023",
         "preprint": "https://arxiv.org/abs/2301.12906",
         "id": "Southern23a",
-        "order": 56
+        "order": 57
     },
     {
         "title": "Filtration Surfaces for Dynamic Graph Classification",
@@ -1307,7 +1332,7 @@
         "year": "2023",
         "preprint": "https://arxiv.org/abs/2309.03616",
         "id": "Srambical23a",
-        "order": 57
+        "order": 58
     },
     {
         "title": "Who Can Submit an Excellent Review for This Manuscript in the Next 30 Days? --- Peer Reviewing in the Age of Overload",
@@ -1329,7 +1354,7 @@
         "venue": "ACM/IEEE Joint Conference on Digital Libraries&nbsp;(JCDL), pp. 319--320",
         "year": "2023",
         "id": "Alhoori23a",
-        "order": 58
+        "order": 59
     },
     {
         "title": "A Diffusion Model Predicts 3D Shapes From 2D Microscopy Images",
@@ -1349,7 +1374,7 @@
         "year": "2023",
         "preprint": "https://arxiv.org/abs/2208.14125",
         "id": "Waibel23a",
-        "order": 59
+        "order": 60
     },
     {
         "title": "Predicting Sepsis Using Deep Learning Across International Sites: A Retrospective Development and Validation Study",
@@ -1372,7 +1397,7 @@
         "year": "2023",
         "preprint": "https://arxiv.org/abs/2107.05230",
         "id": "Moor23a",
-        "order": 60
+        "order": 61
     },
     {
         "title": "Evaluating the &ldquo;Learning on Graphs&rdquo; Conference Experience",
@@ -2722,7 +2747,7 @@
         "year": "2020",
         "repository": "https://github.com/ratschlab/circEWS",
         "id": "Hyland20",
-        "order": 122
+        "order": 121
     },
     {
         "title": "Wasserstein Weisfeiler--Lehman Graph Kernels",
@@ -2745,7 +2770,7 @@
         "repository": "https://github.com/BorgwardtLab/WWL",
         "id": "Togninalli19",
         "note": "Accepted as a spotlight presentation at NeurIPS&nbsp;(top 3% of all submissions)",
-        "order": 124
+        "order": 122
     },
     {
         "title": "A Wasserstein Subsequence Kernel for Time Series",
@@ -2766,7 +2791,7 @@
         "year": "2019",
         "repository": "https://github.com/BorgwardtLab/WTK",
         "id": "Bock19b",
-        "order": 125
+        "order": 123
     },
     {
         "title": "A Wasserstein Subsequence Kernel for Time Series",
@@ -2788,7 +2813,7 @@
         "author-copy": "https://bastian.rieck.me/research/ICDM2019_WTK.pdf",
         "repository": "https://github.com/BorgwardtLab/WTK",
         "id": "Bock19a",
-        "order": 126
+        "order": 124
     },
     {
         "title": "Early Recognition of Sepsis With Gaussian Process Temporal Convolutional Networks and Dynamic Time Warping",
@@ -2809,7 +2834,7 @@
         "preprint": "https://arxiv.org/abs/1902.01659",
         "repository": "https://github.com/BorgwardtLab/mgp-tcn",
         "id": "Moor19a",
-        "order": 127
+        "order": 125
     },
     {
         "title": "A Persistent Weisfeiler--Lehman Procedure for Graph Classification",
@@ -2828,7 +2853,7 @@
         "year": "2019",
         "repository": "https://github.com/BorgwardtLab/P-WL",
         "id": "Rieck19b",
-        "order": 128
+        "order": 126
     },
     {
         "title": "Visualization of Equivalence in 2D Bivariate Fields",
@@ -2847,7 +2872,7 @@
         "year": "2019",
         "author-copy": "https://bastian.rieck.me/research/EuroVis2019_Equivalence.pdf",
         "id": "Zheng19",
-        "order": 129
+        "order": 127
     },
     {
         "title": "Neural Persistence: A Complexity Measure for Deep Neural Networks Using Algebraic Topology",
@@ -2871,7 +2896,7 @@
         "preprint": "https://arxiv.org/abs/1812.09764",
         "repository": "https://github.com/BorgwardtLab/Neural-Persistence",
         "id": "Rieck19a",
-        "order": 130
+        "order": 128
     },
     {
         "title": "Association Mapping in Biomedical Time Series via Statistically Significant Shapelet Mining",
@@ -2892,7 +2917,7 @@
         "year": "2018",
         "repository": "https://github.com/BorgwardtLab/S3M",
         "id": "Bock18a",
-        "order": 131
+        "order": 129
     },
     {
         "title": "Visualization of Fullerene Fragmentation",
@@ -2910,7 +2935,7 @@
         "year": "2018",
         "author-copy": "https://bastian.rieck.me/research/PacificVis2018_Fullerene_Fragmentation.pdf",
         "id": "Sdeo18a",
-        "order": 132
+        "order": 130
     },
     {
         "title": "Visualization of 4D Vector Field Topology",
@@ -2928,7 +2953,7 @@
         "year": "2018",
         "author-copy": "https://bastian.rieck.me/research/EuroVis2018_4D.pdf",
         "id": "Hofmann18a",
-        "order": 133
+        "order": 131
     },
     {
         "title": "Visualization of Parameter Sensitivity of 2D Time-Dependent Flow",
@@ -2954,7 +2979,7 @@
         "venue": "Advances in Visual Computing&nbsp;(Proceedings of the 13th International Symposium on Visual Computing), pp. 359--370",
         "year": "2018",
         "id": "Hanser18a",
-        "order": 134
+        "order": 132
     },
     {
         "title": "Clique Community Persistence: A Topological Visual Analysis Approach for Complex Networks",
@@ -2975,7 +3000,7 @@
         "author-copy": "https://bastian.rieck.me/research/Vis2017_Clique_Community_Persistence.pdf",
         "repository": "https://github.com/Pseudomanifold/Aleph",
         "id": "Rieck18a",
-        "order": 135
+        "order": 133
     },
     {
         "title": "Persistent Homology in Multivariate Data Visualization",
@@ -2992,7 +3017,7 @@
         "year": "2017",
         "author-copy": "https://bastian.rieck.me/research/Dissertation_Rieck_2017.pdf",
         "id": "Rieck17d",
-        "order": 136
+        "order": 134
     },
     {
         "title": "Persistence Concepts for 2D Skeleton Evolution Analysis",
@@ -3011,7 +3036,7 @@
         "year": "2017",
         "repository": "https://github.com/Pseudomanifold/Skeleton_Persistence",
         "id": "Rieck17c",
-        "order": 137
+        "order": 135
     },
     {
         "title": "Hierarchies and Ranks for Persistence Pairs",
@@ -3030,7 +3055,7 @@
         "year": "2017",
         "id": "Rieck17b",
         "note": "Award for the best extended abstract",
-        "order": 138
+        "order": 136
     },
     {
         "title": "Agreement Analysis of Quality Measures for Dimensionality Reduction",
@@ -3048,7 +3073,7 @@
         "year": "2017",
         "author-copy": "https://bastian.rieck.me/research/TopoInVis2015.pdf",
         "id": "Rieck17a",
-        "order": 139
+        "order": 137
     },
     {
         "title": "'Shall I Compare Thee to a Network?' --- Visualizing the Topological Structure of Shakespeare's Plays",
@@ -3066,7 +3091,7 @@
         "year": "2016",
         "repository": "https://github.com/Pseudomanifold/Shakespeare",
         "id": "Rieck16b",
-        "order": 140
+        "order": 138
     },
     {
         "title": "Exploring and Comparing Clusterings of Multivariate Data Sets Using Persistent Homology",
@@ -3084,7 +3109,7 @@
         "year": "2016",
         "author-copy": "https://bastian.rieck.me/research/EuroVis2016_Comparing_Clusterings.pdf",
         "id": "Rieck16a",
-        "order": 141
+        "order": 139
     },
     {
         "title": "Interactive Similarity Analysis and Error Detection in Large Tree Collections",
@@ -3104,7 +3129,7 @@
         "venue": "Visualization in Medicine and Life Sciences III, pp. 287--307",
         "year": "2016",
         "id": "Fangerau16",
-        "order": 142
+        "order": 140
     },
     {
         "title": "Comparing Dimensionality Reduction Methods Using Data Descriptor Landscapes",
@@ -3121,7 +3146,7 @@
         "venue": "Symposium on Visualization in Data Science&nbsp;(VDS) at IEEE VIS",
         "year": "2015",
         "id": "Rieck15c",
-        "order": 143
+        "order": 141
     },
     {
         "title": "Persistent Homology for the Evaluation of Dimensionality Reduction Schemes",
@@ -3139,7 +3164,7 @@
         "year": "2015",
         "author-copy": "https://bastian.rieck.me/research/EuroVis2015.pdf",
         "id": "Rieck15b",
-        "order": 144
+        "order": 142
     },
     {
         "title": "Agreement Analysis of Quality Measures for Dimensionality Reduction",
@@ -3156,7 +3181,7 @@
         "venue": "Workshop on Topology-Based Methods in Visualization&nbsp;(TopoInVis)",
         "year": "2015",
         "id": "Rieck15a",
-        "order": 145
+        "order": 143
     },
     {
         "title": "Enhancing Comparative Model Analysis Using Persistent Homology",
@@ -3173,7 +3198,7 @@
         "venue": "IEEE Vis Workshop on Visualization for Predictive Analytics",
         "year": "2014",
         "id": "Rieck14b",
-        "order": 146
+        "order": 144
     },
     {
         "title": "Structural Analysis of Multivariate Point Clouds Using Simplicial Chains",
@@ -3191,7 +3216,7 @@
         "year": "2014",
         "author-copy": "https://bastian.rieck.me/research/CGF2014.pdf",
         "id": "Rieck14a",
-        "order": 147
+        "order": 145
     },
     {
         "title": "Unwrapping Highly-Detailed 3D Meshes of Rotationally Symmetric Man-Made Objects",
@@ -3208,26 +3233,7 @@
         "venue": "ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume II-5/W1, pp. 259--264",
         "year": "2013",
         "id": "Rieck13a",
-        "order": 148
-    },
-    {
-        "title": "Der &ldquo;Gesprengte Turm&rdquo; Am Heidelberger Schloss -- Untersuchung Eines Kulturdenkmals Mithilfe Hoch Aufl\u00f6sender Terrestrischer Laserscans",
-        "authors": [
-            "Forbriger, Markus",
-            "Mara, Hubert",
-            "Rieck, Bastian",
-            "Siart, Christoph",
-            "Wagener, Olaf"
-        ],
-        "authors-display": "M.&nbsp;Forbriger, H.&nbsp;Mara, B.&nbsp;Rieck, C.&nbsp;Siart, and O.&nbsp;Wagener",
-        "keywords": [
-            ""
-        ],
-        "url": "https://bastian.rieck.me/research/Gesprengter_Turm.pdf",
-        "venue": "Denkmalpflege in Baden-W\u00fcrttemberg, Nachrichtenblatt der Landesdenkmalpflege, Volume 3, pp. 165--168",
-        "year": "2013",
-        "id": "Forbriger13a",
-        "order": 149
+        "order": 146
     },
     {
         "title": "Multivariate Data Analysis Using Persistence-Based Filtering and Topological Signatures",
@@ -3246,7 +3252,7 @@
         "year": "2012",
         "author-copy": "https://bastian.rieck.me/research/Vis2012.pdf",
         "id": "Rieck12a",
-        "order": 150
+        "order": 147
     },
     {
         "title": "Smoothness Analysis of Subdivision Algorithms",
@@ -3263,6 +3269,6 @@
         "author-copy": "https://bastian.rieck.me/research/Diploma_Thesis_Rieck_2011.pdf",
         "repository": "https://github.com/Pseudomanifold/psalm",
         "id": "Rieck11",
-        "order": 151
+        "order": 148
     }
 ]

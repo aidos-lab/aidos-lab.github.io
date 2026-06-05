@@ -265,12 +265,6 @@ if __name__ == "__main__":
         help="If set, use highlighting directive in BibTeX if present",
     )
 
-    parser.add_argument(
-        "--me",
-        type=str,
-        help="Specifies main author (removes papers that do not include them)",
-    )
-
     parser.add_argument("FILE", type=str, help="Input file")
 
     args = parser.parse_args()
@@ -296,12 +290,7 @@ if __name__ == "__main__":
 
     coauthors = collections.Counter()
 
-    me = args.me
-
-    if me is not None:
-        papers = [e for e in db.entries if "author" in e and me in e["author"]]
-    else:
-        papers = [e for e in db.entries if "author" in e]
+    papers = [e for e in db.entries if "author" in e]
 
     # Assume that the sorting order in the bibliography is sufficient, i.e.,
     # report papers in reverse order of appearance in the file.

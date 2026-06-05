@@ -28,7 +28,7 @@ jobs:
       - run: pip install -r requirements.txt
      
       - name: Run script
-        run: python scripts/bibtex_to_json.py > data/publications.json
+        run: python scripts/bibtex_to_json.py data/publications.bib > data/publications.json
 
       - name: Collect `.bib` files
         run: cp /tmp/*.bib static/research/

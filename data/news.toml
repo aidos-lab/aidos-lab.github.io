@@ -2,6 +2,11 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-06-09 = """
+  🎉 Our work on scale discontinuities of GNNs, entitled [*Graph Neural Networks Are Not Continuous Across Graph Resolutions*](https://arxiv.org/abs/2605.31315),
+  was accepted at ICML. Congratulations, Christian!
+"""
+
 2026-05-27 = """
   🎉 Our work on [*EmbedOR: Provable Cluster-Preserving Visualizations with Curvature-Based Stochastic Neighbor Embeddings*](https://arxiv.org/abs/2509.03703) was
   accepted at PNAS! A wonderful collaboration with Tristan Saidi,

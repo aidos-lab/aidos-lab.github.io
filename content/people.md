@@ -35,6 +35,7 @@ starting a collaboration with us.
 <div class="people-card-container">
     {{< person "CC" >}}
     {{< person "MA" >}}
+    {{< person "CK" >}}
 </div>
 
 Your name is missing here! Learn more about [joining us]({{< relref "/contact" >}}).

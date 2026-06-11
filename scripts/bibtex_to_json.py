@@ -235,6 +235,9 @@ def to_json(paper):
     if "note" in paper:
         result["note"] = fix_raw_latex(paper["note"])
 
+    if "tldr" in paper:
+        result["tldr"] = paper["tldr"]
+
     return result
 
 

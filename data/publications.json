@@ -82,6 +82,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06466",
         "id": "Limbeck26a",
+        "tldr": "We propose diversity curves, novel graph-level representations for unsupervised tasks that track the structural diversity, namely the metric space spread, of graphs across coarsening levels obtained through edge contractions.",
         "order": 3
     },
     {

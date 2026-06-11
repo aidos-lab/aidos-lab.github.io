@@ -543,3 +543,11 @@ ul.card-icons li
   padding:      0.1em 0.4em;
 }
 
+.publication-tldr
+{
+  font-size:     0.75rem;
+  font-style:    italic;
+  margin-top:    0.50em;
+  margin-bottom: 0.50em;
+}
+

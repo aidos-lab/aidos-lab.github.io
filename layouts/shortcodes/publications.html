@@ -59,6 +59,13 @@
                 </div>
               {{- end -}}
 
+              {{- with .tldr -}}
+                <div class="publication-tldr">
+                  {{ . }}
+                </div>
+              {{- end -}}
+
+
               {{- $links := slice -}}
 
               {{- with index . "author-copy" -}}
@@ -84,12 +91,6 @@
               <div class="publication-links">
                 {{ delimit $links " &bull; " | safeHTML }}
               </div>
-
-              {{- with .tldr -}}
-                <div class="publication-tldr">
-                  {{ . }}
-                </div>
-              {{- end -}}
             </div>
           </li>
         {{- end }}

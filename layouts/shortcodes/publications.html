@@ -84,6 +84,12 @@
               <div class="publication-links">
                 {{ delimit $links " &bull; " | safeHTML }}
               </div>
+
+              {{- with .tldr -}}
+                <div class="publication-tldr">
+                  {{ . }}
+                </div>
+              {{- end -}}
             </div>
           </li>
         {{- end }}

@@ -83,6 +83,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06467",
         "id": "Schmidt26a",
+        "tldr": "We find topological generalization is lacking in deep learning and present an evaluation framework to test for it.",
         "order": 3
     },
     {
@@ -228,6 +229,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2511.03068",
         "id": "Carrasco26a",
+        "tldr": "We propose a metric that captures both features and struture in attributed graphs. ",
         "order": 10
     },
     {

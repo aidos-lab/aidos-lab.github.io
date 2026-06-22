@@ -125,6 +125,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06462",
         "id": "vonMoos26a",
+        "tldr": "Invariants capture structure of graphs, are expressive, show dataset heterogeneity, predict multi-task performance, and decouple a tasks dependence on structure and features.",
         "order": 5
     },
     {

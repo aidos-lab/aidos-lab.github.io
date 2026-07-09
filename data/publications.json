@@ -617,6 +617,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2503.00443",
         "id": "Remme25a",
+        "tldr": "We predict the kinetic energy and its gradient through graph neural networks and through that describe an fast, accurate and stable algorithm to find the lowest energy electron density for molecules.",
         "order": 27
     },
     {

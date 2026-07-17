@@ -26,7 +26,7 @@
       <div>
         <h2>{{ $year }}</h2>
         <ul>
-        {{- $items = sort $items "order" -}}
+        {{- $items = sort $items "order" | collections.Reverse -}}
         {{- range $items -}}
           {{- $venue   := index . "venue" -}}
           <li>

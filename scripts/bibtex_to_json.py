@@ -301,9 +301,13 @@ if __name__ == "__main__":
     exported_entries = set()
     data = []
 
+    n = len(papers)
+
     for i, p in enumerate(papers):
         if (result := to_json(p)) is not None:
-            result["order"] = i
+            # That way, we do not update `order` entries whenever a new
+            # paper arrives.
+            result["order"] = n - i
             exported_entries.add(p["ID"])
             data.append(result)
 

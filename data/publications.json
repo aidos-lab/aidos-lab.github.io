@@ -1,5 +1,23 @@
 [
     {
+        "title": "A Centrality Measure Using Magnitude Homology",
+        "authors": [
+            "H\u00e4usermann, Nadja",
+            "Rieck, Bastian"
+        ],
+        "authors-display": "N.&nbsp;H\u00e4usermann and B.&nbsp;Rieck",
+        "keywords": [
+            "Graphs"
+        ],
+        "url": "https://arxiv.org/abs/2607.16377",
+        "venue": "Preprint",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2607.16377",
+        "id": "Haeusermann26a",
+        "tldr": "We develop a new centrality measure for graphs that employs concepts from magnitude homology, a multiscale geometrical-topological invariant.",
+        "order": 152
+    },
+    {
         "title": "Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
         "authors": [
             "Saidi, Tristan Luca",

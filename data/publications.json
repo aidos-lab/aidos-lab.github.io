@@ -94,11 +94,12 @@
             "TDL",
             "Graphs"
         ],
-        "url": "https://arxiv.org/abs/2605.07397",
-        "venue": "Preprint",
+        "url": "https://proceedings.mlr.press/v325/rieck26a.html",
+        "venue": "Proceedings of the Geometry, Topology, and Machine Learning Workshop, Volume 325, pp. 109--119",
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.07397",
         "id": "Rieck26a",
+        "tldr": "Many models for learning on higher-order domains start by lifting a graph into a higher-order complex. This article discusses why that is a bad idea and why proper higher-order benchmarks are required.",
         "order": 148
     },
     {
@@ -655,7 +656,6 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2503.00443",
         "id": "Remme25a",
-        "tldr": "We predict the kinetic energy and its gradient through graph neural networks and through that describe a fast, accurate and stable algorithm to find the lowest energy electron density for molecules.",
         "order": 123
     },
     {

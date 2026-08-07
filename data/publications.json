@@ -439,12 +439,13 @@
             "AI/ML",
             "GDL"
         ],
-        "url": "https://arxiv.org/abs/2506.11700",
+        "url": "https://dx.doi.org/10.52202/085713-5273",
         "venue": "Advances in Neural Information Processing Systems, Volume 38, pp. 157770--157808",
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2506.11700",
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25b",
+        "tldr": "We develop a new pooling method based on the magnitude and spread of a metric space.",
         "order": 132
     },
     {
@@ -458,12 +459,13 @@
             "AI/ML",
             "TDL"
         ],
-        "url": "https://arxiv.org/abs/2410.18987",
+        "url": "https://dx.doi.org/10.52202/085713-0490",
         "venue": "Advances in Neural Information Processing Systems, Volume 38, pp. 14551--14583",
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2410.18987",
         "repository": "https://github.com/aidos-lab/inner-product-transforms",
         "id": "Roell25a",
+        "tldr": "We show how to efficiently generate point clouds by inverting geometrical-topological descriptors.",
         "order": 131
     },
     {
@@ -485,12 +487,13 @@
         "keywords": [
             "AI/ML"
         ],
-        "url": "https://arxiv.org/abs/2506.01034",
+        "url": "https://dx.doi.org/10.52202/085713-2276",
         "venue": "Advances in Neural Information Processing Systems, Volume 38, pp. 67795--67828",
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2506.01034",
         "repository": "https://github.com/aidos-lab/Topo_LLM_public",
         "id": "Ruppik25a",
+        "tldr": "We study LLMs and their training dynamics using estimates of local intrinsic dimension.",
         "order": 130
     },
     {

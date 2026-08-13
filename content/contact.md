@@ -19,7 +19,7 @@ different fields and feel comfortable about writing code.
 Since the group is still starting to establish itself, you have the
 unique opportunity to truly shape and influence things here.
 
-While there is a lot of value in such endeavours, most of our projects
+While there is a lot of value in such endeavors, most of our projects
 are not leader-board science in that they do not have the explicit
 goal of beating all state-of-the-art methods. That is *not* to say that
 we are not interested in producing relevant methods or that leader-board
@@ -48,9 +48,9 @@ cover letter should provide answers to the following questions:
    specifically (You do not have to be an expert in the topic yet, of
    course!) or do you already have a topic in mind?
 
-2. Are you more comfortable working *empirically*, i.e. lots of
+2. Are you more comfortable working *empirically*, i.e., lots of
    implementations, experiments, and so on, or working *theoretically*,
-   i.e. lots of proofs, derivations, and more?
+   i.e., lots of proofs, derivations, and more?
 
 3. When would you be available for working on the thesis?
 

@@ -6,7 +6,7 @@ title: "Get In Touch"
 
 We are located at the Pérolles Campus of the University of Fribourg. Here is a map&nbsp;(click for larger version):
 
-{{< figure src="/contact/how_to_find_us.jpg" link="/contact/how_to_find_us.jpg" width="100%" alt="Map of how to find the lab" caption="A map of the campus. We are located in the highlighted building, i.e. building PER 21. The campus can be reached by walking from the main station or by taking buses 1, 3, 8, 9, or 10 and exiting at Fribourg, Charmettes." >}}
+{{< figure src="/contact/how_to_find_us.jpg" link="/contact/how_to_find_us.jpg" width="100%" alt="Map of how to find the lab" caption="A map of the campus. We are located in the highlighted building, i.e., building PER 21. The campus can be reached by walking from the main station or by taking buses 1, 3, 8, 9, or 234 and exiting at Fribourg, Charmettes." >}}
 
 # Join Us
 

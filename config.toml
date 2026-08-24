@@ -75,6 +75,6 @@ ignoreFiles   = ['\.bib$']
   text = """
 All external logos are copyrighted and may not be used without
 express permission. The remainder of the content, if not specified otherwise,
-has been created by <a href="https://bastian.rieck.me">Bastian Rieck</a>
+has been created by <a href="https://bastian.rieck.me">Bastian Grossenbacher-Rieck</a>
 and is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 """

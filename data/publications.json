@@ -1,5 +1,25 @@
 [
     {
+        "title": "Topology of a Smile: Persistent Homology in Dental Imaging",
+        "authors": [
+            "Dahlmeier, Leon",
+            "Kali\u0161nik, Sara",
+            "Mehl, Albert",
+            "Rieck, Bastian"
+        ],
+        "authors-display": "L.&nbsp;Dahlmeier, S.&nbsp;Kali\u0161nik, A.&nbsp;Mehl, and B.&nbsp;Rieck",
+        "keywords": [
+            "TDA"
+        ],
+        "url": "https://arxiv.org/abs/2608.21422",
+        "venue": "Preprint",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2608.21422",
+        "id": "Dahlmeier26a",
+        "tldr": "We show how to use TDA techniques to improve dental imaging tasks.",
+        "order": 153
+    },
+    {
         "title": "A Centrality Measure Using Magnitude Homology",
         "authors": [
             "H\u00e4usermann, Nadja",
@@ -81,6 +101,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.31315",
         "id": "Koke26b",
+        "tldr": "We prove that graph neural networks are not well-behaved when it comes to changing the resolution of the underlying graph. Moreover, we show how to fix this issue.",
         "order": 149
     },
     {
@@ -269,7 +290,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2511.03068",
         "id": "Carrasco26a",
-        "tldr": "We propose a metric that captures both features and struture in attributed graphs. ",
+        "tldr": "We propose a metric that captures both features and struture in attributed graphs.",
         "order": 140
     },
     {
@@ -291,6 +312,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2510.00757",
         "id": "Amboage26a",
+        "tldr": "We develop a new positional encoding based on local Euler characteristic transforms. Blazingly fast and with a light memory footprint, what's not to love?",
         "order": 139
     },
     {

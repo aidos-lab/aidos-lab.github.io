@@ -18,7 +18,6 @@ starting a collaboration with us.
     {{< person "BR" >}}
     {{< person "JW" >}}
     {{< person "KL" >}}
-    {{< person "ER" >}}
     {{< person "SK" >}}
     {{< person "RvM" >}}
     {{< person "NH" >}}
@@ -54,6 +53,7 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - [Barış Onarıcı](https://www.linkedin.com/in/barisonarici-a271828182845904523/)
 - Giacomo Parolin
 - [Julius von Rohrscheidt](https://www.rohrscheidt.com) (PhD, 2026)
+- [Ernst Röell](https://ernstroell.github.io/) (PhD, 2026)
 - Yevhenii Sharapov
 - [Daniel Bīn Schmid](https://danielbinschmid.com)
 - [Emily Simons](https://emsimons.github.io/me)

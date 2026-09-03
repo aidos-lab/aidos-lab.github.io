@@ -2,15 +2,14 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
-2025-09-03 = """
+2026-09-03 = """
   🚀 Ernst defended his PhD theis "Towards Deep Learning with Euler
   Characteristic Transforms" with *magna cum laude*. Congratulations,
   Ernst---it was great working with you. All the best and may our paths
   cross again.
 """
 
-
-2025-09-01 = """
+2026-09-01 = """
   🐣 Juan joins the lab. A warm welcome, Juan---we are very happy to
   have you!
 """

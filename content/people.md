@@ -16,7 +16,6 @@ starting a collaboration with us.
 
 <div class="people-card-container">
     {{< person "BR" >}}
-    {{< person "JW" >}}
     {{< person "KL" >}}
     {{< person "SK" >}}
     {{< person "RvM" >}}
@@ -45,7 +44,7 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - [Rubén Ballester](https://rubenbb.com) (now a research scientist at [NDEA](https://ndea.com))
 - Pia Baronetzky
 - [Irene Cannistraci](https://irene.cannistraci.dev) (now a postdoctoral researcher with [Julia Vogt](https://mds.inf.ethz.ch/team/detail/julia-vogt/) at ETH Zurich)
-- [Marek Cerny](http://marekcerny.com) (now a Ph.D. student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
+- [Marek Cerny](http://marekcerny.com) (now a PhD student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ege Erdogan
 - Katharina Hagedorn
 - Ferdinand Hölzl (now a master's student at University of Hamburg)
@@ -60,3 +59,4 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - [Franz Srambical](https://srambical.fr/) (now building AGI at [p(doom)](https://pdoom.org))
 - Tejas Srinivasan
 - [Víctor Toscano-Durán](https://victosdur.github.io)
+- [Jeremy Wayland](https://jeremy-wayland.me/) (PhD, 2026)

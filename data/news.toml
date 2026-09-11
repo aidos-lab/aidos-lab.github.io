@@ -2,9 +2,17 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-09-11 = """
+  🚀 Jeremy defended his PhD thesis "Understanding Data Representations using Geometry and Topology
+  Towards Deep Learning with Euler" with distinction (*magna cum
+  laude*). What a feat, Jeremy! It was a pleasure working with you. All
+  the best for your future endeavors and may we find many opportunities
+  to reconnect in the future.
+"""
+
 2026-09-03 = """
-  🚀 Ernst defended his PhD theis "Towards Deep Learning with Euler
-  Characteristic Transforms" with *magna cum laude*. Congratulations,
+  🚀 Ernst defended his PhD thesis "Towards Deep Learning with Euler
+  Characteristic Transforms" with distinction (*magna cum laude*) Congratulations,
   Ernst---it was great working with you. All the best and may our paths
   cross again.
 """

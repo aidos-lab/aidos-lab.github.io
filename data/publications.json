@@ -1775,10 +1775,9 @@
             "Liu, Renming",
             "Cant\u00fcrk, Semih",
             "Wenkel, Frederik",
-            "Sandfelder, Dylan",
-            "Kreuzer, Devin",
-            "Little, Anna",
             "McGuire, Sarah",
+            "Wang, Xinyi",
+            "Little, Anna",
             "O'Bray, Leslie",
             "Perlmutter, Michael",
             "Rieck, Bastian",
@@ -1786,7 +1785,7 @@
             "Wolf, Guy",
             "Ramp\u00e1\u0161ek, Ladislav"
         ],
-        "authors-display": "R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cant\u00fcrk<sup>&dagger;</sup>, F.&nbsp;Wenkel, D.&nbsp;Sandfelder, D.&nbsp;Kreuzer, A.&nbsp;Little, S.&nbsp;McGuire, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Ramp\u00e1\u0161ek<sup>&dagger;</sup><sup>&Dagger;</sup>",
+        "authors-display": "R.&nbsp;Liu<sup>&dagger;</sup>, S.&nbsp;Cant\u00fcrk<sup>&dagger;</sup>, F.&nbsp;Wenkel, S.&nbsp;McGuire, X.&nbsp;Wang, A.&nbsp;Little, L.&nbsp;O'Bray, M.&nbsp;Perlmutter<sup>&Dagger;</sup>, B.&nbsp;Rieck<sup>&Dagger;</sup>, M.&nbsp;Hirn<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, and L.&nbsp;Ramp\u00e1\u0161ek<sup>&dagger;</sup><sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML",
             "Graphs"

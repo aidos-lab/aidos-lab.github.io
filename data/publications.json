@@ -1,5 +1,28 @@
 [
     {
+        "title": "Path Laplacian Encodings for Directed Graphs",
+        "authors": [
+            "Mezrag, Lydia",
+            "Cant\u00fcrk, Semih",
+            "Perlmutter, Michael",
+            "Rieck, Bastian",
+            "Wolf, Guy"
+        ],
+        "authors-display": "L.&nbsp;Mezrag, S.&nbsp;Cant\u00fcrk, M.&nbsp;Perlmutter, B.&nbsp;Rieck, and G.&nbsp;Wolf",
+        "keywords": [
+            "AI/ML",
+            "Graphs",
+            "TDL"
+        ],
+        "url": "https://arxiv.org/abs/2610.04657",
+        "venue": "Preprint",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2610.04657",
+        "id": "Mezrag26a",
+        "tldr": "We develop novel positional encodings for directed graphs using the path Laplacian.",
+        "order": 154
+    },
+    {
         "title": "Topology of a Smile: Persistent Homology in Dental Imaging",
         "authors": [
             "Dahlmeier, Leon",

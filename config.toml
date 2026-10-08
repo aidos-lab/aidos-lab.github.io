@@ -41,11 +41,6 @@ ignoreFiles   = ['\.bib$']
   weight  = -80
 
 [[menu.main]]
-  name    = "Tools"
-  pageRef = "/tools"
-  weight  = -80
-
-[[menu.main]]
   name    = "Blog"
   pageRef = "/blog"
   weight  = -80

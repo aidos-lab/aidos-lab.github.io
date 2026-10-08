@@ -57,7 +57,7 @@ ignoreFiles   = ['\.bib$']
 
 [[menu.main]]
   name   = "Wiki"
-  url    = "/wiki/"
+  url    = "https://gnosis.aidos.group"
   weight = -70
 
 [params.footer.logos]

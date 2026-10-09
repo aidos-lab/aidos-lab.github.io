@@ -1,11 +1,12 @@
 <header>
-  <div>
-    <nav id="menu">
-      <ul>
-      {{- range site.Menus.main }}
-        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-      </ul>
-    </nav>
-  </div>
+  <nav id="menu">
+    <ul>
+    {{- range site.Menus.main }}
+      <li><a href="{{ .URL | relURL }}"
+        {{- if $.IsMenuCurrent "main" . }} aria-current="page"
+        {{- else if $.HasMenuCurrent "main" . }} aria-current="true"
+        {{- end }}>{{ .Name }}</a></li>
+    {{- end }}
+    </ul>
+  </nav>
 </header>

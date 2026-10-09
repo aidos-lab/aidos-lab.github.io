@@ -79,12 +79,25 @@ a:visited
   color: var(--visited);
 }
 
+:focus-visible
+{
+  outline:        2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Keeps large images, such as the logo, from overflowing on small screens */
+img
+{
+  max-width: 100%;
+}
+
 body
 {
   line-height:  1.6;
   color:        var(--text);
   background:   var(--bg);
   text-align:   justify;
+  hyphens:      auto;
 
   margin:       0;
   padding:      0;
@@ -127,9 +140,12 @@ figcaption
   font-weight: 300;
 }
 
+/* Headings are too short to justify without large gaps */
 h1, h2, h3
 {
   line-height: 1.2;
+  text-align:  start;
+  hyphens:     manual;
 }
 
 h1
@@ -165,8 +181,9 @@ li
   display: inline;
 }
 
-#menu a
+#menu a, #menu a:visited
 {
+  color:           var(--accent);
   padding-top:     20px;
   padding-right:   20px;
   text-transform:  uppercase;
@@ -174,7 +191,7 @@ li
   font-size:       1.5rem;
 }
 
-#menu a:hover
+#menu a:hover, #menu a[aria-current]
 {
   text-decoration: underline;
 }
@@ -272,9 +289,17 @@ ul.card-icons
   padding: 0;
 }
 
-.card-icons img 
+/* Padding enlarges the tap target to 24px */
+.card-icons a
 {
-  width: 16px; 
+  display: inline-block;
+  padding: 4px;
+}
+
+.card-icons img
+{
+  display: block;
+  width:   16px;
 }
 
 ul.card-icons li 

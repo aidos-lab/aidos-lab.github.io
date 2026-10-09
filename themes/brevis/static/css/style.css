@@ -49,13 +49,17 @@
   --accent:         #0055DD;
   --visited:        #5B2D8E;
 
-  /* Width of running text */
-  --measure:        75ch;
+  /* Width of running text (about 75 characters), and of wider elements
+   * such as grids. Uses rem rather than ch so that it does not depend on
+   * the font size of the element it is used on. */
+  --measure:        42rem;
+  --wide:           70rem;
 
   /* Spacing scale */
   --space-s:        0.5em;
   --space-m:        1em;
   --space-l:        1.5em;
+  --space-xl:       2em;
 }
 
 html
@@ -120,15 +124,25 @@ table
 main
 {
   flex:       1;
-  width:      100%;
-  box-sizing: border-box;
-  max-width:  var(--measure);
-  margin:     0 auto;
+  padding:    0 var(--space-m);
+}
+
+/* Content uses the text column; elements marked as wide may break out */
+main > *
+{
+  box-sizing:    border-box;
+  max-width:     var(--measure);
+  margin-inline: auto;
+}
+
+main > .wide
+{
+  max-width: var(--wide);
 }
 
 figure
 {
-  margin: 5% auto;
+  margin: var(--space-xl) auto;
 }
 
 figure.person img
@@ -227,8 +241,6 @@ footer
 .people-card-container
 {
   display        : flex;
-  max-width      : 100%;
-  margin         : auto;
   flex-wrap      : wrap;
   gap            : var(--space-m);
   align-content  : center;
@@ -250,15 +262,6 @@ sup
 time
 {
   font-weight: bold;
-}
-
-@media (max-width: 960px)
-{
-  main
-  {
-    padding: var(--space-m);
-  }
-
 }
 
 /* Long post titles leave large gaps when justified */

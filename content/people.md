@@ -14,7 +14,7 @@ We, the people of the AIDOS Lab, firmly believe in and are committed to [Dr. Fed
 All people are listed in chronological order of joining the lab or
 starting a collaboration with us.
 
-<div class="people-card-container">
+<div class="people-card-container wide">
     {{< person "BR" >}}
     {{< person "KL" >}}
     {{< person "SK" >}}
@@ -31,7 +31,7 @@ starting a collaboration with us.
 
 # Collaborators
 
-<div class="people-card-container">
+<div class="people-card-container wide">
     {{< person "CC" >}}
     {{< person "MA" >}}
     {{< person "CK" >}}

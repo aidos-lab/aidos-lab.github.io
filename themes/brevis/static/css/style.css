@@ -296,6 +296,7 @@ blockquote
   font-size:     1.3em;
   line-height:   1.4;
   text-align:    start;
+  text-wrap:     balance;   /* avoids a single word on the last line */
   hyphens:       manual;
 }
 

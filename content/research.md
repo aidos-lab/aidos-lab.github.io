@@ -4,10 +4,12 @@ title: "Research"
 
 # Research
 
-The AIDOS lab is dedicated to establishing foundational principles in
-machine learning. Leveraging our experience in _computational geometry_
-and _topology_, we focus on shaping well-principled methods to address
-holes in the rapidly evolving AI landscape.
+AI needs foundations.\
+We build them from geometry & topology.
+{.lead}
+
+We focus on shaping well-principled methods to address holes in this
+rapidly evolving field.
 
 We see ourselves as [_toolsmiths_](https://bastian.rieck.me/blog/2022/toolsmith/),
 crafting both *observational* and *interventional* frameworks

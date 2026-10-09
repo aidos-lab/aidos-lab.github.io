@@ -6,7 +6,8 @@ title: "AIDOS Lab"
 
 # Welcome to the AIDOS Lab
 
-Data has shape. We build the tools that find it.
+Data has shape.\
+We build the tools that find it.
 {.lead}
 
 We are a research group at the [University of Fribourg](https://www.unifr.ch), working at the intersection of **geometry, topology, and machine learning**.

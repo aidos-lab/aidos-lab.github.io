@@ -63,10 +63,6 @@ html
 {
   font-size: large;
   overflow-y: scroll;
-
-  /* Not sure how to solve this more elegantly; but it ensures that the
-   * navigation bar does not cut off any anchors */
-  scroll-padding-top: 5em;
 }
 
 a
@@ -107,7 +103,7 @@ body
 
 body > header
 {
-  padding:        0.5em;
+  padding:        var(--space-s) var(--space-m);
   border-bottom:  1px solid var(--border);
   background:     var(--bg-chrome);
 }
@@ -168,32 +164,43 @@ li
   margin: var(--space-s) 0 0 0;
 }
 
-/* no extra spacing for lists in the navigation bar */
+/* Aligned with the text column; wraps into rows on small screens */
 #menu ul
 {
-  padding: 0;
-  margin: 0;
+  display:     flex;
+  flex-wrap:   wrap;
+  gap:         0 1.25em;
+  max-width:   var(--measure);
+  margin:      0 auto;
+  padding:     0;
+  list-style:  none;
+  text-align:  start;
 }
 
-/* no blocks for list items */
 #menu li
 {
-  display: inline;
+  margin: 0;
 }
 
 #menu a, #menu a:visited
 {
-  color:           var(--accent);
-  padding-top:     20px;
-  padding-right:   20px;
-  text-transform:  uppercase;
-  text-decoration: none;
-  font-size:       1.5rem;
+  display:               inline-block;
+  padding:               0.25em 0;
+  color:                 var(--accent);
+  text-decoration:       none;
+  text-underline-offset: 0.3em;
 }
 
-#menu a:hover, #menu a[aria-current]
+#menu a:hover
 {
-  text-decoration: underline;
+  text-decoration:           underline;
+  text-decoration-thickness: 1px;
+}
+
+#menu a[aria-current]
+{
+  text-decoration:           underline;
+  text-decoration-thickness: 3px;
 }
 
 footer
@@ -244,19 +251,6 @@ time
 
 @media (max-width: 960px)
 {
-  #menu li
-  {
-    display: block;
-    padding-left: var(--space-m);
-  }
-
-  /* Ensures that the header does not overlap with the content */
-  body > header
-  {
-    position: relative;
-    padding: 0px;
-  }
-
   main
   {
     padding: var(--space-m);

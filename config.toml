@@ -51,7 +51,7 @@ ignoreFiles   = ['\.bib$']
   weight  = -80
 
 [[menu.main]]
-  name    = "Get In Touch"
+  name    = "Contact"
   pageRef = "/contact"
   weight  = -70
 

@@ -18,6 +18,10 @@ disableKinds  = ["taxonomy", "term"]
   [markup.goldmark.extensions]
     typographer = true
 
+  # Allows classes on Markdown blocks, e.g., `{.lead}` after a paragraph
+  [markup.goldmark.parser.attribute]
+    block = true
+
   [markup.tableOfContents]
     endLevel = 3
 

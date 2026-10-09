@@ -71,7 +71,7 @@ body
   font-family: 'Fira Sans', sans-serif;
 }
 
-header
+body > header
 {
   padding:        0.5em;
   border-bottom:  1px solid lightgray;
@@ -214,7 +214,7 @@ time
   }
 
   /* Ensures that the header does not overlap with the content */
-  header
+  body > header
   {
     position: relative;
     padding: 0px;

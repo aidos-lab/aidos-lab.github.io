@@ -1,25 +1,25 @@
 {{- define "main" }}
   <article>
-    <h1>{{ .Title | safeHTML }}</h1>
-    <p>
-      Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-      by
-      {{- with .Params.authors }}
-        {{- range $index, $author := . }}
+    <header>
+      <h1>{{ .Title | safeHTML }}</h1>
+      <p>
+        Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        by
+        {{- range $index, $author := .Params.authors }}
           {{- if $index }}, {{ end }}
-          {{- $.Scratch.Set "found" false }}
-          {{- range $key, $val := hugo.Data.people }}
-            {{- if eq $val.name $author }}
-              {{- $.Scratch.Set "found" true }}
-              <a rel="author"  href="{{ $val.web }}">{{ $val.name }}</a>
+          {{- $found := false }}
+          {{- range hugo.Data.people }}
+            {{- if eq .name $author }}
+              {{- $found = true }}
+              <a rel="author" href="{{ .web }}">{{ .name }}</a>
             {{- end }}
           {{- end }}
-          {{- if not ($.Scratch.Get "found") }}
-            <span >{{ $author }}</span>
+          {{- if not $found }}
+            <span>{{ $author }}</span>
           {{- end }}
         {{- end }}
-      {{- end }}
-    </p>
+      </p>
+    </header>
     {{- .Content }}
   </article>
 {{- end }}

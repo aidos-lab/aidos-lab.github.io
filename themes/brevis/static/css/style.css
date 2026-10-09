@@ -1,31 +1,106 @@
-@font-face{
-    font-family: 'Fira Sans';
-    src:
-      local('Fira Sans'),
-      local('FiraSans-Regular'),
-      url('/fonts/FiraSans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style:  normal;
+/* Source Sans 3 (SIL Open Font License, see fonts/LICENSE-SourceSans3.md),
+ * split into character sets so that browsers only download what a page uses */
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-latin-400-normal.woff2') format('woff2');
+  font-weight:   400;
+  font-style:    normal;
+  font-display:  swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@font-face{
-    font-family: 'Fira Sans';
-    src:
-      local('Fira Sans Italic'),
-      local('FiraSans-Italic'),
-      url('/fonts/FiraSans-Italic.woff2') format('woff2');
-    font-weight: 400;
-    font-style:  italic;
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-latin-400-italic.woff2') format('woff2');
+  font-weight:   400;
+  font-style:    italic;
+  font-display:  swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@font-face{
-    font-family: 'Fira Sans';
-    src:
-      local('Fira Sans Bold'),
-      local('FiraSans-Bold'),
-      url('/fonts/FiraSans-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style:  normal;
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-latin-700-normal.woff2') format('woff2');
+  font-weight:   700;
+  font-style:    normal;
+  font-display:  swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-latin-ext-400-normal.woff2') format('woff2');
+  font-weight:   400;
+  font-style:    normal;
+  font-display:  swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+                 U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+                 U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-latin-ext-400-italic.woff2') format('woff2');
+  font-weight:   400;
+  font-style:    italic;
+  font-display:  swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+                 U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+                 U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-latin-ext-700-normal.woff2') format('woff2');
+  font-weight:   700;
+  font-style:    normal;
+  font-display:  swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+                 U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+                 U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-greek-400-normal.woff2') format('woff2');
+  font-weight:   400;
+  font-style:    normal;
+  font-display:  swap;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF,
+                 U+1F00-1FFF;
+}
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-greek-400-italic.woff2') format('woff2');
+  font-weight:   400;
+  font-style:    italic;
+  font-display:  swap;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF,
+                 U+1F00-1FFF;
+}
+
+@font-face
+{
+  font-family:   'Source Sans 3';
+  src:           url('/fonts/SourceSans3-greek-700-normal.woff2') format('woff2');
+  font-weight:   700;
+  font-style:    normal;
+  font-display:  swap;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF,
+                 U+1F00-1FFF;
 }
 
 :root
@@ -45,7 +120,7 @@
   /* Width of running text (about 75 characters), and of wider elements
    * such as grids. Uses rem rather than ch so that it does not depend on
    * the font size of the element it is used on. */
-  --measure:        42rem;
+  --measure:        40rem;
   --wide:           70rem;
 
   /* Spacing scale */
@@ -60,7 +135,7 @@
 
 html
 {
-  font-size: large;
+  font-size: 120%;
   overflow-y: scroll;
 }
 
@@ -104,7 +179,7 @@ body
   margin:       0;
   padding:      0;
 
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 
   /* Keeps the footer at the bottom of the window on short pages */
   display:        flex;

@@ -1,16 +1,6 @@
 @font-face{
     font-family: 'Fira Sans';
     src:
-      local('Fira Sans Light'),
-      local('FiraSans-Light'),
-      url('/fonts/FiraSans-Light.woff2') format('woff2');
-    font-weight: 300;
-    font-style:  normal;
-}
-
-@font-face{
-    font-family: 'Fira Sans';
-    src:
       local('Fira Sans'),
       local('FiraSans-Regular'),
       url('/fonts/FiraSans-Regular.woff2') format('woff2');
@@ -167,7 +157,17 @@ figure.person img
 
 figcaption
 {
-  font-weight: 300;
+  margin-top: var(--space-s);
+  font-size:  0.9em;
+}
+
+/* Figures from the `centered-figure` shortcode; width and border weight
+ * are set per figure */
+.figure-centered img
+{
+  display:      block;
+  width:        100%;
+  border:       0 solid var(--border);
 }
 
 /* Headings are too short to justify without large gaps */
@@ -274,7 +274,7 @@ sup
     line-height: 0;
 }
 
-time
+article.news time, .post-list time
 {
   font-weight: bold;
 }
@@ -373,11 +373,6 @@ ul.card-icons li
   border:      1px solid var(--border);
   border-radius: var(--radius);
   margin-bottom: 0.75em;
-}
-
-#publication-search:focus
-{
-  border-color:   black;
 }
 
 #publication-filters

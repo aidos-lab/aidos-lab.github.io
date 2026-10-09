@@ -1,0 +1,15 @@
+<!-- Required parameters:
+src: path to image file
+Optional parameters:
+alt: alternative text for the image
+width: width of the figure (default is 100%)
+border-weight: weight of the border around the image (default is 0px, i.e., no border)
+caption: caption text for the image (optional, supports markdown formatting)
+-->
+<figure class="figure-centered"{{ with .Get "width" }} style="max-width: {{ . }}"{{ end }}>
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default "Figure" }}"
+    {{- with .Get "border-weight" }} style="border-width: {{ . }}"{{ end }}>
+  {{- with .Get "caption" }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>

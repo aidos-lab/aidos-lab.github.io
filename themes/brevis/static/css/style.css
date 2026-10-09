@@ -38,6 +38,27 @@
     font-style:  normal;
 }
 
+:root
+{
+  /* Colours */
+  --text:           #444;
+  --bg:             #f2f2f2;
+  --bg-chrome:      #EEE;     /* header and footer */
+  --surface:        #fff;     /* inputs, buttons, tags */
+  --surface-active: #E8E8E8;
+  --border:         lightgray;
+  --accent:         #0055DD;
+  --visited:        #5B2D8E;
+
+  /* Width of running text */
+  --measure:        75ch;
+
+  /* Spacing scale */
+  --space-s:        0.5em;
+  --space-m:        1em;
+  --space-l:        1.5em;
+}
+
 html
 {
   font-size: large;
@@ -50,19 +71,19 @@ html
 
 a
 {
-  color: #0055DD;
+  color: var(--accent);
 }
 
 a:visited
 {
-  color: #5B2D8E;
+  color: var(--visited);
 }
 
 body
 {
   line-height:  1.6;
-  color:        #444;
-  background:   #f2f2f2;
+  color:        var(--text);
+  background:   var(--bg);
   text-align:   justify;
 
   margin:       0;
@@ -74,8 +95,8 @@ body
 body > header
 {
   padding:        0.5em;
-  border-bottom:  1px solid lightgray;
-  background:     #EEE;
+  border-bottom:  1px solid var(--border);
+  background:     var(--bg-chrome);
 }
 
 table
@@ -87,7 +108,7 @@ table
 
 main
 {
-  max-width:  75ch;
+  max-width:  var(--measure);
   margin:     0 auto;
 }
 
@@ -114,21 +135,21 @@ h1, h2, h3
 h1
 {
   font-size:     2.0em;
-  margin-top:    1.0em;
-  margin-bottom: 1.0em;
+  margin-top:    var(--space-m);
+  margin-bottom: var(--space-m);
 }
 
 h2
 {
   font-size:     1.5em;
-  margin-top:    0.5em;
-  margin-bottom: 0.5em;
+  margin-top:    var(--space-s);
+  margin-bottom: var(--space-s);
 }
 
 /* Improve spacing between normal list items */
 li
 {
-  margin: 0.50em 0 0 0;
+  margin: var(--space-s) 0 0 0;
 }
 
 /* no extra spacing for lists in the navigation bar */
@@ -160,19 +181,19 @@ li
 
 footer
 {
-  border-top:  1px solid lightgray;
-  background:  #EEE;
+  border-top:  1px solid var(--border);
+  background:  var(--bg-chrome);
 }
 
 #footer-logos
 {
-  margin:     1em auto;
+  margin:     var(--space-m) auto;
   text-align: center;
 }
 
 #footer-text
 {
-  width: 75ch;
+  width: var(--measure);
   margin: 0 auto;
 }
 
@@ -182,8 +203,7 @@ footer
   max-width      : 100%;
   margin         : auto;
   flex-wrap      : wrap;
-  row-gap        : 1em;
-  column-gap     : 1em;
+  gap            : var(--space-m);
   align-content  : center;
   justify-content: center;
 }
@@ -210,7 +230,7 @@ time
   #menu li
   {
     display: block;
-    padding-left: 1em;
+    padding-left: var(--space-m);
   }
 
   /* Ensures that the header does not overlap with the content */
@@ -222,27 +242,27 @@ time
 
   main
   {
-    padding: 1em;
+    padding: var(--space-m);
   }
 
   #footer-text
   {
     width:   auto;
-    padding: 1em;
+    padding: var(--space-m);
   }
 
 }
 
 article.news
 {
-  margin-bottom: 1em;
+  margin-bottom: var(--space-m);
 }
 
 /* Separates the title and byline of a blog post from its content */
 article > header
 {
-  border-bottom:  1px solid lightgray;
-  margin-bottom:  1.5em;
+  border-bottom:  1px solid var(--border);
+  margin-bottom:  var(--space-l);
 }
 
 ul.card-icons 
@@ -287,7 +307,7 @@ ul.card-icons li
 
 .publication-controls
 {
-  margin-bottom: 1.5em;
+  margin-bottom: var(--space-l);
 }
 
 #publication-search
@@ -296,9 +316,9 @@ ul.card-icons li
   box-sizing:  border-box;
   padding:     0.5em 0.6em;
   font-size:   1rem;
-  color:       #444;
-  background:  #fff;
-  border:      1px solid lightgray;
+  color:       var(--text);
+  background:  var(--surface);
+  border:      1px solid var(--border);
   margin-bottom: 0.75em;
 }
 
@@ -312,7 +332,7 @@ ul.card-icons li
   display:   flex;
   flex-wrap: wrap;
   gap:       0.5em 1.25em;
-  margin-bottom: 0.5em;
+  margin-bottom: var(--space-s);
 }
 
 .publication-facet-group
@@ -343,9 +363,9 @@ ul.card-icons li
 .publication-facet-btn
 {
   font-size:      1.00rem;
-  color:          #444;
-  background:     white;
-  border:         1px solid lightgray;
+  color:          var(--text);
+  background:     var(--surface);
+  border:         1px solid var(--border);
   padding:        0.2em 0.6em;
   cursor:         pointer;
   transition:     background 0.15s, color 0.15s, border-color 0.15s;
@@ -353,9 +373,7 @@ ul.card-icons li
 
 .publication-facet-btn--active
 {
-  background:   #E8E8E8;
-  border-color: lightgray;
-  color:        #444;
+  background:   var(--surface-active);
 }
 
 #publication-count
@@ -369,8 +387,8 @@ ul.card-icons li
 {
   font-size:    0.75rem;
   margin-right: 0.25em;
-  border:       1px solid lightgray;
-  background:   white;
+  border:       1px solid var(--border);
+  background:   var(--surface);
   padding:      0.1em 0.4em;
 }
 
@@ -378,7 +396,7 @@ ul.card-icons li
 {
   font-size:     0.75rem;
   font-style:    italic;
-  margin-top:    0.50em;
-  margin-bottom: 0.50em;
+  margin-top:    var(--space-s);
+  margin-bottom: var(--space-s);
 }
 

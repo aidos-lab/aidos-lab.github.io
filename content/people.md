@@ -43,7 +43,7 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - [Rubén Ballester](https://rubenbb.com) (now a research scientist at [NDEA](https://ndea.com))
 - Pia Baronetzky
 - [Irene Cannistraci](https://irene.cannistraci.dev) (now a postdoctoral researcher with [Julia Vogt](https://mds.inf.ethz.ch/team/detail/julia-vogt/) at ETH Zurich)
-- [Marek Cerny](http://marekcerny.com) (now a PhD student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
+- [Marek Cerny](https://marekcerny.com) (now a PhD student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ege Erdogan
 - Katharina Hagedorn
 - Ferdinand Hölzl (now a master's student at University of Hamburg)

@@ -10,6 +10,8 @@ interested in. Read on if you are interested in [joining us]({{< relref "/contac
 
 # 2026
 
+- Jeremy Wayland: *Understanding Data Representations using Geometry and Topology*, PhD thesis
+- Ernst Röell: *Towards Deep Learning with Euler Characteristic Transforms*, PhD thesis
 - Tobias Robert Eeksman: [*Differentiable Inner Product Transform for 3D Reconstruction*](Thesis_Tobias_Robert_Eeksman.pdf), BSc thesis
 - Rubén Ballester: [*Topology-Enhanced Deep Learning*](https://hdl.handle.net/2445/228985), PhD thesis
 - Julius von Rohrscheidt: [*Robust Topological Representation Learning*](https://nbn-resolving.org/urn:nbn:de:bvb:91-diss-20260306-1783572-0-4), PhD thesis
@@ -31,11 +33,11 @@ interested in. Read on if you are interested in [joining us]({{< relref "/contac
 - Pia Baronetzky: [*Topological Data Analysis on Multimodal Brain Data*](Thesis_Pia_Baronetzky.pdf), MSc thesis
 - Jonathan Clancy: [*Topological Kernels for Gaussian Processes*](Thesis_Jonathan_Clancy.pdf), MSc thesis
 - Katharina Hagedorn: [*Machine Learning for Direct Antimicrobial Resistance Prediction from Clinical MALDI-TOF Spectra*](Thesis_Katharina_Hagedorn.pdf), BSc thesis
-- Rishendra Chauhan, [*Distributed Persistence Based Dimensionality Reduction Method: DIPOLE*](Thesis_Rishendra_Chauhan.pdf), MSc thesis 
+- Rishendra Chauhan: [*Distributed Persistence Based Dimensionality Reduction Method: DIPOLE*](Thesis_Rishendra_Chauhan.pdf), MSc thesis
 
 # 2023
 
-- Franz Srambical, [*Graph Filtration Surfaces: A Multi-Scale Approach to Dynamic Graph Representation*](Thesis_Franz_Srambical.pdf), BSc thesis
-- Niklas Kiermeyer, [*Explainable Comparative Analysis of Modern Survival Models and Patient Similarity Networks: A Case Study for Cancer Patients*](Thesis_Niklas_Kiermeyer.pdf), MSc thesis
-- Barış Onarıcı, [*Neural Approximations to Gromov-Hausdorff Distances*](Thesis_Barış_Onarıcı.pdf), MSc thesis
+- Franz Srambical: [*Graph Filtration Surfaces: A Multi-Scale Approach to Dynamic Graph Representation*](Thesis_Franz_Srambical.pdf), BSc thesis
+- Niklas Kiermeyer: [*Explainable Comparative Analysis of Modern Survival Models and Patient Similarity Networks: A Case Study for Cancer Patients*](Thesis_Niklas_Kiermeyer.pdf), MSc thesis
+- Barış Onarıcı: [*Neural Approximations to Gromov-Hausdorff Distances*](Thesis_Barış_Onarıcı.pdf), MSc thesis
 - Kalyan Varma Nadimpalli: [*Weighted Euler Characteristic Transform based Topological Loss for Reconstructing 3D Images from Single 2D Slices*](Thesis_Kalyan_Varma_Nadimpalli.pdf), MSc thesis

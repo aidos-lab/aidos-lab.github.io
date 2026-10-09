@@ -156,7 +156,7 @@ We hope that RINGS enriches the ongoing dialogue about our graph-learning benchm
 
 If you’re building or evaluating GNNs, we encourage you to put your benchmarking datasets through RINGS. You might be surprised by what you find.
 
-Join us! Check out the [full paper](https://doi.org/10.48550/arXiv.2502.02379), and the associated [code repo](http://github.com/aidos-lab/rings/) here.
+Join us! Check out the [full paper](https://doi.org/10.48550/arXiv.2502.02379), and the associated [code repo](https://github.com/aidos-lab/rings/) here.
 
 ## The Fellowship of the RINGS
 

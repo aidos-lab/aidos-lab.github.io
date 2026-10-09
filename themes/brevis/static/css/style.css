@@ -238,6 +238,13 @@ article.news
   margin-bottom: 1em;
 }
 
+/* Separates the title and byline of a blog post from its content */
+article > header
+{
+  border-bottom:  1px solid lightgray;
+  margin-bottom:  1.5em;
+}
+
 ul.card-icons 
 {
   list-style: none;

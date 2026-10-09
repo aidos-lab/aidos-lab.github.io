@@ -6,7 +6,7 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="website">
 
-  <title>{{ .Title | markdownify | plainify }}</title>
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title | markdownify | plainify }} · {{ site.Title }}{{ end }}</title>
   <meta property="og:title" content="{{ .Title | markdownify | plainify }}">
 
   {{- with .Description | default .Site.Params.description }}

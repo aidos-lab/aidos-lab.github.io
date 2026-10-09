@@ -4,6 +4,7 @@ title         = "AIDOS Lab"
 theme         = "brevis"
 enableGitInfo = true
 ignoreFiles   = ['\.bib$']
+disableKinds  = ["taxonomy", "term"]
 
 [params]
   description = "The AIDOS Lab at the University of Fribourg builds principled methods at the intersection of geometry, topology, and machine learning to reveal hidden structure in complex data."

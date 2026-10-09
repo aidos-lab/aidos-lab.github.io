@@ -7,10 +7,11 @@
   {{ end }}
 
   <div id="footer-text">
+    {{- if not .Lastmod.IsZero }}
     <p>
       This page was last updated on <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "Monday, January 2, 2006" }}</time>.
-    {{ with .Site.Params.footer.text }}{{ . | markdownify }}{{ end }}
     </p>
+    {{- end }}
     {{ with .Site.Params.footer.license.text }}{{ . | markdownify }}{{ end }}
   </div>
 </footer>

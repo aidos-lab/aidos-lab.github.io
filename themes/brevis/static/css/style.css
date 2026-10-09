@@ -32,12 +32,15 @@
 {
   /* Colours */
   --text:           #444;
-  --bg:             #f2f2f2;
+  --bg:             #f4f1ec;
   --surface:        #fff;     /* inputs, buttons, tags */
-  --surface-active: #E8E8E8;
-  --border:         lightgray;
-  --accent:         #0055DD;
+  --accent:         #2B4593;
   --visited:        #5B2D8E;
+
+  /* Greys, derived from the colours above */
+  --border:         color-mix(in srgb, var(--text) 25%, var(--bg));      /* cards, tags */
+  --border-strong:  color-mix(in srgb, var(--text) 75%, var(--bg));      /* rules, inputs, buttons */
+  --surface-active: color-mix(in srgb, var(--text) 12%, var(--surface)); /* active button */
 
   /* Width of running text (about 75 characters), and of wider elements
    * such as grids. Uses rem rather than ch so that it does not depend on
@@ -207,7 +210,7 @@ li
   max-width:     var(--measure);
   margin:        0 auto;
   padding:       0 0 var(--space-s);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--border-strong);
   list-style:    none;
   text-align:  start;
 }
@@ -244,7 +247,7 @@ footer
   width:          min(var(--measure), 100% - 2 * var(--space-m));
   margin:         0 auto;
   padding-bottom: var(--space-m);
-  border-top:     1px solid var(--border);
+  border-top:     1px solid var(--border-strong);
 }
 
 #footer-logos
@@ -300,7 +303,7 @@ article.news
 /* Separates the title and byline of a blog post from its content */
 article > header
 {
-  border-bottom:  1px solid var(--border);
+  border-bottom:  1px solid var(--border-strong);
   margin-bottom:  var(--space-l);
 }
 
@@ -377,7 +380,7 @@ ul.card-icons li
   font-size:   1rem;
   color:       var(--text);
   background:  var(--surface);
-  border:      1px solid var(--border);
+  border:      1px solid var(--border-strong);
   border-radius: var(--radius);
   margin-bottom: 0.75em;
 }
@@ -420,7 +423,7 @@ ul.card-icons li
   font-size:      1.00rem;
   color:          var(--text);
   background:     var(--surface);
-  border:         1px solid var(--border);
+  border:         1px solid var(--border-strong);
   border-radius:  var(--radius);
   padding:        0.2em 0.6em;
   cursor:         pointer;

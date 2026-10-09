@@ -2,6 +2,10 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-10-01 = """
+  🐣 Welcome to the lab, Olivia. We are glad you are joining us!
+"""
+
 2026-09-11 = """
   🚀 Jeremy defended his PhD thesis "Understanding Data Representations using Geometry and Topology" with distinction (*magna cum
   laude*). What a feat, Jeremy! It was a pleasure working with you. All

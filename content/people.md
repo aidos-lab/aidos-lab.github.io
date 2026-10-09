@@ -40,10 +40,10 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 
 # Alumni & Alumnae
 
-- [Rubén Ballester](https://rubenbb.com) (now a research scientist at [NDEA](https://ndea.com))
+- [Rubén Ballester](https://rubenbb.com) (PhD, 2026)
 - Pia Baronetzky
 - [Irene Cannistraci](https://irene.cannistraci.dev) (now a postdoctoral researcher with [Julia Vogt](https://mds.inf.ethz.ch/team/detail/julia-vogt/) at ETH Zurich)
-- [Marek Cerny](https://marekcerny.com) (now a PhD student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
+- [Marek Černý](https://marekcerny.com) (now a PhD student with [Floris Geerts](https://fgeerts.github.io/) at the University of Antwerp)
 - Ege Erdogan
 - Katharina Hagedorn
 - Ferdinand Hölzl (now a master's student at University of Hamburg)

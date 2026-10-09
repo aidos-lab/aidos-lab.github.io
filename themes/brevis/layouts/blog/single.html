@@ -1,7 +1,7 @@
 {{- define "main" }}
   <article>
     <header>
-      <h1>{{ .Title | safeHTML }}</h1>
+      <h1>{{ .Title }}{{ with .Params.subtitle }}: <span class="subtitle">{{ . }}</span>{{ end }}</h1>
       <p>
         Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
         by

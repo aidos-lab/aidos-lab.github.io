@@ -1,7 +1,9 @@
 +++
 authors = ["Emily Simons"]
-title = "Standard graph-learning benchmarks earn poor marks: <span style='font-weight: lighter; font-style: italic'>New dataset-evaluation framework raises concerns about how the field measures progress</span>"
+title = "Standard Graph-Learning Benchmarks Earn Poor Marks"
+subtitle = "New dataset-evaluation framework raises concerns about how the field measures progress"
 date = 2025-07-17
+description = "Benchmarks assess GNNs; RINGS assesses benchmarks. A framework that perturbs node features and graph structure to evaluate graph-learning datasets."
 +++
 
 While the field of graph-learning has not yet come of age (by Hobbit standards), the forthcoming story will be reminiscent of Bilbo Baggins’ eleventy-first birthday bash: There will be some goodbyes, the bestowal of powerful rings (yes, rings *plural*), and the beginnings of a noble pursuit — aided by some (mathematical) wizardry. Buckle up.

@@ -279,6 +279,13 @@ time
   font-weight: bold;
 }
 
+/* Subtitles of blog posts, shown after the title */
+.subtitle
+{
+  font-weight: normal;
+  font-style:  italic;
+}
+
 /* Long post titles leave large gaps when justified */
 .post-list
 {

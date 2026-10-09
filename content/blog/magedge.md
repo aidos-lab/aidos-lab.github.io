@@ -1,8 +1,10 @@
 +++
 authors = ["Katharina Limbeck"]
-title = "Geometry-Aware Edge Pooling: <span style='font-weight: lighter; font-style: italic'>Motivational guide to structure-preserving graph coarsening for graph neural networks</span>"
+title = "Geometry-Aware Edge Pooling"
+subtitle = "Motivational guide to structure-preserving graph coarsening for graph neural networks"
 
 date = 2025-11-10
+description = "MagEdgePool and SpreadEdgePool coarsen graphs by contracting the edges that matter least for their geometry, as measured via magnitude and spread."
 +++
 
 

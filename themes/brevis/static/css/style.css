@@ -274,7 +274,7 @@ sup
     line-height: 0;
 }
 
-article.news time, .post-list time
+time
 {
   font-weight: bold;
 }

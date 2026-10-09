@@ -11,29 +11,28 @@ We, the people of the AIDOS Lab, firmly believe in and are committed to [Dr. Fed
 - **Axiom 3.** Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs.
 - **Axiom 4.** Every student deserves to be treated with dignity and respect.
 
-All people are listed in chronological order of joining the lab or
-starting a collaboration with us.
+All people are listed in alphabetical order according to their last name.
 
 <div class="people-card-container wide">
-    {{< person "BR" >}}
-    {{< person "KL" >}}
-    {{< person "SK" >}}
-    {{< person "RvM" >}}
-    {{< person "NH" >}}
-    {{< person "MC" >}}
-    {{< person "JsS" >}}
-    {{< person "KS" >}}   
-    {{< person "PG" >}}
-    {{< person "EW" >}}
-    {{< person "IGR" >}}
     {{< person "JPGA" >}}
+    {{< person "MC" >}}
+    {{< person "IGR" >}}
+    {{< person "PG" >}}
+    {{< person "NH" >}}
+    {{< person "SK" >}}
+    {{< person "KL" >}}
+    {{< person "RvM" >}}
+    {{< person "BR" >}}
+    {{< person "JsS" >}}
+    {{< person "KS" >}}
+    {{< person "EW" >}}
 </div>
 
 # Collaborators
 
 <div class="people-card-container wide">
-    {{< person "CC" >}}
     {{< person "MA" >}}
+    {{< person "CC" >}}
     {{< person "CK" >}}
 </div>
 
@@ -53,8 +52,8 @@ Your name is missing here! Learn more about [joining us]({{< relref "/contact" >
 - Giacomo Parolin
 - [Julius von Rohrscheidt](https://www.rohrscheidt.com) (PhD, 2026)
 - [Ernst Röell](https://ernstroell.github.io/) (PhD, 2026)
-- Yevhenii Sharapov
 - [Daniel Bīn Schmid](https://danielbinschmid.com)
+- Yevhenii Sharapov
 - [Emily Simons](https://emsimons.github.io/me)
 - [Franz Srambical](https://srambical.fr/) (now building AGI at [p(doom)](https://pdoom.org))
 - Tejas Srinivasan

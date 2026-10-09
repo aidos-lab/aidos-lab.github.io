@@ -6,11 +6,11 @@ title: "AIDOS Lab"
 
 # Welcome to the AIDOS Lab
 
-Data has shape, and we build tools that find it.
+Data has shape. We build the tools that find it.
 {.lead}
 
 We are a research group at the [University of Fribourg](https://www.unifr.ch), working at the intersection of **geometry, topology, and machine learning**.
-Grounded in mathematics, we build principled methods that reveal hidden structure in complex data.
+Grounded in mathematics, we favor simplicity, elegance, and interpretability over mere performance.
 
 If you are a student at the University of Fribourg and are interested in writing a bachelor's or master's thesis with us, [please drop us a line](/contact/#bachelors-and-masters-theses).
 

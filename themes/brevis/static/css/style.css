@@ -60,6 +60,9 @@
   --space-m:        1em;
   --space-l:        1.5em;
   --space-xl:       2em;
+
+  /* Corners of cards, inputs, buttons, and tags */
+  --radius:         4px;
 }
 
 html
@@ -70,7 +73,14 @@ html
 
 a
 {
-  color: var(--accent);
+  color:                     var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset:     0.15em;
+}
+
+a:hover
+{
+  text-decoration-thickness: 2px;
 }
 
 a:visited
@@ -143,6 +153,11 @@ main > .wide
 figure
 {
   margin: var(--space-xl) auto;
+}
+
+figure.person
+{
+  margin: var(--space-s) auto 0;
 }
 
 figure.person img
@@ -308,13 +323,19 @@ ul.card-icons li
   margin: 0; 
 }
 
-.card-person 
+.card-person
 {
-  width: 200px; 
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  justify-content: center;
-  align-content: center;
-  text-align: center;
+  width:         200px;
+  padding-bottom: var(--space-s);
+  background:    var(--surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius);
+  text-align:    center;
+}
+
+.card-name
+{
+  font-weight: bold;
 }
 
 .card-person a 
@@ -324,8 +345,14 @@ ul.card-icons li
 
 .publications ul
 {
-  /* Don't waste any additional space here */
-  padding-left: 0px;
+  /* Year headings already group the entries; no bullets needed */
+  padding-left: 0;
+  list-style:   none;
+}
+
+.publications li + li
+{
+  margin-top: var(--space-l);
 }
 
 /* ── publication search & filters ───────────────────────────────────────── */
@@ -344,6 +371,7 @@ ul.card-icons li
   color:       var(--text);
   background:  var(--surface);
   border:      1px solid var(--border);
+  border-radius: var(--radius);
   margin-bottom: 0.75em;
 }
 
@@ -391,6 +419,7 @@ ul.card-icons li
   color:          var(--text);
   background:     var(--surface);
   border:         1px solid var(--border);
+  border-radius:  var(--radius);
   padding:        0.2em 0.6em;
   cursor:         pointer;
   transition:     background 0.15s, color 0.15s, border-color 0.15s;
@@ -413,6 +442,7 @@ ul.card-icons li
   font-size:    0.75rem;
   margin-right: 0.25em;
   border:       1px solid var(--border);
+  border-radius: var(--radius);
   background:   var(--surface);
   padding:      0.1em 0.4em;
 }

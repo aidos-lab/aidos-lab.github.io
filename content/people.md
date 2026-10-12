@@ -4,6 +4,10 @@ title: "People"
 
 # People
 
+Great science needs great people.\
+Meet them here.
+{.lead}
+
 We, the people of the AIDOS Lab, firmly believe in and are committed to [Dr. Federico Ardila-Mantilla's axioms](https://fardila.com/):
 
 - **Axiom 1.** Mathematical potential is equally present in different groups, irrespective of geographic, demographic, and economic boundaries.

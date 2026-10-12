@@ -1,50 +1,37 @@
 <div class="card-person">
-  {{ $person := .Get 0 }}
-  {{ $person :=  index hugo.Data.people $person }}
+  {{ $id     := .Get 0 }}
+  {{ $person := index hugo.Data.people $id }}
+
+  {{ $bio    := strings.TrimSpace ($person.bio | default "") }}
+  {{ $icons  := partial "person-icons.html" $person }}
+
+  {{ with $bio }}
+  <button class="card-trigger" type="button" popovertarget="bio-{{ $id }}">
     <figure class="person">
-      <img src="{{ $person.image }}" width="180" alt="{{ $person.name }}" />
+      <img src="{{ $person.image }}" width="180" alt="" />
     </figure>
     <span class="card-name">{{ $person.name }}</span><br />
     <span class="card-job">{{ $person.job }}</span>
-    <ul class="card-icons">
-      {{ with $person.web }}
-      <li>
-        <a href="{{ . }}">
-            <img src="/icons/home.svg" alt="Homepage" />
-          </a>
-      </li>
-      {{ end }} 
+  </button>
+  {{ else }}
+  <figure class="person">
+    <img src="{{ $person.image }}" width="180" alt="{{ $person.name }}" />
+  </figure>
+  <span class="card-name">{{ $person.name }}</span><br />
+  <span class="card-job">{{ $person.job }}</span>
+  {{ end }}
 
-      {{ with $person.orcid }}
-      <li>
-        <a href="https://orcid.org/{{ . }}">
-            <img src="/icons/orcid.svg" alt="ORCID" />
-          </a>
-      </li>
-      {{end }}
+  {{ $icons }}
 
-      {{ with $person.github }}
-      <li>
-        <a href="https://github.com/{{ . }}">
-            <img src="/icons/github.svg" alt="GitHub" />
-          </a>
-      </li>
-      {{end }}
-      
-      {{ with $person.bluesky }}
-      <li>
-        <a href="https://bsky.app/profile/{{ . }}">
-            <img src="/icons/bluesky.svg" alt="Bluesky" />
-          </a>
-      </li>
-      {{ end }}
-
-      {{ with $person.twitter }}
-      <li>
-        <a href="https://x.com/{{ . }}">
-            <img src="/icons/x.svg" alt="X (formerly Twitter)" />
-          </a>
-      </li>
-      {{ end }}
-  </ul>
+  {{ with $bio }}
+  <div class="person-bio" id="bio-{{ $id }}" popover>
+    <button class="person-bio-close" type="button" popovertarget="bio-{{ $id }}"
+            popovertargetaction="hide" aria-label="Close">&times;</button>
+    <img src="{{ $person.image }}" width="120" alt="" />
+    <p class="card-name">{{ $person.name }}</p>
+    <p class="card-job">{{ $person.job }}</p>
+    {{ $.Page.RenderString (dict "display" "block") . }}
+    {{ $icons }}
+  </div>
+  {{ end }}
 </div>

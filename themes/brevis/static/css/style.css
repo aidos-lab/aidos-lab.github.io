@@ -121,7 +121,7 @@
    * such as grids. Uses rem rather than ch so that it does not depend on
    * the font size of the element it is used on. */
   --measure:        40rem;
-  --wide:           70rem;
+  --wide:           50rem;
 
   /* Spacing scale */
   --space-s:        0.5em;
@@ -228,8 +228,11 @@ figure.person
   margin: var(--space-s) auto 0;
 }
 
-figure.person img
+/* Crops non-square photos so that names line up across a row */
+figure.person img, .person-bio img
 {
+  aspect-ratio:  1;
+  object-fit:    cover;
   border-radius: 50%;
 }
 
@@ -499,6 +502,104 @@ ul.card-icons li
 .card-person a 
 {
   text-decoration: none;
+}
+
+/* Cards with a biography: photo, name, and job open a popover. The card
+ * lifts on hover and keyboard focus to show that it can be clicked. */
+.card-trigger
+{
+  display:    block;
+  width:      100%;
+  padding:    0;
+  border:     none;
+  background: none;
+  color:      inherit;
+  font:       inherit;
+  cursor:     pointer;
+}
+
+.card-trigger:focus-visible
+{
+  outline: none;
+}
+
+.card-person
+{
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+
+.card-person:has(.card-trigger:hover),
+.card-person:has(.card-trigger:focus-visible)
+{
+  border-color: var(--accent);
+  box-shadow:   0 4px 12px color-mix(in srgb, var(--text) 20%, transparent);
+  transform:    translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce)
+{
+  .card-person
+  {
+    transition: none;
+  }
+
+  .card-person:has(.card-trigger:hover),
+  .card-person:has(.card-trigger:focus-visible)
+  {
+    transform: none;
+  }
+}
+
+/* Biography popover; centred by the browser */
+.person-bio
+{
+  box-sizing:    border-box;
+  width:         min(30rem, calc(100vw - 2 * var(--space-m)));
+  max-height:    calc(100vh - 2 * var(--space-m));
+  padding:       var(--space-xl) var(--space-l) var(--space-l);
+  color:         var(--text);
+  background:    var(--surface);
+  border:        1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow:    0 8px 32px color-mix(in srgb, var(--text) 30%, transparent);
+  text-align:    center;
+}
+
+.person-bio::backdrop
+{
+  background: color-mix(in srgb, var(--text) 40%, transparent);
+}
+
+.person-bio p
+{
+  margin:     0 0 var(--space-m);
+  text-align: justify;
+}
+
+.person-bio p.card-name,
+.person-bio p.card-job
+{
+  margin:     0;
+  text-align: center;
+}
+
+.person-bio p.card-job
+{
+  margin-bottom: var(--space-m);
+}
+
+.person-bio-close
+{
+  position:    absolute;
+  top:         var(--space-s);
+  right:       var(--space-s);
+  padding:     0 0.3em;
+  border:      none;
+  background:  none;
+  color:       var(--text);
+  font-size:   1.5em;
+  line-height: 1;
+  cursor:      pointer;
 }
 
 .publications ul

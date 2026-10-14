@@ -1,8 +1,10 @@
 name    = "Nadja Häusermann"
 job     = "Ph.D. Student"
 image   = "nh.jpg"
-bio     = """
-
+bio     = """\
+Nadja is interested in applying geometry and topology in machine
+learning. Particularly, she likes to think about magnitude 
+(homology) and graphs at the moment.
 """
 github  = "nadjahae"
 web = "https://nadja.topology.rocks/"

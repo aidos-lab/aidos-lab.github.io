@@ -1,0 +1,73 @@
+{{/* Usage: {{< peoplemap "ID1" "ID2" ... >}}. People need `country` (name as in data/countries.json); optional `city` (data/cities.toml) or `lat`/`lon`. */}}
+{{ $groups := dict }}
+{{ range .Params }}
+  {{ $person := index hugo.Data.people . }}
+  {{ with $person.country }}
+    {{ $label := . }}
+    {{ $ll := index hugo.Data.countries . }}
+    {{ with $person.city }}
+      {{ $label = printf "%s, %s" . $person.country }}
+      {{ $city := index hugo.Data.cities . }}
+      {{ if $city }}
+        {{ $ll = $city }}
+      {{ else }}
+        {{ warnf "peoplemap: unknown city %q (add it to data/cities.toml)" . }}
+      {{ end }}
+    {{ end }}
+    {{ if and $person.lat $person.lon }}
+      {{ $ll = slice $person.lat $person.lon }}
+    {{ end }}
+    {{ if $ll }}
+      {{ $lat := float (index $ll 0) }}
+      {{ $pos := slice (add (index $ll 1) 180) (sub 105 (mul 71.62 (math.Log (math.Tan (add (div math.Pi 4) (mul 0.4 (mul $lat 0.0174533))))))) }}
+      {{ $prev := index $groups $label | default (dict "pos" $pos "members" slice) }}
+      {{ $groups = merge $groups (dict $label (dict "pos" $pos "members" ($prev.members | append $person))) }}
+    {{ else }}
+      {{ warnf "peoplemap: unknown country %q" $person.country }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="people-map">
+  <svg viewBox="0 0 360 171" role="img" aria-label="Map of the nationalities of lab members">
+    {{ partial "world-paths.html" . }}
+  </svg>
+  {{ range $label, $g := $groups }}
+    {{ $x := div (mul (index $g.pos 0) 100.0) 360 }}
+    {{ $y := div (mul (index $g.pos 1) 100.0) 171 }}
+    <div class="map-dot{{ if gt $x 60.0 }} left{{ end }}{{ if gt $y 55.0 }} up{{ end }}"
+         style="left: {{ $x }}%; top: {{ $y }}%;">
+      <button type="button" aria-label="{{ $label }}"></button>
+      <div class="map-tip">
+        <p class="map-country">{{ $label }}</p>
+        {{ range $g.members }}
+        <div class="map-member">
+          <img src="{{ .image }}" width="64" alt="" />
+          <div>
+            <span class="card-name">{{ .name }}</span>
+            {{ with strings.TrimSpace (.bio | default "") }}<p>{{ . | markdownify }}</p>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+.people-map { position: relative; max-width: var(--wide, 50rem); margin: 1.5em auto; }
+.people-map svg { display: block; width: 100%; height: auto; }
+.people-map path { fill: color-mix(in srgb, var(--text) 18%, var(--bg)); stroke: var(--bg); stroke-width: 0.3; }
+.map-dot { position: absolute; transform: translate(-50%, -50%); }
+.map-dot button { display: block; width: 12px; height: 12px; padding: 0; border: 1.5px solid #fff; border-radius: 50%; background: #d11; cursor: pointer; }
+.map-dot:hover button, .map-dot:focus-within button { transform: scale(1.4); }
+.map-dot:hover, .map-dot:focus-within { z-index: 2; }
+.map-tip { display: none; position: absolute; top: 14px; left: 50%; transform: translateX(-20%); width: min(20rem, 80vw); padding: 0.75em; font-size: 0.85em; text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 4px 16px color-mix(in srgb, var(--text) 30%, transparent); }
+.map-dot.left .map-tip { transform: translateX(-80%); }
+.map-dot.up .map-tip { top: auto; bottom: 14px; }
+.map-dot:hover .map-tip, .map-dot:focus-within .map-tip { display: block; }
+.map-country { margin: 0 0 0.5em; font-weight: bold; }
+.map-member { display: flex; gap: 0.75em; align-items: flex-start; margin-top: 0.5em; }
+.map-member img { border-radius: 50%; object-fit: cover; aspect-ratio: 1; }
+.map-member p { margin: 0.2em 0 0; }
+</style>

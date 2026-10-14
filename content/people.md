@@ -25,7 +25,7 @@ All people are listed in alphabetical order according to their last name.
     {{< person "EW" >}}
 </div>
 
-{{< peoplemap "JPGA" "MC" "IGR" "PG" "NH" "SK" "KL" "RvM" "BR" "JsS" "KS" "EW" >}}
+{{< peoplemap "JPGA" "MC" "IGR" "PG" "NH" "SK" "KL" "RvM" "BR" "JsS" "KS" "EW" "MA" "CC" "CK" >}}
 
 We, the people of the AIDOS Lab, firmly believe in and are committed to [Dr. Federico Ardila-Mantilla's axioms](https://fardila.com/):
 

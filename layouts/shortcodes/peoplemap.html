@@ -29,20 +29,22 @@
 {{ end }}
 
 <div class="people-map">
-  <svg viewBox="0 0 360 171" role="img" aria-label="Map of the nationalities of lab members">
-    {{ partial "world-paths.html" . }}
-  </svg>
-  {{ range $label, $g := $groups }}
-    {{ $x := div (mul (index $g.pos 0) 100.0) 360 }}
-    {{ $y := div (mul (index $g.pos 1) 100.0) 171 }}
-    <div class="map-dot{{ if gt $x 60.0 }} left{{ end }}{{ if gt $y 55.0 }} up{{ end }}"
-         style="left: {{ $x }}%; top: {{ $y }}%;">
+  <div class="map-view">
+    <div class="map-stage">
+      <svg viewBox="0 0 360 171" role="img" aria-label="Map of the nationalities of lab members">
+        {{ partial "world-paths.html" . }}
+      </svg>
+    </div>
+  </div>
+  <div class="map-dots">
+    {{ range $label, $g := $groups }}
+    <div class="map-dot" data-x="{{ printf "%.4f" (div (index $g.pos 0) 360.0) }}" data-y="{{ printf "%.4f" (div (index $g.pos 1) 171.0) }}">
       <button type="button" aria-label="{{ $label }}"></button>
       <div class="map-tip">
         <p class="map-country">{{ $label }}</p>
         {{ range $g.members }}
         <div class="map-member">
-          <img src="{{ .image }}" width="64" alt="" />
+          <img src="{{ .image }}" width="56" alt="" />
           <div>
             <span class="card-name">{{ .name }}</span>
             {{ with strings.TrimSpace (.bio | default "") }}<p>{{ . | markdownify }}</p>{{ end }}
@@ -51,23 +53,109 @@
         {{ end }}
       </div>
     </div>
-  {{ end }}
+    {{ end }}
+  </div>
+  <div class="map-controls">
+    <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+    <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
+    <button type="button" data-zoom="reset" aria-label="Reset view">&#8634;</button>
+  </div>
 </div>
 
 <style>
 .people-map { position: relative; max-width: var(--wide, 50rem); margin: 1.5em auto; }
-.people-map svg { display: block; width: 100%; height: auto; }
-.people-map path { fill: color-mix(in srgb, var(--text) 18%, var(--bg)); stroke: var(--bg); stroke-width: 0.3; }
-.map-dot { position: absolute; transform: translate(-50%, -50%); }
-.map-dot button { display: block; width: 12px; height: 12px; padding: 0; border: 1.5px solid #fff; border-radius: 50%; background: #d11; cursor: pointer; }
-.map-dot:hover button, .map-dot:focus-within button { transform: scale(1.4); }
-.map-dot:hover, .map-dot:focus-within { z-index: 2; }
-.map-tip { display: none; position: absolute; top: 14px; left: 50%; transform: translateX(-20%); width: min(20rem, 80vw); padding: 0.75em; font-size: 0.85em; text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 4px 16px color-mix(in srgb, var(--text) 30%, transparent); }
-.map-dot.left .map-tip { transform: translateX(-80%); }
-.map-dot.up .map-tip { top: auto; bottom: 14px; }
+.map-view { position: relative; overflow: hidden; aspect-ratio: 360 / 171; border: 1px solid var(--border); border-radius: var(--radius); background: color-mix(in srgb, var(--accent) 7%, var(--surface)); cursor: grab; touch-action: pan-y; user-select: none; }
+.map-view.dragging { cursor: grabbing; }
+.map-view.zoomed { touch-action: none; }
+.map-stage { width: 100%; height: 100%; transform-origin: 0 0; will-change: transform; }
+.map-stage svg { display: block; width: 100%; height: 100%; }
+.map-stage path { fill: color-mix(in srgb, var(--accent) 38%, var(--surface)); stroke: var(--surface); stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
+.map-dots { position: absolute; inset: 0; pointer-events: none; }
+.map-dot { position: absolute; width: 0; height: 0; pointer-events: auto; }
+.map-dot.hidden { display: none; }
+.map-dot > button { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; padding: 0; border: 2px solid #fff; border-radius: 50%; background: #d11; box-shadow: 0 1px 4px rgba(0,0,0,.4); cursor: pointer; transition: transform .15s; }
+.map-dot > button::after { content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 2px solid #d11; opacity: 0; animation: map-ping 2.6s ease-out infinite; }
+@keyframes map-ping { 0% { transform: scale(.4); opacity: .7; } 70%, 100% { transform: scale(1.4); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .map-dot > button::after { animation: none; } }
+.map-dot:hover > button, .map-dot:focus-within > button { transform: scale(1.3); }
+.map-dot:hover, .map-dot:focus-within { z-index: 3; }
+.map-tip { display: none; position: absolute; top: 12px; left: -2rem; width: min(20rem, 80vw); max-height: 60vh; overflow-y: auto; padding: 0.75em; font-size: 0.85em; text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 6px 20px color-mix(in srgb, var(--text) 30%, transparent); }
+.map-tip::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; }
+.map-dot.left .map-tip { left: auto; right: -2rem; }
+.map-dot.up .map-tip { top: auto; bottom: 12px; }
+.map-dot.up .map-tip::before { top: auto; bottom: -12px; }
 .map-dot:hover .map-tip, .map-dot:focus-within .map-tip { display: block; }
-.map-country { margin: 0 0 0.5em; font-weight: bold; }
-.map-member { display: flex; gap: 0.75em; align-items: flex-start; margin-top: 0.5em; }
-.map-member img { border-radius: 50%; object-fit: cover; aspect-ratio: 1; }
+.map-country { margin: 0 0 0.25em; font-weight: bold; }
+.map-member { display: flex; gap: 0.75em; align-items: flex-start; margin-top: 0.6em; }
+.map-member img { flex: none; border-radius: 50%; object-fit: cover; aspect-ratio: 1; }
 .map-member p { margin: 0.2em 0 0; }
+.map-controls { position: absolute; top: 8px; right: 8px; display: flex; flex-direction: column; gap: 4px; z-index: 4; }
+.map-controls button { width: 28px; height: 28px; padding: 0; font: inherit; font-size: 1.1em; line-height: 1; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); cursor: pointer; }
+.map-controls button:hover { background: var(--surface-active, var(--surface)); }
 </style>
+
+<script>
+(function () {
+  document.querySelectorAll(".people-map").forEach(function (root) {
+    var view = root.querySelector(".map-view"), stage = root.querySelector(".map-stage");
+    var dots = root.querySelectorAll(".map-dot");
+    var s = 1, tx = 0, ty = 0, MAX = 12;
+
+    function clamp() {
+      var w = view.clientWidth, h = view.clientHeight;
+      s = Math.min(MAX, Math.max(1, s));
+      tx = Math.min(0, Math.max(w - w * s, tx));
+      ty = Math.min(0, Math.max(h - h * s, ty));
+    }
+    function render() {
+      clamp();
+      var w = view.clientWidth, h = view.clientHeight;
+      stage.style.transform = "translate(" + tx + "px," + ty + "px) scale(" + s + ")";
+      view.classList.toggle("zoomed", s > 1);
+      dots.forEach(function (d) {
+        var x = tx + d.dataset.x * w * s, y = ty + d.dataset.y * h * s;
+        d.style.left = x + "px"; d.style.top = y + "px";
+        d.classList.toggle("hidden", x < 0 || y < 0 || x > w || y > h);
+        d.classList.toggle("left", x > w * 0.6);
+        d.classList.toggle("up", y > h * 0.55);
+      });
+    }
+    function zoomAt(f, px, py) {
+      var n = Math.min(MAX, Math.max(1, s * f)); f = n / s;
+      tx = px - (px - tx) * f; ty = py - (py - ty) * f; s = n; render();
+    }
+    function center(f) { zoomAt(f, view.clientWidth / 2, view.clientHeight / 2); }
+
+    root.querySelector(".map-controls").addEventListener("click", function (e) {
+      var z = e.target.closest("button"); if (!z) return;
+      if (z.dataset.zoom === "in") center(1.6);
+      else if (z.dataset.zoom === "out") center(1 / 1.6);
+      else { s = 1; tx = ty = 0; render(); }
+    });
+    view.addEventListener("wheel", function (e) {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      var r = view.getBoundingClientRect();
+      zoomAt(e.deltaY < 0 ? 1.25 : 0.8, e.clientX - r.left, e.clientY - r.top);
+    }, { passive: false });
+    view.addEventListener("dblclick", function (e) {
+      var r = view.getBoundingClientRect();
+      zoomAt(2, e.clientX - r.left, e.clientY - r.top);
+    });
+    var drag = null;
+    view.addEventListener("pointerdown", function (e) {
+      if (s <= 1) return;
+      drag = { x: e.clientX, y: e.clientY, tx: tx, ty: ty };
+      view.setPointerCapture(e.pointerId); view.classList.add("dragging");
+    });
+    view.addEventListener("pointermove", function (e) {
+      if (!drag) return;
+      tx = drag.tx + e.clientX - drag.x; ty = drag.ty + e.clientY - drag.y; render();
+    });
+    function end() { drag = null; view.classList.remove("dragging"); }
+    view.addEventListener("pointerup", end); view.addEventListener("pointercancel", end);
+    window.addEventListener("resize", render);
+    render();
+  });
+})();
+</script>

@@ -7,3 +7,5 @@ bio     = """\
 orcid   = "0000-0001-8340-4235"
 web     = "https://inesgare.github.io/"
 github  = "inesgare"
+country = "Spain"
+city = "Murcia"

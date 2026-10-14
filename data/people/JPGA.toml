@@ -5,3 +5,5 @@ bio     = """\
 Juan is interested in geometric and topological methods in machine learning. His interests also include machine learning for science and model quantization, as well as a broad range of other topics in machine learning and beyond.
 """
 github  = "JP-Amboage"
+country = "Spain"
+city = "Vigo"

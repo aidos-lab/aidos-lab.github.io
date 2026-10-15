@@ -1,5 +1,37 @@
 [
     {
+        "title": "Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity",
+        "authors": [
+            "Bhaskar, Dhananjay",
+            "Zhang, Yanlei",
+            "Moore, Jessica",
+            "Ketonis, Panayiotis",
+            "Gao, Feng",
+            "Rieck, Bastian",
+            "Wolf, Guy",
+            "Khasawneh, Firas",
+            "Munch, Elizabeth",
+            "Noah, J. Adam",
+            "Pushkarskaya, Helen",
+            "Pittenger, Christopher",
+            "Greco, Valentina",
+            "Krishnaswamy, Smita"
+        ],
+        "authors-display": "D.&nbsp;Bhaskar<sup>&dagger;</sup>, Y.&nbsp;Zhang<sup>&dagger;</sup>, J.&nbsp;Moore<sup>&dagger;</sup>, P.&nbsp;Ketonis, F.&nbsp;Gao, B.&nbsp;Rieck, G.&nbsp;Wolf, F.&nbsp;Khasawneh, E.&nbsp;Munch, J.&thinsp;A.&nbsp;Noah, H.&nbsp;Pushkarskaya, C.&nbsp;Pittenger, V.&nbsp;Greco, and S.&nbsp;Krishnaswamy",
+        "keywords": [
+            "TDA",
+            "TDL",
+            "Bio"
+        ],
+        "url": "https://dx.doi.org/10.1016/j.neucom.2026.135412",
+        "venue": "Neurocomputing, pp. 135412",
+        "year": "2026",
+        "preprint": "https://biorxiv.org/content/10.1101/2023.03.22.533807v3",
+        "id": "Bhaskar26a",
+        "tldr": "We present Neurospectrum, a deep learning framework that encodes neural activity using graph wavelets and geometric-topological trajectory descriptors.",
+        "order": 155
+    },
+    {
         "title": "Path Laplacian Encodings for Directed Graphs",
         "authors": [
             "Mezrag, Lydia",

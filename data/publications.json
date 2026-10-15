@@ -29,7 +29,7 @@
         "preprint": "https://biorxiv.org/content/10.1101/2023.03.22.533807v3",
         "id": "Bhaskar26a",
         "tldr": "We present Neurospectrum, a deep learning framework that encodes neural activity using graph wavelets and geometric-topological trajectory descriptors.",
-        "order": 155
+        "order": 154
     },
     {
         "title": "Path Laplacian Encodings for Directed Graphs",
@@ -52,7 +52,7 @@
         "preprint": "https://arxiv.org/abs/2610.04657",
         "id": "Mezrag26a",
         "tldr": "We develop novel positional encodings for directed graphs using the path Laplacian.",
-        "order": 154
+        "order": 153
     },
     {
         "title": "Topology of a Smile: Persistent Homology in Dental Imaging",
@@ -72,7 +72,7 @@
         "preprint": "https://arxiv.org/abs/2608.21422",
         "id": "Dahlmeier26a",
         "tldr": "We show how to use TDA techniques to improve dental imaging tasks.",
-        "order": 153
+        "order": 152
     },
     {
         "title": "A Centrality Measure Using Magnitude Homology",
@@ -90,7 +90,7 @@
         "preprint": "https://arxiv.org/abs/2607.16377",
         "id": "Haeusermann26a",
         "tldr": "We develop a new centrality measure for graphs that employs concepts from magnitude homology, a multiscale geometrical-topological invariant.",
-        "order": 152
+        "order": 151
     },
     {
         "title": "Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
@@ -110,7 +110,7 @@
         "preprint": "https://arxiv.org/abs/2509.03703",
         "id": "Saidi26a",
         "tldr": "Using Ollivier--Ricci curvature, we obtain new visualization algorithms with provable preservation properties.",
-        "order": 151
+        "order": 150
     },
     {
         "title": "Encoding the Euler Characteristic Transform",
@@ -132,7 +132,7 @@
         "preprint": "https://arxiv.org/abs/2606.10824",
         "id": "Blaser26a",
         "tldr": "We describe novel ways to encode the Euler Characteristic Transform and compare them.",
-        "order": 150
+        "order": 149
     },
     {
         "title": "Graph Neural Networks Are Not Continuous Across Graph Resolutions",
@@ -158,7 +158,7 @@
         "repository": "https://github.com/christiankoke/scale-continuous-gnns",
         "id": "Koke26b",
         "tldr": "We prove that graph neural networks are not well-behaved when it comes to changing the resolution of the underlying graph. Moreover, we show how to fix this issue.",
-        "order": 149
+        "order": 148
     },
     {
         "title": "Have Graph -- Will Lift? The Case for Higher-Order Benchmarks",
@@ -177,7 +177,7 @@
         "preprint": "https://arxiv.org/abs/2605.07397",
         "id": "Rieck26a",
         "tldr": "Many models for learning on higher-order domains start by lifting a graph into a higher-order complex. This article discusses why that is a bad idea and why proper higher-order benchmarks are required.",
-        "order": 148
+        "order": 147
     },
     {
         "title": "No Triangulation Without Representation: Generalization in Topological Deep Learning",
@@ -200,7 +200,7 @@
         "preprint": "https://arxiv.org/abs/2605.06467",
         "id": "Schmidt26a",
         "tldr": "We find topological generalization is lacking in deep learning and present an evaluation framework to test for it.",
-        "order": 147
+        "order": 146
     },
     {
         "title": "Diversity Curves for Graph Representation Learning",
@@ -222,7 +222,7 @@
         "preprint": "https://arxiv.org/abs/2605.06466",
         "id": "Limbeck26a",
         "tldr": "We propose diversity curves, novel graph-level representations for unsupervised tasks that track the structural diversity, namely the metric space spread, of graphs across coarsening levels obtained through edge contractions.",
-        "order": 146
+        "order": 145
     },
     {
         "title": "Measuring Structure in Graph Benchmark Datasets Using Graph Invariants",
@@ -242,7 +242,7 @@
         "preprint": "https://arxiv.org/abs/2605.06462",
         "id": "vonMoos26a",
         "tldr": "Invariants capture structure of graphs, are expressive, show dataset heterogeneity, predict multi-task performance, and decouple a tasks dependence on structure and features.",
-        "order": 145
+        "order": 144
     },
     {
         "title": "Geometry-Aware Simplicial Message Passing",
@@ -261,7 +261,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06061",
         "id": "Wang26a",
-        "order": 144
+        "order": 143
     },
     {
         "title": "TOAST: Transformer Optimization Using Adaptive and Simple Transformations",
@@ -284,7 +284,7 @@
         "preprint": "https://arxiv.org/abs/2410.04941",
         "repository": "https://github.com/icannistraci/toast",
         "id": "Cannistraci26a",
-        "order": 143
+        "order": 142
     },
     {
         "title": "Scale Continuity in Graph Learning: Going Beyond Spectral Methods",
@@ -304,7 +304,7 @@
         "venue": "ICLR Workshop on Geometry-grounded Representation Learning and Generative Modeling",
         "year": "2026",
         "id": "Koke26a",
-        "order": 142
+        "order": 141
     },
     {
         "title": "Topological Inductive Bias Fosters Multiple Instance Learning in Data-Scarce Scenarios",
@@ -325,7 +325,7 @@
         "preprint": "https://arxiv.org/abs/2307.14025",
         "repository": "https://github.com/SalomeKaze/TGMIL",
         "id": "Kazeminia26a",
-        "order": 141
+        "order": 140
     },
     {
         "title": "Graph Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them",
@@ -347,7 +347,7 @@
         "preprint": "https://arxiv.org/abs/2511.03068",
         "id": "Carrasco26a",
         "tldr": "We propose a metric that captures both features and struture in attributed graphs.",
-        "order": 140
+        "order": 139
     },
     {
         "title": "LEAP: Local ECT-Based Learnable Positional Encodings for Graphs",
@@ -369,7 +369,7 @@
         "preprint": "https://arxiv.org/abs/2510.00757",
         "id": "Amboage26a",
         "tldr": "We develop a new positional encoding based on local Euler characteristic transforms. Blazingly fast and with a light memory footprint, what's not to love?",
-        "order": 139
+        "order": 138
     },
     {
         "title": "Molecular Machine Learning Using Euler Characteristic Transforms",
@@ -389,7 +389,7 @@
         "preprint": "https://arxiv.org/abs/2507.03474",
         "repository": "https://github.com/victosdur/ECTforMoleculeMachineLearningTask",
         "id": "Toscano26a",
-        "order": 138
+        "order": 137
     },
     {
         "title": "Cortex-Wide Preservation of Multi-Stimulus Information Across Degrees of Network Synchronization",
@@ -417,7 +417,7 @@
         "year": "2025",
         "preprint": "https://biorxiv.org/content/10.64898/2025.11.28.690948v1",
         "id": "Bodea25a",
-        "order": 137
+        "order": 136
     },
     {
         "title": "From Topology to Retrieval: Decoding Embedding Spaces With Unified Signatures",
@@ -438,7 +438,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2511.22150",
         "id": "Rottach25a",
-        "order": 136
+        "order": 135
     },
     {
         "title": "NervePool: A Simplicial Pooling Layer",
@@ -462,7 +462,7 @@
         "preprint": "https://arxiv.org/abs/2305.06315",
         "repository": "https://github.com/aidos-lab/nerve-pool",
         "id": "Scullen25a",
-        "order": 135
+        "order": 134
     },
     {
         "title": "Persistent Homology via Ellipsoids",
@@ -483,7 +483,7 @@
         "preprint": "https://arxiv.org/abs/2408.11450",
         "repository": "https://github.com/a-zeg/ellipsoids",
         "id": "Canova25a",
-        "order": 134
+        "order": 133
     },
     {
         "title": "Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities",
@@ -502,7 +502,7 @@
         "venue": "Nature Energy, Volume 10, Number 10, pp. 1274--1288",
         "year": "2025",
         "id": "Gathrid25a",
-        "order": 133
+        "order": 132
     },
     {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
@@ -524,7 +524,7 @@
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25b",
         "tldr": "We develop a new pooling method based on the magnitude and spread of a metric space.",
-        "order": 132
+        "order": 131
     },
     {
         "title": "Point Cloud Synthesis Using Inner Product Transforms",
@@ -544,7 +544,7 @@
         "repository": "https://github.com/aidos-lab/inner-product-transforms",
         "id": "Roell25a",
         "tldr": "We show how to efficiently generate point clouds by inverting geometrical-topological descriptors.",
-        "order": 131
+        "order": 130
     },
     {
         "title": "Less Is More: Local Intrinsic Dimensions of Contextual Language Models",
@@ -572,7 +572,7 @@
         "repository": "https://github.com/aidos-lab/Topo_LLM_public",
         "id": "Ruppik25a",
         "tldr": "We study LLMs and their training dynamics using estimates of local intrinsic dimension.",
-        "order": 130
+        "order": 129
     },
     {
         "title": "Diss-l-ECT: Dissecting Graph Data With Local Euler Characteristic Transforms",
@@ -593,7 +593,7 @@
         "preprint": "https://arxiv.org/abs/2410.02622",
         "repository": "https://github.com/aidos-lab/Diss-l-ECT",
         "id": "vonRohrscheidt25a",
-        "order": 129
+        "order": 128
     },
     {
         "title": "No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets",
@@ -614,7 +614,7 @@
         "preprint": "https://arxiv.org/abs/2502.02379",
         "repository": "https://github.com/aidos-lab/RINGS",
         "id": "Coupette25a",
-        "order": 128
+        "order": 127
     },
     {
         "title": "EmbedOR: Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
@@ -633,7 +633,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2509.03703",
         "id": "Saidi25a",
-        "order": 127
+        "order": 126
     },
     {
         "title": "Low-Dimensional Embeddings of High-Dimensional Data",
@@ -669,7 +669,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2508.15929",
         "id": "deBodt25a",
-        "order": 126
+        "order": 125
     },
     {
         "title": "On the Expressivity of Persistent Homology in Graph Learning",
@@ -689,7 +689,7 @@
         "preprint": "https://arxiv.org/abs/2302.09826",
         "repository": "https://github.com/aidos-lab/PH_expressivity",
         "id": "Ballester25b",
-        "order": 125
+        "order": 124
     },
     {
         "title": "CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs",
@@ -709,7 +709,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2409.08217",
         "id": "Buffelli25a",
-        "order": 124
+        "order": 123
     },
     {
         "title": "Stable and Accurate Orbital-Free Density Functional Theory Powered by Machine Learning",
@@ -737,7 +737,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2503.00443",
         "id": "Remme25a",
-        "order": 123
+        "order": 122
     },
     {
         "title": "A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform",
@@ -753,7 +753,7 @@
         "venue": "ECML PKDD Workshop on Mining and Learning with Graphs",
         "year": "2025",
         "id": "Toscano25a",
-        "order": 122
+        "order": 121
     },
     {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
@@ -773,7 +773,7 @@
         "year": "2025",
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25a",
-        "order": 121
+        "order": 120
     },
     {
         "title": "Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform",
@@ -791,7 +791,7 @@
         "author-copy": "https://www.ams.org/journals/notices/202507/rnoti-p719.pdf",
         "repository": "https://github.com/aidos-lab/ECT",
         "id": "Rieck25a",
-        "order": 120
+        "order": 119
     },
     {
         "title": "Defining and Benchmarking Open Problems in Single-Cell Analysis",
@@ -860,7 +860,7 @@
         "venue": "Nature Biotechnology",
         "year": "2025",
         "id": "Luecken25a",
-        "order": 119
+        "order": 118
     },
     {
         "title": "Graph and Simplicial Complex Prediction Gaussian Process via the Hodgelet Representations",
@@ -881,35 +881,6 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2505.10877",
         "id": "Alain25a",
-        "order": 118
-    },
-    {
-        "title": "Neurospectrum: A Geometric and Topological Deep Learning Framework for Uncovering Spatiotemporal Signatures in Neural Activity",
-        "authors": [
-            "Bhaskar, Dhananjay",
-            "Zhang, Yanlei",
-            "Moore, Jessica",
-            "Gao, Feng",
-            "Rieck, Bastian",
-            "Wolf, Guy",
-            "Khasawneh, Firas",
-            "Munch, Elizabeth",
-            "Noah, J. Adam",
-            "Pushkarskaya, Helen",
-            "Pittenger, Christopher",
-            "Greco, Valentina",
-            "Krishnaswamy, Smita"
-        ],
-        "authors-display": "D.&nbsp;Bhaskar<sup>&dagger;</sup>, Y.&nbsp;Zhang<sup>&dagger;</sup>, J.&nbsp;Moore, F.&nbsp;Gao, B.&nbsp;Rieck, G.&nbsp;Wolf, F.&nbsp;Khasawneh, E.&nbsp;Munch, J.&thinsp;A.&nbsp;Noah, H.&nbsp;Pushkarskaya, C.&nbsp;Pittenger, V.&nbsp;Greco, and S.&nbsp;Krishnaswamy",
-        "keywords": [
-            "TDA",
-            "Bio"
-        ],
-        "url": "https://biorxiv.org/content/10.1101/2023.03.22.533807v3",
-        "venue": "Preprint",
-        "year": "2025",
-        "preprint": "https://biorxiv.org/content/10.1101/2023.03.22.533807v3",
-        "id": "Bhaskar25a",
         "order": 117
     },
     {

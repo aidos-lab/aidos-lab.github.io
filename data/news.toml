@@ -2,6 +2,13 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-10-15 = """
+ 🎉 Our work on [developing geometrical-topological descriptors for
+ neural activity](https://doi.org/10.1016/j.neucom.2026.135412), aptly named "Neurospectrum," is finally published in Neurospectrum.
+ Congratulations to [Dhananjay](https://dbhaskar92.github.io) for an
+ excellent way to start his professorship!
+"""
+
 2026-10-01 = """
   🐣 Welcome to the lab, Olivia. We are glad you are joining us!
 """

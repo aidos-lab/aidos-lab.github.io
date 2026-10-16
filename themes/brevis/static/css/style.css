@@ -602,6 +602,67 @@ ul.card-icons li
   cursor:      pointer;
 }
 
+/* The class is doubled to override the font of MapLibre's stylesheet,
+ * which is loaded later */
+.birthplaces-map.birthplaces-map
+{
+  aspect-ratio:  3 / 2;
+  border:        1px solid var(--border);
+  border-radius: var(--radius);
+  font:          inherit;
+}
+
+/* The map needs its size while it loads */
+.birthplaces.is-loading
+{
+  visibility: hidden;
+}
+
+/* Photos, and bubbles for several people whose photos would overlap */
+.birthplaces-marker
+{
+  width:         32px;
+  height:        32px;
+  padding:       0;
+  border:        none;
+  border-radius: 50%;
+  overflow:      hidden;
+  color:         var(--surface);
+  background:    var(--accent);
+  box-shadow:    0 0 0 2px var(--bg), 0 0 0 3px var(--accent);
+  font:          inherit;
+  font-weight:   bold;
+  cursor:        pointer;
+}
+
+.birthplaces-marker:hover,
+.birthplaces-marker:focus-visible
+{
+  z-index:    1;
+  outline:    none;
+  box-shadow: 0 0 0 2px var(--bg), 0 0 0 5px var(--accent);
+}
+
+.birthplaces-marker img
+{
+  width:      100%;
+  height:     100%;
+  object-fit: cover;
+}
+
+/* The caption holds the map credits, whose links justify badly */
+.birthplaces figcaption
+{
+  text-align: left;
+}
+
+/* Card reached through a photo on the map */
+.card-person:target
+{
+  border-color: var(--accent);
+  box-shadow:   0 0 0 1px var(--accent);
+}
+
 .publications ul
 {
   /* Year headings already group the entries; no bullets needed */

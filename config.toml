@@ -68,7 +68,8 @@ disableKinds  = ["taxonomy", "term"]
 [params.footer.logos]
   text = """
   <a href="https://www.unifr.ch"><img src="/signet_unifr.svg" height="64" alt="University of Fribourg"></a>
-  <a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)"><img src="/progress_flag.svg" height="64" style="padding-left:16px; padding-right:16px" alt="Pride flag"></a>
+  <a href="https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)"><img src="/progress_flag.svg" height="64" style="padding-left:16px" alt="Pride flag"></a>
+  <a href="https://safelabs.info"><img src="/safe.png" height="64" style="padding-left:16px; padding-right:16px" alt="SAFE Labs"></a>
 """
 
 [params.footer.license]

@@ -1,5 +1,5 @@
-<div class="card-person">
-  {{ $id     := .Get 0 }}
+{{ $id := .Get 0 }}
+<div class="card-person" id="person-{{ $id }}">
   {{ $person := index hugo.Data.people $id }}
 
   {{ $bio    := strings.TrimSpace ($person.bio | default "") }}

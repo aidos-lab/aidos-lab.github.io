@@ -1,0 +1,22 @@
+{{- $people := slice -}}
+{{- range $id, $person := hugo.Data.people -}}
+  {{- with $person.birthplace -}}
+    {{- $people = $people | append (dict
+          "id" $id "name" $person.name "image" $person.image
+          "place" .name "lat" .lat "lon" .lon) -}}
+  {{- end -}}
+{{- end -}}
+
+<figure class="birthplaces wide" data-people="{{ $people | jsonify }}" hidden>
+  <div class="birthplaces-map"></div>
+  <figcaption>
+    {{ .Get "caption" | default "See where we are from." | markdownify }}
+    Map data: <a href="https://openfreemap.org">OpenFreeMap</a>,
+    <a href="https://www.openmaptiles.org/">&copy;&nbsp;OpenMapTiles</a>,
+    <a href="https://www.openstreetmap.org/copyright">&copy;&nbsp;OpenStreetMap contributors</a>.
+  </figcaption>
+</figure>
+
+<link rel="stylesheet" href="{{ "maplibre-gl/maplibre-gl.css" | relURL }}">
+<script src="{{ "maplibre-gl/maplibre-gl.js" | relURL }}" defer></script>
+<script src="{{ "js/birthplaces.js" | relURL }}" defer></script>

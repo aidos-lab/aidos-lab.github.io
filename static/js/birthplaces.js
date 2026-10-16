@@ -7,10 +7,9 @@
 (async () => {
   const STYLE = 'https://tiles.openfreemap.org/styles/positron';
 
-  // Distance in pixels between the photos of people born in the same place,
-  // and between a photo and its popup; see `.birthplaces-pin` in the CSS
+  // Distance in pixels between the photos of people born in the same place;
+  // see `.birthplaces-marker` in the CSS
   const SPACING = 36;
-  const GAP     = 24;
 
   // Photos closer than this many pixels merge into a bubble
   const CLUSTER_RADIUS = 30;
@@ -101,28 +100,19 @@
   const places  = Map.groupBy(people, person => person.place);
   const markers = new Map();
 
-  const popup = new maplibregl.Popup({
-    className:    'birthplaces-popup',
-    closeButton:  false,
-    closeOnClick: false,
-    maxWidth:     'none',
-  });
-
   for (const [place, group] of places) {
     const n = group.length;
     const r = n === 1 ? 0 : SPACING / (2 * Math.sin(Math.PI / n));
 
     group.forEach((person, i) => {
       const angle = 2 * Math.PI * i / n;
-      const at = (x, y) => [r * Math.sin(angle) + x, -r * Math.cos(angle) + y];
 
       // Photos are the ones on the person cards, which the browser has
       // already loaded, and link to these cards
       const pin = document.createElement('a');
-      const label = `${person.name} (${place})`;
-      pin.className = 'birthplaces-pin';
+      pin.className = 'birthplaces-marker';
       pin.href = `#person-${person.id}`;
-      pin.setAttribute('aria-label', label);
+      pin.title = `${person.name} (${place})`;
       if (person.image) {
         const photo = document.createElement('img');
         photo.src = person.image;
@@ -130,26 +120,8 @@
         pin.append(photo);
       }
 
-      // Popups sit next to the photo, whichever side MapLibre places them on
-      const offset = {
-        'center': at(0, 0),
-        'top':    at(0, GAP),  'top-left':    at(GAP, GAP),  'top-right':    at(-GAP, GAP),
-        'bottom': at(0, -GAP), 'bottom-left': at(GAP, -GAP), 'bottom-right': at(-GAP, -GAP),
-        'left':   at(GAP, 0),  'right':       at(-GAP, 0),
-      };
-
-      const show = () => popup
-        .setLngLat([person.lon, person.lat])
-        .setOffset(offset)
-        .setText(label)
-        .addTo(map);
-      const hide = () => popup.remove();
-      pin.addEventListener('pointerenter', show);
-      pin.addEventListener('pointerleave', hide);
-      pin.addEventListener('focus', show);
-      pin.addEventListener('blur', hide);
-
-      markers.set(person.id, new maplibregl.Marker({ element: pin, offset: at(0, 0) })
+      const offset = [r * Math.sin(angle), -r * Math.cos(angle)];
+      markers.set(person.id, new maplibregl.Marker({ element: pin, offset })
         .setLngLat([person.lon, person.lat]));
     });
   }
@@ -181,9 +153,9 @@
       if (!bubbles.has(id)) {
         const button = document.createElement('button');
         button.type = 'button';
-        button.className = 'birthplaces-cluster';
+        button.className = 'birthplaces-marker';
         button.textContent = count;
-        button.setAttribute('aria-label', `${count} people; zoom in`);
+        button.title = `${count} people; zoom in`;
         button.addEventListener('click', async () => {
           const zoom = await map.getSource('people').getClusterExpansionZoom(id);
           map.easeTo({ center: feature.geometry.coordinates, zoom });

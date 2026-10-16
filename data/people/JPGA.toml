@@ -1,9 +1,16 @@
-name    = "Juan P. G. Amboage"
-job     = "Ph.D. Student"
-image   = "jpga.jpg"
-bio     = """\
-Juan is interested in geometric and topological methods in machine learning. His interests also include machine learning for science and model quantization, as well as a broad range of other topics in machine learning and beyond.
+name       = "Juan P. G. Amboage"
+job        = "Ph.D. Student"
+image      = "jpga.jpg"
+bio        = """\
+             Juan is interested in geometric and topological methods in
+             machine learning. His interests also include machine
+             learning for science and model quantization, as well as
+             a broad range of other topics in machine learning and
+             beyond.
 """
-github  = "JP-Amboage"
-country = "Spain"
-city = "Vigo"
+github     = "JP-Amboage"
+birthplace = {
+  name = "Vigo, Spain",
+  lat  = 42.24,
+  lon  = -8.72
+}

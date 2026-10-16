@@ -1,13 +1,17 @@
-name    = "Johannes S. Schmidt"
-job     = "ELLIS Ph.D. Student"
-image   = "jss.jpg"
-bio     = """\
-          Johannes is interested in differential geometry and topology and the application on machine learning
-          algorithms. At the moment, Johannes is intrigued by the Euler charakteristic transform and its continued
-          development and application on molecular or other structured data.
-          """
-orcid   = "0009-0004-4296-8260"
-web     = "https://j-s-schmidt.topology.rocks"
-bluesky = "j-s-schmidt.topology.rocks"
-github  = "JSSchmidt"
-country = "Germany"
+name       = "Johannes S. Schmidt"
+job        = "ELLIS Ph.D. Student"
+image      = "jss.jpg"
+bio        = """\
+             Johannes is interested in differential geometry and topology and the application on machine learning
+             algorithms. At the moment, Johannes is intrigued by the Euler characteristic transform and its continued
+             development and application on molecular or other structured data.
+             """
+orcid      = "0009-0004-4296-8260"
+web        = "https://j-s-schmidt.topology.rocks"
+bluesky    = "j-s-schmidt.topology.rocks"
+github     = "JSSchmidt"
+birthplace = {
+  name = "Hemer, Germany",
+  lat  = "51.383",
+  lon  = "7.767",
+}

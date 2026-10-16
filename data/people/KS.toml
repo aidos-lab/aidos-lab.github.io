@@ -1,10 +1,13 @@
-name    = "Kavir Sumaraj"
-job     = "Ph.D. Student"
-image   = "ks.jpg"
-bio     = """\
-         Kavir is interested in algebraic topology, applied topology, 
-         and the study of topological structures in machine learning
-          """
-github  = "Kavir92"
-country = "South Africa"
-city = "Durban"
+name       = "Kavir Sumaraj"
+job        = "Ph.D. Student"
+image      = "ks.jpg"
+bio        = """\
+             Kavir is interested in algebraic topology, applied topology, 
+             and the study of topological structures in machine learning
+             """
+github     = "Kavir92"
+birthplace = {
+  name = "Durban, South Africa",
+  lat  = -29.86,
+  lon  = 31.02
+}

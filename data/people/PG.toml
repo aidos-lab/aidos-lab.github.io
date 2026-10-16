@@ -2,7 +2,9 @@ name    = "Pankhil Gawade"
 job     = "Ph.D. Student"
 image   = "pg.jpg"
 bio     = """\
-         Pankhil is interested in methods involving genrative AI and topology. 
-         He is particularly interested in developing methods that work at the intersection of the both and applying it to design novel drugs.
+          Pankhil is interested in methods involving genrative AI and
+          topology. He is particularly interested in developing methods
+          that work at the intersection of the both and applying it to
+          design novel drugs.
           """
 github  = "Pankhil07"

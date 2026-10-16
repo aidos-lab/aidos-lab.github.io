@@ -1,13 +1,17 @@
-name    = "Bastian Rieck"
-job     = "Principal Investigator"
-image   = "br.jpg"
-bio     = """\
-          When it comes to machine learning, Bastian is interested in
-          all things geometrical and topological.
-          """
-github  = "Pseudomanifold"
-orcid   = "0000-0003-4335-0302"
-web     = "https://bastian.rieck.me"
-bluesky = "pseudomanifold.topology.rocks"
-twitter = "Pseudomanifold"
-country = "Germany"
+name       = "Bastian Rieck"
+job        = "Principal Investigator"
+image      = "br.jpg"
+bio        = """\
+             When it comes to machine learning, Bastian is interested in
+             all things geometrical and topological.
+             """
+github     = "Pseudomanifold"
+orcid      = "0000-0003-4335-0302"
+web        = "https://bastian.rieck.me"
+bluesky    = "pseudomanifold.topology.rocks"
+twitter    = "Pseudomanifold"
+birthplace = {
+  name = "Heidelberg, Germany",
+  lat  = 49.41,
+  lon  = 8.69
+}

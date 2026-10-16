@@ -1,13 +1,16 @@
-name    = "Nadja Häusermann"
-job     = "Ph.D. Student"
-image   = "nh.jpg"
-bio     = """\
-Nadja is interested in applying geometry and topology in machine
-learning. Particularly, she likes to think about magnitude 
-(homology) and graphs at the moment.
-"""
-github  = "nadjahae"
-web = "https://nadja.topology.rocks/"
-orcid   = "0009-0000-1233-0400"
-country = "Switzerland"
-city = "Aarau"
+name       = "Nadja Häusermann"
+job        = "Ph.D. Student"
+image      = "nh.jpg"
+bio        = """\
+             Nadja is interested in applying geometry and topology in machine
+             learning. Particularly, she likes to think about magnitude 
+             (homology) and graphs at the moment.
+             """
+github     = "nadjahae"
+web        = "https://nadja.topology.rocks/"
+orcid      = "0009-0000-1233-0400"
+birthplace = {
+  name = "Aarau, Switzerland",
+  lat  = 47.39,
+  lon  = 8.04
+}

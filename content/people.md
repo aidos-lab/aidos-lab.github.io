@@ -8,7 +8,8 @@ Great science needs great people.\
 Meet them here.
 {.lead}
 
-All people are listed in alphabetical order according to their last name.
+All people are listed in alphabetical order according to their last
+name. Click on a portrait to learn more about them.
 
 <div class="people-card-container wide">
     {{< person "JPGA" >}}

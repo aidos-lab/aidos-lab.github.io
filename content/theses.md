@@ -4,6 +4,10 @@ title: "Theses"
 
 # Theses
 
+Every thesis starts with a question.\
+Here are some of ours.
+{.lead}
+
 This list of theses, sorted in reverse chronological order, provides
 just a brief glimpse into some of the research topics that we are
 interested in. Read on if you are interested in [joining us]({{< relref "/contact" >}}).

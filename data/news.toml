@@ -2,6 +2,14 @@
 # key, format it correctly (YYYY-MM-DD), and you are set. The *value*
 # attached to your key supports Markdown directly.
 
+2026-11-18 = """
+ 🎉 Our work on [NervePool](https://doi.org/10.57717/cgt.v5i1.70),
+ a pooling layer based on simplicial complexes, has been published in 
+ "Computing in Geometry and Topology." Happy to see this out after
+ a long and complicated revision process---but the paper ultimately
+ benefited from it and became really strong.
+"""
+
 2026-10-15 = """
  🎉 Our work on [developing geometrical-topological descriptors for
  neural activity](https://doi.org/10.1016/j.neucom.2026.135412), aptly named "Neurospectrum," is finally published in Neurospectrum.

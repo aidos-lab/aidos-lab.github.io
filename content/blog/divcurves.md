@@ -9,7 +9,7 @@ description = "Diversity Curves offer a novel approach for graph representations
 
 Our work about "Diversity Curves for Graph Representation Learning" has been acceptet to NeurIPS 2026. Before we can hopefully meet some of you in Paris, we will already give you a brief glimpse into our work!
 
-## What are Graph Representations?
+## What are graph representations?
 Our work focuses on unsupervised graph representations. These are important tools to explore and characterise graph datasets when there are no labels present. In particular, the goal for a useful graph representation is to find a vectorisation of a graph in such a way that some intrinsic properties of the graphs are being preserved. 
 <!-- Current methods include ... [add some general graph representation reference!?] -->
 

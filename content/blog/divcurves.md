@@ -1,9 +1,9 @@
 +++
 authors = ["Nadja Häusermann"]
 title = "Diversity Curves for Graph Representation Learning"
-subtitle = "Using coarsening together with structural diversity to obtain size robustness"
+subtitle = "Size-robust graph embeddings combining coarsening and structural diversity"
 
-date = 2025-11-10
+date = 2026-11-24
 description = "Diversity Curves offer a novel approach for graph representations that are robuts to varying sizes by tracking structural diversity of graphs across a coarsening sequence."
 +++
 

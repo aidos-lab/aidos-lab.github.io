@@ -1,0 +1,15 @@
+name    = "Olivia Lecomte"
+job     = "Ph.D. Student"
+image   = "ol.jpg"
+bio     = """\
+Olivia is a neuroscientist plunging into the world of machine learning. 
+She is particularly interested in how topological deep learning methods can be leveraged to aid 
+with the early diagnosis and prognosis prediction of mental health disorders.
+"""
+github  = "olivialecomte"
+
+birthplace = {
+  name = "Birkenhead, United Kingdom",
+  lat  = 53.37,
+  lon  = -3.09
+}

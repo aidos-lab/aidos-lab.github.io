@@ -328,7 +328,7 @@
         "order": 140
     },
     {
-        "title": "Graph Homomorphism Distortion: A Metric to Distinguish Them All and in the Latent Space Bind Them",
+        "title": "Graph Homomorphism Distortion: A Structural (Pseudo)-Metric for Attributed Graphs",
         "authors": [
             "Carrasco, Martin",
             "Zaghen, Olga",

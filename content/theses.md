@@ -4,13 +4,18 @@ title: "Theses"
 
 # Theses
 
+Every thesis starts with a question.\
+Here are some of ours.
+{.lead}
+
 This list of theses, sorted in reverse chronological order, provides
 just a brief glimpse into some of the research topics that we are
 interested in. Read on if you are interested in [joining us]({{< relref "/contact" >}}).
 
 # 2026
 
-- Jeremy Wayland: *Understanding Data Representations using Geometry and Topology*, PhD thesis
+- Olivier Meier: [*(Inwiefern) können Waldbrände in der Schweiz mittels Machine Learning prognostiziert werden*](Thesis_Olivier_Meier.pdf), BSc thesis
+- Jeremy Wayland: [*Understanding Data Representations using Geometry and Topology*](https://nbn-resolving.org/urn:nbn:de:bvb:91-diss-20260911-1843924-0-4), PhD thesis
 - Ernst Röell: *Towards Deep Learning with Euler Characteristic Transforms*, PhD thesis
 - Tobias Robert Eeksman: [*Differentiable Inner Product Transform for 3D Reconstruction*](Thesis_Tobias_Robert_Eeksman.pdf), BSc thesis
 - Rubén Ballester: [*Topology-Enhanced Deep Learning*](https://hdl.handle.net/2445/228985), PhD thesis

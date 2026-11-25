@@ -1,5 +1,5 @@
 +++
-authors = ["Nadja Häusermann"]
+authors = ["Nadja Häusermann", "Katharina Limbeck"]
 title = "Diversity Curves for Graph Representation Learning"
 subtitle = "Size-robust graph embeddings combining coarsening and structural diversity"
 

@@ -8,7 +8,7 @@
  *   <input id="publication-search">
  *   <div   id="publication-filters">
  *   <p     id="publication-count">
- *   <li><div class="publication" data-year="...">...</div></li>
+ *   <li><div class="publication" data-year="..." data-authors="Last, First; ...">...</div></li>
  */
 
 (function () {
@@ -17,7 +17,9 @@
   const entries = [...document.querySelectorAll("div.publication")].map(div => ({
     li:   div.closest("li"),
     year: div.dataset.year,
-    text: div.textContent.replace(/\s+/g, " ").trim(),
+    text: div.textContent.replace(/\s+/g, " ").trim() + " " +
+          // full author names, "Last, First" → "First Last"
+          div.dataset.authors.split("; ").map(a => a.split(", ").reverse().join(" ")).join(", "),
   }));
 
   if (!entries.length) return;

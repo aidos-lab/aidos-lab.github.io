@@ -13,7 +13,7 @@ Our work on "Diversity Curves for Graph Representation Learning" has been accept
 Our work focuses on unsupervised graph representations. These are important tools to explore and characterise graphs and graph datasets when there are no labels present. In particular, the goal for a useful graph representation or graph embedding is to find a vectorisation of a graph in such a way that some intrinsic properties of the graphs are being preserved. 
 
 Current methods struggle when they need to simultaneously handle graphs of varying cardinality. This is an issue, as often we are dealing with datasets in which graphs sharing the same general properties can have very different sizes. For example, it has been shown that graph neural networks struggle with generalising across molecular graphs of varying resolutions.  
-Similarly, unsupervised graph embeddings based on summarising the spectrum of graphs are not able to cluster graphs well when size and density varies, and geometric methods that use graph filtrations, such as persistent homology, often depend in some way on the size of the input graph.
+Similarly, unsupervised graph embeddings that summarise the spectrum of graphs are not able to cluster graphs well when size and density varies. Geometric methods that use graph filtrations, such as persistent homology, also often depend in some way on the size of the input graph. 
 The focus of our work lies on tackling this problem and finding a novel unsupervised graph representation method that captures the coarse geometry of a graph in such a way that it can be used for applications where graphs have different sizes. 
 
 ## How can we improve size-robustness of graph representations?

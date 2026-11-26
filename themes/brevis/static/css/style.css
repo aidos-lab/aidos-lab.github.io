@@ -697,35 +697,10 @@ ul.card-icons li
 
 #publication-filters
 {
-  display:   flex;
-  flex-wrap: wrap;
-  gap:       0.5em 1.25em;
+  display:       flex;
+  flex-wrap:     wrap;
+  gap:           0.3em;
   margin-bottom: var(--space-s);
-}
-
-.publication-facet-group
-{
-  display:        flex;
-  flex-direction: column;
-  align-items:    stretch;
-  gap:            0.4em;
-  padding:        0.5em 0.75em;
-}
-
-.publication-facet-group-buttons
-{
-  display:   flex;
-  flex-wrap: wrap;
-  gap:       0.3em;
-}
-
-.publication-facet-label
-{
-  font-size:      0.75rem;
-  font-weight:    700;
-  letter-spacing: 0.06em;
-  margin-right:   0.2em;
-  text-align:     center;
 }
 
 .publication-facet-btn
@@ -750,16 +725,6 @@ ul.card-icons li
   font-size:  0.85rem;
   margin:     0.25em 0 0;
   text-align: right;
-}
-
-.publication-tag
-{
-  font-size:    0.75rem;
-  margin-right: 0.25em;
-  border:       1px solid var(--border);
-  border-radius: var(--radius);
-  background:   var(--surface);
-  padding:      0.1em 0.4em;
 }
 
 .publication-tldr

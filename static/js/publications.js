@@ -5,7 +5,7 @@
  * then shows/hides existing <li> elements by matching their
  * .publication[id] to the CSL-JSON entry id.
  *
- * Facet filtering reads data-year, data-tags attributes on <li>.
+ * Facet filtering reads the data-year attribute on <li>.
  *
  * Expected DOM:
  *   <input id="publication-search">
@@ -38,10 +38,9 @@
 
   const fuse = new Fuse(pubData, {
     keys: [
-      { name: "title",     weight: 0.5  },
-      { name: "abstract",  weight: 0.3  },
-      { name: "keywords",  weight: 0.15 },
-      { name: "authors",   weight: 0.05 },
+      { name: "title",     weight: 0.55 },
+      { name: "abstract",  weight: 0.35 },
+      { name: "authors",   weight: 0.1  },
     ],
     threshold: 0.35,
     minMatchCharLength: 2,
@@ -58,41 +57,21 @@
   const liList = Object.values(entriesById).map(e => e.div);
 
   const years = [...new Set(liList.map(div => div.dataset.year).filter(Boolean))].sort((a, b) => b - a);
-  const tags  = [...new Set(liList.flatMap(div =>
-    (div.dataset.tags || "").split(",").map(t => t.trim()).filter(Boolean)
-  ))].sort();
 
-  appendGroup("Year",  years, "year");
-  appendGroup("Topic", tags,  "tag");
-
-
-  function appendGroup(label, values, axis) {
-    if (!values.length) return;
-    const g = document.createElement("div");
-    g.className = "publication-facet-group";
-    const h = document.createElement("span");
-    h.className   = "publication-facet-label";
-    h.textContent = label;
-    g.appendChild(h);
-    const btns = document.createElement("div");
-    btns.className = "publication-facet-group-buttons";
-    values.forEach(v => {
-      const btn = document.createElement("button");
-      btn.type          = "button";
-      btn.className     = "publication-facet-btn";
-      btn.dataset.axis  = axis;
-      btn.dataset.value = v;
-      btn.textContent   = v;
-      btn.addEventListener("click", () => toggleFilter(axis, v));
-      btns.appendChild(btn);
-    });
-    g.appendChild(btns);
-    $filters.appendChild(g);
-  }
+  years.forEach(v => {
+    const btn = document.createElement("button");
+    btn.type          = "button";
+    btn.className     = "publication-facet-btn";
+    btn.dataset.axis  = "year";
+    btn.dataset.value = v;
+    btn.textContent   = v;
+    btn.addEventListener("click", () => toggleFilter("year", v));
+    $filters.appendChild(btn);
+  });
 
   // ── state ──────────────────────────────────────────────────────────────────
 
-  let active = { year: null, tag: null };
+  let active = { year: null };
   let query  = "";
 
   function toggleFilter(axis, value) {
@@ -132,10 +111,8 @@
     Object.entries(entriesById).forEach(([id, { li, div }]) => {
       const fuzzyMatch  = !matchingIds || matchingIds.has(id);
       const yearMatch   = !active.year || div.dataset.year === active.year;
-      const tagMatch    = !active.tag  ||
-        (div.dataset.tags || "").split(",").map(t => t.trim()).includes(active.tag);
 
-      const show = fuzzyMatch && yearMatch && tagMatch;
+      const show = fuzzyMatch && yearMatch;
       li.style.display = show ? "" : "none";
       if (show) visible++;
     });
@@ -158,7 +135,7 @@
 
   function restoreUrl() {
     const url = new URL(window.location);
-    ["year", "tag"].forEach(axis => {
+    ["year"].forEach(axis => {
       const v = url.searchParams.get(axis);
       if (v) {
         active[axis] = v;

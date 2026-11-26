@@ -1,98 +1,90 @@
 {{- $pubs := hugo.Data.publications -}}
 
-<div>
-  <div class="publication-controls">
-    <input id="publication-search" type="search" placeholder="Search titles, abstracts, authors…" aria-label="Search publications" />
-    <div id="publication-filters" role="group" aria-label="Filter publications"></div>
-    <p id="publication-count" aria-live="polite"></p>
-  </div>
-
-  {{- $years := slice -}}
-  {{- range $pubs -}}
-    {{- $years = $years | append (string .year) -}}
-  {{- end -}}
-  {{- $years = $years | uniq | sort | collections.Reverse -}}
-
-  <div class="publications">
-    {{- range $years -}}
-      {{- $year := . -}}
-      {{- $items := slice -}}
-      {{- range $pubs -}}
-        {{- $y := string .year -}}
-        {{- if eq $y $year -}}
-          {{- $items = $items | append . -}}
-        {{- end -}}
-      {{- end }}
-      <div>
-        <h2>{{ $year }}</h2>
-        <ul>
-        {{- $items = sort $items "order" | collections.Reverse -}}
-        {{- range $items -}}
-          {{- $venue   := index . "venue" -}}
-          <li>
-            <div class="publication"
-                 id="{{ .id }}"
-                 data-year="{{ .year }}"
-            >
-              <div class="publication-title">
-                {{- with .url -}}<a href="{{ . }}">{{- end -}}
-                {{- .title | markdownify -}}
-                {{- if .url }}</a>{{ end -}}
-              </div>
-
-              <div class="publication-authors">
-                <span>{{ index . "authors-display" | markdownify }}</span>
-              </div>
-
-              {{- with $venue }}
-                <div class="publication-venue">{{ . | markdownify }}</div>
-              {{ end -}}
-
-              {{- with .tldr -}}
-                <div class="publication-tldr">
-                  {{ . }}
-                </div>
-              {{- end -}}
-
-
-              {{- $links := slice -}}
-
-              {{- with index . "author-copy" -}}
-                {{- $links = $links | append (printf "<a href=\"%s\">[Author's copy]</a>" .) -}}
-              {{- end -}}
-
-              {{- with index . "preprint" -}}
-                {{- $links = $links | append (printf "<a href=\"%s\">[Preprint]</a>" .) -}}
-              {{- end -}}
-
-              {{- with .doi -}}
-                {{- $links = $links | append (printf "<a href=\"https://doi.org/%s\">[DOI]</a>" .) -}}
-              {{- end -}}
-
-              {{- with .repository -}}
-                {{- $links = $links | append (printf "<a href=\"%s\">[GitHub]</a>" .) -}}
-              {{- end -}}
-
-              {{- with .id -}}
-                {{- $links = $links | append (printf "<a href=\"%s.bib\">[BibTeX]</a>" .) -}}
-              {{- end -}}
-
-              <div class="publication-links">
-                {{ delimit $links " &bull; " | safeHTML }}
-              </div>
-            </div>
-          </li>
-        {{- end }}
-        </ul>
-      </div>
-    {{- end }}
-  </div>
+<div class="publication-controls">
+  <input id="publication-search" type="search" placeholder="Search titles, authors, venues…" aria-label="Search publications" />
+  <div id="publication-filters" role="group" aria-label="Filter publications"></div>
+  <p id="publication-count" aria-live="polite"></p>
 </div>
 
-<script src=" {{ "js/fuse.min.js" | relURL }}"></script>
+{{- $years := slice -}}
+{{- range $pubs -}}
+  {{- $years = $years | append (string .year) -}}
+{{- end -}}
+{{- $years = $years | uniq | sort | collections.Reverse -}}
 
-<script>
-  window.__PUB_DATA__ = {{ hugo.Data.publications }};
-</script>
+<div class="publications">
+  {{- range $years -}}
+    {{- $year := . -}}
+    {{- $items := slice -}}
+    {{- range $pubs -}}
+      {{- $y := string .year -}}
+      {{- if eq $y $year -}}
+        {{- $items = $items | append . -}}
+      {{- end -}}
+    {{- end }}
+    <div>
+      <h2>{{ $year }}</h2>
+      <ul>
+      {{- $items = sort $items "order" | collections.Reverse -}}
+      {{- range $items -}}
+        <li>
+          <div class="publication"
+               id="{{ .id }}"
+               data-year="{{ .year }}"
+          >
+            <div class="publication-title">
+              {{- with .url -}}<a href="{{ . }}">{{- end -}}
+              {{- .title | markdownify -}}
+              {{- if .url }}</a>{{ end -}}
+            </div>
 
+            <div class="publication-authors">
+              <span>{{ index . "authors-display" | markdownify }}</span>
+            </div>
+
+            {{- with .venue }}
+              <div class="publication-venue">{{ . | markdownify }}</div>
+            {{ end -}}
+
+            {{- with .tldr -}}
+              <div class="publication-tldr">
+                {{ . }}
+              </div>
+            {{- end -}}
+
+
+            {{- $links := slice -}}
+
+            {{- with index . "author-copy" -}}
+              {{- $links = $links | append (printf "<a href=\"%s\">[Author's copy]</a>" .) -}}
+            {{- end -}}
+
+            {{- with index . "preprint" -}}
+              {{- $links = $links | append (printf "<a href=\"%s\">[Preprint]</a>" .) -}}
+            {{- end -}}
+
+            {{- with .doi -}}
+              {{- $links = $links | append (printf "<a href=\"https://doi.org/%s\">[DOI]</a>" .) -}}
+            {{- end -}}
+
+            {{- with .repository -}}
+              {{- $links = $links | append (printf "<a href=\"%s\">[GitHub]</a>" .) -}}
+            {{- end -}}
+
+            {{- with .id -}}
+              {{- $links = $links | append (printf "<a href=\"%s.bib\">[BibTeX]</a>" .) -}}
+            {{- end -}}
+
+            <div class="publication-links">
+              {{ delimit $links " &bull; " | safeHTML }}
+            </div>
+          </div>
+        </li>
+      {{- end }}
+      </ul>
+    </div>
+  {{- end }}
+</div>
+
+<script src="{{ "js/fuse.min.js" | relURL }}"></script>
 <script src="{{ "js/publications.js" | relURL }}"></script>

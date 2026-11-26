@@ -1,153 +1,96 @@
 /**
  * publications.js
  *
- * Uses Fuse.js to search window.__PUB_DATA__ (CSL-JSON inlined by Hugo),
- * then shows/hides existing <li> elements by matching their
- * .publication[id] to the CSL-JSON entry id.
- *
- * Facet filtering reads the data-year attribute on <li>.
+ * Fuzzy search (Fuse.js) over the visible text of each publication, plus a
+ * year filter. Shows/hides the existing <li> elements.
  *
  * Expected DOM:
  *   <input id="publication-search">
  *   <div   id="publication-filters">
  *   <p     id="publication-count">
- *   <li><div class="publication" id="{csl-id}">...</div></li>
+ *   <li><div class="publication" data-year="...">...</div></li>
  */
 
 (function () {
   "use strict";
 
-  // ── index DOM entries by CSL id ────────────────────────────────────────────
+  const entries = [...document.querySelectorAll("div.publication")].map(div => ({
+    li:   div.closest("li"),
+    year: div.dataset.year,
+    text: div.textContent.replace(/\s+/g, " ").trim(),
+  }));
 
-  const entriesById = {};
-  document.querySelectorAll("div.publication[id]").forEach(div => {
-    const li = div.closest("li");
-    if (li) entriesById[div.id] = { li, div };
-  });
+  if (!entries.length) return;
 
-  const allIds = Object.keys(entriesById);
-  if (!allIds.length) return;
-
-  // ── build Fuse index from __PUB_DATA__ ────────────────────────────────────
-
-  const rawData = Array.isArray(window.__PUB_DATA__)
-    ? window.__PUB_DATA__
-    : Object.values(window.__PUB_DATA__ || {});
-
-  const pubData = rawData.filter(p => entriesById[p.id]);
-
-  const fuse = new Fuse(pubData, {
-    keys: [
-      { name: "title",     weight: 0.55 },
-      { name: "abstract",  weight: 0.35 },
-      { name: "authors",   weight: 0.1  },
-    ],
+  const fuse = new Fuse(entries, {
+    keys: ["text"],
+    ignoreLocation: true,
     threshold: 0.35,
     minMatchCharLength: 2,
   });
-
-  // ── facets from data- attributes ──────────────────────────────────────────
 
   const $search  = document.getElementById("publication-search");
   const $filters = document.getElementById("publication-filters");
   const $count   = document.getElementById("publication-count");
 
-  if (!$filters) return;
+  // ── state ──────────────────────────────────────────────────────────────────
 
-  const liList = Object.values(entriesById).map(e => e.div);
+  let activeYear = new URL(window.location).searchParams.get("year");
+  let query      = "";
 
-  const years = [...new Set(liList.map(div => div.dataset.year).filter(Boolean))].sort((a, b) => b - a);
+  // ── year buttons ───────────────────────────────────────────────────────────
 
-  years.forEach(v => {
+  const years = [...new Set(entries.map(e => e.year))].sort((a, b) => b - a);
+
+  years.forEach(year => {
     const btn = document.createElement("button");
-    btn.type          = "button";
-    btn.className     = "publication-facet-btn";
-    btn.dataset.axis  = "year";
-    btn.dataset.value = v;
-    btn.textContent   = v;
-    btn.addEventListener("click", () => toggleFilter("year", v));
+    btn.type        = "button";
+    btn.className   = "publication-facet-btn";
+    btn.textContent = year;
+    btn.addEventListener("click", () => setYear(activeYear === year ? null : year));
     $filters.appendChild(btn);
   });
 
-  // ── state ──────────────────────────────────────────────────────────────────
-
-  let active = { year: null };
-  let query  = "";
-
-  function toggleFilter(axis, value) {
-    active[axis] = active[axis] === value ? null : value;
+  function setYear(year) {
+    activeYear = year;
     $filters.querySelectorAll(".publication-facet-btn").forEach(btn => {
-      btn.classList.toggle(
-        "publication-facet-btn--active",
-        btn.dataset.axis === axis &&
-        btn.dataset.value === value &&
-        active[axis] !== null
-      );
+      btn.classList.toggle("publication-facet-btn--active", btn.textContent === year);
     });
     const url = new URL(window.location);
-    active[axis] ? url.searchParams.set(axis, value)
-                 : url.searchParams.delete(axis);
+    year ? url.searchParams.set("year", year) : url.searchParams.delete("year");
     history.replaceState(null, "", url);
     render();
   }
 
-  if ($search) {
-    $search.addEventListener("input", () => {
-      query = $search.value.trim();
-      render();
-    });
-  }
+  $search.addEventListener("input", () => {
+    query = $search.value.trim();
+    render();
+  });
 
   // ── render ─────────────────────────────────────────────────────────────────
 
   function render() {
-    // 1. get matching ids from Fuse (or all if no query)
-    const matchingIds = query.length >= 2
-      ? new Set(fuse.search(query).map(r => r.item.id))
+    const matches = query.length >= 2
+      ? new Set(fuse.search(query).map(r => r.item))
       : null; // null = all
 
-    // 2. show/hide each <li>
     let visible = 0;
-    Object.entries(entriesById).forEach(([id, { li, div }]) => {
-      const fuzzyMatch  = !matchingIds || matchingIds.has(id);
-      const yearMatch   = !active.year || div.dataset.year === active.year;
-
-      const show = fuzzyMatch && yearMatch;
-      li.style.display = show ? "" : "none";
+    entries.forEach(e => {
+      const show = (!matches || matches.has(e)) && (!activeYear || e.year === activeYear);
+      e.li.style.display = show ? "" : "none";
       if (show) visible++;
     });
 
-    // 3. hide year headings whose entire group is hidden
-    document.querySelectorAll("h2").forEach(h2 => {
-      const ul = h2.nextElementSibling;
-      if (!ul || ul.tagName !== "UL") return;
-      const anyVisible = Array.from(ul.querySelectorAll("li"))
+    // hide year headings whose entire group is hidden
+    document.querySelectorAll(".publications h2").forEach(h2 => {
+      const anyVisible = [...h2.nextElementSibling.querySelectorAll("li")]
         .some(li => li.style.display !== "none");
       h2.style.display = anyVisible ? "" : "none";
     });
 
-    if ($count) {
-      $count.textContent = `${visible} publication${visible !== 1 ? "s" : ""}`;
-    }
+    $count.textContent = `${visible} publication${visible !== 1 ? "s" : ""}`;
   }
 
-  // ── restore URL state ──────────────────────────────────────────────────────
-
-  function restoreUrl() {
-    const url = new URL(window.location);
-    ["year"].forEach(axis => {
-      const v = url.searchParams.get(axis);
-      if (v) {
-        active[axis] = v;
-        const btn = $filters.querySelector(
-          `.publication-facet-btn[data-axis="${axis}"][data-value="${CSS.escape(v)}"]`
-        );
-        if (btn) btn.classList.add("publication-facet-btn--active");
-      }
-    });
-  }
-
-  restoreUrl();
-  render();
+  setYear(activeYear);
 
 })();

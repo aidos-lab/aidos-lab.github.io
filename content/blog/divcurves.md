@@ -4,22 +4,20 @@ title = "Diversity Curves for Graph Representation Learning"
 subtitle = "Size-robust graph embeddings combining coarsening and structural diversity"
 
 date = 2026-11-26
-description = "Diversity Curves offer a novel approach for graph representations that are robuts to varying sizes by tracking structural diversity of graphs across a coarsening sequence."
+description = "Diversity Curves offer a novel approach for graph representations that are robust to varying sizes by tracking structural diversity of graphs across a coarsening sequence."
 +++
 
 Our work on "Diversity Curves for Graph Representation Learning" has been accepted to NeurIPS 2026. Before hopefully meeting some of you in Paris, we will already give you a brief glimpse into our main motivation and results.
 
 ## What are graph representations?
 Our work focuses on unsupervised graph representations. These are important tools to explore and characterise graphs and graph datasets when there are no labels present. In particular, the goal for a useful graph representation or graph embedding is to find a vectorisation of a graph in such a way that some intrinsic properties of the graphs are being preserved. 
-<!-- Current methods include ... [add some general graph representation reference!?]  Yes, we let's give evidence to say why this is the case. Like the nect paragraph should say why current methods struggle with size. -->
 
-Current methods struggle when they need to simultaneously handle graphs of varying cardinality. This is an issue, as often we are dealing with datasets in which graphs sharing the same general properties can have very different sizes. For example, it has been shown that graph neural networks struggle with generalising across molecular graphs of varying resolutions.  <!-- Similarily many geometric methods that use graph filtrations, ... TODO: add more motivation here -->
+Current methods struggle when they need to simultaneously handle graphs of varying cardinality. This is an issue, as often we are dealing with datasets in which graphs sharing the same general properties can have very different sizes. For example, it has been shown that graph neural networks struggle with generalising across molecular graphs of varying resolutions.  
 Similarly, unsupervised graph embeddings based on summarising the spectrum of graphs are not able to cluster graphs well when size and density varies, and geometric methods that use graph filtrations, such as persistent homology, often depend in some way on the size of the input graph.
 The focus of our work lies on tackling this problem and finding a novel unsupervised graph representation method that captures the coarse geometry of a graph in such a way that it can be used for applications where graphs have different sizes. 
-<!-- In the next section, we will explain how we achieve this by combining coarsening together with the structural diversity. -->
 
 ## How can we improve size-robustness of graph representations?
-To address the issue of graph representation methods that generalize well to graphs of different cardinalities, we propose *diversity curves*, novel graph level representations that aim to capture the coarse geometry and structure of graphs while being robust to their size. How we are able to achieve this, is by neatly combining graph coarsening together with a structural descriptor that is the graphs' diversity. 
+To address the issue of graph representation methods that generalise well to graphs of different cardinalities, we propose *diversity curves*, novel graph level representations that aim to capture the coarse geometry and structure of graphs while being robust to their size. How we are able to achieve this, is by neatly combining graph coarsening together with a structural descriptor that is the graphs' diversity. 
 
 Let's look at how we obtain the diversity curve for some example graphs. 
 
@@ -32,10 +30,9 @@ Let's look at how we obtain the diversity curve for some example graphs.
 >}}
 
 First, for each graph we construct a sequence of coarsened graphs of some specified cardinalities. Specifically, to make graphs smaller, we use edge contraction pooling[^edge-sequence] in our work because it allows us to control the cardinality in each step, can be applied iteratively, preserves the structure of the graph[^mag-edge-pooling] and has been shown to improve expressivity. If needed, we can also make graphs larger by upsampling nodes in the graph. 
-<!-- We obtain a sequence of graphs that captures the coarse geomtetry of the graph. -->
 
 Second, we now use a structural descriptor, the diversity of the graph, which we measure by its metric space spread. At each cardinality, we evaluate the diversity of the graph and thus obtain a curve, which we term *diversity curve* that tracks this structural diversity across different coarsening levels. Let's briefly dive into the world of diversity measures and our choice of using the spread. The study of diversity has its roots in the problem of characterising biological diversity in a community. This question has started a thorough mathematical analysis, where we denote a diversity measure as an invariant of a metric space that characterises how diverse its points are with respect to the metric. The *magnitude* and *spread* of a metric space are two closely related examples of such diversity measures [^magni_vs_spread]. They capture the "effective number of points" and have been studied through various theoretical work. Recently, magnitude has been applied to a growing range of applications, such as in predicting protein flexibility or in our own work on using magnitude to evaluate diversity of latent representation [^magnitude]. 
-<!-- As an alternative quantity, we use the *spread* of a metric space for this work. Spread is a diversity measure closely related to the magnitude, but it is well-defined for any metric space and faster to compute in practice.  -->
+
 Note that in order to compute the diversity of a graph, we need to view the graph as a metric space. Our default choice is to use the shortest-path metric, but other options are possible as we will touch upon in the applications and we discuss further in the paper. 
 
 Finally, the diversity curve gives us a multiscale summary of the graph, describing its coarse geometry. We can use the vectorisation of diversity curves directly for downstream tasks. The unique interplay between the structural diversity and the coarsening ensures that diversity curves are robust to size, interpretable, and expressive graph representations that perform well in various applications to unsupervised tasks for structured data, as we will see next. 
@@ -59,54 +56,50 @@ First, we find that using coarsening together with diversity does not only help 
 
 Furthermore, the two graphs in Figure 2 are also 1-WL indistinguishable. We test whether diversity curves can distinguish 1-WL graphs on a larger scale experiment on pairs of graphs from the BREC dataset, and find that indeed this holds true more generally with the performance of diversity curves being comparable to the best unsupervised graph representation baselines we tested.
 
-<!-- ### Diversity curves track graph perturbations -->
-
 ### Diversity curves distinguish graph distributions
 
-To validate how robust diversity curves are with respect to  different graph sizes, we first test on simulated graph datasets. We generate graphs from four different random graph models of varying size and try to distinguish the graphs based on the distribution they are sampled from. Our findings show that diversity curves are able to cluster these graphs well. Accuracies from k-NN classification are comparable to the best baseline methods and the clustering quality measured in terms of the silhouette score clearly outperforms the baselines. This supports our claim that we are robust to different graph sizes and are able to intrinsically cluster graphs in an unsupervised way. Figure 2 shows a PCA plot of the diversity curves from the graphs of the different graph distributions.
+To validate how robust diversity curves are with respect to  different graph sizes, we first test on simulated graph datasets. We generate graphs from four different random graph models of varying size and try to distinguish the graphs based on the distribution they are sampled from. Our findings show that diversity curves are able to cluster these graphs well. Accuracies from k-NN classification are comparable to the best baseline methods and the clustering quality measured in terms of the silhouette score clearly outperforms the baselines. This supports our claim that we are robust to different graph sizes and are able to intrinsically cluster graphs in an unsupervised way. Figure 3 shows a PCA plot of the diversity curves from the graphs of the different graph distributions.
 
 {{< centered-figure 
     src="simulation_distributions_pca.png" 
     alt="PCA of diversity curves of graphs of varying sizes sampled from four random graph distributions ER, RP, SBM, and RG." 
     width="50%" 
     border-weight="1.5px" 
-    caption="**Figure 2.** PCA of diversity curves of graphs of varying sizes sampled from four random graph distributions ER, RP, SBM, and RG." 
+    caption="**Figure 3.** PCA of diversity curves of graphs of varying sizes sampled from four random graph distributions ER, RP, SBM, and RG." 
 >}}
 
-We further modify the experiment and try to characterise and distinguish between graphs drawn from the same underlying random graph model when varying the parameters. Here, we investigate whether diversity curves also pick up on these differences in parameter choices. Supporting our earlier results, accuracies and silhouette scores indicate that the diversity curves perform well at this task. Figure 3 shows the table of the k-NN classification accuracies for diversity curves against the baselines.
+We further modify the experiment and try to characterise and distinguish between graphs drawn from the same underlying random graph model when varying the parameters. Here, we investigate whether diversity curves also pick up on these differences in parameter choices. Supporting our earlier results, accuracies and silhouette scores indicate that the diversity curves perform well at this task. Figure 4 shows the table of the k-NN classification accuracies for diversity curves against the baselines.
 
 {{< centered-figure 
     src="sim_params_acc.png" 
     alt="Accuracies at distinguishing parameter choices of random graph models." 
     width="100%" 
     border-weight="1.5px" 
-    caption="**Figure 3.** Accuracies at distinguishing parameter choices of random graph models." 
+    caption="**Figure 4.** Accuracies at distinguishing parameter choices of random graph models." 
 >}}
 
 ### Diversity curves distinguish trajectory or cluster structures in single-cell graphs
 
-Having evaluated our method on simulated graph datasets, we expand to a real-world setting. We present the application to single-cell data, where it is of importance for downstream analysis to distinguish the structure of single-cell graphs into cluster- or trajectory-like. We test the ability of diversity curves at this geometric task on an annotated dataset. Since single-cell graphs also contain node features, we leverage the flexibility of our pipeline and compute diversity curves based on the shortest-path distance in the graphs and on the Euclidean distance between features and combining the curves together to obtain one representation per graph. We find that cluster-like graphs have on average higher diversity across the coarsening and we are able to separate well between the different structures. Diversity curves outperform previously proposed geometric evaluation scores for this task. Figure 4 shows the PCA of diversity curves for the single-cell graphs.
+Having evaluated our method on simulated graph datasets, we expand to a real-world setting. We present the application to single-cell data, where it is of importance for downstream analysis to distinguish the structure of single-cell graphs into cluster- or trajectory-like. We test the ability of diversity curves at this geometric task on an annotated dataset. Since single-cell graphs also contain node features, we leverage the flexibility of our pipeline and compute diversity curves based on the shortest-path distance in the graphs and on the Euclidean distance between features and combining the curves together to obtain one representation per graph. We find that cluster-like graphs have on average higher diversity across the coarsening and we are able to separate well between the different structures. Diversity curves outperform previously proposed geometric evaluation scores for this task. Figure 5 shows the PCA of diversity curves for the single-cell graphs.
 
 {{< centered-figure 
     src="single_cell.png" 
     alt="PCA of the diversity curves for cluster- and trajectory-like single-cell graphs with examples of two graphs in each class." 
     width="75%" 
     border-weight="1.5px" 
-    caption="**Figure 4.** PCA of the diversity curves for cluster- and trajectory-like single-cell graphs with examples of two graphs in each class." 
+    caption="**Figure 5.** PCA of the diversity curves for cluster- and trajectory-like single-cell graphs with examples of two graphs in each class." 
 >}}
-
-<!-- ### Diversity curves characterise molecular graph datasets -->
 
 ### Diversity curves characterise geometric shapes
 
-As a last study, we focus on a purely geometric task that also lets us demonstrate the flexibility of our method to adapt to different experimental settings. We use a dataset of triangulations of 2-manifolds from the MANTRA dataset. The task is to distinguish the triangulations according to their homeomorphism type. We first use diversity curves only on the 1-skeleton graphs, that is, we only consider the vertices and edges of the triangulation, where we achieve the best possible accuracy an optimal classifier can have[^1skeleton]. Exploiting the higher-order structure, we use the higher-order heat kernel distance between faces of the triangulations to compute the spread. With this approach, diversity curves essentially solve the task, reaching an accuracy of 99%. The PCA in Figure 5 shows that the diversity curves with this choice of metric separate the classes well.
+As a last study, we focus on a purely geometric task that also lets us demonstrate the flexibility of our method to adapt to different experimental settings. We use a dataset of triangulations of 2-manifolds from the MANTRA dataset. The task is to distinguish the triangulations according to their homeomorphism type. We first use diversity curves only on the 1-skeleton graphs, that is, we only consider the vertices and edges of the triangulation, where we achieve the best possible accuracy an optimal classifier can have[^1skeleton]. Exploiting the higher-order structure, we use the higher-order heat kernel distance between faces of the triangulations to compute the spread. With this approach, diversity curves essentially solve the task, reaching an accuracy of 99%. The PCA in Figure 6 shows that the diversity curves with this choice of metric separate the classes well.
 
 {{< centered-figure 
     src="mantra.png" 
     alt="PCA of the diversity curves for triangulations of four different homeomorphism types computed using the heat kernel distance." 
     width="75%" 
     border-weight="1.5px" 
-    caption="**Figure 5.** PCA of the diversity curves for triangulations of four different homeomorphism types computed using the heat kernel distance." 
+    caption="**Figure 6.** PCA of the diversity curves for triangulations of four different homeomorphism types computed using the heat kernel distance." 
 >}}
 
 As an additional test, we also evaluate the performance of diversity curves when training our classifier on the original dataset and evaluating on triangulations where barycentric subdivision is performed to increase the number of nodes. We find that diversity curves still outperform the best previously reported baseline on this task, supporting the robustness of diversity curves with respect to number of nodes and their ability to encode the intrinsic geometry of data.

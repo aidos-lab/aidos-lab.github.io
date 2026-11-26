@@ -5,7 +5,12 @@ bio      = """\
            Katharina is interested in using and developing topological machine learning methods 
            to analyse complex structures in biomedical data, in particular single cell data. 
            """
+orcid   = "0009-0000-4998-3405"
 web     = "https://limbeckkat.github.io/"
 github  = "LimbeckKat"
 twitter = "LimbeckKat"
-country = "Austria"
+birthplace = {
+  name = "Vienna, Austria",
+  lat  = 48.20,
+  lon  = 16.37
+}

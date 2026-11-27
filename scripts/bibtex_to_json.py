@@ -12,7 +12,7 @@ from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import author
 from bibtexparser.customization import convert_to_unicode
 
-from nameparser import HumanName
+from nameparser import parse
 
 from titlecase import titlecase
 
@@ -42,7 +42,7 @@ def transform_authors(authors, annotations):
 
         name_parts = " ".join(name_parts)
 
-        name = HumanName(name_parts)
+        name = parse(name_parts)
 
         name_parts = (
             initialize(name.first)

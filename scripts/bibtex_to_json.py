@@ -45,10 +45,10 @@ def transform_authors(authors, annotations):
         name = parse(name_parts)
 
         name_parts = (
-            initialize(name.first)
+            initialize(name.given)
             + initialize(name.middle, "&thinsp;")
             + "&nbsp;"
-            + name.last
+            + name.family
         )
 
         output.append(name_parts)

@@ -7,9 +7,9 @@
             "Moore, Jessica",
             "Ketonis, Panayiotis",
             "Gao, Feng",
-            "Rieck, Bastian",
+            "Grossenbacher-Rieck, Bastian",
             "Wolf, Guy",
-            "Khasawneh, Firas",
+            "Khasawneh, Firas A.",
             "Munch, Elizabeth",
             "Noah, J. Adam",
             "Pushkarskaya, Helen",
@@ -17,19 +17,38 @@
             "Greco, Valentina",
             "Krishnaswamy, Smita"
         ],
-        "authors-display": "D.&nbsp;Bhaskar<sup>&dagger;</sup>, Y.&nbsp;Zhang<sup>&dagger;</sup>, J.&nbsp;Moore<sup>&dagger;</sup>, P.&nbsp;Ketonis, F.&nbsp;Gao, B.&nbsp;Rieck, G.&nbsp;Wolf, F.&nbsp;Khasawneh, E.&nbsp;Munch, J.&thinsp;A.&nbsp;Noah, H.&nbsp;Pushkarskaya, C.&nbsp;Pittenger, V.&nbsp;Greco, and S.&nbsp;Krishnaswamy",
+        "authors-display": "D.&nbsp;Bhaskar, Y.&nbsp;Zhang, J.&nbsp;Moore, P.&nbsp;Ketonis, F.&nbsp;Gao, B.&nbsp;Grossenbacher-Rieck, G.&nbsp;Wolf, F.&#8239;A.&nbsp;Khasawneh, E.&nbsp;Munch, J.&#8239;A.&nbsp;Noah, H.&nbsp;Pushkarskaya, C.&nbsp;Pittenger, V.&nbsp;Greco, and S.&nbsp;Krishnaswamy",
         "keywords": [
-            "TDA",
-            "TDL",
-            "Bio"
+            ""
         ],
         "url": "https://dx.doi.org/10.1016/j.neucom.2026.135412",
-        "venue": "Neurocomputing, pp. 135412",
-        "year": "2026",
+        "venue": "Neurocomputing, Volume 710, pp. 135412",
+        "year": "2027",
         "preprint": "https://biorxiv.org/content/10.1101/2023.03.22.533807v3",
-        "id": "Bhaskar26a",
+        "id": "Bhaskar27a",
         "tldr": "We present Neurospectrum, a deep learning framework that encodes neural activity using graph wavelets and geometric-topological trajectory descriptors.",
         "order": 154
+    },
+    {
+        "title": "NervePool: A Simplicial Pooling Layer",
+        "authors": [
+            "McGuire Scullen, Sarah",
+            "R\u00f6ell, Ernst",
+            "Munch, Elizabeth",
+            "Rieck, Bastian",
+            "Hirn, Matthew"
+        ],
+        "authors-display": "S.&#8239;M.&nbsp;Scullen<sup>&dagger;</sup>, E.&nbsp;R\u00f6ell<sup>&dagger;</sup>, E.&nbsp;Munch, B.&nbsp;Rieck, and M.&nbsp;Hirn",
+        "keywords": [
+            ""
+        ],
+        "url": "https://dx.doi.org/10.57717/cgt.v5i1.70",
+        "venue": "Computing in Geometry and Topology, Volume 5, Number 1, pp. 11:1\u201311:28",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2305.06315",
+        "repository": "https://github.com/aidos-lab/nerve-pool",
+        "id": "Scullen26a",
+        "order": 153
     },
     {
         "title": "Path Laplacian Encodings for Directed Graphs",
@@ -52,7 +71,92 @@
         "preprint": "https://arxiv.org/abs/2610.04657",
         "id": "Mezrag26a",
         "tldr": "We develop novel positional encodings for directed graphs using the path Laplacian.",
-        "order": 153
+        "order": 152
+    },
+    {
+        "title": "No Triangulation Without Representation: Generalization in Topological Deep Learning",
+        "authors": [
+            "Schmidt, Johannes S.",
+            "Carrasco, Martin",
+            "R\u00f6ell, Ernst",
+            "Wolf, Guy",
+            "Blaser, Nello",
+            "Rieck, Bastian"
+        ],
+        "authors-display": "J.&#8239;S.&nbsp;Schmidt<sup>&dagger;</sup>, M.&nbsp;Carrasco<sup>&dagger;</sup>, E.&nbsp;R\u00f6ell, G.&nbsp;Wolf, N.&nbsp;Blaser<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
+        "keywords": [
+            ""
+        ],
+        "url": "https://arxiv.org/abs/2605.06467",
+        "venue": "Advances in Neural Information Processing Systems, Volume 39",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2605.06467",
+        "id": "Schmidt26a",
+        "tldr": "We find topological generalization is lacking in deep learning and present an evaluation framework to test for it.",
+        "order": 151
+    },
+    {
+        "title": "Diversity Curves for Graph Representation Learning",
+        "authors": [
+            "Limbeck, Katharina",
+            "H\u00e4usermann, Nadja",
+            "Carrasco, Martin",
+            "Wolf, Guy",
+            "Rieck, Bastian"
+        ],
+        "authors-display": "K.&nbsp;Limbeck, N.&nbsp;H\u00e4usermann, M.&nbsp;Carrasco, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
+        "keywords": [
+            ""
+        ],
+        "url": "https://arxiv.org/abs/2605.06466",
+        "venue": "Advances in Neural Information Processing Systems, Volume 39",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2605.06466",
+        "id": "Limbeck26a",
+        "tldr": "We propose diversity curves, novel graph-level representations for unsupervised tasks that track the structural diversity, namely the metric space spread, of graphs across coarsening levels obtained through edge contractions.",
+        "order": 150
+    },
+    {
+        "title": "From Topology to Retrieval: Decoding Embedding Spaces With Unified Signatures",
+        "authors": [
+            "Rottach, Florian",
+            "Rudman, William",
+            "Rieck, Bastian",
+            "Scells, Harrisen",
+            "Eickhoff, Carsten"
+        ],
+        "authors-display": "F.&nbsp;Rottach, W.&nbsp;Rudman, B.&nbsp;Rieck, H.&nbsp;Scells, and C.&nbsp;Eickhoff",
+        "keywords": [
+            ""
+        ],
+        "url": "https://arxiv.org/abs/2511.22150",
+        "venue": "Advances in Neural Information Processing Systems, Volume 39",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2511.22150",
+        "id": "Rottach26a",
+        "tldr": "We study the shape of LLM embedding spaces and challenge the global claims of the Platonic Representation Hypothesis.",
+        "order": 149
+    },
+    {
+        "title": "Graph and Simplicial Complex Prediction Gaussian Process via the Hodgelet Representations",
+        "authors": [
+            "Alain, Mathieu",
+            "Takao, So",
+            "Dong, Xiaowen",
+            "Rieck, Bastian",
+            "Noutahi, Emmanuel"
+        ],
+        "authors-display": "M.&nbsp;Alain, S.&nbsp;Takao, X.&nbsp;Dong, B.&nbsp;Rieck, and E.&nbsp;Noutahi",
+        "keywords": [
+            ""
+        ],
+        "url": "https://arxiv.org/abs/2505.10877",
+        "venue": "Advances in Neural Information Processing Systems, Volume 39",
+        "year": "2026",
+        "preprint": "https://arxiv.org/abs/2505.10877",
+        "id": "Alain26a",
+        "tldr": "We use Hodgelet representations and Gaussian Processes to perform prediction tasks on graph and simplicial complexes.",
+        "order": 148
     },
     {
         "title": "Topology of a Smile: Persistent Homology in Dental Imaging",
@@ -72,7 +176,7 @@
         "preprint": "https://arxiv.org/abs/2608.21422",
         "id": "Dahlmeier26a",
         "tldr": "We show how to use TDA techniques to improve dental imaging tasks.",
-        "order": 152
+        "order": 147
     },
     {
         "title": "A Centrality Measure Using Magnitude Homology",
@@ -90,7 +194,7 @@
         "preprint": "https://arxiv.org/abs/2607.16377",
         "id": "Haeusermann26a",
         "tldr": "We develop a new centrality measure for graphs that employs concepts from magnitude homology, a multiscale geometrical-topological invariant.",
-        "order": 151
+        "order": 146
     },
     {
         "title": "Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
@@ -100,7 +204,7 @@
             "Rieck, Bastian",
             "Blumberg, Andrew J."
         ],
-        "authors-display": "T.&thinsp;L.&nbsp;Saidi, A.&nbsp;Hickok, B.&nbsp;Rieck, and A.&thinsp;J.&nbsp;Blumberg",
+        "authors-display": "T.&#8239;L.&nbsp;Saidi, A.&nbsp;Hickok, B.&nbsp;Rieck, and A.&#8239;J.&nbsp;Blumberg",
         "keywords": [
             "AI/ML"
         ],
@@ -110,7 +214,7 @@
         "preprint": "https://arxiv.org/abs/2509.03703",
         "id": "Saidi26a",
         "tldr": "Using Ollivier--Ricci curvature, we obtain new visualization algorithms with provable preservation properties.",
-        "order": 150
+        "order": 145
     },
     {
         "title": "Encoding the Euler Characteristic Transform",
@@ -121,7 +225,7 @@
             "Wang, Elena Xinyi",
             "Rieck, Bastian"
         ],
-        "authors-display": "N.&nbsp;Blaser, O.&thinsp;H.&nbsp;Gardaa, L.&thinsp;M.&nbsp;Salbu, E.&thinsp;X.&nbsp;Wang, and B.&nbsp;Rieck",
+        "authors-display": "N.&nbsp;Blaser, O.&#8239;H.&nbsp;Gardaa, L.&#8239;M.&nbsp;Salbu, E.&#8239;X.&nbsp;Wang, and B.&nbsp;Rieck",
         "keywords": [
             "AI/ML",
             "TDL"
@@ -132,7 +236,7 @@
         "preprint": "https://arxiv.org/abs/2606.10824",
         "id": "Blaser26a",
         "tldr": "We describe novel ways to encode the Euler Characteristic Transform and compare them.",
-        "order": 149
+        "order": 144
     },
     {
         "title": "Graph Neural Networks Are Not Continuous Across Graph Resolutions",
@@ -145,7 +249,7 @@
             "Bronstein, Michael M.",
             "Cremers, Daniel"
         ],
-        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
+        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&#8239;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
         "keywords": [
             "AI/ML",
             "GDL",
@@ -158,7 +262,7 @@
         "repository": "https://github.com/christiankoke/scale-continuous-gnns",
         "id": "Koke26b",
         "tldr": "We prove that graph neural networks are not well-behaved when it comes to changing the resolution of the underlying graph. Moreover, we show how to fix this issue.",
-        "order": 148
+        "order": 143
     },
     {
         "title": "Have Graph -- Will Lift? The Case for Higher-Order Benchmarks",
@@ -177,52 +281,7 @@
         "preprint": "https://arxiv.org/abs/2605.07397",
         "id": "Rieck26a",
         "tldr": "Many models for learning on higher-order domains start by lifting a graph into a higher-order complex. This article discusses why that is a bad idea and why proper higher-order benchmarks are required.",
-        "order": 147
-    },
-    {
-        "title": "No Triangulation Without Representation: Generalization in Topological Deep Learning",
-        "authors": [
-            "Schmidt, Johannes S.",
-            "Carrasco, Martin",
-            "R\u00f6ell, Ernst",
-            "Wolf, Guy",
-            "Blaser, Nello",
-            "Rieck, Bastian"
-        ],
-        "authors-display": "J.&thinsp;S.&nbsp;Schmidt<sup>&dagger;</sup>, M.&nbsp;Carrasco<sup>&dagger;</sup>, E.&nbsp;R\u00f6ell, G.&nbsp;Wolf, N.&nbsp;Blaser<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
-        "keywords": [
-            "AI/ML",
-            "TDL"
-        ],
-        "url": "https://arxiv.org/abs/2605.06467",
-        "venue": "Preprint",
-        "year": "2026",
-        "preprint": "https://arxiv.org/abs/2605.06467",
-        "id": "Schmidt26a",
-        "tldr": "We find topological generalization is lacking in deep learning and present an evaluation framework to test for it.",
-        "order": 146
-    },
-    {
-        "title": "Diversity Curves for Graph Representation Learning",
-        "authors": [
-            "Limbeck, Katharina",
-            "H\u00e4usermann, Nadja",
-            "Carrasco, Martin",
-            "Wolf, Guy",
-            "Rieck, Bastian"
-        ],
-        "authors-display": "K.&nbsp;Limbeck, N.&nbsp;H\u00e4usermann, M.&nbsp;Carrasco, G.&nbsp;Wolf<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
-        "keywords": [
-            "AI/ML",
-            "Graphs"
-        ],
-        "url": "https://arxiv.org/abs/2605.06466",
-        "venue": "Preprint",
-        "year": "2026",
-        "preprint": "https://arxiv.org/abs/2605.06466",
-        "id": "Limbeck26a",
-        "tldr": "We propose diversity curves, novel graph-level representations for unsupervised tasks that track the structural diversity, namely the metric space spread, of graphs across coarsening levels obtained through edge contractions.",
-        "order": 145
+        "order": 142
     },
     {
         "title": "Measuring Structure in Graph Benchmark Datasets Using Graph Invariants",
@@ -242,7 +301,7 @@
         "preprint": "https://arxiv.org/abs/2605.06462",
         "id": "vonMoos26a",
         "tldr": "Invariants capture structure of graphs, are expressive, show dataset heterogeneity, predict multi-task performance, and decouple a tasks dependence on structure and features.",
-        "order": 144
+        "order": 141
     },
     {
         "title": "Geometry-Aware Simplicial Message Passing",
@@ -250,7 +309,7 @@
             "Wang, Elena Xinyi",
             "Rieck, Bastian"
         ],
-        "authors-display": "E.&thinsp;X.&nbsp;Wang and B.&nbsp;Rieck",
+        "authors-display": "E.&#8239;X.&nbsp;Wang and B.&nbsp;Rieck",
         "keywords": [
             "AI/ML",
             "GDL",
@@ -261,7 +320,7 @@
         "year": "2026",
         "preprint": "https://arxiv.org/abs/2605.06061",
         "id": "Wang26a",
-        "order": 143
+        "order": 140
     },
     {
         "title": "TOAST: Transformer Optimization Using Adaptive and Simple Transformations",
@@ -274,7 +333,7 @@
             "Rieck, Bastian",
             "Vogt, Julia E."
         ],
-        "authors-display": "I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&thinsp;M.&nbsp;Sutter, E.&nbsp;Rodol\u00e0, B.&nbsp;Rieck<sup>&Dagger;</sup>, and J.&thinsp;E.&nbsp;Vogt<sup>&Dagger;</sup>",
+        "authors-display": "I.&nbsp;Cannistraci, S.&nbsp;Antonelli, E.&nbsp;Palumbo, T.&#8239;M.&nbsp;Sutter, E.&nbsp;Rodol\u00e0, B.&nbsp;Rieck<sup>&Dagger;</sup>, and J.&#8239;E.&nbsp;Vogt<sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML"
         ],
@@ -284,7 +343,7 @@
         "preprint": "https://arxiv.org/abs/2410.04941",
         "repository": "https://github.com/icannistraci/toast",
         "id": "Cannistraci26a",
-        "order": 142
+        "order": 139
     },
     {
         "title": "Scale Continuity in Graph Learning: Going Beyond Spectral Methods",
@@ -294,7 +353,7 @@
             "Bronstein, Michael M.",
             "Cremers, Daniel"
         ],
-        "authors-display": "C.&nbsp;Koke, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
+        "authors-display": "C.&nbsp;Koke, B.&nbsp;Rieck, M.&#8239;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
         "keywords": [
             "AI/ML",
             "GDL",
@@ -304,7 +363,7 @@
         "venue": "ICLR Workshop on Geometry-grounded Representation Learning and Generative Modeling",
         "year": "2026",
         "id": "Koke26a",
-        "order": 141
+        "order": 138
     },
     {
         "title": "Topological Inductive Bias Fosters Multiple Instance Learning in Data-Scarce Scenarios",
@@ -325,7 +384,7 @@
         "preprint": "https://arxiv.org/abs/2307.14025",
         "repository": "https://github.com/SalomeKaze/TGMIL",
         "id": "Kazeminia26a",
-        "order": 140
+        "order": 137
     },
     {
         "title": "Graph Homomorphism Distortion: A Structural (Pseudo)-Metric for Attributed Graphs",
@@ -347,7 +406,7 @@
         "preprint": "https://arxiv.org/abs/2511.03068",
         "id": "Carrasco26a",
         "tldr": "We propose a metric that captures both features and struture in attributed graphs.",
-        "order": 139
+        "order": 136
     },
     {
         "title": "LEAP: Local ECT-Based Learnable Positional Encodings for Graphs",
@@ -369,7 +428,7 @@
         "preprint": "https://arxiv.org/abs/2510.00757",
         "id": "Amboage26a",
         "tldr": "We develop a new positional encoding based on local Euler characteristic transforms. Blazingly fast and with a light memory footprint, what's not to love?",
-        "order": 138
+        "order": 135
     },
     {
         "title": "Molecular Machine Learning Using Euler Characteristic Transforms",
@@ -389,7 +448,7 @@
         "preprint": "https://arxiv.org/abs/2507.03474",
         "repository": "https://github.com/victosdur/ECTforMoleculeMachineLearningTask",
         "id": "Toscano26a",
-        "order": 137
+        "order": 134
     },
     {
         "title": "Cortex-Wide Preservation of Multi-Stimulus Information Across Degrees of Network Synchronization",
@@ -408,7 +467,7 @@
             "Schneider, Steffen",
             "Westmeyer, Gil Gregor"
         ],
-        "authors-display": "S.&thinsp;V.&nbsp;Bodea, R.&thinsp;G.&nbsp;Laiz, R.&thinsp;H.&nbsp;Williams, M.&nbsp;Gladkova, D.&nbsp;Thalmeier, B.&nbsp;Rieck, F.&nbsp;Sigmund, M.&nbsp;Piraud, A.&nbsp;Wohlschlaeger, D.&nbsp;Juestel, A.&nbsp;Stroh, S.&nbsp;Schneider, and G.&thinsp;G.&nbsp;Westmeyer",
+        "authors-display": "S.&#8239;V.&nbsp;Bodea, R.&#8239;G.&nbsp;Laiz, R.&#8239;H.&nbsp;Williams, M.&nbsp;Gladkova, D.&nbsp;Thalmeier, B.&nbsp;Rieck, F.&nbsp;Sigmund, M.&nbsp;Piraud, A.&nbsp;Wohlschlaeger, D.&nbsp;Juestel, A.&nbsp;Stroh, S.&nbsp;Schneider, and G.&#8239;G.&nbsp;Westmeyer",
         "keywords": [
             "Bio"
         ],
@@ -417,52 +476,7 @@
         "year": "2025",
         "preprint": "https://biorxiv.org/content/10.64898/2025.11.28.690948v1",
         "id": "Bodea25a",
-        "order": 136
-    },
-    {
-        "title": "From Topology to Retrieval: Decoding Embedding Spaces With Unified Signatures",
-        "authors": [
-            "Rottach, Florian",
-            "Rudman, William",
-            "Rieck, Bastian",
-            "Scells, Harrisen",
-            "Eickhoff, Carsten"
-        ],
-        "authors-display": "F.&nbsp;Rottach, W.&nbsp;Rudman, B.&nbsp;Rieck, H.&nbsp;Scells, and C.&nbsp;Eickhoff",
-        "keywords": [
-            "AI/ML",
-            "TDA"
-        ],
-        "url": "https://arxiv.org/abs/2511.22150",
-        "venue": "Preprint",
-        "year": "2025",
-        "preprint": "https://arxiv.org/abs/2511.22150",
-        "id": "Rottach25a",
-        "order": 135
-    },
-    {
-        "title": "NervePool: A Simplicial Pooling Layer",
-        "authors": [
-            "McGuire Scullen, Sarah",
-            "R\u00f6ell, Ernst",
-            "Munch, Elizabeth",
-            "Rieck, Bastian",
-            "Hirn, Matthew"
-        ],
-        "authors-display": "S.&thinsp;M.&nbsp;Scullen<sup>&dagger;</sup>, E.&nbsp;R\u00f6ell<sup>&dagger;</sup>, E.&nbsp;Munch, B.&nbsp;Rieck, and M.&nbsp;Hirn",
-        "keywords": [
-            "AI/ML",
-            "GDL",
-            "TDL",
-            "Graphs"
-        ],
-        "url": "https://arxiv.org/abs/2305.06315",
-        "venue": "Preprint",
-        "year": "2025",
-        "preprint": "https://arxiv.org/abs/2305.06315",
-        "repository": "https://github.com/aidos-lab/nerve-pool",
-        "id": "Scullen25a",
-        "order": 134
+        "order": 133
     },
     {
         "title": "Persistent Homology via Ellipsoids",
@@ -483,7 +497,7 @@
         "preprint": "https://arxiv.org/abs/2408.11450",
         "repository": "https://github.com/a-zeg/ellipsoids",
         "id": "Canova25a",
-        "order": 133
+        "order": 132
     },
     {
         "title": "Strategies to Accelerate US Coal Power Phase-Out Using Contextual Retirement Vulnerabilities",
@@ -494,7 +508,7 @@
             "Deshmukh, Ranjit",
             "Wu, Grace C."
         ],
-        "authors-display": "S.&nbsp;Gathrid, J.&nbsp;Wayland, S.&nbsp;Wayland, R.&nbsp;Deshmukh, and G.&thinsp;C.&nbsp;Wu",
+        "authors-display": "S.&nbsp;Gathrid, J.&nbsp;Wayland, S.&nbsp;Wayland, R.&nbsp;Deshmukh, and G.&#8239;C.&nbsp;Wu",
         "keywords": [
             ""
         ],
@@ -502,7 +516,7 @@
         "venue": "Nature Energy, Volume 10, Number 10, pp. 1274--1288",
         "year": "2025",
         "id": "Gathrid25a",
-        "order": 132
+        "order": 131
     },
     {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
@@ -524,7 +538,7 @@
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25b",
         "tldr": "We develop a new pooling method based on the magnitude and spread of a metric space.",
-        "order": 131
+        "order": 130
     },
     {
         "title": "Point Cloud Synthesis Using Inner Product Transforms",
@@ -544,7 +558,7 @@
         "repository": "https://github.com/aidos-lab/inner-product-transforms",
         "id": "Roell25a",
         "tldr": "We show how to efficiently generate point clouds by inverting geometrical-topological descriptors.",
-        "order": 130
+        "order": 129
     },
     {
         "title": "Less Is More: Local Intrinsic Dimensions of Contextual Language Models",
@@ -561,7 +575,7 @@
             "Zibrowius, Marcus",
             "Ga\u0161i\u0107, Milica"
         ],
-        "authors-display": "B.&thinsp;M.&nbsp;Ruppik, J.&nbsp;von Rohrscheidt, C.&nbsp;van Niekerk, M.&nbsp;Heck, R.&nbsp;Vukovic, S.&nbsp;Feng, H.&nbsp;Lin, N.&nbsp;Lubis, B.&nbsp;Rieck, M.&nbsp;Zibrowius, and M.&nbsp;Ga\u0161i\u0107",
+        "authors-display": "B.&#8239;M.&nbsp;Ruppik, J.&nbsp;von Rohrscheidt, C.&nbsp;van Niekerk, M.&nbsp;Heck, R.&nbsp;Vukovic, S.&nbsp;Feng, H.&nbsp;Lin, N.&nbsp;Lubis, B.&nbsp;Rieck, M.&nbsp;Zibrowius, and M.&nbsp;Ga\u0161i\u0107",
         "keywords": [
             "AI/ML"
         ],
@@ -572,7 +586,7 @@
         "repository": "https://github.com/aidos-lab/Topo_LLM_public",
         "id": "Ruppik25a",
         "tldr": "We study LLMs and their training dynamics using estimates of local intrinsic dimension.",
-        "order": 129
+        "order": 128
     },
     {
         "title": "Diss-l-ECT: Dissecting Graph Data With Local Euler Characteristic Transforms",
@@ -593,7 +607,7 @@
         "preprint": "https://arxiv.org/abs/2410.02622",
         "repository": "https://github.com/aidos-lab/Diss-l-ECT",
         "id": "vonRohrscheidt25a",
-        "order": 128
+        "order": 127
     },
     {
         "title": "No Metric to Rule Them All: Toward Principled Evaluations of Graph-Learning Datasets",
@@ -614,7 +628,7 @@
         "preprint": "https://arxiv.org/abs/2502.02379",
         "repository": "https://github.com/aidos-lab/RINGS",
         "id": "Coupette25a",
-        "order": 127
+        "order": 126
     },
     {
         "title": "EmbedOR: Provable Cluster-Preserving Visualizations With Curvature-Based Stochastic Neighbor Embeddings",
@@ -624,7 +638,7 @@
             "Rieck, Bastian",
             "Blumberg, Andrew J."
         ],
-        "authors-display": "T.&thinsp;L.&nbsp;Saidi, A.&nbsp;Hickok, B.&nbsp;Rieck, and A.&thinsp;J.&nbsp;Blumberg",
+        "authors-display": "T.&#8239;L.&nbsp;Saidi, A.&nbsp;Hickok, B.&nbsp;Rieck, and A.&#8239;J.&nbsp;Blumberg",
         "keywords": [
             "AI/ML"
         ],
@@ -633,7 +647,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2509.03703",
         "id": "Saidi25a",
-        "order": 126
+        "order": 125
     },
     {
         "title": "Low-Dimensional Embeddings of High-Dimensional Data",
@@ -660,7 +674,7 @@
             "Mishne, Gal",
             "Kobak, Dmitry"
         ],
-        "authors-display": "C.&nbsp;de Bodt<sup>&dagger;</sup>, A.&nbsp;Diaz-Papkovich<sup>&dagger;</sup>, M.&nbsp;Bleher, K.&nbsp;Bunte, C.&nbsp;Coupette, S.&nbsp;Damrich, E.&thinsp;F.&nbsp;Sanmartin, F.&thinsp;A.&nbsp;Hamprecht, E.&nbsp;Horv\u00e1t, D.&nbsp;Kohli, S.&nbsp;Krishnaswamy, J.&thinsp;A.&nbsp;Lee, B.&thinsp;P.&nbsp;Lelieveldt, L.&nbsp;McInnes, I.&thinsp;T.&nbsp;Nabney, M.&nbsp;Noichl, P.&thinsp;G.&nbsp;Poli\u010dar, B.&nbsp;Rieck, G.&nbsp;Wolf, G.&nbsp;Mishne<sup>&Dagger;</sup>, and D.&nbsp;Kobak<sup>&Dagger;</sup>",
+        "authors-display": "C.&nbsp;de Bodt<sup>&dagger;</sup>, A.&nbsp;Diaz-Papkovich<sup>&dagger;</sup>, M.&nbsp;Bleher, K.&nbsp;Bunte, C.&nbsp;Coupette, S.&nbsp;Damrich, E.&#8239;F.&nbsp;Sanmartin, F.&#8239;A.&nbsp;Hamprecht, E.&nbsp;Horv\u00e1t, D.&nbsp;Kohli, S.&nbsp;Krishnaswamy, J.&#8239;A.&nbsp;Lee, B.&#8239;P.&nbsp;Lelieveldt, L.&nbsp;McInnes, I.&#8239;T.&nbsp;Nabney, M.&nbsp;Noichl, P.&#8239;G.&nbsp;Poli\u010dar, B.&nbsp;Rieck, G.&nbsp;Wolf, G.&nbsp;Mishne<sup>&Dagger;</sup>, and D.&nbsp;Kobak<sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML"
         ],
@@ -669,7 +683,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2508.15929",
         "id": "deBodt25a",
-        "order": 125
+        "order": 124
     },
     {
         "title": "On the Expressivity of Persistent Homology in Graph Learning",
@@ -689,7 +703,7 @@
         "preprint": "https://arxiv.org/abs/2302.09826",
         "repository": "https://github.com/aidos-lab/PH_expressivity",
         "id": "Ballester25b",
-        "order": 124
+        "order": 123
     },
     {
         "title": "CliquePH: Higher-Order Information for Graph Neural Networks Through Persistent Homology on Clique Graphs",
@@ -709,7 +723,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2409.08217",
         "id": "Buffelli25a",
-        "order": 123
+        "order": 122
     },
     {
         "title": "Stable and Accurate Orbital-Free Density Functional Theory Powered by Machine Learning",
@@ -728,7 +742,7 @@
             "Dreuw, Andreas",
             "Hamprecht, Fred A."
         ],
-        "authors-display": "R.&nbsp;Remme, T.&nbsp;Kaczun, T.&nbsp;Ebert, C.&thinsp;A.&nbsp;Gehrig, D.&nbsp;Geng, G.&nbsp;Gerhartz, M.&thinsp;K.&nbsp;Ickler, M.&thinsp;V.&nbsp;Klockow, P.&nbsp;Lippmann, J.&thinsp;S.&nbsp;Schmidt, S.&nbsp;Wagner, A.&nbsp;Dreuw, and F.&thinsp;A.&nbsp;Hamprecht",
+        "authors-display": "R.&nbsp;Remme, T.&nbsp;Kaczun, T.&nbsp;Ebert, C.&#8239;A.&nbsp;Gehrig, D.&nbsp;Geng, G.&nbsp;Gerhartz, M.&#8239;K.&nbsp;Ickler, M.&#8239;V.&nbsp;Klockow, P.&nbsp;Lippmann, J.&#8239;S.&nbsp;Schmidt, S.&nbsp;Wagner, A.&nbsp;Dreuw, and F.&#8239;A.&nbsp;Hamprecht",
         "keywords": [
             ""
         ],
@@ -737,7 +751,7 @@
         "year": "2025",
         "preprint": "https://arxiv.org/abs/2503.00443",
         "id": "Remme25a",
-        "order": 122
+        "order": 121
     },
     {
         "title": "A Topological Molecular Representation for Molecular Learning Based on the Euler Characteristic Transform",
@@ -753,7 +767,7 @@
         "venue": "ECML PKDD Workshop on Mining and Learning with Graphs",
         "year": "2025",
         "id": "Toscano25a",
-        "order": 121
+        "order": 120
     },
     {
         "title": "Geometry-Aware Edge Pooling for Graph Neural Networks",
@@ -773,7 +787,7 @@
         "year": "2025",
         "repository": "https://github.com/aidos-lab/mag_edge_pool",
         "id": "Limbeck25a",
-        "order": 120
+        "order": 119
     },
     {
         "title": "Topology Meets Machine Learning: An Introduction Using the Euler Characteristic Transform",
@@ -791,7 +805,7 @@
         "author-copy": "https://www.ams.org/journals/notices/202507/rnoti-p719.pdf",
         "repository": "https://github.com/aidos-lab/ECT",
         "id": "Rieck25a",
-        "order": 119
+        "order": 118
     },
     {
         "title": "Defining and Benchmarking Open Problems in Single-Cell Analysis",
@@ -852,7 +866,7 @@
             "Theis, Fabian J.",
             "Krishnaswamy, Smita"
         ],
-        "authors-display": "M.&thinsp;D.&nbsp;Luecken<sup>&dagger;</sup>, S.&nbsp;Gigante<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, D.&thinsp;C.&nbsp;Strobl, N.&thinsp;S.&nbsp;Markov, L.&nbsp;Zappia, G.&nbsp;Palla, W.&nbsp;Lewis, D.&nbsp;Dimitrov, M.&thinsp;E.&nbsp;Vinyard, D.&thinsp;S.&nbsp;Magruder, M.&thinsp;F.&nbsp;Mueller, A.&nbsp;Andersson, E.&nbsp;Dann, Q.&nbsp;Qin, D.&thinsp;J.&nbsp;Otto, M.&nbsp;Klein, O.&thinsp;B.&nbsp;Botvinnik, L.&nbsp;Deconinck, K.&nbsp;Waldrant, S.&thinsp;N.&nbsp;Yasa, A.&nbsp;Sza\u0142ata, A.&nbsp;Benz, Z.&nbsp;Li, O.&thinsp;P.&nbsp;Members, B.&nbsp;Rieck, C.&nbsp;Ahlmann-Eltze, E.&nbsp;da Veiga Beltrame, C.&thinsp;B.&nbsp;Gonz\u00e1lez-Blas, A.&thinsp;T.&nbsp;Chen, B.&nbsp;DeMeo, C.&nbsp;Ergen, S.&nbsp;Floc'hlay, A.&nbsp;Gayoso, S.&nbsp;Hicks, Y.&nbsp;Ji, V.&nbsp;Kleshchevnikov, G.&nbsp;La Manno, M.&thinsp;G.&nbsp;Lombardo, R.&nbsp;Lopez, D.&nbsp;Righelli, H.&nbsp;Sarkar, V.&nbsp;Svensson, A.&nbsp;Tong, G.&nbsp;Xing, C.&nbsp;Xu, J.&thinsp;M.&nbsp;Bloom, A.&thinsp;O.&nbsp;Pisco, J.&nbsp;Saez-Rodriguez, D.&nbsp;Wulsin, L.&nbsp;Pinello, Y.&nbsp;Saeys, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>",
+        "authors-display": "M.&#8239;D.&nbsp;Luecken<sup>&dagger;</sup>, S.&nbsp;Gigante<sup>&dagger;</sup>, D.&#8239;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, D.&#8239;C.&nbsp;Strobl, N.&#8239;S.&nbsp;Markov, L.&nbsp;Zappia, G.&nbsp;Palla, W.&nbsp;Lewis, D.&nbsp;Dimitrov, M.&#8239;E.&nbsp;Vinyard, D.&#8239;S.&nbsp;Magruder, M.&#8239;F.&nbsp;Mueller, A.&nbsp;Andersson, E.&nbsp;Dann, Q.&nbsp;Qin, D.&#8239;J.&nbsp;Otto, M.&nbsp;Klein, O.&#8239;B.&nbsp;Botvinnik, L.&nbsp;Deconinck, K.&nbsp;Waldrant, S.&#8239;N.&nbsp;Yasa, A.&nbsp;Sza\u0142ata, A.&nbsp;Benz, Z.&nbsp;Li, O.&#8239;P.&nbsp;Members, B.&nbsp;Rieck, C.&nbsp;Ahlmann-Eltze, E.&nbsp;da Veiga Beltrame, C.&#8239;B.&nbsp;Gonz\u00e1lez-Blas, A.&#8239;T.&nbsp;Chen, B.&nbsp;DeMeo, C.&nbsp;Ergen, S.&nbsp;Floc'hlay, A.&nbsp;Gayoso, S.&nbsp;Hicks, Y.&nbsp;Ji, V.&nbsp;Kleshchevnikov, G.&nbsp;La Manno, M.&#8239;G.&nbsp;Lombardo, R.&nbsp;Lopez, D.&nbsp;Righelli, H.&nbsp;Sarkar, V.&nbsp;Svensson, A.&nbsp;Tong, G.&nbsp;Xing, C.&nbsp;Xu, J.&#8239;M.&nbsp;Bloom, A.&#8239;O.&nbsp;Pisco, J.&nbsp;Saez-Rodriguez, D.&nbsp;Wulsin, L.&nbsp;Pinello, Y.&nbsp;Saeys, F.&#8239;J.&nbsp;Theis<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -860,27 +874,6 @@
         "venue": "Nature Biotechnology",
         "year": "2025",
         "id": "Luecken25a",
-        "order": 118
-    },
-    {
-        "title": "Graph and Simplicial Complex Prediction Gaussian Process via the Hodgelet Representations",
-        "authors": [
-            "Alain, Mathieu",
-            "Takao, So",
-            "Dong, Xiaowen",
-            "Rieck, Bastian",
-            "Noutahi, Emmanuel"
-        ],
-        "authors-display": "M.&nbsp;Alain, S.&nbsp;Takao, X.&nbsp;Dong, B.&nbsp;Rieck, and E.&nbsp;Noutahi",
-        "keywords": [
-            "AI/ML",
-            "Graphs"
-        ],
-        "url": "https://arxiv.org/abs/2505.10877",
-        "venue": "Preprint",
-        "year": "2025",
-        "preprint": "https://arxiv.org/abs/2505.10877",
-        "id": "Alain25a",
         "order": 117
     },
     {
@@ -890,7 +883,7 @@
             "Funk, Russel J.",
             "Rieck, Bastian"
         ],
-        "authors-display": "J.&nbsp;Wayland, R.&thinsp;J.&nbsp;Funk, and B.&nbsp;Rieck",
+        "authors-display": "J.&nbsp;Wayland, R.&#8239;J.&nbsp;Funk, and B.&nbsp;Rieck",
         "keywords": [
             "Graphs"
         ],
@@ -913,7 +906,7 @@
             "Bronstein, Michael M.",
             "Cremers, Daniel"
         ],
-        "authors-display": "C.&nbsp;Koke, D.&nbsp;Schnaus, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
+        "authors-display": "C.&nbsp;Koke, D.&nbsp;Schnaus, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&#8239;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
         "keywords": [
             "AI/ML",
             "GDL",
@@ -936,7 +929,7 @@
             "Bronstein, Michael M.",
             "Cremers, Daniel"
         ],
-        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
+        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&#8239;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
         "keywords": [
             "AI/ML",
             "GDL",
@@ -959,7 +952,7 @@
             "Bronstein, Michael M.",
             "Cremers, Daniel"
         ],
-        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&thinsp;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
+        "authors-display": "C.&nbsp;Koke, Y.&nbsp;Shen, A.&nbsp;Saroha, M.&nbsp;Eisenberger, B.&nbsp;Rieck, M.&#8239;M.&nbsp;Bronstein, and D.&nbsp;Cremers",
         "keywords": [
             "AI/ML",
             "GDL",
@@ -981,7 +974,7 @@
             "Turk-Browne, Nicholas B.",
             "Damisah, Eyiyemisi C."
         ],
-        "authors-display": "T.&nbsp;John, Y.&nbsp;Zhou, A.&nbsp;Aljishi, B.&nbsp;Rieck, N.&thinsp;B.&nbsp;Turk-Browne, and E.&thinsp;C.&nbsp;Damisah",
+        "authors-display": "T.&nbsp;John, Y.&nbsp;Zhou, A.&nbsp;Aljishi, B.&nbsp;Rieck, N.&#8239;B.&nbsp;Turk-Browne, and E.&#8239;C.&nbsp;Damisah",
         "keywords": [
             "TDA",
             "Bio"
@@ -1004,7 +997,7 @@
             "Casacuberta, Carles",
             "Rieck, Bastian"
         ],
-        "authors-display": "R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;R\u00f6ell<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck",
+        "authors-display": "R.&nbsp;Ballester<sup>&dagger;</sup>, E.&nbsp;R\u00f6ell<sup>&dagger;</sup>, D.&#8239;B.&nbsp;Schmid<sup>&dagger;</sup>, M.&nbsp;Alain<sup>&dagger;</sup>, S.&nbsp;Escalera, C.&nbsp;Casacuberta, and B.&nbsp;Rieck",
         "keywords": [
             "AI/ML",
             "TDL"
@@ -1072,7 +1065,7 @@
             "Rieck, Bastian",
             "Schmon, Sebastian M."
         ],
-        "authors-display": "J.&nbsp;von Rohrscheidt, B.&nbsp;Rieck<sup>&Dagger;</sup>, and S.&thinsp;M.&nbsp;Schmon<sup>&Dagger;</sup>",
+        "authors-display": "J.&nbsp;von Rohrscheidt, B.&nbsp;Rieck<sup>&Dagger;</sup>, and S.&#8239;M.&nbsp;Schmon<sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML",
             "TDA"
@@ -1150,7 +1143,7 @@
             "Wang, Yusu",
             "Senge, Jan F"
         ],
-        "authors-display": "P.&nbsp;D\u0142otko, D.&nbsp;Feichtner-Kozlov, A.&nbsp;Stefanou, Y.&nbsp;Wang, and J.&thinsp;F.&nbsp;Senge",
+        "authors-display": "P.&nbsp;D\u0142otko, D.&nbsp;Feichtner-Kozlov, A.&nbsp;Stefanou, Y.&nbsp;Wang, and J.&#8239;F.&nbsp;Senge",
         "keywords": [
             ""
         ],
@@ -1186,7 +1179,7 @@
             "Wei, Guo-Wei",
             "Zamzmi, Ghada"
         ],
-        "authors-display": "T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Li\u00f2, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&thinsp;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&thinsp;T.&nbsp;Schaub, P.&nbsp;Veli\u010dkovi\u0107, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi",
+        "authors-display": "T.&nbsp;Papamarkou, T.&nbsp;Birdal, M.&nbsp;Bronstein, G.&nbsp;Carlsson, J.&nbsp;Curry, Y.&nbsp;Gao, M.&nbsp;Hajij, R.&nbsp;Kwitt, P.&nbsp;Li\u00f2, P.&nbsp;Di Lorenzo, V.&nbsp;Maroulas, N.&nbsp;Miolane, F.&nbsp;Nasrin, K.&#8239;N.&nbsp;Ramamurthy, B.&nbsp;Rieck, S.&nbsp;Scardapane, M.&#8239;T.&nbsp;Schaub, P.&nbsp;Veli\u010dkovi\u0107, B.&nbsp;Wang, Y.&nbsp;Wang, G.&nbsp;Wei, and G.&nbsp;Zamzmi",
         "keywords": [
             "AI/ML",
             "TDL"
@@ -1226,7 +1219,7 @@
             "O'Bray, Leslie",
             "Rieck, Bastian"
         ],
-        "authors-display": "M.&thinsp;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck",
+        "authors-display": "M.&#8239;F.&nbsp;Adamer, E.&nbsp;De Brouwer, L.&nbsp;O'Bray, and B.&nbsp;Rieck",
         "keywords": [],
         "url": "https://dx.doi.org/10.1007/s41468-024-00182-9",
         "venue": "Journal of Applied and Computational Topology, Volume 8, Number 3, pp. 447--473",
@@ -1269,7 +1262,7 @@
             "Borgwardt, Karsten",
             "M\u00fcller, Christian"
         ],
-        "authors-display": "C.&nbsp;Bock<sup>&dagger;</sup>, J.&thinsp;E.&nbsp;Walter<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, I.&nbsp;Strebel, K.&nbsp;Rumora, I.&nbsp;Schaefer, M.&thinsp;J.&nbsp;Zellweger, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and C.&nbsp;M\u00fcller<sup>&Dagger;</sup>",
+        "authors-display": "C.&nbsp;Bock<sup>&dagger;</sup>, J.&#8239;E.&nbsp;Walter<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, I.&nbsp;Strebel, K.&nbsp;Rumora, I.&nbsp;Schaefer, M.&#8239;J.&nbsp;Zellweger, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and C.&nbsp;M\u00fcller<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -1294,7 +1287,7 @@
             "Carlsson, Gunnar",
             "Deepa, Deepa"
         ],
-        "authors-display": "R.&thinsp;M.&nbsp;Levenson, Y.&nbsp;Singh, B.&nbsp;Rieck, Q.&thinsp;A.&nbsp;Hathaway, C.&nbsp;Farrelly, J.&nbsp;Rozenblit, P.&nbsp;Prasanna, B.&nbsp;Erickson, A.&nbsp;Choudhary, G.&nbsp;Carlsson, and D.&nbsp;Deepa",
+        "authors-display": "R.&#8239;M.&nbsp;Levenson, Y.&nbsp;Singh, B.&nbsp;Rieck, Q.&#8239;A.&nbsp;Hathaway, C.&nbsp;Farrelly, J.&nbsp;Rozenblit, P.&nbsp;Prasanna, B.&nbsp;Erickson, A.&nbsp;Choudhary, G.&nbsp;Carlsson, and D.&nbsp;Deepa",
         "keywords": [
             "TDA",
             "Bio"
@@ -1334,7 +1327,7 @@
             "Fasy, Brittany Terese",
             "Rieck, Bastian"
         ],
-        "authors-display": "B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&thinsp;T.&nbsp;Fasy, and B.&nbsp;Rieck",
+        "authors-display": "B.&nbsp;Holmgren, E.&nbsp;Quist, J.&nbsp;Schupbach, B.&#8239;T.&nbsp;Fasy, and B.&nbsp;Rieck",
         "keywords": [
             ""
         ],
@@ -1400,7 +1393,7 @@
             "Fey, Matthias",
             "Borgwardt, Karsten"
         ],
-        "authors-display": "C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&thinsp;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt",
+        "authors-display": "C.&nbsp;Morris, Y.&nbsp;Lipman, H.&nbsp;Maron, B.&nbsp;Rieck, N.&#8239;M.&nbsp;Kriege, M.&nbsp;Grohe, M.&nbsp;Fey, and K.&nbsp;Borgwardt",
         "keywords": [
             "AI/ML",
             "Graphs"
@@ -1463,7 +1456,7 @@
             "Ghosal, Tirthankar",
             "Wu, Jian"
         ],
-        "authors-display": "H.&nbsp;Alhoori, E.&thinsp;A.&nbsp;Fox, I.&nbsp;Frommholz, H.&nbsp;Liu, C.&nbsp;Coupette, B.&nbsp;Rieck, &nbsp;Ghosal, and J.&nbsp;Wu",
+        "authors-display": "H.&nbsp;Alhoori, E.&#8239;A.&nbsp;Fox, I.&nbsp;Frommholz, H.&nbsp;Liu, C.&nbsp;Coupette, B.&nbsp;Rieck, &nbsp;Ghosal, and J.&nbsp;Wu",
         "keywords": [
             ""
         ],
@@ -1482,7 +1475,7 @@
             "Giryes, Raja",
             "Marr, Carsten"
         ],
-        "authors-display": "D.&thinsp;J.&nbsp;Waibel, E.&nbsp;R\u00f6ell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>",
+        "authors-display": "D.&#8239;J.&nbsp;Waibel, E.&nbsp;R\u00f6ell, B.&nbsp;Rieck<sup>&Dagger;</sup>, R.&nbsp;Giryes<sup>&Dagger;</sup>, and C.&nbsp;Marr<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -1621,7 +1614,7 @@
             "Krishnaswamy, Smita",
             "Hafler, Brian P."
         ],
-        "authors-display": "M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Song, E.&nbsp;Calapkulu, L.&nbsp;Zhang, M.&nbsp;Ige, A.&thinsp;H.&nbsp;Sheth, A.&nbsp;Majdoubi, M.&nbsp;Menon, A.&nbsp;Tong, A.&nbsp;Godavarthi, Y.&nbsp;Xing, S.&nbsp;Gigante, H.&nbsp;Steach, J.&nbsp;Huang, G.&nbsp;Huguet, J.&nbsp;Narain, K.&nbsp;You, G.&nbsp;Mourgkos, R.&thinsp;M.&nbsp;Dhodapkar, M.&thinsp;J.&nbsp;Hirn, B.&nbsp;Rieck, G.&nbsp;Wolf, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&thinsp;P.&nbsp;Hafler<sup>&Dagger;</sup>",
+        "authors-display": "M.&nbsp;Kuchroo<sup>&dagger;</sup>, M.&nbsp;DiStasio<sup>&dagger;</sup>, E.&nbsp;Song, E.&nbsp;Calapkulu, L.&nbsp;Zhang, M.&nbsp;Ige, A.&#8239;H.&nbsp;Sheth, A.&nbsp;Majdoubi, M.&nbsp;Menon, A.&nbsp;Tong, A.&nbsp;Godavarthi, Y.&nbsp;Xing, S.&nbsp;Gigante, H.&nbsp;Steach, J.&nbsp;Huang, G.&nbsp;Huguet, J.&nbsp;Narain, K.&nbsp;You, G.&nbsp;Mourgkos, R.&#8239;M.&nbsp;Dhodapkar, M.&#8239;J.&nbsp;Hirn, B.&nbsp;Rieck, G.&nbsp;Wolf, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and B.&#8239;P.&nbsp;Hafler<sup>&Dagger;</sup>",
         "keywords": [
             "TDA",
             "Bio"
@@ -1653,7 +1646,7 @@
             "Krishnaswamy, Smita",
             "Greco, Valentina"
         ],
-        "authors-display": "J.&thinsp;L.&nbsp;Moore<sup>&dagger;</sup>, D.&nbsp;Bhaskar<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, R.&nbsp;Norris, N.&thinsp;C.&nbsp;Sanz, K.&nbsp;Annusver, M.&nbsp;Kasper, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>",
+        "authors-display": "J.&#8239;L.&nbsp;Moore<sup>&dagger;</sup>, D.&nbsp;Bhaskar<sup>&dagger;</sup>, F.&nbsp;Gao<sup>&dagger;</sup>, C.&nbsp;Matte-Martone, S.&nbsp;Du, E.&nbsp;Lathrop, S.&nbsp;Ganesan, L.&nbsp;Shao, R.&nbsp;Norris, N.&#8239;C.&nbsp;Sanz, K.&nbsp;Annusver, M.&nbsp;Kasper, A.&nbsp;Cox, C.&nbsp;Hendry, B.&nbsp;Rieck, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, and V.&nbsp;Greco<sup>&Dagger;</sup>",
         "keywords": [
             "TDA",
             "Bio"
@@ -1706,7 +1699,7 @@
             "Chattopadhyay, Amit",
             "Rieck, Bastian"
         ],
-        "authors-display": "K.&thinsp;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
+        "authors-display": "K.&#8239;V.&nbsp;Nadimpalli, A.&nbsp;Chattopadhyay<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML",
             "TDL"
@@ -1765,7 +1758,7 @@
             "Rieck, Bastian",
             "Schmon, Sebastian M."
         ],
-        "authors-display": "J.&nbsp;Dyer, J.&nbsp;Fitzgerald, B.&nbsp;Rieck, and S.&thinsp;M.&nbsp;Schmon",
+        "authors-display": "J.&nbsp;Dyer, J.&nbsp;Fitzgerald, B.&nbsp;Rieck, and S.&#8239;M.&nbsp;Schmon",
         "keywords": [
             "AI/ML"
         ],
@@ -1900,7 +1893,7 @@
             "Bhaskar, Dhananjay",
             "Krishnaswamy, Smita"
         ],
-        "authors-display": "K.&nbsp;MacDonald, J.&nbsp;Paige, D.&nbsp;Thomas, S.&nbsp;Zhao, K.&nbsp;You, I.&thinsp;M.&nbsp;Adelstein, Y.&nbsp;Aizenbud, B.&nbsp;Rieck, D.&nbsp;Bhaskar, and S.&nbsp;Krishnaswamy",
+        "authors-display": "K.&nbsp;MacDonald, J.&nbsp;Paige, D.&nbsp;Thomas, S.&nbsp;Zhao, K.&nbsp;You, I.&#8239;M.&nbsp;Adelstein, Y.&nbsp;Aizenbud, B.&nbsp;Rieck, D.&nbsp;Bhaskar, and S.&nbsp;Krishnaswamy",
         "keywords": [
             "AI/ML"
         ],
@@ -1919,7 +1912,7 @@
             "Marr, Carsten",
             "Rieck, Bastian"
         ],
-        "authors-display": "D.&thinsp;J.&nbsp;Waibel, S.&nbsp;Atwell, M.&nbsp;Meier, C.&nbsp;Marr, and B.&nbsp;Rieck",
+        "authors-display": "D.&#8239;J.&nbsp;Waibel, S.&nbsp;Atwell, M.&nbsp;Meier, C.&nbsp;Marr, and B.&nbsp;Rieck",
         "keywords": [
             "TDL",
             "Bio"
@@ -2016,7 +2009,7 @@
             "Borgwardt, Karsten",
             "Egli, Adrian"
         ],
-        "authors-display": "C.&nbsp;Weis, A.&nbsp;Cu\u00e9nod, B.&nbsp;Rieck, O.&nbsp;Dubuis, S.&nbsp;Graf, C.&nbsp;Lang, M.&nbsp;Oberle, M.&nbsp;Brackmann, K.&thinsp;K.&nbsp;S\u00f8gaard, M.&nbsp;Osthoff, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and A.&nbsp;Egli<sup>&Dagger;</sup>",
+        "authors-display": "C.&nbsp;Weis, A.&nbsp;Cu\u00e9nod, B.&nbsp;Rieck, O.&nbsp;Dubuis, S.&nbsp;Graf, C.&nbsp;Lang, M.&nbsp;Oberle, M.&nbsp;Brackmann, K.&#8239;K.&nbsp;S\u00f8gaard, M.&nbsp;Osthoff, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and A.&nbsp;Egli<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -2063,7 +2056,7 @@
             "Iwasaki, Akiko",
             "Krishnaswamy, Smita"
         ],
-        "authors-display": "M.&nbsp;Kuchroo<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, P.&nbsp;Wong<sup>&dagger;</sup>, J.&nbsp;Grenier, D.&nbsp;Shung, A.&nbsp;Tong, C.&nbsp;Lucas, J.&nbsp;Klein, D.&thinsp;B.&nbsp;Burkhardt, S.&nbsp;Gigante, A.&nbsp;Godavarthi, B.&nbsp;Rieck, B.&nbsp;Israelow, M.&nbsp;Simonov, T.&nbsp;Mao, J.&thinsp;E.&nbsp;Oh, J.&nbsp;Silva, T.&nbsp;Takahashi, C.&thinsp;D.&nbsp;Odio, A.&nbsp;Casanovas-Massana, J.&nbsp;Fournier, Y.&thinsp;I.&nbsp;Team, S.&nbsp;Farhadian, C.&thinsp;S.&nbsp;Dela Cruz, A.&thinsp;I.&nbsp;Ko, M.&thinsp;J.&nbsp;Hirn, F.&thinsp;P.&nbsp;Wilson<sup>&Dagger;</sup>, J.&thinsp;G.&nbsp;Hussin<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, A.&nbsp;Iwasaki<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy",
+        "authors-display": "M.&nbsp;Kuchroo<sup>&dagger;</sup>, J.&nbsp;Huang<sup>&dagger;</sup>, P.&nbsp;Wong<sup>&dagger;</sup>, J.&nbsp;Grenier, D.&nbsp;Shung, A.&nbsp;Tong, C.&nbsp;Lucas, J.&nbsp;Klein, D.&#8239;B.&nbsp;Burkhardt, S.&nbsp;Gigante, A.&nbsp;Godavarthi, B.&nbsp;Rieck, B.&nbsp;Israelow, M.&nbsp;Simonov, T.&nbsp;Mao, J.&#8239;E.&nbsp;Oh, J.&nbsp;Silva, T.&nbsp;Takahashi, C.&#8239;D.&nbsp;Odio, A.&nbsp;Casanovas-Massana, J.&nbsp;Fournier, Y.&#8239;I.&nbsp;Team, S.&nbsp;Farhadian, C.&#8239;S.&nbsp;Dela Cruz, A.&#8239;I.&nbsp;Ko, M.&#8239;J.&nbsp;Hirn, F.&#8239;P.&nbsp;Wilson<sup>&Dagger;</sup>, J.&#8239;G.&nbsp;Hussin<sup>&Dagger;</sup>, G.&nbsp;Wolf<sup>&Dagger;</sup>, A.&nbsp;Iwasaki<sup>&Dagger;</sup>, and S.&nbsp;Krishnaswamy",
         "keywords": [
             "Bio"
         ],
@@ -2082,7 +2075,7 @@
             "Rieck, Bastian",
             "Br\u00fcningk, Sarah C."
         ],
-        "authors-display": "M.&nbsp;Kuijs, C.&thinsp;R.&nbsp;Jutzeler, B.&nbsp;Rieck, and S.&thinsp;C.&nbsp;Br\u00fcningk",
+        "authors-display": "M.&nbsp;Kuijs, C.&#8239;R.&nbsp;Jutzeler, B.&nbsp;Rieck, and S.&#8239;C.&nbsp;Br\u00fcningk",
         "keywords": [
             "Bio"
         ],
@@ -2183,7 +2176,7 @@
             "Theis, Fabian J.",
             "Bloom, Jonathan M."
         ],
-        "authors-display": "M.&thinsp;D.&nbsp;Luecken<sup>&dagger;</sup>, D.&thinsp;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, C.&nbsp;Lance<sup>&dagger;</sup>, A.&nbsp;Agrawal, H.&nbsp;Aliee, A.&thinsp;T.&nbsp;Chen, L.&nbsp;Deconinck, A.&thinsp;M.&nbsp;Detweiler, A.&thinsp;A.&nbsp;Granados, S.&nbsp;Huynh, L.&nbsp;Isacco, Y.&thinsp;J.&nbsp;Kim, B.&nbsp;De Kumar, S.&nbsp;Kuppasani, H.&nbsp;Lickert, A.&nbsp;McGeever, J.&thinsp;C.&nbsp;Melgarejo, H.&nbsp;Mekonen, M.&nbsp;Morri, M.&nbsp;M\u00fcller, N.&nbsp;Neff, S.&nbsp;Paul, B.&nbsp;Rieck, K.&nbsp;Schneider, S.&nbsp;Steelman, M.&nbsp;Sterr, D.&thinsp;J.&nbsp;Treacy, A.&nbsp;Tong, A.&nbsp;Villani, G.&nbsp;Wang, J.&nbsp;Yan, C.&nbsp;Zhang, A.&thinsp;O.&nbsp;Pisco<sup>&Dagger;</sup>, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, F.&thinsp;J.&nbsp;Theis<sup>&Dagger;</sup>, and J.&thinsp;M.&nbsp;Bloom<sup>&Dagger;</sup>",
+        "authors-display": "M.&#8239;D.&nbsp;Luecken<sup>&dagger;</sup>, D.&#8239;B.&nbsp;Burkhardt<sup>&dagger;</sup>, R.&nbsp;Cannoodt<sup>&dagger;</sup>, C.&nbsp;Lance<sup>&dagger;</sup>, A.&nbsp;Agrawal, H.&nbsp;Aliee, A.&#8239;T.&nbsp;Chen, L.&nbsp;Deconinck, A.&#8239;M.&nbsp;Detweiler, A.&#8239;A.&nbsp;Granados, S.&nbsp;Huynh, L.&nbsp;Isacco, Y.&#8239;J.&nbsp;Kim, B.&nbsp;De Kumar, S.&nbsp;Kuppasani, H.&nbsp;Lickert, A.&nbsp;McGeever, J.&#8239;C.&nbsp;Melgarejo, H.&nbsp;Mekonen, M.&nbsp;Morri, M.&nbsp;M\u00fcller, N.&nbsp;Neff, S.&nbsp;Paul, B.&nbsp;Rieck, K.&nbsp;Schneider, S.&nbsp;Steelman, M.&nbsp;Sterr, D.&#8239;J.&nbsp;Treacy, A.&nbsp;Tong, A.&nbsp;Villani, G.&nbsp;Wang, J.&nbsp;Yan, C.&nbsp;Zhang, A.&#8239;O.&nbsp;Pisco<sup>&Dagger;</sup>, S.&nbsp;Krishnaswamy<sup>&Dagger;</sup>, F.&#8239;J.&nbsp;Theis<sup>&Dagger;</sup>, and J.&#8239;M.&nbsp;Bloom<sup>&Dagger;</sup>",
         "keywords": [
             "AI/ML",
             "Bio"
@@ -2267,7 +2260,7 @@
             "Jutzeler, Catherine R.",
             "Rieck, Bastian"
         ],
-        "authors-display": "S.&thinsp;C.&nbsp;Br\u00fcningk<sup>&dagger;</sup>, F.&nbsp;Hensel<sup>&dagger;</sup>, L.&nbsp;Lukas, M.&nbsp;Kuijs, C.&thinsp;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
+        "authors-display": "S.&#8239;C.&nbsp;Br\u00fcningk<sup>&dagger;</sup>, F.&nbsp;Hensel<sup>&dagger;</sup>, L.&nbsp;Lukas, M.&nbsp;Kuijs, C.&#8239;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -2305,7 +2298,7 @@
             "Jutzeler, Catherine R.",
             "Borgwardt, Karsten"
         ],
-        "authors-display": "M.&nbsp;Moor<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, M.&nbsp;Horn, C.&thinsp;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and K.&nbsp;Borgwardt<sup>&Dagger;</sup>",
+        "authors-display": "M.&nbsp;Moor<sup>&dagger;</sup>, B.&nbsp;Rieck<sup>&dagger;</sup>, M.&nbsp;Horn, C.&#8239;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and K.&nbsp;Borgwardt<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -2407,7 +2400,7 @@
             "Consortium, International Headache Genetics",
             "Borgwardt, Karsten"
         ],
-        "authors-display": "A.&thinsp;C.&nbsp;Gumpinger, B.&nbsp;Rieck, D.&thinsp;G.&nbsp;Grimm, I.&thinsp;H.&nbsp;Consortium, and K.&nbsp;Borgwardt",
+        "authors-display": "A.&#8239;C.&nbsp;Gumpinger, B.&nbsp;Rieck, D.&#8239;G.&nbsp;Grimm, I.&#8239;H.&nbsp;Consortium, and K.&nbsp;Borgwardt",
         "keywords": [
             "Bio"
         ],
@@ -2524,7 +2517,7 @@
             "Jutzeler, Catherine R.",
             "Rieck, Bastian"
         ],
-        "authors-display": "S.&thinsp;C.&nbsp;Br\u00fcningk<sup>&dagger;</sup>, F.&nbsp;Hensel<sup>&dagger;</sup>, C.&thinsp;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
+        "authors-display": "S.&#8239;C.&nbsp;Br\u00fcningk<sup>&dagger;</sup>, F.&nbsp;Hensel<sup>&dagger;</sup>, C.&#8239;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -2541,7 +2534,7 @@
             "Jutzeler, Catherine R.",
             "Rieck, Bastian"
         ],
-        "authors-display": "S.&thinsp;C.&nbsp;Br\u00fcningk<sup>&dagger;</sup>, F.&nbsp;Hensel<sup>&dagger;</sup>, C.&thinsp;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
+        "authors-display": "S.&#8239;C.&nbsp;Br\u00fcningk<sup>&dagger;</sup>, F.&nbsp;Hensel<sup>&dagger;</sup>, C.&#8239;R.&nbsp;Jutzeler<sup>&Dagger;</sup>, and B.&nbsp;Rieck<sup>&Dagger;</sup>",
         "keywords": [
             "TDA",
             "Bio"
@@ -2773,7 +2766,7 @@
             "Niethammer, Marc",
             "Kwitt, Roland"
         ],
-        "authors-display": "C.&thinsp;D.&nbsp;Hofer, F.&nbsp;Graf, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt",
+        "authors-display": "C.&#8239;D.&nbsp;Hofer, F.&nbsp;Graf, B.&nbsp;Rieck, M.&nbsp;Niethammer, and R.&nbsp;Kwitt",
         "keywords": [
             "AI/ML",
             "TDL",
@@ -2802,7 +2795,7 @@
             "Borgwardt, Karsten",
             "Walter, Matthias"
         ],
-        "authors-display": "C.&thinsp;R.&nbsp;Jutzeler<sup>&dagger;</sup>, L.&nbsp;Bourguignon<sup>&dagger;</sup>, C.&thinsp;V.&nbsp;Weis, B.&nbsp;Tong, C.&nbsp;Wong, B.&nbsp;Rieck, H.&nbsp;Pargger, S.&nbsp;Tschudin-Sutter, A.&nbsp;Egli, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and M.&nbsp;Walter<sup>&Dagger;</sup>",
+        "authors-display": "C.&#8239;R.&nbsp;Jutzeler<sup>&dagger;</sup>, L.&nbsp;Bourguignon<sup>&dagger;</sup>, C.&#8239;V.&nbsp;Weis, B.&nbsp;Tong, C.&nbsp;Wong, B.&nbsp;Rieck, H.&nbsp;Pargger, S.&nbsp;Tschudin-Sutter, A.&nbsp;Egli, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, and M.&nbsp;Walter<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],
@@ -2854,7 +2847,7 @@
             "R\u00e4tsch, Gunnar",
             "Merz, Tobias M."
         ],
-        "authors-display": "S.&thinsp;L.&nbsp;Hyland<sup>&dagger;</sup>, M.&nbsp;Faltys<sup>&dagger;</sup>, M.&nbsp;H\u00fcser<sup>&dagger;</sup>, X.&nbsp;Lyu<sup>&dagger;</sup>, T.&nbsp;Gumbsch<sup>&dagger;</sup>, C.&nbsp;Esteban, C.&nbsp;Bock, M.&nbsp;Horn, M.&nbsp;Moor, B.&nbsp;Rieck, M.&nbsp;Zimmermann, D.&nbsp;Bodenham, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, G.&nbsp;R\u00e4tsch<sup>&Dagger;</sup>, and T.&thinsp;M.&nbsp;Merz<sup>&Dagger;</sup>",
+        "authors-display": "S.&#8239;L.&nbsp;Hyland<sup>&dagger;</sup>, M.&nbsp;Faltys<sup>&dagger;</sup>, M.&nbsp;H\u00fcser<sup>&dagger;</sup>, X.&nbsp;Lyu<sup>&dagger;</sup>, T.&nbsp;Gumbsch<sup>&dagger;</sup>, C.&nbsp;Esteban, C.&nbsp;Bock, M.&nbsp;Horn, M.&nbsp;Moor, B.&nbsp;Rieck, M.&nbsp;Zimmermann, D.&nbsp;Bodenham, K.&nbsp;Borgwardt<sup>&Dagger;</sup>, G.&nbsp;R\u00e4tsch<sup>&Dagger;</sup>, and T.&#8239;M.&nbsp;Merz<sup>&Dagger;</sup>",
         "keywords": [
             "Bio"
         ],

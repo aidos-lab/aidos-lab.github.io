@@ -46,7 +46,7 @@ def transform_authors(authors, annotations):
 
         name_parts = (
             initialize(name.given)
-            + initialize(name.middle, "&thinsp;")
+            + initialize(name.middle, "&#8239;")
             + "&nbsp;"
             + name.family
         )
